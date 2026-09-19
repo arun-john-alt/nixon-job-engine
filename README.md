@@ -1,6 +1,6 @@
 # Nixon Job Engine
 
-A separate Nextmove dashboard for Chennai and fully remote India test automation, Senior SDET, networking QA and test leadership roles. Minimum target: **₹25 lakh annual total CTC**. No deadline or current compensation has been assumed.
+A separate Nextmove dashboard for Chennai and fully remote India test automation, Senior SDET, networking QA and test leadership roles. No deadline or current compensation has been assumed.
 
 ## Status
 
