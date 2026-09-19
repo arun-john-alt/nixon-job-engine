@@ -4,9 +4,13 @@ A separate Nextmove dashboard for Chennai test automation, Senior SDET, networki
 
 ## Status
 
-Prepared locally with 15 reviewed roles. Each recommendation has a weighted match percentage, documented gaps and an authentic locally bundled employer mark. Sources were reviewed on 18 September 2026 via public search indexes; they are **not guaranteed live vacancies**. No reviewed role discloses a verified ₹25L+ annual total CTC budget. Salary unknown stays eligible; match does not imply salary eligibility.
+Published with 15 reviewed roles. Each recommendation has a weighted match percentage, documented gaps and an authentic locally bundled employer mark. Sources were reviewed on 18 September 2026 via public search indexes; they are **not guaranteed live vacancies**. No reviewed role discloses a verified ₹25L+ annual total CTC budget. Salary unknown stays eligible; match does not imply salary eligibility.
 
-Public deployment has not yet been confirmed. Intended repository: `arun-john-alt/nixon-job-engine`. Confirm publication before making it public; never overwrite an existing repository or force-push.
+Repository: https://github.com/arun-john-alt/nixon-job-engine
+
+Live site: https://arun-john-alt.github.io/nixon-job-engine/
+
+Initial scan and Pages deployment succeeded on 19 September 2026 (Actions run 35423204474). No search API secret is configured: the first run performed a limited employer check, found no new leads and retained the 15 reviewed records. The daily schedule is enabled; a scheduled run has not yet been observed. Never force-push.
 
 ## Use
 
@@ -51,6 +55,6 @@ Inspect the staged files before publishing. Exclude private workspace JSON, sour
 
 After explicit approval, publish the new public repository, push `main`, enable GitHub Actions as the Pages source and dispatch the included workflow. The guarded `scripts/publish.sh OWNER/REPO --public` helper is only for a fresh folder with no Git history and refuses an existing remote repository. Verify the Pages run and live URL before calling deployment complete.
 
-Expected URL after successful deployment: https://arun-john-alt.github.io/nixon-job-engine/
+Live URL: https://arun-john-alt.github.io/nixon-job-engine/
 
 See `docs/QA.md` for actual checks and `docs/COMPANY_LOGOS.md` for asset provenance.
