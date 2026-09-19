@@ -1,10 +1,10 @@
 # Nixon Job Engine
 
-A separate Nextmove dashboard for Chennai test automation, Senior SDET, networking QA and test leadership roles. Minimum target: **₹25 lakh annual total CTC**. No deadline or current compensation has been assumed.
+A separate Nextmove dashboard for Chennai and fully remote India test automation, Senior SDET, networking QA and test leadership roles. Minimum target: **₹25 lakh annual total CTC**. No deadline or current compensation has been assumed.
 
 ## Status
 
-Published with 15 reviewed roles. Each recommendation has a weighted match percentage, documented gaps and an authentic locally bundled employer mark. Sources were reviewed on 18 September 2026 via public search indexes; they are **not guaranteed live vacancies**. No reviewed role discloses a verified ₹25L+ annual total CTC budget. Salary unknown stays eligible; match does not imply salary eligibility.
+Published with 22 reviewed roles. Each recommendation has a weighted match percentage, documented gaps and an authentic locally bundled employer mark. Sources were reviewed on 18 September 2026 via public search indexes; they are **not guaranteed live vacancies**. No reviewed role discloses a verified ₹25L+ annual total CTC budget. Salary unknown stays eligible; match does not imply salary eligibility.
 
 Repository: https://github.com/arun-john-alt/nixon-job-engine
 
@@ -24,6 +24,12 @@ The public site offers job research. Nixon can import his profile, save jobs, re
 
 This version uses separate `nje-v2-*` storage keys and Nixon-specific backup types so it does not load another candidate’s workspace on the same GitHub Pages origin. This prevents accidental mixing, not malicious access: GitHub Pages paths under the same owner share a browser origin and are not separate security boundaries.
 
+## Priorities
+
+Default order follows: product companies → manager roles → employer-disclosed annual total CTC → Chennai before fully remote India → profile match. Company classification uses evidence about the hiring company, not a services client. A badge is not an endorsement or salary claim. Services roles remain available. Technical leads are not automatically treated as people managers.
+
+Salary estimates, annual base pay and unknown pay do not masquerade as verified total CTC. None of the current roles discloses an annual total CTC budget. Select Best match to sort purely by resume fit. Fully remote filters include only reviewed India-eligible roles; hybrid jobs elsewhere do not qualify.
+
 ## Matching
 
 Weights: responsibilities 35, tools 20, relevant seniority 20, industry 15, location 10. Scores are human-reviewed evidence heuristics, not employer ATS ratings. Search leads remain in Sources until a full description supports a score; daily discovery does not automatically review or promote them.
@@ -36,7 +42,7 @@ The supplied resume says 11+ years, but dated IT jobs total approximately 9.5 ye
 
 Without a search secret, only existing roles on approved employer sites are rechecked. This is limited coverage and cannot check LinkedIn availability. Add `TAVILY_API_KEY` (or the supported alternative `BRAVE_SEARCH_API_KEY`) to the new repository’s Actions secrets for broader employer and LinkedIn search-index discovery. Never put a key in frontend code or commit it. GitHub cannot reveal an existing repository secret for copying; set it separately in this repository.
 
-The default budget is four basic discovery searches plus two rotating exact-URL availability searches per run: up to six search requests/day, or 186 in a 31-day month, excluding manual runs. If sharing a provider account, count usage from all repositories. No complete LinkedIn coverage or instant closure detection is promised. Explicit closure signals hide jobs; failed requests and missing results do not prove closure. No login or anti-bot bypass is used.
+Twelve targeted query themes rotate across three days, covering product firms, management, salary evidence, Chennai and fully remote India. The default daily budget is four basic discovery searches plus two rotating exact-URL availability searches per run: up to six search requests/day, or 186 in a 31-day month, excluding manual runs. If sharing a provider account, count usage from all repositories. No complete LinkedIn coverage or instant closure detection is promised. Explicit closure signals hide jobs; failed requests and missing results do not prove closure. No login or anti-bot bypass is used.
 
 The bot commits only `site/data/jobs.json` and deploys the allowlisted `dist/` output. Search failures preserve existing research. The frontend never receives credentials.
 

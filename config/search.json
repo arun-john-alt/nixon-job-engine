@@ -2,15 +2,24 @@
   "minimumTargetLpa": 25,
   "experienceYears": 9.5,
   "preferredLocations": [
-    "Chennai"
+    "Chennai",
+    "Fully remote India"
   ],
   "queries": [
-    "Chennai Python Robot Framework senior test automation careers -site:linkedin.com",
-    "Chennai SDET QA lead network testing careers -site:linkedin.com"
+    "Chennai QA manager quality engineering manager product company careers",
+    "Chennai test manager Python automation networking careers",
+    "India fully remote QA manager SDET product careers",
+    "Chennai senior SDET Python Robot Framework product careers",
+    "Chennai QA manager salary 25 lakh 30 lakh careers",
+    "India fully remote senior Python test automation careers"
   ],
   "linkedinQueries": [
-    "site:linkedin.com/jobs/view/ Chennai Python Robot Framework automation lead",
-    "site:linkedin.com/jobs/view/ Chennai senior SDET QA networking testing"
+    "site:linkedin.com/jobs/view/ Chennai QA manager software testing manager",
+    "site:linkedin.com/jobs/view/ Chennai product company test automation lead",
+    "site:linkedin.com/jobs/view/ India fully remote QA manager",
+    "site:linkedin.com/jobs/view/ Chennai Python Robot Framework networking senior QA",
+    "site:linkedin.com/jobs/view/ Chennai QA manager salary CTC",
+    "site:linkedin.com/jobs/view/ India remote senior SDET Python"
   ],
   "watchPages": [],
   "allowedHosts": [
@@ -31,12 +40,18 @@
     "kla.wd1.myworkdayjobs.com",
     "careers.cognizant.com",
     "www.accenture.com",
-    "myridius.com"
+    "myridius.com",
+    "www.amazon.jobs",
+    "amazon.jobs",
+    "careers.netgear.com",
+    "netgear.wd5.myworkdayjobs.com",
+    "careers.ingrammicro.com"
   ],
   "maxPageFetches": 36,
   "requestDelaySeconds": 1.2,
   "maxDiscoveryQueries": 4,
   "maxAvailabilityQueries": 2,
   "resultsPerQuery": 20,
-  "maxNewLeadsPerRun": 100
+  "maxNewLeadsPerRun": 100,
+  "rotateQueries": true
 }

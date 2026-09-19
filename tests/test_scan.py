@@ -27,8 +27,8 @@ class ScannerTests(unittest.TestCase):
         node['baseSalary']['value']['unitText']='MONTH'
         self.assertEqual(scan.extract(node,'https://careers.example.com/jobs/42','Example','2026-09-16')['salary']['kind'],'unknown')
     def test_remote_india_restriction(self):
-        node={'title':'Test automation Specialist','description':'Test automation','jobLocationType':'TELECOMMUTE','applicantLocationRequirements':{'@type':'Country','name':'India'}}
-        self.assertIsNone(scan.extract(node,'https://careers.example.com/job/1','Example','2026-09-16'))
+        node={'title':'Senior Test Automation Engineer','description':'Test automation','jobLocationType':'TELECOMMUTE','applicantLocationRequirements':{'@type':'Country','name':'India'}}
+        self.assertIsNotNone(scan.extract(node,'https://careers.example.com/job/1','Example','2026-09-16'))
         node['applicantLocationRequirements']={'@type':'Country','name':'USA'}
         self.assertIsNone(scan.extract(node,'https://careers.example.com/job/1','Example','2026-09-16'))
     def test_parse_jsonld(self):

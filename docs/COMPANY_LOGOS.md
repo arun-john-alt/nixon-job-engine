@@ -14,3 +14,10 @@ Bundled for identification only; no affiliation implied. Retrieved 18 September 
 - **virtusa**: https://www.virtusa.com/favicon.ico (site: https://www.virtusa.com/favicon.ico)
 - **epam**: https://eu-images.contentstack.com/v3/assets/blt892f41c9788ae399/blt3765677deb2c02ec/64f1d7a76f9d59f962fcc73d/Favicon_16X16.png (site: https://careers.epam.com)
 - **ust**: https://commons.wikimedia.org/wiki/File:UST_(company)_Logo.svg (site: https://www.ust.com)
+
+Added 19 September 2026:
+- **amazon**: https://static.amazon.jobs/assets/favicon-933ee4605ae64f3181e0fcd88f9205be7b5f8a15643c342e53a9f03bb673732c.ico
+- **jitterbit**: https://www.jitterbit.com/wp-content/uploads/2024-favicon.ico
+- **hydsoft**: https://www.hydsoft.com/favicon.ico
+- **ingram**: https://www.ingrammicro.com/favicon.ico
+- **netgear**: https://www.netgear.com/favicon.ico

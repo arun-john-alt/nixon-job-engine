@@ -1,7 +1,7 @@
 # Nixon Job Engine: instructions for Codex
 
 ## Mission
-Help Nixon pursue a better-paying job in Chennai. The minimum target is INR 25 lakh annual CTC; current compensation is private and is loaded from the separate private workspace. Never promise a job or invent pipeline activity.
+Help Nixon pursue a better-paying job in Chennai or fully remote from India. The minimum target is INR 25 lakh annual CTC; current compensation is private and is loaded from the separate private workspace. Prioritize product companies, manager roles, disclosed annual CTC and then Chennai ahead of fully remote India. Product classification requires evidence about the hiring company, not its client. Salary remains unknown unless supported. Never promise a job or invent pipeline activity.
 
 ## First steps
 Read README.md, inspect Git status and remotes, and run the tests before changing code. Preserve uncommitted user work. The intended new repository is arun-john-alt/nixon-job-engine; verify it does not already exist before creating it. Obtain explicit approval before making this new site public. Never guess the user's GitHub account. Never force-push or overwrite an existing project. Prefer a reviewable branch for an existing repository.

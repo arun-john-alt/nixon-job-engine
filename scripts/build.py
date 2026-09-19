@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 source=ROOT/'site';target=ROOT/'dist'
 allowed={'index.html','styles.css','app.js','engine.js','resume.js','favicon.svg','data/jobs.json','companies.js'}
 allowed.update({'assets/companies/extreme.png', 'assets/companies/company.svg', 'assets/companies/miratech.png', 'assets/companies/kla.png', 'assets/companies/ust.svg', 'assets/companies/logitech.png', 'assets/companies/kumaran.png', 'assets/companies/epam.png', 'assets/companies/omnissa.png', 'assets/companies/hcltech.png', 'assets/companies/virtusa.png', 'assets/companies/arista.png', 'assets/companies/viasat.png'})
+allowed.update({'assets/companies/'+key+'.png' for key in ['amazon','jitterbit','hydsoft','ingram','netgear']})
 actual={p.relative_to(source).as_posix() for p in source.rglob('*') if p.is_file()}
 extra=actual-allowed
 if extra:raise SystemExit('Unexpected public files: '+', '.join(sorted(extra)))

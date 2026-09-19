@@ -36,7 +36,7 @@ class DiscoveryTests(unittest.TestCase):
     def test_nearby_locations_and_adjacent_titles(self):
         for role,loc in [('Automation Test Lead','Chennai'),('Senior SDET','Chennai'),('QA Manager','Chennai'),('Network Test Engineer','Chennai')]:self.assertTrue(scan.is_relevant(role,loc,'5-7 years'))
         self.assertFalse(scan.is_relevant('Senior SDET','Bengaluru','8-10 years'))
-        self.assertFalse(scan.is_relevant('Senior SDET','Remote India','8-10 years'))
+        self.assertTrue(scan.is_relevant('Senior SDET','Remote India','8-10 years'))
         self.assertFalse(scan.is_relevant('Senior Buyer','Chennai','8-10 years'))
     def test_configured_search_budget_and_diversity(self):
         cfg=json.loads((Path(__file__).parents[1]/'config/search.json').read_text())
@@ -64,3 +64,14 @@ class DiscoveryTests(unittest.TestCase):
             self.assertTrue(scan.closed_result({'content':text}))
         self.assertIsNone(scan.result_deadline({'content':'Apply now. Similar jobs Apply on or before 10th September 2020'}))
         self.assertIsNone(scan.result_deadline({'content':'Apply before 31st February 2020'}))
+
+    def test_fully_remote_requires_explicit_evidence_and_no_hybrid_conflict(self):
+        self.assertTrue(scan.explicit_remote_india('This is a fully remote role. India team.'))
+        for text in ['India remote-friendly company', 'India fully remote employer. This role is hybrid in Pune.', 'Fully remote team, India. Relocation to Bangalore after a few months.', 'India: not a remote role']:
+            self.assertFalse(scan.explicit_remote_india(text),text)
+
+    def test_rotating_budget_covers_every_query_in_three_days(self):
+        cfg=json.loads((Path(__file__).parents[1]/'config/search.json').read_text())
+        batches=[scan.discovery_queries(cfg,day_index=i) for i in range(3)]
+        self.assertTrue(all(len(x)==4 and sum(li for _,li in x)==2 for x in batches))
+        self.assertEqual({q for b in batches for q,_ in b},set(cfg['queries']+cfg['linkedinQueries']))

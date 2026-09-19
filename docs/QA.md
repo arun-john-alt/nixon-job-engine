@@ -9,3 +9,10 @@
 - Initial scan/build/deploy succeeded: Actions run 35423204474. Live site returned HTTP 200. Scan commit deab218 was fast-forwarded locally and preserved. No search secret exists; broad web/LinkedIn discovery did not run. HCLTech fetch was inconclusive and did not close its record.
 - Candidate DOCX passed ZIP/XML checks and rendered cleanly as two pages in LibreOffice. Rendered pages were visually inspected; test exports remain outside the repository.
 - 40 tracked files reviewed, with known candidate contacts and credential patterns absent. Git author uses a GitHub noreply address.
+
+## Product and management priorities — 19 September 2026
+
+- Expanded from 15 to 22 reviewed roles: 13 product-company roles, 5 manager roles, 2 explicitly fully remote India roles. Closed Money Forward and conflicting hybrid/relocation roles were excluded.
+- Default priority order and salary-evidence safeguards have dedicated tests. Product badges have source links in Evidence and do not classify services-client work as a product employer.
+- Mobile 390 × 844 checked: product/manager badges fit, no horizontal overflow, all employer marks load; fully remote filter returns only Jitterbit and Hydsoft.
+- Query themes rotate over three days within the existing four-discovery/two-availability daily budget. New repository still has no search API secret; rotation is configured, not claimed to have executed online.

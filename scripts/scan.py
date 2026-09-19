@@ -120,9 +120,10 @@ def job_nodes(value):
 
 
 def is_relevant(title,location,description):
-    if not ROLE.search(title) or EXCLUDE.search(title):return False
+    role=bool(ROLE.search(title)) or bool(re.search(r'team manager',title,re.I) and re.search(r'quality assurance|test execution|software test',description,re.I))
+    if not role or EXCLUDE.search(title):return False
     loc=location.lower();text=(title+' '+description).lower()
-    if not re.search(r'chennai|sriperumbudur|oragadam|chengalpattu|thiruvallur|tiruvallur|pallavaram',loc):return False
+    if not re.search(r'chennai|sriperumbudur|oragadam|chengalpattu|thiruvallur|tiruvallur|pallavaram',loc) and loc not in ('remote india','remote india (remote)'):return False
     years=re.search(r'(\d+)\s*(?:-|to)\s*(\d+)\s*(?:years|yrs)',text)
     if years and (int(years[1])>10 or int(years[2])<6):return False
     return True
@@ -147,6 +148,7 @@ def extract(node,url,default_company,now):
         if any('india' in str(x).lower() or isinstance(x,dict) and x.get('name')=='IN' for x in restrictions):locs.append('Remote India')
     location=' / '.join(locs)
     if remote and location:location+=' (remote)'
+    if remote and 'chennai' not in location.lower() and re.search(r'\bhybrid\b|not (?:a )?remote|no remote|relocat(?:e|ion)|office.{0,20}(?:days|week)',desc,re.I):return None
     if not is_relevant(title,location,desc):return None
     ident=node.get('identifier') or {};req=str(ident.get('value','') if isinstance(ident,dict) else ident)
     uid=re.sub('[^a-z0-9-]','',company.lower().replace(' ','-'))[:30]+'-'+hashlib.sha256((company+'|'+(req or canonical(url))).encode()).hexdigest()[:12]
@@ -199,12 +201,16 @@ def closed_result(row):
 def mark_index_closed(job,now):
     job.update(verification='closed',availabilityHold=False,checkedOn=now,verificationNote='The exact listing search result reports closure or an expired application deadline. Hidden from active jobs; index evidence can lag the source.')
 
+def explicit_remote_india(text):
+    # A remote-friendly company is not evidence that this particular job is remote.
+    return bool(re.search(r'fully remote|100% remote|location\s*[:–-]\s*remote|remote\s*[-–(]\s*india|india\s*[-–(]\s*remote',text,re.I)) and bool(re.search(r'\bindia\b',text,re.I)) and not re.search(r'\bhybrid\b|not (?:a )?remote|no remote|relocat(?:e|ion)|office.{0,20}(?:days|week)',text,re.I)
+
 def result_location(title,text):
     # The title/header is stronger evidence than a company overview farther down a JD.
     head=(title+' '+text[:700])
     match=re.search(r'\b(Chennai|Sriperumbudur|Oragadam|Chengalpattu|Thiruvallur|Tiruvallur|Pallavaram)\b',head,re.I)
     if match:return match[1].title()+', India'
-    if re.search(r'\bremote\b',head,re.I) and re.search(r'\bIndia\b',head,re.I):return 'Remote India'
+    if explicit_remote_india(head):return 'Remote India'
     return ''
 
 def linkedin_lead(row,now):
@@ -219,7 +225,9 @@ def linkedin_lead(row,now):
     match=re.match(r'^(.+?) hiring (.+?)(?: in (.+))?$',title,re.I)
     if match:
         company,title=match[1],match[2]
-        if match[3]:location=result_location(match[3],'')
+        if match[3]:
+            location=result_location(match[3],'')
+            if not location and explicit_remote_india(text):location='Remote India'
     else:
         match=re.match(r'^(.+?) at (.+?) (?:—|–|in) .+?(?: - LinkedIn)?$',title)
         if match:title,company=match[1],match[2]
@@ -271,9 +279,15 @@ def employer_index_lead(row,hosts,now):
     return item
 
 
-def discovery_queries(cfg):
+def discovery_queries(cfg,day_index=None):
     # Interleave sources so neither LinkedIn nor employers consume the entire budget.
     li=cfg.get('linkedinQueries',[]);web=cfg.get('queries',[]);out=[]
+    if cfg.get('rotateQueries'):
+        day_index=dt.datetime.now(dt.timezone.utc).date().toordinal() if day_index is None else day_index
+        def rotate(items):
+            if not items:return items
+            offset=(day_index*2)%len(items);return items[offset:]+items[:offset]
+        li=rotate(li);web=rotate(web)
     for i in range(max(len(li),len(web))):
         if i<len(li):out.append((li[i],True))
         if i<len(web):out.append((web[i],False))
