@@ -1,0 +1,1720 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-18T12:00:00+05:30",
+  "run": {
+    "status": "prepared",
+    "checkedOn": "2026-09-18",
+    "automaticEnabled": false,
+    "note": "Initial Chennai research reviewed against the supplied resume. Daily workflow is prepared but has not run for this new repository. ₹25L+ budgets remain unconfirmed.",
+    "coverage": [
+      {
+        "source": "LinkedIn public search index",
+        "status": "Manual review completed",
+        "detail": "14 exact descriptions reviewed; indexed availability may lag. No login or application submission."
+      },
+      {
+        "source": "Employer research",
+        "status": "1 description reviewed",
+        "detail": "HCLTech Chennai job requirements reviewed from the employer search index."
+      },
+      {
+        "source": "Daily search API",
+        "status": "Not configured",
+        "detail": "Add TAVILY_API_KEY or BRAVE_SEARCH_API_KEY to enable broader automatic discovery. Without a key, only approved employer pages are checked."
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "id": "linkedin-4456460464",
+      "company": "Kumaran Systems",
+      "title": "Automation Test Lead",
+      "family": "Test automation lead",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "5+ years; confirm lead-level budget",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4456460464",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4456460464",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 32,
+          "reason": "UI/API automation and test planning align strongly with demonstrated work."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 18,
+          "reason": "Python, Robot Framework, Selenium and Jira are supported; Zephyr is not."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Prior automation leadership is relevant; confirm this advertised QE role carries lead scope."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 9,
+          "reason": "Banking platforms differ from the demonstrated telecom and automotive projects."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Lead UI/API test automation for corporate banking using Python frameworks. Strong technical overlap; verify banking expectations and seniority.",
+      "hardGaps": [
+        "Zephyr not evidenced.",
+        "Corporate banking and cash-management domain not evidenced.",
+        "Playwright, pytest and performance-test tools not evidenced."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Robot Framework, Selenium."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "REST API testing",
+          "Jira",
+          "Test planning"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Zephyr not evidenced.",
+          "Corporate banking and cash-management domain not evidenced.",
+          "Playwright, pytest and performance-test tools not evidenced."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4456460464",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4463031594",
+      "company": "Miratech",
+      "title": "Senior Automation Testing Engineer (Python)",
+      "family": "Senior SDET",
+      "location": "Chennai, India",
+      "workModel": "Remote flexibility advertised; Chennai listing",
+      "experience": "6+ years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4463031594",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4463031594",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 31,
+          "reason": "Framework maintenance, debugging and release testing match demonstrated responsibilities."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 17,
+          "reason": "Python/Selenium, SQL and Linux align; production cloud depth needs confirmation."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 19,
+          "reason": "Dated experience exceeds six years; mentoring experience is relevant."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 10,
+          "reason": "Contact-center software is adjacent to telecom, but SaaS delivery differs."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Maintain a Python/Selenium automation platform for a cloud contact-center product. Chennai is listed; confirm the team’s advertised remote arrangement.",
+      "hardGaps": [
+        "Cloud experience is introductory in the resume.",
+        "JavaScript, Playwright and MySQL-specific production work not established."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Selenium, REST API testing."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "REST API testing",
+          "Linux",
+          "SQL",
+          "Debugging"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Cloud experience is introductory in the resume.",
+          "JavaScript, Playwright and MySQL-specific production work not established."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4463031594",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4426105439",
+      "company": "Arista Networks",
+      "title": "Network System Test Engineer — Manual/Solution",
+      "family": "Network testing",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "Networking experience; years unspecified",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4426105439",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4426105439",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 30,
+          "reason": "System verification, test plans and customer troubleshooting align."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "Linux and network-management testing transfer; traffic-generator tools are gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 16,
+          "reason": "Senior network-testing background is relevant; role level is unspecified."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 14,
+          "reason": "SDN, Ethernet and network-management experience fit the domain."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Explore complex network behavior, reproduce defects and validate solutions. More exploratory systems testing than pure automation leadership.",
+      "hardGaps": [
+        "IXIA/Spirent and deep routing/multicast protocol expertise not evidenced."
+      ],
+      "benefits": [
+        "Relevant emphasis: System verification, Test planning, Linux."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "System verification",
+          "Test planning",
+          "Linux",
+          "SDN",
+          "Network management"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "IXIA/Spirent and deep routing/multicast protocol expertise not evidenced."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4426105439",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4460496478",
+      "company": "Virtusa",
+      "title": "Python Robot QA",
+      "family": "Test automation",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "5–7 years; mandatory section says 6+",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4460496478",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4460496478",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 29,
+          "reason": "UI/API testing, defect management and sprint automation align."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 18,
+          "reason": "Python, Robot Framework, Selenium and Jenkins are evidenced; ParaSoft is not."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 15,
+          "reason": "Experience exceeds the advertised band; confirm level and budget."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 10,
+          "reason": "IT-services delivery transfers; exact client domain is unspecified."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Automate UI and API tests using Robot Framework. Good tool overlap, but the published experience band is below the candidate’s dated experience.",
+      "hardGaps": [
+        "ParaSoft and production backend-service development not established.",
+        "Advertised 5–7-year band may constrain seniority and pay."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Robot Framework, Selenium."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "Jenkins",
+          "Defect management"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "ParaSoft and production backend-service development not established.",
+          "Advertised 5–7-year band may constrain seniority and pay."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4460496478",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4450226461",
+      "company": "Viasat",
+      "title": "Senior Software Engineer (SDET, Python)",
+      "family": "Senior SDET",
+      "location": "Chennai, India",
+      "workModel": "Hybrid: at least 3 office days/week",
+      "experience": "8+ years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4450226461",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4450226461",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 25,
+          "reason": "Framework development transfers; production platform ownership is a larger scope."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 15,
+          "reason": "Python, Jenkins and Linux align; broader infrastructure depth needs proof."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Approximately 9.5 dated IT years meet the stated minimum."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 13,
+          "reason": "Telecom and wireless experience transfer; satellite systems are new."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Build automation infrastructure and engineering tools for satellite terminals. The JD explicitly permits Chennai/Hyderabad despite a Hyderabad listing header.",
+      "hardGaps": [
+        "Production-grade platform architecture and agentic AI delivery not evidenced.",
+        "Independent TCP/IP-stack debugging, OpenWrt and satellite-system depth need confirmation."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Jenkins, Linux."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Jenkins",
+          "Linux",
+          "Robot Framework",
+          "Telecom testing"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Production-grade platform architecture and agentic AI delivery not evidenced.",
+          "Independent TCP/IP-stack debugging, OpenWrt and satellite-system depth need confirmation."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4450226461",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4453074105",
+      "company": "Extreme Networks",
+      "title": "Senior QA Software Engineer — L2/L3 / Data Center",
+      "family": "Network testing",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "5–10 years; JD also says Principal",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4453074105",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4453074105",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 24,
+          "reason": "Network validation, regression and root-cause analysis align."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 11,
+          "reason": "Python, Linux, Robot and Jenkins transfer; packet tools and Go need confirmation."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "Dated years fit; inconsistent Senior/Principal labels need clarification."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 13,
+          "reason": "SDN/telecom experience transfers, but data-center and 5G depth differs."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Validate data-center and 5G networking solutions. Strong adjacent experience, but specific fabric and protocol expertise is a significant screening risk.",
+      "hardGaps": [
+        "BGP, EVPN/VXLAN, 5G and leaf-spine validation not evidenced.",
+        "Golang, Wireshark and tcpdump proficiency not established."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Linux, Robot Framework."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Linux",
+          "Robot Framework",
+          "Jenkins",
+          "SDN"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "BGP, EVPN/VXLAN, 5G and leaf-spine validation not evidenced.",
+          "Golang, Wireshark and tcpdump proficiency not established."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4453074105",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "hcltech-137783",
+      "company": "HCLTech",
+      "title": "Senior Automation Tester — Networking L2/L3",
+      "family": "Network testing",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "Experience band not specified",
+      "requisition": "137783",
+      "applyUrl": "https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 25,
+          "reason": "Network test plans, defect analysis and customer coordination are supported."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 11,
+          "reason": "Python is demonstrated; exact routing-protocol coverage is not."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 14,
+          "reason": "Senior test experience fits broadly; required years and level are unspecified."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 14,
+          "reason": "SDN and network-management testing provide directly adjacent domain experience."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Test networking software with Python automation. Strong domain adjacency, with specific L2/L3 protocol expertise to confirm.",
+      "hardGaps": [
+        "Hands-on OSPF, BGP, MPLS and VPN testing not established.",
+        "CCNA/ISTQB certifications not listed; optional in the JD."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Test planning, Network testing."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Test planning",
+          "Network testing",
+          "Defect analysis"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Hands-on OSPF, BGP, MPLS and VPN testing not established.",
+          "CCNA/ISTQB certifications not listed; optional in the JD."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description",
+          "url": "https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4446439584",
+      "company": "Omnissa",
+      "title": "Automation Python Engineer",
+      "family": "Senior SDET",
+      "location": "Chennai, India",
+      "workModel": "Hybrid: 3 office days/week",
+      "experience": "5+ years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4446439584",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4446439584",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 25,
+          "reason": "Automation and CI debugging align with previous delivery work."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 12,
+          "reason": "Python, shell, Git and Docker knowledge transfer; required tools differ."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "Senior experience meets the minimum; leadership scope is unclear."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 10,
+          "reason": "Enterprise software experience transfers, but endpoint analytics is a new product domain."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Automate endpoint software testing and CI pipelines for a Chennai engineering team. Confirm the expected framework and cloud proficiency.",
+      "hardGaps": [
+        "Behave, Google Test/NUnit, CodeQL/SonarQube and PowerShell not evidenced.",
+        "Production cloud and Windows/macOS event monitoring depth need confirmation."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Shell scripting, Git."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Shell scripting",
+          "Git",
+          "Jenkins",
+          "Docker"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Behave, Google Test/NUnit, CodeQL/SonarQube and PowerShell not evidenced.",
+          "Production cloud and Windows/macOS event monitoring depth need confirmation."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4446439584",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4457227858",
+      "company": "Arista Networks",
+      "title": "Software Test Engineer — WLAN Feature Testing",
+      "family": "Network testing",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "8–15 years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4457227858",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4457227858",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 23,
+          "reason": "Wireless feature validation and customer escalations align strongly."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 8,
+          "reason": "Linux, REST and SQL transfer; RF lab skills need verification."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Dated experience fits the published band."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 13,
+          "reason": "Aruba wireless-management experience is directly adjacent."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Own WLAN feature validation and reproduce customer issues. Good domain fit, but advanced Wi-Fi and RF requirements require clear evidence.",
+      "hardGaps": [
+        "RF/L1, Wi-Fi 6/6E/7 and large-scale Wi-Fi lab design are mandatory but not evidenced."
+      ],
+      "benefits": [
+        "Relevant emphasis: Wireless testing, Linux, REST API testing."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Wireless testing",
+          "Linux",
+          "REST API testing",
+          "SQL",
+          "Customer debugging"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "RF/L1, Wi-Fi 6/6E/7 and large-scale Wi-Fi lab design are mandatory but not evidenced."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4457227858",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4451234807",
+      "company": "EPAM Systems",
+      "title": "Lead Python Automation Test Engineer with AI",
+      "family": "Test automation lead",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "9–12 years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4451234807",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4451234807",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 24,
+          "reason": "Framework building and mentoring align; enterprise-wide architecture needs proof."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 9,
+          "reason": "Python/Robot/Selenium/Jenkins align; several required frameworks and AI capabilities are absent."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Dated experience fits the lower end; avoid relying on the unverified 11+ headline."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 11,
+          "reason": "Engineering-services experience transfers to the role."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Lead Python automation architecture with substantial AI engineering requirements. Relevant leadership background; advanced AI is a material gap.",
+      "hardGaps": [
+        "Pytest, Behave, Playwright, SOAP and advanced authentication not evidenced.",
+        "Embeddings, context management and production AI testing workflows not demonstrated."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Robot Framework, Selenium."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "Jenkins",
+          "Team leadership"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Pytest, Behave, Playwright, SOAP and advanced authentication not evidenced.",
+          "Embeddings, context management and production AI testing workflows not demonstrated."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4451234807",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4419688287",
+      "company": "UST",
+      "title": "Lead I — Software Testing, Python / AI Chatbots",
+      "family": "Test automation lead",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "5+ QA years with conversational-AI focus",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4419688287",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4419688287",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 23,
+          "reason": "Test strategy and Python scripting transfer; chatbot evaluation is a new responsibility."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "Python/Selenium align; performance tools and NLP frameworks are not established."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "General QA tenure fits; specialist AI tenure is missing."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 8,
+          "reason": "IT-services delivery is relevant; conversational AI is not demonstrated."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Test conversational-AI products with Python automation. Treat as a stretch opportunity because specialist chatbot testing is central to the role.",
+      "hardGaps": [
+        "Conversational-AI/NLP testing is a core requirement, not established by using ChatGPT.",
+        "JMeter, Postman and chatbot load-testing experience not evidenced."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Selenium, Jira."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "Jira",
+          "Test strategy"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Conversational-AI/NLP testing is a core requirement, not established by using ChatGPT.",
+          "JMeter, Postman and chatbot load-testing experience not evidenced."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4419688287",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4440649719",
+      "company": "Extreme Networks",
+      "title": "Senior QA Engineer — Wired/Wireless Networking",
+      "family": "Network testing",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "4–8 years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4440649719",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4440649719",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 25,
+          "reason": "Wireless product testing and customer issue analysis align."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 10,
+          "reason": "Certificate authentication is supported; the broader security stack is not established."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 13,
+          "reason": "Dated experience exceeds the published band; confirm grading."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 13,
+          "reason": "Aruba network-management testing is closely adjacent to enterprise WLAN validation."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Test enterprise networking and security features. Wireless experience is relevant; confirm security expertise, grade and compensation.",
+      "hardGaps": [
+        "AAA, 802.1X, IPsec, RADIUS and LDAP depth not established.",
+        "Named network/security certifications are not listed.",
+        "4–8-year band may be below the desired level."
+      ],
+      "benefits": [
+        "Relevant emphasis: Wireless testing, Certificate authentication, Python."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Wireless testing",
+          "Certificate authentication",
+          "Python",
+          "Defect analysis"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "AAA, 802.1X, IPsec, RADIUS and LDAP depth not established.",
+          "Named network/security certifications are not listed.",
+          "4–8-year band may be below the desired level."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4440649719",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4414654817",
+      "company": "Logitech",
+      "title": "Lead Software QA Engineer",
+      "family": "Test automation lead",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "8–10 years in software development",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4414654817",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4414654817",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 24,
+          "reason": "Framework ownership and team guidance align; development-platform scope is broader."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 10,
+          "reason": "Python and Selenium are supported; frontend and multimedia tooling are gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 15,
+          "reason": "Dated IT tenure fits numerically, but is not all software development."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 11,
+          "reason": "Automotive infotainment is adjacent to collaboration devices."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Build automation platforms for Android-based collaboration software. Relevant Python and device-testing background, with material software-development gaps.",
+      "hardGaps": [
+        "Vue/Vuetify, OpenCV, GStreamer and Android UIAutomator not evidenced.",
+        "Eight years of software development should not be equated with total test tenure."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Selenium, Framework development."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "Framework development",
+          "Team leadership"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Vue/Vuetify, OpenCV, GStreamer and Android UIAutomator not evidenced.",
+          "Eight years of software development should not be equated with total test tenure."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4414654817",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4461395328",
+      "company": "EPAM Systems",
+      "title": "Senior Python Automation Test Engineer with AI",
+      "family": "Senior SDET",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "5–9 years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4461395328",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4461395328",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 24,
+          "reason": "Automation design and test planning align; enterprise architecture scope needs evidence."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 9,
+          "reason": "Core Python stack aligns; advanced AI and several frameworks are missing."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 15,
+          "reason": "Approximately 9.5 dated years are slightly above the published band."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 11,
+          "reason": "Engineering-services background is relevant."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Develop scalable Python automation with AI-assisted workflows. Similar skill gaps to the lead role; confirm level and salary before investing heavily.",
+      "hardGaps": [
+        "Pytest, Behave, Playwright and SOAP not established.",
+        "Embeddings and advanced LLM-powered testing not demonstrated."
+      ],
+      "benefits": [
+        "Relevant emphasis: Python, Robot Framework, Selenium."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "Jenkins"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Pytest, Behave, Playwright and SOAP not established.",
+          "Embeddings and advanced LLM-powered testing not demonstrated."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4461395328",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4411540234",
+      "company": "KLA",
+      "title": "Manager, Software Test Automation",
+      "family": "QA management",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "8+ engineering years; 3+ management years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4411540234",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4411540234",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-18",
+      "checkedOn": "2026-09-18",
+      "verification": "indexed",
+      "verificationNote": "Full description reviewed through the public search index; no explicit closure signal found. This is not a live application-form verification. Recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Resume evidence compared with the full indexed job description. Match is an evidence heuristic, not an ATS result or hiring probability.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 25,
+          "reason": "Ten-person people management and QA planning transfer; hiring ownership is unverified."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 9,
+          "reason": "Automation and CI align; C++/Java and concurrency requirements are gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "People management since January 2023 exceeds three years; confirm engineering-management scope."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 8,
+          "reason": "Semiconductor inspection software differs from the demonstrated domains."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is listed as a work location."
+        }
+      ],
+      "summary": "Build and manage a mixed QA and development team for PCB software. Strong people-management evidence, with substantial technical-stack gaps.",
+      "hardGaps": [
+        "C++, Java, concurrency and large mixed-codebase experience not evidenced.",
+        "Hiring and building an engineering group from scratch not established."
+      ],
+      "benefits": [
+        "Relevant emphasis: People management, Test planning, Automation frameworks."
+      ],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "Employer annual total CTC budget not disclosed in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions and employee-review evidence have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "People management",
+          "Test planning",
+          "Automation frameworks",
+          "CI/CD"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "C++, Java, concurrency and large mixed-codebase experience not evidenced.",
+          "Hiring and building an engineering group from scratch not established."
+        ]
+      },
+      "resumeEdits": [
+        {
+          "id": "summary-focus",
+          "path": "summary",
+          "proposed": "Test automation professional and people manager with experience managing ten people and previously leading a four-member automation team. Combines Python-based automation, test planning, Jenkins integration, performance feedback and cross-team coordination across networking and automotive projects.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
+          "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Employer job description via LinkedIn",
+          "url": "https://www.linkedin.com/jobs/view/4411540234",
+          "scope": "Role requirements and Chennai location; indexed evidence, not guaranteed current availability.",
+          "asOf": "2026-09-18",
+          "checkedOn": "2026-09-18"
+        }
+      ]
+    }
+  ]
+}

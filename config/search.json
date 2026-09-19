@@ -1,0 +1,42 @@
+{
+  "minimumTargetLpa": 25,
+  "experienceYears": 9.5,
+  "preferredLocations": [
+    "Chennai"
+  ],
+  "queries": [
+    "Chennai Python Robot Framework senior test automation careers -site:linkedin.com",
+    "Chennai SDET QA lead network testing careers -site:linkedin.com"
+  ],
+  "linkedinQueries": [
+    "site:linkedin.com/jobs/view/ Chennai Python Robot Framework automation lead",
+    "site:linkedin.com/jobs/view/ Chennai senior SDET QA networking testing"
+  ],
+  "watchPages": [],
+  "allowedHosts": [
+    "careers.hcltech.com",
+    "jobs.lever.co",
+    "jobs.smartrecruiters.com",
+    "job-boards.greenhouse.io",
+    "boards.greenhouse.io",
+    "careers.viasat.com",
+    "careers.epam.com",
+    "www.epam.com",
+    "careers.virtusa.com",
+    "jobs.nokia.com",
+    "careers.logitech.com",
+    "logitech.wd5.myworkdayjobs.com",
+    "spectris.wd3.myworkdayjobs.com",
+    "careers.kla.com",
+    "kla.wd1.myworkdayjobs.com",
+    "careers.cognizant.com",
+    "www.accenture.com",
+    "myridius.com"
+  ],
+  "maxPageFetches": 36,
+  "requestDelaySeconds": 1.2,
+  "maxDiscoveryQueries": 4,
+  "maxAvailabilityQueries": 2,
+  "resultsPerQuery": 20,
+  "maxNewLeadsPerRun": 100
+}
