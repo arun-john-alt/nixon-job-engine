@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-09-20",
   "run": {
     "status": "completed",
-    "checkedOn": "2026-09-19",
+    "checkedOn": "2026-09-20",
     "automaticEnabled": true,
-    "note": "4 new lead(s); 0 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
+    "note": "5 new lead(s); 0 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
     "coverage": [
       {
         "source": "LinkedIn public search index",
         "status": "2 queries completed",
-        "detail": "Tavily: 4 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
+        "detail": "Tavily: 5 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
       },
       {
         "source": "Tavily web discovery",
@@ -31,11 +31,6 @@
         "source": "HCLTech",
         "status": "Fetched",
         "detail": "https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US - no structured job data"
-      },
-      {
-        "source": "www.amazon.jobs",
-        "status": "Fetched",
-        "detail": "https://www.amazon.jobs/en/job_categories/systems-quality-security-engineering - no structured job data"
       },
       {
         "source": "Salary, culture and resume analysis",
@@ -1307,7 +1302,8 @@
         }
       ],
       "roleLevel": "technical-lead",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-20"
     },
     {
       "id": "linkedin-4440649719",
@@ -1537,7 +1533,8 @@
         }
       ],
       "roleLevel": "technical-lead",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-20"
     },
     {
       "id": "linkedin-4461395328",
@@ -2808,6 +2805,306 @@
           "scope": "Public search index; listing not directly checked",
           "asOf": "2026-09-19",
           "checkedOn": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4467413531",
+      "company": "Employer to verify",
+      "title": "Quality Assurance Specialist - Fully Remote | Upto $50/hr",
+      "location": "Remote India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4467413531",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4467413531",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-20",
+      "checkedOn": "2026-09-20",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4467413531",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-20",
+          "checkedOn": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4464766925",
+      "company": "Employer to verify",
+      "title": "Manual QA Engineer (Fully Remote) \u2013 Top US MNC (Enterprise ...",
+      "location": "Remote India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4464766925",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4464766925",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-20",
+      "checkedOn": "2026-09-20",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4464766925",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-20",
+          "checkedOn": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4349092961",
+      "company": "Netomi",
+      "title": "SDET II",
+      "location": "Remote India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4349092961",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4349092961",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-20",
+      "checkedOn": "2026-09-20",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4349092961",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-20",
+          "checkedOn": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4457620968",
+      "company": "Swades AI",
+      "title": "QA Automation Engineer / SDET - Remote",
+      "location": "Remote India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4457620968",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4457620968",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-20",
+      "checkedOn": "2026-09-20",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4457620968",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-20",
+          "checkedOn": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4343410106",
+      "company": "Grootan Technologies",
+      "title": "Grootan Technologies - Automation Test Engineer - Playwright Testing/Robot Framework",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4343410106",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4343410106",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-20",
+      "checkedOn": "2026-09-20",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4343410106",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-20",
+          "checkedOn": "2026-09-20"
         }
       ]
     }
