@@ -305,6 +305,7 @@ def matches_existing(node,existing,page_url):
 
 
 def run(config_path,data_path):
+    scan_date_ist=dt.datetime.now(dt.timezone(dt.timedelta(hours=5,minutes=30))).date().isoformat()
     cfg=json.loads(config_path.read_text());data=json.loads(data_path.read_text());now=dt.datetime.now(dt.timezone.utc).date().isoformat();fetcher=Fetcher(cfg)
     coverage=[];queue=[];known={canonical(j['applyUrl']):j for j in data['jobs']};seen=set();new_count=0;success=0
     employer_checks=sorted((j for j in data['jobs'] if not linkedin_url(j['applyUrl']) and j.get('verification')!='closed'),key=lambda j:j.get('checkedOn') or '')
@@ -391,6 +392,7 @@ def run(config_path,data_path):
         coverage.append({'source':company,'status':'Fetched','detail':url+(' - job metadata found' if nodes else ' - no structured job data')})
     coverage.append({'source':'Salary, culture and resume analysis','status':'Human review required','detail':'New leads are unscored. The crawler never invents pay, reviews, candidate achievements or tailored bullets.'})
     data['updatedAt']=now;data['run']={'status':'completed' if success or (key and any(counts.values())) else 'limited','checkedOn':now,'automaticEnabled':os.getenv('GITHUB_ACTIONS')=='true','note':f'{new_count} new lead(s); {success} job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.','coverage':coverage[:100]}
+    data['run']['scanDateIst']=scan_date_ist
     temp=data_path.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=True,indent=2)+'\n');temp.replace(data_path)
     print(data['run']['note'])
 
