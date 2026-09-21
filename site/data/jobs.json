@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-21",
   "run": {
     "status": "completed",
-    "checkedOn": "2026-09-20",
+    "checkedOn": "2026-09-21",
     "automaticEnabled": true,
-    "note": "5 new lead(s); 0 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
+    "note": "1 new lead(s); 1 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
     "coverage": [
       {
         "source": "LinkedIn public search index",
         "status": "2 queries completed",
-        "detail": "Tavily: 5 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
+        "detail": "Tavily: 0 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
       },
       {
         "source": "Tavily web discovery",
@@ -33,11 +33,17 @@
         "detail": "https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US - no structured job data"
       },
       {
+        "source": "careers.cognizant.com",
+        "status": "Fetched",
+        "detail": "https://careers.cognizant.com/us-en/jobs/00070246641/sr-quality-engineer - job metadata found"
+      },
+      {
         "source": "Salary, culture and resume analysis",
         "status": "Human review required",
         "detail": "New leads are unscored. The crawler never invents pay, reviews, candidate achievements or tailored bullets."
       }
-    ]
+    ],
+    "scanDateIst": "2026-09-21"
   },
   "jobs": [
     {
@@ -385,7 +391,8 @@
         }
       ],
       "roleLevel": "individual",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-21"
     },
     {
       "id": "linkedin-4460496478",
@@ -1419,7 +1426,8 @@
         }
       ],
       "roleLevel": "individual",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-21"
     },
     {
       "id": "linkedin-4414654817",
@@ -3105,6 +3113,66 @@
           "scope": "Public search index; listing not directly checked",
           "asOf": "2026-09-20",
           "checkedOn": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "id": "cognizant-835bffe78934",
+      "company": "Cognizant",
+      "title": "Sr. Quality Engineer",
+      "location": "Chennai, Tamil Nadu, India / Coimbatore, Tamil Nadu, India / BANGALORE, Karnataka, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "00070246641",
+      "applyUrl": "https://careers.cognizant.com/us-en/jobs/00070246641/sr-quality-engineer",
+      "linkedinUrl": null,
+      "postedOn": "2026-08-27",
+      "closesOn": null,
+      "discoveredOn": "2026-09-21",
+      "checkedOn": "2026-09-21",
+      "verification": "live",
+      "verificationNote": "Employer JobPosting metadata fetched directly. This checks the page, not completion of the application form.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "Job Summary Lead the testing and quality assurance workstream for an AIDriven Development Lifecycle DLC Proof of Concept POC ensuring the quality reliability and effectiveness of AI powered capabilities across the software development lifecycle Drive end to end validation of AI assisted requirements analysis test case generation code generation test automation defect prediction and quality engineering processes Collaborate with business stakeholders development teams QA teams architects and Responsibilities Primary Skills Strong experience in Software Testing and Quality Engineering including Functional Testing Automation Testing API Testing Test Strategy Test Management and",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://careers.cognizant.com/us-en/jobs/00070246641/sr-quality-engineer",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-09-21",
+          "checkedOn": "2026-09-21"
         }
       ]
     }
