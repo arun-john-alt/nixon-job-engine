@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "run": {
     "status": "completed",
-    "checkedOn": "2026-09-21",
+    "checkedOn": "2026-09-22",
     "automaticEnabled": true,
-    "note": "1 new lead(s); 1 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
+    "note": "7 new lead(s); 2 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
     "coverage": [
       {
         "source": "LinkedIn public search index",
         "status": "2 queries completed",
-        "detail": "Tavily: 0 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
+        "detail": "Tavily: 6 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
       },
       {
         "source": "Tavily web discovery",
@@ -33,9 +33,19 @@
         "detail": "https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US - no structured job data"
       },
       {
-        "source": "careers.cognizant.com",
+        "source": "Cognizant",
         "status": "Fetched",
         "detail": "https://careers.cognizant.com/us-en/jobs/00070246641/sr-quality-engineer - job metadata found"
+      },
+      {
+        "source": "www.accenture.com",
+        "status": "Fetched",
+        "detail": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en - job metadata found"
+      },
+      {
+        "source": "www.amazon.jobs",
+        "status": "Fetched",
+        "detail": "https://www.amazon.jobs/en-gb/jobs/10537192/quality-assurance-engineer-i-amazon-payment-services - no structured job data"
       },
       {
         "source": "Salary, culture and resume analysis",
@@ -43,7 +53,7 @@
         "detail": "New leads are unscored. The crawler never invents pay, reviews, candidate achievements or tailored bullets."
       }
     ],
-    "scanDateIst": "2026-09-21"
+    "scanDateIst": "2026-09-22"
   },
   "jobs": [
     {
@@ -622,7 +632,8 @@
         }
       ],
       "roleLevel": "individual",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-22"
     },
     {
       "id": "linkedin-4453074105",
@@ -967,7 +978,8 @@
         }
       ],
       "roleLevel": "individual",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-22"
     },
     {
       "id": "linkedin-4457227858",
@@ -3130,9 +3142,9 @@
       "postedOn": "2026-08-27",
       "closesOn": null,
       "discoveredOn": "2026-09-21",
-      "checkedOn": "2026-09-21",
+      "checkedOn": "2026-09-22",
       "verification": "live",
-      "verificationNote": "Employer JobPosting metadata fetched directly. This checks the page, not completion of the application form.",
+      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
       "analysisStatus": "needs-review",
       "score": [],
       "summary": "Job Summary Lead the testing and quality assurance workstream for an AIDriven Development Lifecycle DLC Proof of Concept POC ensuring the quality reliability and effectiveness of AI powered capabilities across the software development lifecycle Drive end to end validation of AI assisted requirements analysis test case generation code generation test automation defect prediction and quality engineering processes Collaborate with business stakeholders development teams QA teams architects and Responsibilities Primary Skills Strong experience in Software Testing and Quality Engineering including Functional Testing Automation Testing API Testing Test Strategy Test Management and",
@@ -3173,6 +3185,426 @@
           "scope": "Public JobPosting metadata",
           "asOf": "2026-09-21",
           "checkedOn": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4456621362",
+      "company": "Employer to verify",
+      "title": "QA & Automation Lead",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4456621362",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4456621362",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4456621362",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4454471473",
+      "company": "Employer to verify",
+      "title": "Quality Assurance Manager at G3 Lasers",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4454471473",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4454471473",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4454471473",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4465031097",
+      "company": "Employer to verify",
+      "title": "QA Lead (Automation & AI) at Caterpillar Inc.",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4465031097",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4465031097",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4465031097",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4469864629",
+      "company": "Employer to verify",
+      "title": "Lead Test Automation Engineer at Capgemini",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4469864629",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4469864629",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4469864629",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4461919499",
+      "company": "Employer to verify",
+      "title": "Lead Python Automation Test Engineer at EPAM Systems",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4461919499",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4461919499",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4461919499",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4464871832",
+      "company": "TVS Next",
+      "title": "Senior Python Automation QA",
+      "location": "Chennai, India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4464871832",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4464871832",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4464871832",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "wwwaccenturecom-604abac6a5ec",
+      "company": "www.accenture.com",
+      "title": "Quality Engineer",
+      "location": "Chennai, unavailable, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "ATCI-5548058-S2060225",
+      "applyUrl": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en",
+      "linkedinUrl": null,
+      "postedOn": "2026-08-12",
+      "closesOn": "2027-08-12",
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "live",
+      "verificationNote": "Employer JobPosting metadata fetched directly. This checks the page, not completion of the application form.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "Project Role : Quality Engineer Project Role Description : Enables full stack solutions through multi-disciplinary team planning and ecosystem integration to accelerate delivery and drive quality across the application lifecycle. Performs continuous testing for security, API, and regression suite. Creates automation strategy, automated scripts and supports data and environment configuration. Participates in code reviews, monitors, and reports defects to support continuous improvement activities for the end-to-end testing process. Must have skills : Test Management Good to have skills : Automated Testing, Quality Management Minimum 2 year(s) of experience is required",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
         }
       ]
     }
