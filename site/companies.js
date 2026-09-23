@@ -1,5 +1,6 @@
 // Authentic employer marks bundled locally; no remote image requests.
 const logos = {
+  'Tactive Software Systems':'tactive', 'Nokia':'nokia', 'YipitData':'yipitdata', 'Made Card':'madecard', 'AHL – Saaf AI':'saaf', 'WPP':'wpp', 'Xerago':'xerago', 'Novature Tech':'novature',
   "HCLTech": "hcltech",
   "Virtusa": "virtusa",
   "EPAM Systems": "epam",
@@ -17,6 +18,11 @@ export function companyLogo(company){const key=Object.hasOwn(logos,company)?logo
 
 // Classification is about the hiring company, not an unnamed client or a pay promise.
 const products = {
+ 'Tactive Software Systems':['https://www.tactivesoft.com/company-overview/','Develops construction ERP software under its own Tactive brand.'],
+ 'Nokia':['https://www.nokia.com/','Develops networking equipment and software.'],
+ 'YipitData':['https://www.yipitdata.com/careers-teams/product--engineering','Develops market intelligence data products.'],
+ 'Made Card':['https://www.madecard.com/about','Develops a homeowner credit-card and home-management platform.'],
+ 'AHL – Saaf AI':['https://jobs.ashbyhq.com/ahl-saafai/ea0fdc4d-336e-46df-9ed6-10539f6ff2e5','Employer describes its own AI-powered mortgage platform.'],
  'Extreme Networks':['https://www.extremenetworks.com','Develops networking hardware and cloud networking software.'],
  'Logitech':['https://www.logitech.com','Develops branded peripherals and collaboration devices.'],
  'Viasat':['https://www.viasat.com','Develops satellite connectivity systems and related products.'],

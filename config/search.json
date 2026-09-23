@@ -6,23 +6,25 @@
     "Fully remote India"
   ],
   "queries": [
-    "Chennai QA manager quality engineering manager product company careers",
-    "Chennai test manager Python automation networking careers",
+    "Chennai QA manager quality engineering manager product ERP SaaS careers",
+    "Chennai wireless networking validation test manager Python Robot Framework careers",
     "India fully remote QA manager SDET product careers",
     "Chennai senior SDET Python Robot Framework product careers",
     "Chennai QA manager salary 25 lakh 30 lakh careers",
-    "India fully remote senior Python test automation careers"
+    "India fully remote product senior Python Selenium test automation lead careers"
   ],
   "linkedinQueries": [
-    "site:linkedin.com/jobs/view/ Chennai QA manager software testing manager",
+    "site:linkedin.com/jobs/view/ Chennai QA manager ERP SaaS software testing manager",
     "site:linkedin.com/jobs/view/ Chennai product company test automation lead",
     "site:linkedin.com/jobs/view/ India fully remote QA manager",
-    "site:linkedin.com/jobs/view/ Chennai Python Robot Framework networking senior QA",
+    "site:linkedin.com/jobs/view/ Chennai wireless networking Python Robot Framework QA specialist",
     "site:linkedin.com/jobs/view/ Chennai QA manager salary CTC",
-    "site:linkedin.com/jobs/view/ India remote senior SDET Python"
+    "site:linkedin.com/jobs/view/ India fully remote product senior SDET Python Selenium"
   ],
   "watchPages": [],
   "allowedHosts": [
+    "jobs.ashbyhq.com",
+    "www.xerago.com",
     "careers.hcltech.com",
     "jobs.lever.co",
     "jobs.smartrecruiters.com",

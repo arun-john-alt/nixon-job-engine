@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-09-22",
+  "updatedAt": "2026-09-23",
   "run": {
     "status": "completed",
-    "checkedOn": "2026-09-22",
+    "checkedOn": "2026-09-23",
     "automaticEnabled": true,
-    "note": "7 new lead(s); 2 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
+    "note": "2 new lead(s); 2 job metadata / closure check(s). Failed or unresolved checks do not establish availability. See coverage for LinkedIn and employer search results. Search-index leads are not confirmed live vacancies.",
     "coverage": [
       {
         "source": "LinkedIn public search index",
         "status": "2 queries completed",
-        "detail": "Tavily: 6 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
+        "detail": "Tavily: 2 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
       },
       {
         "source": "Tavily web discovery",
@@ -43,17 +43,12 @@
         "detail": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en - job metadata found"
       },
       {
-        "source": "www.amazon.jobs",
-        "status": "Fetched",
-        "detail": "https://www.amazon.jobs/en-gb/jobs/10537192/quality-assurance-engineer-i-amazon-payment-services - no structured job data"
-      },
-      {
         "source": "Salary, culture and resume analysis",
         "status": "Human review required",
         "detail": "New leads are unscored. The crawler never invents pay, reviews, candidate achievements or tailored bullets."
       }
     ],
-    "scanDateIst": "2026-09-22"
+    "scanDateIst": "2026-09-23"
   },
   "jobs": [
     {
@@ -117,10 +112,10 @@
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -158,7 +153,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -225,7 +220,7 @@
           "reason": "Chennai is listed as a work location."
         }
       ],
-      "summary": "Maintain a Python/Selenium automation platform for a cloud contact-center product. Chennai is listed; confirm the team\u2019s advertised remote arrangement.",
+      "summary": "Maintain a Python/Selenium automation platform for a cloud contact-center product. Chennai is listed; confirm the team’s advertised remote arrangement.",
       "hardGaps": [
         "Cloud experience is introductory in the resume.",
         "JavaScript, Playwright and MySQL-specific production work not established."
@@ -234,10 +229,10 @@
         "Relevant emphasis: Python, Selenium, REST API testing."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -274,7 +269,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -293,7 +288,7 @@
     {
       "id": "linkedin-4426105439",
       "company": "Arista Networks",
-      "title": "Network System Test Engineer \u2014 Manual/Solution",
+      "title": "Network System Test Engineer — Manual/Solution",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -349,10 +344,10 @@
         "Relevant emphasis: System verification, Test planning, Linux."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -387,7 +382,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -411,7 +406,7 @@
       "family": "Test automation",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "5\u20137 years; mandatory section says 6+",
+      "experience": "5–7 years; mandatory section says 6+",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4460496478",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4460496478",
@@ -455,19 +450,19 @@
           "reason": "Chennai is listed as a work location."
         }
       ],
-      "summary": "Automate UI and API tests using Robot Framework. Good tool overlap, but the published experience band is below the candidate\u2019s dated experience.",
+      "summary": "Automate UI and API tests using Robot Framework. Good tool overlap, but the published experience band is below the candidate’s dated experience.",
       "hardGaps": [
         "ParaSoft and production backend-service development not established.",
-        "Advertised 5\u20137-year band may constrain seniority and pay."
+        "Advertised 5–7-year band may constrain seniority and pay."
       ],
       "benefits": [
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -495,7 +490,7 @@
         "confirm": [],
         "unsupported": [
           "ParaSoft and production backend-service development not established.",
-          "Advertised 5\u20137-year band may constrain seniority and pay."
+          "Advertised 5–7-year band may constrain seniority and pay."
         ]
       },
       "resumeEdits": [
@@ -503,7 +498,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -579,10 +574,10 @@
         "Relevant emphasis: Python, Jenkins, Linux."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -618,7 +613,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -638,11 +633,11 @@
     {
       "id": "linkedin-4453074105",
       "company": "Extreme Networks",
-      "title": "Senior QA Software Engineer \u2014 L2/L3 / Data Center",
+      "title": "Senior QA Software Engineer — L2/L3 / Data Center",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "5\u201310 years; JD also says Principal",
+      "experience": "5–10 years; JD also says Principal",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4453074105",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4453074105",
@@ -695,10 +690,10 @@
         "Relevant emphasis: Python, Linux, Robot Framework."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -734,7 +729,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -748,12 +743,13 @@
         }
       ],
       "roleLevel": "individual",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-23"
     },
     {
       "id": "hcltech-137783",
       "company": "HCLTech",
-      "title": "Senior Automation Tester \u2014 Networking L2/L3",
+      "title": "Senior Automation Tester — Networking L2/L3",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -810,10 +806,10 @@
         "Relevant emphasis: Python, Test planning, Network testing."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -848,7 +844,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -925,10 +921,10 @@
         "Relevant emphasis: Python, Shell scripting, Git."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -964,7 +960,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -984,11 +980,11 @@
     {
       "id": "linkedin-4457227858",
       "company": "Arista Networks",
-      "title": "Software Test Engineer \u2014 WLAN Feature Testing",
+      "title": "Software Test Engineer — WLAN Feature Testing",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201315 years",
+      "experience": "8–15 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4457227858",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4457227858",
@@ -1040,10 +1036,10 @@
         "Relevant emphasis: Wireless testing, Linux, REST API testing."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1078,7 +1074,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1101,7 +1097,7 @@
       "family": "Test automation lead",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "9\u201312 years",
+      "experience": "9–12 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4451234807",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4451234807",
@@ -1154,10 +1150,10 @@
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1193,7 +1189,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1207,12 +1203,13 @@
         }
       ],
       "roleLevel": "technical-lead",
-      "locationEligibility": "chennai"
+      "locationEligibility": "chennai",
+      "availabilityAttemptedOn": "2026-09-23"
     },
     {
       "id": "linkedin-4419688287",
       "company": "UST",
-      "title": "Lead I \u2014 Software Testing, Python / AI Chatbots",
+      "title": "Lead I — Software Testing, Python / AI Chatbots",
       "family": "Test automation lead",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -1269,10 +1266,10 @@
         "Relevant emphasis: Python, Selenium, Jira."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1307,7 +1304,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1327,11 +1324,11 @@
     {
       "id": "linkedin-4440649719",
       "company": "Extreme Networks",
-      "title": "Senior QA Engineer \u2014 Wired/Wireless Networking",
+      "title": "Senior QA Engineer — Wired/Wireless Networking",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "4\u20138 years",
+      "experience": "4–8 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4440649719",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4440649719",
@@ -1379,16 +1376,16 @@
       "hardGaps": [
         "AAA, 802.1X, IPsec, RADIUS and LDAP depth not established.",
         "Named network/security certifications are not listed.",
-        "4\u20138-year band may be below the desired level."
+        "4–8-year band may be below the desired level."
       ],
       "benefits": [
         "Relevant emphasis: Wireless testing, Certificate authentication, Python."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1416,7 +1413,7 @@
         "unsupported": [
           "AAA, 802.1X, IPsec, RADIUS and LDAP depth not established.",
           "Named network/security certifications are not listed.",
-          "4\u20138-year band may be below the desired level."
+          "4–8-year band may be below the desired level."
         ]
       },
       "resumeEdits": [
@@ -1424,7 +1421,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1448,7 +1445,7 @@
       "family": "Test automation lead",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201310 years in software development",
+      "experience": "8–10 years in software development",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4414654817",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4414654817",
@@ -1501,10 +1498,10 @@
         "Relevant emphasis: Python, Selenium, Framework development."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1539,7 +1536,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1563,7 +1560,7 @@
       "family": "Senior SDET",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "5\u20139 years",
+      "experience": "5–9 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4461395328",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4461395328",
@@ -1616,10 +1613,10 @@
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1654,7 +1651,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1730,10 +1727,10 @@
         "Relevant emphasis: People management, Test planning, Automation frameworks."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1768,7 +1765,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional and people manager with experience managing ten people and previously leading a four-member automation team. Combines Python-based automation, test planning, Jenkins integration, performance feedback and cross-team coordination across networking and automotive projects.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1788,7 +1785,7 @@
     {
       "id": "linkedin-4379271805",
       "company": "Amazon",
-      "title": "Quality Assurance Manager \u2014 Wireless Connectivity",
+      "title": "Quality Assurance Manager — Wireless Connectivity",
       "family": "QA management",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -1845,10 +1842,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1902,7 +1899,7 @@
     {
       "id": "linkedin-4446363050",
       "company": "Amazon",
-      "title": "Team Manager \u2014 Alexa Shopping",
+      "title": "Team Manager — Alexa Shopping",
       "family": "QA management",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -1959,10 +1956,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2016,7 +2013,7 @@
     {
       "id": "linkedin-4427736563",
       "company": "Ingram Micro",
-      "title": "Lead / Deputy Manager \u2014 QA",
+      "title": "Lead / Deputy Manager — QA",
       "family": "QA management",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -2073,10 +2070,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2134,7 +2131,7 @@
       "title": "Senior Software Quality Assurance Manager",
       "family": "QA management",
       "location": "Remote, India",
-      "workModel": "Fully remote \u00b7 India",
+      "workModel": "Fully remote · India",
       "experience": "6+ relevant QA years and team leadership",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4425093747",
@@ -2179,19 +2176,19 @@
           "reason": "Fully remote India is stated; secondary to Chennai in the search preference."
         }
       ],
-      "summary": "Lead QA for a client platform with hands-on testing and team ownership. The description explicitly states fully remote work in India, with a 12\u20139 PM IST shift.",
+      "summary": "Lead QA for a client platform with hands-on testing and team ownership. The description explicitly states fully remote work in India, with a 12–9 PM IST shift.",
       "hardGaps": [
         "Web-product automation depth and database test coverage need confirmation.",
-        "Requires 12\u20139 PM IST working hours."
+        "Requires 12–9 PM IST working hours."
       ],
       "benefits": [
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2218,7 +2215,7 @@
         "confirm": [],
         "unsupported": [
           "Web-product automation depth and database test coverage need confirmation.",
-          "Requires 12\u20139 PM IST working hours."
+          "Requires 12–9 PM IST working hours."
         ]
       },
       "resumeEdits": [
@@ -2245,10 +2242,10 @@
     {
       "id": "linkedin-4462462550",
       "company": "Jitterbit",
-      "title": "SDET \u2014 QA Automation (Remote)",
+      "title": "SDET — QA Automation (Remote)",
       "family": "Senior SDET",
       "location": "Remote, India",
-      "workModel": "Fully remote \u00b7 India",
+      "workModel": "Fully remote · India",
       "experience": "4+ years SDET/framework development",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4462462550",
@@ -2293,7 +2290,7 @@
           "reason": "Fully remote India is stated; secondary to Chennai in the search preference."
         }
       ],
-      "summary": "Build frontend and backend test infrastructure for Jitterbit\u2019s integration platform. Remote India role; cross-time-zone collaboration is expected.",
+      "summary": "Build frontend and backend test infrastructure for Jitterbit’s integration platform. Remote India role; cross-time-zone collaboration is expected.",
       "hardGaps": [
         "Pytest, WebdriverIO, TypeScript and CRM/ERP integration depth not evidenced.",
         "Cloud/SaaS and AI-assisted test development experience needs confirmation."
@@ -2302,10 +2299,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2360,11 +2357,11 @@
     {
       "id": "linkedin-4457346353",
       "company": "Extreme Networks",
-      "title": "Staff Software QA Engineer \u2014 10421",
+      "title": "Staff Software QA Engineer — 10421",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201312 years; network-management experience",
+      "experience": "8–12 years; network-management experience",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4457346353",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4457346353",
@@ -2417,10 +2414,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2476,11 +2473,11 @@
     {
       "id": "linkedin-4391080549",
       "company": "NETGEAR",
-      "title": "Engineer III \u2014 System Validation Test",
+      "title": "Engineer III — System Validation Test",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "4\u20136 years; level and budget need confirmation",
+      "experience": "4–6 years; level and budget need confirmation",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4391080549",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4391080549",
@@ -2526,17 +2523,17 @@
       ],
       "summary": "Validate Insight-managed network devices using Python and Robot Framework. Strong tooling overlap but a lower advertised experience band; confirm seniority and budget first.",
       "hardGaps": [
-        "4\u20136-year band may be too junior for the target move.",
+        "4–6-year band may be too junior for the target move.",
         "Wi-Fi roaming, mesh, WPA3 and L2/L3 protocol depth not established."
       ],
       "benefits": [
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2563,7 +2560,7 @@
         ],
         "confirm": [],
         "unsupported": [
-          "4\u20136-year band may be too junior for the target move.",
+          "4–6-year band may be too junior for the target move.",
           "Wi-Fi roaming, mesh, WPA3 and L2/L3 protocol depth not established."
         ]
       },
@@ -2891,7 +2888,7 @@
     {
       "id": "linkedin-4464766925",
       "company": "Employer to verify",
-      "title": "Manual QA Engineer (Fully Remote) \u2013 Top US MNC (Enterprise ...",
+      "title": "Manual QA Engineer (Fully Remote) – Top US MNC (Enterprise ...",
       "location": "Remote India",
       "workModel": "Not verified",
       "family": "Needs classification",
@@ -3142,7 +3139,7 @@
       "postedOn": "2026-08-27",
       "closesOn": null,
       "discoveredOn": "2026-09-21",
-      "checkedOn": "2026-09-22",
+      "checkedOn": "2026-09-23",
       "verification": "live",
       "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
       "analysisStatus": "needs-review",
@@ -3562,9 +3559,9 @@
       "postedOn": "2026-08-12",
       "closesOn": "2027-08-12",
       "discoveredOn": "2026-09-22",
-      "checkedOn": "2026-09-22",
+      "checkedOn": "2026-09-23",
       "verification": "live",
-      "verificationNote": "Employer JobPosting metadata fetched directly. This checks the page, not completion of the application form.",
+      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
       "analysisStatus": "needs-review",
       "score": [],
       "summary": "Project Role : Quality Engineer Project Role Description : Enables full stack solutions through multi-disciplinary team planning and ecosystem integration to accelerate delivery and drive quality across the application lifecycle. Performs continuous testing for security, API, and regression suite. Creates automation strategy, automated scripts and supports data and environment configuration. Participates in code reviews, monitors, and reports defects to support continuous improvement activities for the end-to-end testing process. Must have skills : Test Management Good to have skills : Automated Testing, Quality Management Minimum 2 year(s) of experience is required",
@@ -3603,6 +3600,1260 @@
           "label": "Employer job posting",
           "url": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en",
           "scope": "Public JobPosting metadata",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4470426168",
+      "company": "Employer to verify",
+      "title": "Software Quality Assurance Tester - MyRemoteTeam Inc",
+      "location": "Remote India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4470426168",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4470426168",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-23",
+      "checkedOn": "2026-09-23",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4470426168",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-23",
+          "checkedOn": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4469051878",
+      "company": "Our English LLC",
+      "title": "Product Test Engineer",
+      "location": "Remote India",
+      "workModel": "Not verified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4469051878",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4469051878",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-23",
+      "checkedOn": "2026-09-23",
+      "verification": "indexed",
+      "verificationNote": "Public search-index result only. LinkedIn was not fetched; availability and employer identity need verification.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "LinkedIn search discovery. Open the listing to confirm the full job description, location and employer before shortlisting.",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "LinkedIn job search result",
+          "url": "https://www.linkedin.com/jobs/view/4469051878",
+          "scope": "Public search index; listing not directly checked",
+          "asOf": "2026-09-23",
+          "checkedOn": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4468703379",
+      "company": "Tactive Software Systems",
+      "title": "QA Manager (Automation)",
+      "family": "QA management",
+      "roleLevel": "manager",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "Seniority and team size to confirm",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4468703379",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4468703379",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 32,
+          "reason": "Framework design, regression ownership and team leadership match demonstrated work."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 17,
+          "reason": "Python, Selenium, Robot and Jenkins transfer; employer does not name a required language."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Ten-person management and four-person automation leadership support a player-coach role."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 8,
+          "reason": "ERP is a new domain; product testing experience transfers."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai matches the preferred location."
+        }
+      ],
+      "summary": "Product QA leadership spanning automation and release quality. Confirm reporting scope.",
+      "hardGaps": [
+        "Construction ERP experience is not evidenced.",
+        "Confirm whether this is a people-manager or senior hands-on role."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "Robot Framework",
+          "Jenkins",
+          "Team management"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Construction ERP experience is not evidenced.",
+          "Confirm whether this is a people-manager or senior hands-on role."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://www.linkedin.com/jobs/view/4468703379",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4448060251",
+      "company": "Nokia",
+      "title": "Senior Technical Specialist – Validation Test Engineer",
+      "family": "Test automation lead",
+      "roleLevel": "technical-lead",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "8–14 years",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4448060251",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4448060251",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 28,
+          "reason": "Validation, defect investigation and automation align; production cloud depth is a gap."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "Python, Robot and Selenium match; Kubernetes knowledge is introductory."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 19,
+          "reason": "Approximately 9.5 dated years fits the advertised range."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 13,
+          "reason": "Networking and SDN projects are relevant."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai matches the preferred location."
+        }
+      ],
+      "summary": "Networking validation role with a strong core-tool match and a substantial cloud-platform gap.",
+      "hardGaps": [
+        "Advanced Kubernetes, OpenShift and public-cloud validation are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "SDN",
+          "Docker"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Advanced Kubernetes, OpenShift and public-cloud validation are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://www.linkedin.com/jobs/view/4448060251",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-4414007555",
+      "company": "Nokia",
+      "title": "Technical Specialist",
+      "family": "Test automation lead",
+      "roleLevel": "technical-lead",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "Specialist; exact years to confirm",
+      "requisition": "",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4414007555",
+      "linkedinUrl": "https://www.linkedin.com/jobs/view/4414007555",
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 28,
+          "reason": "Automation frameworks and mentoring match; soak/performance depth needs evidence."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "Python and Selenium match; Java and Playwright are not evidenced."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "Technical leadership is demonstrated; employer level needs confirmation."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 10,
+          "reason": "Network testing transfers; Wi-Fi mesh and TR protocol expertise are unproven."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai matches the preferred location."
+        }
+      ],
+      "summary": "Framework and network testing opportunity; confirm whether Python is sufficient for the team.",
+      "hardGaps": [
+        "Java, Playwright, advanced cloud testing and TR-98/TR-369 are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "Jenkins",
+          "Network testing"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Java, Playwright, advanced cloud testing and TR-98/TR-369 are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://www.linkedin.com/jobs/view/4414007555",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "extreme-10413",
+      "company": "Extreme Networks",
+      "title": "Staff QA SW Engineer (Wireless Testing)",
+      "family": "Senior quality engineering",
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Hybrid",
+      "experience": "8–12 years",
+      "requisition": "10413",
+      "applyUrl": "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 31,
+          "reason": "Wireless product validation and customer-defect work closely match Airwave experience."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "API, Jenkins and Git align; specialist RF tooling is not evidenced."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 19,
+          "reason": "Approximately 9.5 dated years fits the range."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 14,
+          "reason": "Enterprise wireless and network-management experience are directly relevant."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai hybrid fits the location preference."
+        }
+      ],
+      "summary": "Strong domain fit for enterprise wireless QA; staff individual-contributor role, not a people-manager post.",
+      "hardGaps": [
+        "RF measurement, packet-analysis depth and Wi-Fi 6E expertise need confirmation."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Wireless testing",
+          "REST API",
+          "Jenkins",
+          "Git",
+          "Jira"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "RF measurement, packet-analysis depth and Wi-Fi 6E expertise need confirmation."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "extreme-10422",
+      "company": "Extreme Networks",
+      "title": "Staff SW QA Engineer (Performance & Scale)",
+      "family": "Senior quality engineering",
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Hybrid",
+      "experience": "8–12 years",
+      "requisition": "10422",
+      "applyUrl": "https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 26,
+          "reason": "End-to-end network QA aligns; scale and load engineering are material gaps."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 13,
+          "reason": "Python, Robot and Selenium align; JMeter/Locust and observability tools are unproven."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 19,
+          "reason": "Approximately 9.5 dated years fits the range."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 13,
+          "reason": "Network-management and telecom testing transfer well."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai hybrid fits the location preference."
+        }
+      ],
+      "summary": "Relevant networking stack, with a larger performance-engineering stretch than the wireless role.",
+      "hardGaps": [
+        "JMeter/Locust, advanced cloud orchestration and production scale testing are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "API testing",
+          "Jenkins"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "JMeter/Locust, advanced cloud orchestration and production scale testing are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "yipitdata-6743082",
+      "company": "YipitData",
+      "title": "Senior SDET",
+      "family": "Senior quality engineering",
+      "roleLevel": "individual",
+      "locationEligibility": "remote-india",
+      "location": "Remote, India",
+      "workModel": "Fully remote India; 08:00–17:00 IST",
+      "experience": "7+ QA years; 5+ automation years",
+      "requisition": "",
+      "applyUrl": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 33,
+          "reason": "Framework, API and regression work strongly align."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 18,
+          "reason": "Python, Robot, Selenium, SQL and Linux align; performance tools remain a gap."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 19,
+          "reason": "Dated QA and automation experience supports the stated thresholds."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 7,
+          "reason": "Data-product domain is new."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Employer explicitly permits remote India."
+        }
+      ],
+      "summary": "Strong remote automation match at a data-product company; confirm compensation and role scope.",
+      "hardGaps": [
+        "JMeter/Gatling and pytest are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "SQL",
+          "API testing"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "JMeter/Gatling and pytest are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "madecard-117fafd3",
+      "company": "Made Card",
+      "title": "Senior Quality Assurance (QA) Engineer",
+      "family": "Test automation lead",
+      "roleLevel": "technical-lead",
+      "locationEligibility": "remote-india",
+      "location": "Remote, India",
+      "workModel": "Fully remote India or Brazil",
+      "experience": "5–8+ years",
+      "requisition": "",
+      "applyUrl": "https://jobs.ashbyhq.com/madecard/117fafd3-f18f-4aba-8ab2-39b5fe8b5a73/",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 30,
+          "reason": "QA ownership, automation and mentoring align with demonstrated leadership."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 15,
+          "reason": "Python, Selenium, APIs and PostgreSQL align; other frontend tools are gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Experience supports the senior remit; confirm budget and reporting scope."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 7,
+          "reason": "Fintech and homeowner products are new domains."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "India is explicitly included in the remote locations."
+        }
+      ],
+      "summary": "Hands-on QA ownership for a fintech product, with meaningful frontend and cloud gaps.",
+      "hardGaps": [
+        "Playwright/Cypress, Flutter and advanced AWS/Kubernetes are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "PostgreSQL",
+          "API testing",
+          "Jenkins"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Playwright/Cypress, Flutter and advanced AWS/Kubernetes are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://jobs.ashbyhq.com/madecard/117fafd3-f18f-4aba-8ab2-39b5fe8b5a73/",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "saaf-ea0fdc4d",
+      "company": "AHL – Saaf AI",
+      "title": "Senior Product QA",
+      "family": "Senior quality engineering",
+      "roleLevel": "individual",
+      "locationEligibility": "remote-india",
+      "location": "Remote, India",
+      "workModel": "Fully remote India",
+      "experience": "5+ years",
+      "requisition": "",
+      "applyUrl": "https://jobs.ashbyhq.com/ahl-saafai/ea0fdc4d-336e-46df-9ed6-10539f6ff2e5",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 27,
+          "reason": "Regression and customer-defect analysis transfer; product-analytics testing needs evidence."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 13,
+          "reason": "Jira and introductory AI-tool use align partially; systematic AI evaluation is unproven."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Experience exceeds the minimum; manager responsibility is not advertised."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 6,
+          "reason": "Mortgage and lending experience is not evidenced."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Employer explicitly lists India remote."
+        }
+      ],
+      "summary": "Broader product-quality opportunity; AI evaluation is a learning gap, not an established skill.",
+      "hardGaps": [
+        "AI-output evaluation, analytics-led QA and mortgage-domain experience are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Jira",
+          "Regression testing",
+          "Defect analysis",
+          "GitHub Copilot"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "AI-output evaluation, analytics-led QA and mortgage-domain experience are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://jobs.ashbyhq.com/ahl-saafai/ea0fdc4d-336e-46df-9ed6-10539f6ff2e5",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "wpp-8623714002",
+      "company": "WPP",
+      "title": "Maconomy ERP – Senior Test Automation Analyst",
+      "family": "Test automation lead",
+      "roleLevel": "technical-lead",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "Senior; exact years to confirm",
+      "requisition": "",
+      "applyUrl": "https://job-boards.greenhouse.io/wpp/jobs/8623714002",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 29,
+          "reason": "Framework ownership and integration checks align with automation leadership."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 15,
+          "reason": "Selenium and Jenkins match; Playwright/Cypress are gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "Senior automation experience is supported; confirm level."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 6,
+          "reason": "Finance/HCM ERP domain is not evidenced."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai matches the preferred location."
+        }
+      ],
+      "summary": "Broader enterprise-automation option with an ERP-domain gap.",
+      "hardGaps": [
+        "Maconomy, finance/HCM ERP and Playwright/Cypress are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Selenium",
+          "Jenkins",
+          "Git",
+          "Jira",
+          "Automation frameworks"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Maconomy, finance/HCM ERP and Playwright/Cypress are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://job-boards.greenhouse.io/wpp/jobs/8623714002",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "xerago-manager-testing",
+      "company": "Xerago",
+      "title": "Manager – Testing",
+      "family": "QA management",
+      "roleLevel": "manager",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "7–9 years",
+      "requisition": "",
+      "applyUrl": "https://www.xerago.com/jobs/manager-testing",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 32,
+          "reason": "People leadership, test-process ownership and frameworks align well."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 17,
+          "reason": "Automation coding and database experience transfer; exact stack needs confirmation."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 17,
+          "reason": "Approximately 9.5 dated years is slightly above the stated band."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 8,
+          "reason": "Cross-domain QA experience transfers; client domain needs confirmation."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai matches the preferred location."
+        }
+      ],
+      "summary": "People-management option covering QA delivery and team development; confirm level and pay early.",
+      "hardGaps": [
+        "Confirm whether the experience band and compensation support this move."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "SQL",
+          "Automation frameworks",
+          "Team management"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Confirm whether the experience band and compensation support this move."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Public job description",
+          "url": "https://www.xerago.com/jobs/manager-testing",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
+          "asOf": "2026-09-22",
+          "checkedOn": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "novature-ba0abcbf2cdfa4e2",
+      "company": "Novature Tech",
+      "title": "Test Automation Manager / Test Lead",
+      "family": "QA management",
+      "roleLevel": "manager",
+      "locationEligibility": "chennai",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "experience": "8–14 years; 7+ automation years",
+      "requisition": "",
+      "applyUrl": "https://in.indeed.com/viewjob?jk=ba0abcbf2cdfa4e2",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-09-22",
+      "checkedOn": "2026-09-22",
+      "verification": "indexed",
+      "verificationNote": "Full public job description reviewed via the employer page or public search index on 22 September 2026. No explicit closure found in that evidence. A live application submission was not tested; recheck before applying.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 32,
+          "reason": "Framework creation and team leadership directly align."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 17,
+          "reason": "Python, Selenium, Squish and Jenkins match; Java/Appium are not evidenced."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Dated experience broadly supports the band; verify automation-year calculation."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 8,
+          "reason": "Independent QA services fit cross-client experience."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai matches the preferred location."
+        }
+      ],
+      "summary": "Strong automation-tool overlap, including Squish; hiring-company budget remains unverified.",
+      "hardGaps": [
+        "Java, Appium and Cucumber are not evidenced; confirm Python-based placement.",
+        "Manager versus technical-lead scope needs confirmation."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
+      ],
+      "questions": [
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
+        "Which listed skill gaps are essential from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Selenium",
+          "Squish",
+          "Jenkins",
+          "Jira"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Java, Appium and Cucumber are not evidenced; confirm Python-based placement.",
+          "Manager versus technical-lead scope needs confirmation."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job description on Indeed",
+          "url": "https://in.indeed.com/viewjob?jk=ba0abcbf2cdfa4e2",
+          "scope": "Role requirements and location; availability limited to the retrieved page/index.",
           "asOf": "2026-09-22",
           "checkedOn": "2026-09-22"
         }

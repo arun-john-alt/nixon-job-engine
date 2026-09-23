@@ -1,5 +1,12 @@
 # Release verification — 19 September 2026
 
+## Deep sweep release — 23 September 2026
+
+- 11 newly reviewed roles bring the shortlist to 33. Preserved the 23 September daily scan; public dataset has 52 records including 19 unreviewed leads.
+- 46 local Node tests and 43 Python tests pass (10 Node tests belong to unrelated uncommitted scheduler work; deployed repository has 36 Node tests). Schema, public build, privacy-field gate and diff whitespace checks pass.
+- Chrome at 390 × 844 shows 33 roles, match percentages and product/manager badges; no broken images or horizontal overflow. The new Tactive manager appears first under the existing priority sort.
+- Research provenance, unknown salaries, skill gaps and availability limitations are documented in RESEARCH-2026-09-22.md and in each public record. Search rotation retains its three-day coverage and daily request cap.
+
 - 32 Node tests and 33 Python tests pass, including private import validation, encryption, resume approval, three employment sections, candidate storage isolation, closure handling, Chennai-only discovery and search-budget limits.
 - Schema validation passes for 15 reviewed jobs. Every main-feed card has a weighted match percentage and a bundled employer logo. No inherited supply-chain job records remain.
 - Public build passes the exact-file allowlist and private-field gate. Source PDF, private profile and generated test documents remain outside this repository.

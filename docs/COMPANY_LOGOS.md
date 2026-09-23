@@ -21,3 +21,13 @@ Added 19 September 2026:
 - **hydsoft**: https://www.hydsoft.com/favicon.ico
 - **ingram**: https://www.ingrammicro.com/favicon.ico
 - **netgear**: https://www.netgear.com/favicon.ico
+
+Added 22 September 2026. Icons linked by employer homepages; Xerago uses the cached domain favicon. All are bundled locally.
+- **tactive**: https://8990e5d2.delivery.rocketcdn.me/wp-content/uploads/2025/04/cropped-tactive-construction-erp-software-180x180.webp
+- **nokia**: https://www.nokia.com/themes/custom/onenokia_reskin/icons/apple-touch-icon.png
+- **yipitdata**: https://cdn.prod.website-files.com/69ca4b24fd1fc313c1cfb359/69ce4a197854e7a602e95f67_Frame%202768.png
+- **madecard**: https://www.madecard.com/apple-icon.png?apple-icon.0rh0y9~1m5ol0.png
+- **saaf**: https://static.wixstatic.com/media/8383d9_8a5de5cb0159445684b72f64ce67d9f3%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/8383d9_8a5de5cb0159445684b72f64ce67d9f3%7Emv2.jpg
+- **wpp**: https://images.eu.ctfassets.net/npbth6l75bn8/4VWPH8lszNDPbYODlXzumi/e63ca6496212abd1d4774e57c4a9416f/apple-touch-icon.png
+- **xerago**: https://www.google.com/s2/favicons?domain=www.xerago.com&sz=128
+- **novature**: https://novaturetech.com/wp-content/themes/novature/assets/images/favico.png
