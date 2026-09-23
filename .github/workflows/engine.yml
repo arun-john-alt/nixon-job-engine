@@ -52,6 +52,9 @@ jobs:
         run: |
           node --test tests/*.test.js
           python -m unittest discover -s tests -p 'test_*.py'
+      - name: Verify existing vacancy availability
+        if: steps.daily.outputs.scan == 'true'
+        run: python scripts/availability.py
       - name: Discover and recheck employer jobs
         if: steps.daily.outputs.scan == 'true'
         env:

@@ -23,3 +23,7 @@
 - Default priority order and salary-evidence safeguards have dedicated tests. Product badges have source links in Evidence and do not classify services-client work as a product employer.
 - Mobile 390 × 844 checked: product/manager badges fit, no horizontal overflow, all employer marks load; fully remote filter returns only Jitterbit and Hydsoft.
 - Query themes rotate over three days within the existing four-discovery/two-availability daily budget. New repository still has no search API secret; rotation is configured, not claimed to have executed online.
+
+## Availability safeguards — 23 September 2026
+
+See AVAILABILITY.md for audit evidence, exclusions and regression checks. Mobile preview verified 3 active Nixon roles and 0 active Sivanesh roles; unconfirmed records remain accessible under Sources. No stale open claims were backfilled from old research dates.
