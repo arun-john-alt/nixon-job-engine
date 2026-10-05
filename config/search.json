@@ -47,7 +47,11 @@
     "amazon.jobs",
     "careers.netgear.com",
     "netgear.wd5.myworkdayjobs.com",
-    "careers.ingrammicro.com"
+    "careers.ingrammicro.com",
+    "api.smartrecruiters.com",
+    "api.ashbyhq.com",
+    "api.lever.co",
+    "boards-api.greenhouse.io"
   ],
   "maxPageFetches": 36,
   "requestDelaySeconds": 1.2,
@@ -55,5 +59,62 @@
   "maxAvailabilityQueries": 2,
   "resultsPerQuery": 20,
   "maxNewLeadsPerRun": 100,
-  "rotateQueries": true
+  "rotateQueries": true,
+  "employerBoards": [
+    {
+      "kind": "smart",
+      "slug": "AristaNetworks",
+      "company": "Arista Networks"
+    },
+    {
+      "kind": "smart",
+      "slug": "Freshworks",
+      "company": "Freshworks"
+    },
+    {
+      "kind": "smart",
+      "slug": "MicroStrategy1",
+      "company": "MicroStrategy"
+    },
+    {
+      "kind": "smart",
+      "slug": "Rotork1",
+      "company": "Rotork"
+    },
+    {
+      "kind": "ashby",
+      "slug": "ahl-saafai",
+      "company": "AHL \u2013 Saaf AI"
+    },
+    {
+      "kind": "ashby",
+      "slug": "savvymoney",
+      "company": "SavvyMoney"
+    },
+    {
+      "kind": "ashby",
+      "slug": "bidgely-inc",
+      "company": "Bidgely"
+    },
+    {
+      "kind": "ashby",
+      "slug": "inflectionio",
+      "company": "Inflection.io"
+    },
+    {
+      "kind": "ashby",
+      "slug": "openobserve-careers",
+      "company": "OpenObserve"
+    },
+    {
+      "kind": "lever",
+      "slug": "extremenetworks",
+      "company": "Extreme Networks"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "yipitdata",
+      "company": "YipitData"
+    }
+  ]
 }
