@@ -28,9 +28,18 @@ AGENT='NixonJobEngine/2.0 (public job discovery; no login bypass)'
 ROLE=re.compile(r'\bsdet\b|\bqa\b|test(?:ing)?.*(?:engineer|lead|manager|architect|automation)|automation.*(?:test|python|engineer)|quality.*(?:software|engineer|assurance)|software.*quality',re.I)
 EXCLUDE=re.compile(r'surface mount technology|leadership development program|early career|\bintern\b|\binternship\b|\bgraduate trainee\b|\bjunior\b|warehouse|SAP.*(?:consultant|implementation|configuration)|\bvice president\b|\bdirector\b',re.I)
 
+try:
+    from scripts.career_microdata import read as read_microdata
+except ModuleNotFoundError:
+    from career_microdata import read as read_microdata
+
 class Page(HTMLParser):
     def __init__(self):
         super().__init__();self.text=[];self.links=[];self.jsonld=[];self.capture=False;self.buf=[];self.skip=0
+    def feed(self,source):
+        super().feed(source)
+        node=read_microdata(source)
+        if node:self.jsonld.append(node)
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
         if tag=='script':
@@ -125,10 +134,13 @@ def is_relevant(title,location,description):
     if re.search(r'QA\s*/\s*QC',title,re.I) and re.search(r'concrete trials|construction chemical|chemical manufacturing|QC lab',description,re.I) and not re.search(r'software test|test automation|selenium|robot framework',description,re.I):return False
     loc=location.lower();text=(title+' '+description).lower()
     if not re.search(r'chennai|sriperumbudur|oragadam|chengalpattu|thiruvallur|tiruvallur|pallavaram',loc) and loc not in ('remote india','remote india (remote)'):return False
+    # Company-history tenure (e.g. Vestas' 40+ years) is not candidate experience.
+    text=re.split(r'\babout (?:vestas|hcltech)\b',text,maxsplit=1)[0]
     years=re.search(r'(\d+)\s*(?:[-–—]|to)\s*(\d+)\s*(?:years?|yrs?)\b',text)
-    minimum=re.search(r'(\d+)\+\s*(?:years?|yrs?)\s+(?:of\s+)?(?:progressive\s+)?(?:experience|in\s+(?:QA|test|procurement|sourcing))',text,re.I)
+    minimum=re.search(r'(\d+)\s*\+\s*(?:years?|yrs?)\s+(?:of\s+)?(?:progressive\s+)?(?:experience|in\s+(?:QA|test|procurement|sourcing))',text,re.I)
     if minimum and int(minimum[1])>10:return False
-    if years and (int(years[1])>10 or int(years[2])<6):return False
+    # A smaller leadership/tool-specific range must not override an explicit overall minimum.
+    if years and (int(years[1])>10 or int(years[2])<6 and not (minimum and 6<=int(minimum[1])<=10)):return False
     return True
 
 

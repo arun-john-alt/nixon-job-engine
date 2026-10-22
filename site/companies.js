@@ -1,5 +1,6 @@
 // Authentic employer marks bundled locally; no remote image requests.
 const logos = {
+  'Standard Chartered':'standard-chartered',
   'NielsenIQ':'niq','Juniper Square':'juniper','Pod Network':'pod','MicroStrategy':'strategy','Rotork':'rotork',
   'Tactive Software Systems':'tactive', 'Nokia':'nokia', 'YipitData':'yipitdata', 'Made Card':'madecard', 'AHL – Saaf AI':'saaf', 'WPP':'wpp', 'Xerago':'xerago', 'Novature Tech':'novature',
   "HCLTech": "hcltech",

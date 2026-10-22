@@ -33,3 +33,5 @@ Added 22 September 2026. Icons linked by employer homepages; Xerago uses the cac
 - **novature**: https://novaturetech.com/wp-content/themes/novature/assets/images/favico.png
 
 Added 22 October 2026: NIQ — https://nielseniq.com/wp-content/uploads/sites/4/2023/03/cropped-favicon-512x512-1.png?w=192 ; Juniper Square — https://www.junipersquare.com/favicon.ico . Pod Network (pod.network), Strategy (strategy.com) and Rotork (rotork.com) marks use the Google cached domain favicon, bundled locally. Trademarks identify the employer; no affiliation implied.
+
+Added 22 October 2026: Standard Chartered uses the cached www.sc.com domain favicon from https://www.google.com/s2/favicons?domain=www.sc.com&sz=128, bundled locally.
