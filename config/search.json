@@ -496,5 +496,96 @@
       ]
     }
   ],
-  "employerConcurrency": 3
+  "employerConcurrency": 3,
+  "openingPool": {
+    "minimum": 20,
+    "buffer": 25
+  },
+  "reserveEmployerBoards": [
+    {
+      "kind": "smart",
+      "slug": "Expeditors",
+      "company": "Expeditors"
+    },
+    {
+      "kind": "smart",
+      "slug": "AECOM2",
+      "company": "AECOM"
+    },
+    {
+      "kind": "smart",
+      "slug": "AccorHotel",
+      "company": "Accor"
+    },
+    {
+      "kind": "smart",
+      "slug": "HMGroup",
+      "company": "H&M"
+    },
+    {
+      "kind": "smart",
+      "slug": "VeoliaEnvironnementSA",
+      "company": "Veolia"
+    },
+    {
+      "kind": "smart",
+      "slug": "Cielo2",
+      "company": "Cielo"
+    },
+    {
+      "kind": "smart",
+      "slug": "AveryDennison",
+      "company": "Avery Dennison"
+    },
+    {
+      "kind": "smart",
+      "slug": "SikaAG",
+      "company": "Sika"
+    },
+    {
+      "kind": "smart",
+      "slug": "EnviriCorporation",
+      "company": "Enviri"
+    },
+    {
+      "kind": "smart",
+      "slug": "LouisDreyfusCompany",
+      "company": "Louis Dreyfus Company"
+    },
+    {
+      "kind": "smart",
+      "slug": "InformaGroupPlc",
+      "company": "Informa"
+    },
+    {
+      "kind": "smart",
+      "slug": "EgisGroup",
+      "company": "Egis"
+    },
+    {
+      "kind": "smart",
+      "slug": "QIMA",
+      "company": "QIMA"
+    },
+    {
+      "kind": "smart",
+      "slug": "TurnerTownsend",
+      "company": "Turner & Townsend"
+    },
+    {
+      "kind": "smart",
+      "slug": "Konecranes",
+      "company": "Konecranes"
+    },
+    {
+      "kind": "smart",
+      "slug": "RenesasElectronics",
+      "company": "Renesas Electronics"
+    },
+    {
+      "kind": "smart",
+      "slug": "SyngentaGroup",
+      "company": "Syngenta"
+    }
+  ]
 }

@@ -11,6 +11,7 @@ class ScannerTests(unittest.TestCase):
         self.assertFalse(scan.valid_url('http://careers.example.com',hosts))
         self.assertFalse(scan.valid_url('https://admin:password@careers.example.com',hosts))
     def test_relevance(self):
+        self.assertFalse(scan.is_relevant('Assistant Manager QA/QC','Chennai, India','Concrete trials and QC lab; chemical manufacturing.'))
         self.assertTrue(scan.is_relevant('Senior QA Engineer','Chennai, India','5-7 years'))
         self.assertFalse(scan.is_relevant('SAP MM Implementation Consultant','Chennai, India','5-7 years'))
         self.assertFalse(scan.is_relevant('Buyer','London, UK','5-7 years'))

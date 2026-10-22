@@ -13,8 +13,8 @@ on:
   schedule:
     # 03:30 UTC = 09:00 Asia/Kolkata. GitHub scheduling is best-effort.
     - cron: '30 3 * * *'
-    # Hourly fallback: 09:47–23:47 IST. The gate skips recorded daily scans.
-    - cron: '17 4-18 * * *'
+    # Credit-free replenishment every hour; broad API search remains once daily.
+    - cron: '17 * * * *'
 permissions:
   contents: read
 concurrency:
@@ -24,7 +24,7 @@ jobs:
   build:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     outputs:
       publish: ${{ steps.daily.outputs.publish }}
     permissions:
@@ -38,7 +38,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check daily scan window
+      - name: Check daily search and opening replenishment
         id: daily
         env:
           REQUEST_SCAN: ${{ inputs.scan }}
@@ -52,11 +52,14 @@ jobs:
         run: |
           node --test tests/*.test.js
           python -m unittest discover -s tests -p 'test_*.py'
+      - name: Plan adaptive employer search
+        if: steps.daily.outputs.replenish == 'true'
+        run: python scripts/opening_pool.py prepare --plan "$RUNNER_TEMP/opening-plan.json"
       - name: Discover and match employer vacancies
-        if: steps.daily.outputs.scan == 'true'
-        run: python scripts/employers.py
+        if: steps.daily.outputs.replenish == 'true'
+        run: python scripts/employers.py --config "$RUNNER_TEMP/opening-plan.config.json"
       - name: Verify existing vacancy availability
-        if: steps.daily.outputs.scan == 'true'
+        if: steps.daily.outputs.replenish == 'true'
         run: python scripts/availability.py
       - name: Discover and recheck employer jobs
         if: steps.daily.outputs.scan == 'true'
@@ -64,6 +67,9 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
         run: python scripts/scan.py
+      - name: Record opening target and shortfall
+        if: steps.daily.outputs.replenish == 'true'
+        run: python scripts/opening_pool.py record --plan "$RUNNER_TEMP/opening-plan.json"
       - name: Validate resulting public dataset
         if: steps.daily.outputs.publish == 'true'
         run: node scripts/validate.mjs
@@ -71,7 +77,7 @@ jobs:
         if: steps.daily.outputs.publish == 'true'
         run: python scripts/build.py
       - name: Commit updated public research, when changed
-        if: steps.daily.outputs.scan == 'true'
+        if: steps.daily.outputs.replenish == 'true'
         run: |
           if ! git diff --quiet -- site/data/jobs.json; then
             git config user.name 'github-actions[bot]'
