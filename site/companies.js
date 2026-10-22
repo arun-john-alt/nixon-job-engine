@@ -1,5 +1,6 @@
 // Authentic employer marks bundled locally; no remote image requests.
 const logos = {
+  'NielsenIQ':'niq','Juniper Square':'juniper','Pod Network':'pod','MicroStrategy':'strategy','Rotork':'rotork',
   'Tactive Software Systems':'tactive', 'Nokia':'nokia', 'YipitData':'yipitdata', 'Made Card':'madecard', 'AHL – Saaf AI':'saaf', 'WPP':'wpp', 'Xerago':'xerago', 'Novature Tech':'novature',
   "HCLTech": "hcltech",
   "Virtusa": "virtusa",
@@ -18,6 +19,10 @@ export function companyLogo(company){const key=Object.hasOwn(logos,company)?logo
 
 // Classification is about the hiring company, not an unnamed client or a pay promise.
 const products = {
+ 'NielsenIQ':['https://nielseniq.com','Develops the Connect consumer-intelligence platform.'],
+ 'Juniper Square':['https://www.junipersquare.com','Develops software for private-market investment operations.'],
+ 'Pod Network':['https://pod.network','Develops its own trading platform and market infrastructure.'],
+ 'MicroStrategy':['https://www.strategy.com','Develops business analytics and data software.'],
  'Tactive Software Systems':['https://www.tactivesoft.com/company-overview/','Develops construction ERP software under its own Tactive brand.'],
  'Nokia':['https://www.nokia.com/','Develops networking equipment and software.'],
  'YipitData':['https://www.yipitdata.com/careers-teams/product--engineering','Develops market intelligence data products.'],

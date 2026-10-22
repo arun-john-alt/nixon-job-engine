@@ -26,7 +26,7 @@ from html.parser import HTMLParser
 ROOT=Path(__file__).resolve().parents[1]
 AGENT='NixonJobEngine/2.0 (public job discovery; no login bypass)'
 ROLE=re.compile(r'\bsdet\b|\bqa\b|test(?:ing)?.*(?:engineer|lead|manager|architect|automation)|automation.*(?:test|python|engineer)|quality.*(?:software|engineer|assurance)|software.*quality',re.I)
-EXCLUDE=re.compile(r'\bintern\b|\binternship\b|\bgraduate trainee\b|\bjunior\b|warehouse|SAP.*(?:consultant|implementation|configuration)|\bvice president\b|\bdirector\b',re.I)
+EXCLUDE=re.compile(r'surface mount technology|leadership development program|early career|\bintern\b|\binternship\b|\bgraduate trainee\b|\bjunior\b|warehouse|SAP.*(?:consultant|implementation|configuration)|\bvice president\b|\bdirector\b',re.I)
 
 class Page(HTMLParser):
     def __init__(self):
@@ -124,7 +124,9 @@ def is_relevant(title,location,description):
     if not role or EXCLUDE.search(title):return False
     loc=location.lower();text=(title+' '+description).lower()
     if not re.search(r'chennai|sriperumbudur|oragadam|chengalpattu|thiruvallur|tiruvallur|pallavaram',loc) and loc not in ('remote india','remote india (remote)'):return False
-    years=re.search(r'(\d+)\s*(?:-|to)\s*(\d+)\s*(?:years|yrs)',text)
+    years=re.search(r'(\d+)\s*(?:[-–—]|to)\s*(\d+)\s*(?:years?|yrs?)\b',text)
+    minimum=re.search(r'(\d+)\+\s*(?:years?|yrs?)\s+(?:of\s+)?(?:progressive\s+)?(?:experience|in\s+(?:QA|test|procurement|sourcing))',text,re.I)
+    if minimum and int(minimum[1])>10:return False
     if years and (int(years[1])>10 or int(years[2])<6):return False
     return True
 
@@ -148,7 +150,7 @@ def extract(node,url,default_company,now):
         if any('india' in str(x).lower() or isinstance(x,dict) and x.get('name')=='IN' for x in restrictions):locs.append('Remote India')
     location=' / '.join(locs)
     if remote and location:location+=' (remote)'
-    if remote and 'chennai' not in location.lower() and re.search(r'\bhybrid\b|not (?:a )?remote|no remote|relocat(?:e|ion)|office.{0,20}(?:days|week)',desc,re.I):return None
+    if remote and 'chennai' not in location.lower() and re.search(r'(?:this|the) (?:role|position).{0,30}hybrid|hybrid (?:role|position)|not (?:a )?remote|no remote|(?:must|required|expected).{0,30}(?:relocat|office)|(?:office|onsite).{0,20}[1-5]\s*days',desc,re.I):return None
     if not is_relevant(title,location,desc):return None
     ident=node.get('identifier') or {};req=str(ident.get('value','') if isinstance(ident,dict) else ident)
     uid=re.sub('[^a-z0-9-]','',company.lower().replace(' ','-'))[:30]+'-'+hashlib.sha256((company+'|'+(req or canonical(url))).encode()).hexdigest()[:12]

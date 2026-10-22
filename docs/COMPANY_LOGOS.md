@@ -31,3 +31,5 @@ Added 22 September 2026. Icons linked by employer homepages; Xerago uses the cac
 - **wpp**: https://images.eu.ctfassets.net/npbth6l75bn8/4VWPH8lszNDPbYODlXzumi/e63ca6496212abd1d4774e57c4a9416f/apple-touch-icon.png
 - **xerago**: https://www.google.com/s2/favicons?domain=www.xerago.com&sz=128
 - **novature**: https://novaturetech.com/wp-content/themes/novature/assets/images/favico.png
+
+Added 22 October 2026: NIQ — https://nielseniq.com/wp-content/uploads/sites/4/2023/03/cropped-favicon-512x512-1.png?w=192 ; Juniper Square — https://www.junipersquare.com/favicon.ico . Pod Network (pod.network), Strategy (strategy.com) and Rotork (rotork.com) marks use the Google cached domain favicon, bundled locally. Trademarks identify the employer; no affiliation implied.

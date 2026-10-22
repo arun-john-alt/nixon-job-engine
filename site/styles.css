@@ -12,3 +12,5 @@ body.dark{--bg:#171820;--paper:#20212c;--ink:#eeeef6;--muted:#a1a3b4;--line:#323
 .detail-header .job-meta{padding-right:72px}
 
 .priority-tags{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.priority-tags:empty{display:none}.product-badge{font-size:10px;line-height:1.5;font-weight:600;color:#4f46b8;background:#f0eeff;border:1px solid #d8d2fc;border-radius:5px;padding:3px 7px}.dark .product-badge{color:#ddd7ff;background:#30294b;border-color:#5b4a84}.detail-header .priority-tags{padding-right:68px}
+
+.stats{flex-wrap:wrap;row-gap:8px}.pending-opening{margin-top:16px}.pending-opening .section-head{align-items:flex-start;gap:12px}.pending-opening .section-head h3{margin:6px 0 0}.pending-opening .tag{white-space:normal;text-align:center}#pendingSearch{padding-left:14px}

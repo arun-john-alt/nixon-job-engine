@@ -9,12 +9,12 @@
     "coverage": [
       {
         "source": "Direct application availability",
-        "status": "12 confirmed open; 7 closed; 128 unconfirmed; 0 retained within 48h",
+        "status": "22 confirmed open; 7 closed; 132 unconfirmed; 0 retained within 48h",
         "detail": "Every non-closed record attempted before discovery. Blocked or unprovable vacancies stay unconfirmed; only positive exact-vacancy evidence refreshes the 48-hour clock. No application was submitted."
       },
       {
         "source": "Employer feed: Arista Networks",
-        "status": "24 postings examined; 1 relevant",
+        "status": "26 postings examined; 1 relevant",
         "detail": "Complete; documented public smart API. Full descriptions required before scoring."
       },
       {
@@ -33,7 +33,7 @@
         "detail": "Complete; documented public smart API. Full descriptions required before scoring."
       },
       {
-        "source": "Employer feed: AHL \u2013 Saaf AI",
+        "source": "Employer feed: AHL – Saaf AI",
         "status": "5 postings examined; 1 relevant",
         "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
       },
@@ -66,6 +66,261 @@
         "source": "Employer feed: YipitData",
         "status": "55 postings examined; 1 relevant",
         "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: SGS",
+        "status": "26 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Eurofins",
+        "status": "343 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sopra Steria",
+        "status": "63 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Nagarro",
+        "status": "185 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Tomra",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Continental",
+        "status": "14 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Bosch Group",
+        "status": "640 postings examined; 0 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: NielsenIQ",
+        "status": "58 postings examined; 1 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sutherland",
+        "status": "53 postings examined; 1 relevant",
+        "detail": "Complete; documented public smart API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Kestra",
+        "status": "5 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Juniper Square",
+        "status": "49 postings examined; 1 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Pod Network",
+        "status": "4 postings examined; 1 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rifa AI",
+        "status": "5 postings examined; 1 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Plane",
+        "status": "33 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sentry",
+        "status": "43 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Linear",
+        "status": "34 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: PostHog",
+        "status": "10 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Supabase",
+        "status": "58 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: n8n",
+        "status": "43 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Zapier",
+        "status": "13 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Docker",
+        "status": "70 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Atlan",
+        "status": "5 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Vanta",
+        "status": "84 postings examined; 0 relevant",
+        "detail": "Complete; documented public ashby API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Zuora",
+        "status": "30 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Druva",
+        "status": "33 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Zscaler",
+        "status": "362 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rubrik",
+        "status": "145 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Netskope",
+        "status": "129 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Harness",
+        "status": "67 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: GitLab",
+        "status": "232 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Grafana Labs",
+        "status": "145 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Canonical",
+        "status": "310 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Elastic",
+        "status": "386 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: MongoDB",
+        "status": "386 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Cloudflare",
+        "status": "442 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Samsara",
+        "status": "267 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Toast",
+        "status": "318 postings examined; 0 relevant",
+        "detail": "Complete; documented public greenhouse API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Flex",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: HP",
+        "status": "1 postings examined; 1 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Renault Group / RNTBCI",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Hitachi Energy",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Shell",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Caterpillar",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: BorgWarner",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: FLSmidth",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Valeo",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rockwell Automation",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Logitech",
+        "status": "1 postings examined; 1 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: KLA",
+        "status": "2 postings examined; 2 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Trimble",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: GE Vernova",
+        "status": "2 postings examined; 0 relevant",
+        "detail": "Search complete; documented public workday API. Full descriptions required before scoring."
       },
       {
         "source": "LinkedIn public search index",
@@ -158,7 +413,7 @@
         "detail": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082 - no structured job data"
       },
       {
-        "source": "AHL \u2013 Saaf AI",
+        "source": "AHL – Saaf AI",
         "status": "Fetched",
         "detail": "https://jobs.ashbyhq.com/ahl-saafai/ea0fdc4d-336e-46df-9ed6-10539f6ff2e5 - job metadata found"
       },
@@ -190,11 +445,11 @@
     ],
     "scanDateIst": "2026-10-22",
     "employerDiscovery": {
-      "checkedAt": "2026-10-22T08:52:40+00:00",
-      "boards": 11,
-      "newLeads": 0,
+      "checkedAt": "2026-10-22T10:37:20+00:00",
+      "boards": 62,
+      "newLeads": 1,
       "linkedEmployerRoutes": 0,
-      "relevantPostings": 11
+      "relevantPostings": 20
     }
   },
   "jobs": [
@@ -259,10 +514,10 @@
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -300,7 +555,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -315,7 +570,7 @@
       ],
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -373,7 +628,7 @@
           "reason": "Chennai is listed as a work location."
         }
       ],
-      "summary": "Maintain a Python/Selenium automation platform for a cloud contact-center product. Chennai is listed; confirm the team\u2019s advertised remote arrangement.",
+      "summary": "Maintain a Python/Selenium automation platform for a cloud contact-center product. Chennai is listed; confirm the team’s advertised remote arrangement.",
       "hardGaps": [
         "Cloud experience is introductory in the resume.",
         "JavaScript, Playwright and MySQL-specific production work not established."
@@ -382,10 +637,10 @@
         "Relevant emphasis: Python, Selenium, REST API testing."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -422,7 +677,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -437,7 +692,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -447,7 +702,7 @@
     {
       "id": "linkedin-4426105439",
       "company": "Arista Networks",
-      "title": "Network System Test Engineer \u2014 Manual/Solution",
+      "title": "Network System Test Engineer — Manual/Solution",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -503,10 +758,10 @@
         "Relevant emphasis: System verification, Test planning, Linux."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -541,7 +796,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -557,7 +812,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-21",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -570,7 +825,7 @@
       "family": "Test automation",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "5\u20137 years; mandatory section says 6+",
+      "experience": "5–7 years; mandatory section says 6+",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4460496478",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4460496478",
@@ -614,19 +869,19 @@
           "reason": "Chennai is listed as a work location."
         }
       ],
-      "summary": "Automate UI and API tests using Robot Framework. Good tool overlap, but the published experience band is below the candidate\u2019s dated experience.",
+      "summary": "Automate UI and API tests using Robot Framework. Good tool overlap, but the published experience band is below the candidate’s dated experience.",
       "hardGaps": [
         "ParaSoft and production backend-service development not established.",
-        "Advertised 5\u20137-year band may constrain seniority and pay."
+        "Advertised 5–7-year band may constrain seniority and pay."
       ],
       "benefits": [
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -654,7 +909,7 @@
         "confirm": [],
         "unsupported": [
           "ParaSoft and production backend-service development not established.",
-          "Advertised 5\u20137-year band may constrain seniority and pay."
+          "Advertised 5–7-year band may constrain seniority and pay."
         ]
       },
       "resumeEdits": [
@@ -662,7 +917,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -677,7 +932,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -744,10 +999,10 @@
         "Relevant emphasis: Python, Jenkins, Linux."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -783,7 +1038,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -799,7 +1054,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-22",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -808,11 +1063,11 @@
     {
       "id": "linkedin-4453074105",
       "company": "Extreme Networks",
-      "title": "Senior QA Software Engineer \u2014 L2/L3 / Data Center",
+      "title": "Senior QA Software Engineer — L2/L3 / Data Center",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "5\u201310 years; JD also says Principal",
+      "experience": "5–10 years; JD also says Principal",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4453074105",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4453074105",
@@ -865,10 +1120,10 @@
         "Relevant emphasis: Python, Linux, Robot Framework."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -904,7 +1159,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -920,7 +1175,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-23",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -929,7 +1184,7 @@
     {
       "id": "hcltech-137783",
       "company": "HCLTech",
-      "title": "Senior Automation Tester \u2014 Networking L2/L3",
+      "title": "Senior Automation Tester — Networking L2/L3",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -986,10 +1241,10 @@
         "Relevant emphasis: Python, Test planning, Network testing."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1024,7 +1279,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1040,7 +1295,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-19",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
       "availabilityHold": true,
@@ -1106,10 +1361,10 @@
         "Relevant emphasis: Python, Shell scripting, Git."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1145,7 +1400,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1161,7 +1416,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-22",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1170,11 +1425,11 @@
     {
       "id": "linkedin-4457227858",
       "company": "Arista Networks",
-      "title": "Software Test Engineer \u2014 WLAN Feature Testing",
+      "title": "Software Test Engineer — WLAN Feature Testing",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201315 years",
+      "experience": "8–15 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4457227858",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4457227858",
@@ -1226,10 +1481,10 @@
         "Relevant emphasis: Wireless testing, Linux, REST API testing."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1264,7 +1519,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1279,7 +1534,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1293,7 +1548,7 @@
       "family": "Test automation lead",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "9\u201312 years",
+      "experience": "9–12 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4451234807",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4451234807",
@@ -1346,10 +1601,10 @@
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1385,7 +1640,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1401,7 +1656,7 @@
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-23",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1410,7 +1665,7 @@
     {
       "id": "linkedin-4419688287",
       "company": "UST",
-      "title": "Lead I \u2014 Software Testing, Python / AI Chatbots",
+      "title": "Lead I — Software Testing, Python / AI Chatbots",
       "family": "Test automation lead",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -1467,10 +1722,10 @@
         "Relevant emphasis: Python, Selenium, Jira."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1505,7 +1760,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1521,7 +1776,7 @@
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-20",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1530,11 +1785,11 @@
     {
       "id": "linkedin-4440649719",
       "company": "Extreme Networks",
-      "title": "Senior QA Engineer \u2014 Wired/Wireless Networking",
+      "title": "Senior QA Engineer — Wired/Wireless Networking",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "4\u20138 years",
+      "experience": "4–8 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4440649719",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4440649719",
@@ -1582,16 +1837,16 @@
       "hardGaps": [
         "AAA, 802.1X, IPsec, RADIUS and LDAP depth not established.",
         "Named network/security certifications are not listed.",
-        "4\u20138-year band may be below the desired level."
+        "4–8-year band may be below the desired level."
       ],
       "benefits": [
         "Relevant emphasis: Wireless testing, Certificate authentication, Python."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1619,7 +1874,7 @@
         "unsupported": [
           "AAA, 802.1X, IPsec, RADIUS and LDAP depth not established.",
           "Named network/security certifications are not listed.",
-          "4\u20138-year band may be below the desired level."
+          "4–8-year band may be below the desired level."
         ]
       },
       "resumeEdits": [
@@ -1627,7 +1882,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework and Selenium experience across SDN, telecom and wireless network-management products. Develops test plans, automates REST API and regression checks, investigates defects and works with support teams on customer issues.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1643,7 +1898,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-21",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1656,7 +1911,7 @@
       "family": "Test automation lead",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201310 years in software development",
+      "experience": "8–10 years in software development",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4414654817",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4414654817",
@@ -1709,10 +1964,10 @@
         "Relevant emphasis: Python, Selenium, Framework development."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1747,7 +2002,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1763,7 +2018,7 @@
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-20",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1776,7 +2031,7 @@
       "family": "Senior SDET",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "5\u20139 years",
+      "experience": "5–9 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4461395328",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4461395328",
@@ -1829,10 +2084,10 @@
         "Relevant emphasis: Python, Robot Framework, Selenium."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1867,7 +2122,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional with Python, Robot Framework, Selenium and Jenkins experience across networking, telecom and automotive infotainment. Has built automation frameworks, automated REST API and regression checks, led a four-member automation team and managed ten people.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -1882,7 +2137,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -1949,10 +2204,10 @@
         "Relevant emphasis: People management, Test planning, Automation frameworks."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -1987,7 +2242,7 @@
           "id": "summary-focus",
           "path": "summary",
           "proposed": "Test automation professional and people manager with experience managing ten people and previously leading a four-member automation team. Combines Python-based automation, test planning, Jenkins integration, performance feedback and cross-team coordination across networking and automotive projects.",
-          "reason": "Emphasizes relevant evidence without adding the role\u2019s unverified requirements.",
+          "reason": "Emphasizes relevant evidence without adding the role’s unverified requirements.",
           "evidence": "Candidate-supplied resume; employer history and project responsibilities. Candidate approval required."
         }
       ],
@@ -2003,7 +2258,7 @@
       "roleLevel": "manager",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-19",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2012,7 +2267,7 @@
     {
       "id": "linkedin-4379271805",
       "company": "Amazon",
-      "title": "Quality Assurance Manager \u2014 Wireless Connectivity",
+      "title": "Quality Assurance Manager — Wireless Connectivity",
       "family": "QA management",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -2069,10 +2324,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2122,7 +2377,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2132,7 +2387,7 @@
     {
       "id": "linkedin-4446363050",
       "company": "Amazon",
-      "title": "Team Manager \u2014 Alexa Shopping",
+      "title": "Team Manager — Alexa Shopping",
       "family": "QA management",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -2189,10 +2444,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2242,7 +2497,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2252,7 +2507,7 @@
     {
       "id": "linkedin-4427736563",
       "company": "Ingram Micro",
-      "title": "Lead / Deputy Manager \u2014 QA",
+      "title": "Lead / Deputy Manager — QA",
       "family": "QA management",
       "location": "Chennai, India",
       "workModel": "Not specified",
@@ -2309,10 +2564,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2363,7 +2618,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2376,7 +2631,7 @@
       "title": "Senior Software Quality Assurance Manager",
       "family": "QA management",
       "location": "Remote, India",
-      "workModel": "Fully remote \u00b7 India",
+      "workModel": "Fully remote · India",
       "experience": "6+ relevant QA years and team leadership",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4425093747",
@@ -2421,19 +2676,19 @@
           "reason": "Fully remote India is stated; secondary to Chennai in the search preference."
         }
       ],
-      "summary": "Lead QA for a client platform with hands-on testing and team ownership. The description explicitly states fully remote work in India, with a 12\u20139 PM IST shift.",
+      "summary": "Lead QA for a client platform with hands-on testing and team ownership. The description explicitly states fully remote work in India, with a 12–9 PM IST shift.",
       "hardGaps": [
         "Web-product automation depth and database test coverage need confirmation.",
-        "Requires 12\u20139 PM IST working hours."
+        "Requires 12–9 PM IST working hours."
       ],
       "benefits": [
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2460,7 +2715,7 @@
         "confirm": [],
         "unsupported": [
           "Web-product automation depth and database test coverage need confirmation.",
-          "Requires 12\u20139 PM IST working hours."
+          "Requires 12–9 PM IST working hours."
         ]
       },
       "resumeEdits": [
@@ -2483,7 +2738,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "remote-india",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2493,10 +2748,10 @@
     {
       "id": "linkedin-4462462550",
       "company": "Jitterbit",
-      "title": "SDET \u2014 QA Automation (Remote)",
+      "title": "SDET — QA Automation (Remote)",
       "family": "Senior SDET",
       "location": "Remote, India",
-      "workModel": "Fully remote \u00b7 India",
+      "workModel": "Fully remote · India",
       "experience": "4+ years SDET/framework development",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4462462550",
@@ -2541,7 +2796,7 @@
           "reason": "Fully remote India is stated; secondary to Chennai in the search preference."
         }
       ],
-      "summary": "Build frontend and backend test infrastructure for Jitterbit\u2019s integration platform. Remote India role; cross-time-zone collaboration is expected.",
+      "summary": "Build frontend and backend test infrastructure for Jitterbit’s integration platform. Remote India role; cross-time-zone collaboration is expected.",
       "hardGaps": [
         "Pytest, WebdriverIO, TypeScript and CRM/ERP integration depth not evidenced.",
         "Cloud/SaaS and AI-assisted test development experience needs confirmation."
@@ -2550,10 +2805,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2604,7 +2859,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "remote-india",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2614,11 +2869,11 @@
     {
       "id": "linkedin-4457346353",
       "company": "Extreme Networks",
-      "title": "Staff Software QA Engineer \u2014 10421",
+      "title": "Staff Software QA Engineer — 10421",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201312 years; network-management experience",
+      "experience": "8–12 years; network-management experience",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4457346353",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4457346353",
@@ -2671,10 +2926,10 @@
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2726,7 +2981,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2736,11 +2991,11 @@
     {
       "id": "linkedin-4391080549",
       "company": "NETGEAR",
-      "title": "Engineer III \u2014 System Validation Test",
+      "title": "Engineer III — System Validation Test",
       "family": "Network testing",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "4\u20136 years; level and budget need confirmation",
+      "experience": "4–6 years; level and budget need confirmation",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4391080549",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4391080549",
@@ -2786,17 +3041,17 @@
       ],
       "summary": "Validate Insight-managed network devices using Python and Robot Framework. Strong tooling overlap but a lower advertised experience band; confirm seniority and budget first.",
       "hardGaps": [
-        "4\u20136-year band may be too junior for the target move.",
+        "4–6-year band may be too junior for the target move.",
         "Wi-Fi roaming, mesh, WPA3 and L2/L3 protocol depth not established."
       ],
       "benefits": [
         "Relevant responsibilities provide a potential next step; verify the team and compensation."
       ],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed requirements are mandatory, and what is the expected hands-on versus leadership balance?"
       ],
       "salary": {
@@ -2823,7 +3078,7 @@
         ],
         "confirm": [],
         "unsupported": [
-          "4\u20136-year band may be too junior for the target move.",
+          "4–6-year band may be too junior for the target move.",
           "Wi-Fi roaming, mesh, WPA3 and L2/L3 protocol depth not established."
         ]
       },
@@ -2847,7 +3102,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2913,7 +3168,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -2979,7 +3234,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3045,7 +3300,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3111,7 +3366,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3177,7 +3432,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3187,7 +3442,7 @@
     {
       "id": "linkedin-4464766925",
       "company": "Employer to verify",
-      "title": "Manual QA Engineer (Fully Remote) \u2013 Top US MNC (Enterprise ...",
+      "title": "Manual QA Engineer (Fully Remote) – Top US MNC (Enterprise ...",
       "location": "Remote India",
       "workModel": "Not verified",
       "family": "Needs classification",
@@ -3243,7 +3498,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3309,7 +3564,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3375,7 +3630,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3441,7 +3696,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3573,7 +3828,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3639,7 +3894,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3705,7 +3960,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3771,7 +4026,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3837,7 +4092,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3903,7 +4158,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -3926,7 +4181,7 @@
       "discoveredOn": "2026-09-22",
       "checkedOn": "2026-10-22",
       "verification": "live",
-      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
+      "verificationNote": "Matching exact JobPosting and application control found on the employer page. Application submission was not attempted.",
       "analysisStatus": "needs-review",
       "score": [],
       "summary": "Project Role : Quality Engineer Project Role Description : Enables full stack solutions through multi-disciplinary team planning and ecosystem integration to accelerate delivery and drive quality across the application lifecycle. Performs continuous testing for security, API, and regression suite. Creates automation strategy, automated scripts and supports data and environment configuration. Participates in code reviews, monitors, and reports defects to support continuous improvement activities for the end-to-end testing process. Must have skills : Test Management Good to have skills : Automated Testing, Quality Management Minimum 2 year(s) of experience is required",
@@ -3969,10 +4224,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Matching exact JobPosting and application control found on the employer page",
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en"
     },
@@ -4035,7 +4290,7 @@
           "checkedOn": "2026-09-23"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -4100,7 +4355,7 @@
           "checkedOn": "2026-09-23"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -4167,10 +4422,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4211,7 +4466,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -4221,13 +4476,13 @@
     {
       "id": "linkedin-4448060251",
       "company": "Nokia",
-      "title": "Senior Technical Specialist \u2013 Validation Test Engineer",
+      "title": "Senior Technical Specialist – Validation Test Engineer",
       "family": "Test automation lead",
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201314 years",
+      "experience": "8–14 years",
       "requisition": "",
       "applyUrl": "https://www.linkedin.com/jobs/view/4448060251",
       "linkedinUrl": "https://www.linkedin.com/jobs/view/4448060251",
@@ -4277,10 +4532,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4320,7 +4575,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -4386,10 +4641,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4428,7 +4683,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -4444,8 +4699,8 @@
       "locationEligibility": "chennai",
       "location": "Chennai, India",
       "workModel": "Hybrid",
-      "experience": "8\u201312 years",
-      "requisition": "10413",
+      "experience": "8–12 years",
+      "requisition": "7e7b532c-b029-43fe-8831-ac1421c4e5ec",
       "applyUrl": "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
       "linkedinUrl": null,
       "postedOn": null,
@@ -4494,10 +4749,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4537,10 +4792,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
       "employerDescriptionHash": "24300291fe0c55000594acd243bc570ea0e08545b0c26ffd8b0a9e1b5ce557e3",
@@ -4549,7 +4804,8 @@
         "kind": "lever",
         "slug": "extremenetworks",
         "company": "Extreme Networks"
-      }
+      },
+      "discoveryEligible": true
     },
     {
       "id": "extreme-10422",
@@ -4560,8 +4816,8 @@
       "locationEligibility": "chennai",
       "location": "Chennai, India",
       "workModel": "Hybrid",
-      "experience": "8\u201312 years",
-      "requisition": "10422",
+      "experience": "8–12 years",
+      "requisition": "40963840-c33b-4e17-a928-982d826b048f",
       "applyUrl": "https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
       "linkedinUrl": null,
       "postedOn": null,
@@ -4610,10 +4866,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4653,10 +4909,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
       "employerDescriptionHash": "5045a7fe4656fa768c396ab8bf9bbc297fceb8f613febc4f343b5c43db83128d",
@@ -4665,7 +4921,8 @@
         "kind": "lever",
         "slug": "extremenetworks",
         "company": "Extreme Networks"
-      }
+      },
+      "discoveryEligible": true
     },
     {
       "id": "yipitdata-6743082",
@@ -4675,9 +4932,9 @@
       "roleLevel": "individual",
       "locationEligibility": "remote-india",
       "location": "Remote, India",
-      "workModel": "Fully remote India; 08:00\u201317:00 IST",
+      "workModel": "Fully remote India; 08:00–17:00 IST",
       "experience": "7+ QA years; 5+ automation years",
-      "requisition": "",
+      "requisition": "6743082",
       "applyUrl": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
       "linkedinUrl": null,
       "postedOn": null,
@@ -4726,10 +4983,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4769,10 +5026,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://boards-api.greenhouse.io/v1/boards/yipitdata/jobs/6743082",
       "employerDescriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
@@ -4781,7 +5038,8 @@
         "kind": "greenhouse",
         "slug": "yipitdata",
         "company": "YipitData"
-      }
+      },
+      "discoveryEligible": true
     },
     {
       "id": "madecard-117fafd3",
@@ -4792,7 +5050,7 @@
       "locationEligibility": "remote-india",
       "location": "Remote, India",
       "workModel": "Fully remote India or Brazil",
-      "experience": "5\u20138+ years",
+      "experience": "5–8+ years",
       "requisition": "",
       "applyUrl": "https://jobs.ashbyhq.com/madecard/117fafd3-f18f-4aba-8ab2-39b5fe8b5a73/",
       "linkedinUrl": null,
@@ -4842,10 +5100,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4885,7 +5143,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Public API could not confirm vacancy: HTTP 404",
       "availabilityHold": true,
@@ -4894,7 +5152,7 @@
     },
     {
       "id": "saaf-ea0fdc4d",
-      "company": "AHL \u2013 Saaf AI",
+      "company": "AHL – Saaf AI",
       "title": "Senior Product QA",
       "family": "Senior quality engineering",
       "roleLevel": "individual",
@@ -4902,7 +5160,7 @@
       "location": "Remote, India",
       "workModel": "Fully remote India",
       "experience": "5+ years",
-      "requisition": "",
+      "requisition": "ea0fdc4d-336e-46df-9ed6-10539f6ff2e5",
       "applyUrl": "https://jobs.ashbyhq.com/ahl-saafai/ea0fdc4d-336e-46df-9ed6-10539f6ff2e5",
       "linkedinUrl": null,
       "postedOn": null,
@@ -4910,7 +5168,7 @@
       "discoveredOn": "2026-09-22",
       "checkedOn": "2026-10-22",
       "verification": "live",
-      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
+      "verificationNote": "Exact published Ashby vacancy and matching application route. Application submission was not attempted.",
       "analysisStatus": "reviewed",
       "reviewNote": "Compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability. Dated employment excludes the MBA break.",
       "score": [
@@ -4951,10 +5209,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -4993,24 +5251,25 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact published Ashby vacancy and matching application route",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/ahl-saafai",
       "employerDescriptionHash": "d05fea6a8b9fdb162ca295ab43cb07f632466a34ea1692cf4928765490bf172c",
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
       "employerPostingId": "ea0fdc4d-336e-46df-9ed6-10539f6ff2e5",
       "employerBoard": {
         "kind": "ashby",
         "slug": "ahl-saafai",
-        "company": "AHL \u2013 Saaf AI"
-      }
+        "company": "AHL – Saaf AI"
+      },
+      "discoveryEligible": true
     },
     {
       "id": "wpp-8623714002",
       "company": "WPP",
-      "title": "Maconomy ERP \u2013 Senior Test Automation Analyst",
+      "title": "Maconomy ERP – Senior Test Automation Analyst",
       "family": "Test automation lead",
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
@@ -5066,10 +5325,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -5118,13 +5377,13 @@
     {
       "id": "xerago-manager-testing",
       "company": "Xerago",
-      "title": "Manager \u2013 Testing",
+      "title": "Manager – Testing",
       "family": "QA management",
       "roleLevel": "manager",
       "locationEligibility": "chennai",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "7\u20139 years",
+      "experience": "7–9 years",
       "requisition": "",
       "applyUrl": "https://www.xerago.com/jobs/manager-testing",
       "linkedinUrl": null,
@@ -5174,10 +5433,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -5216,9 +5475,9 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
-      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
       "availabilityHold": true,
       "availabilityEvidenceUrl": "https://www.xerago.com/jobs/manager-testing",
       "availabilityAttemptedOn": "2026-10-22"
@@ -5232,7 +5491,7 @@
       "locationEligibility": "chennai",
       "location": "Chennai, India",
       "workModel": "Not specified",
-      "experience": "8\u201314 years; 7+ automation years",
+      "experience": "8–14 years; 7+ automation years",
       "requisition": "",
       "applyUrl": "https://in.indeed.com/viewjob?jk=ba0abcbf2cdfa4e2",
       "linkedinUrl": null,
@@ -5283,10 +5542,10 @@
       ],
       "benefits": [],
       "risks": [
-        "Annual total CTC is undisclosed; \u20b925L+ is a search target, not a verified offer range."
+        "Annual total CTC is undisclosed; ₹25L+ is a search target, not a verified offer range."
       ],
       "questions": [
-        "Does the annual total CTC budget reach \u20b925 lakh, and what is the fixed/variable split?",
+        "Does the annual total CTC budget reach ₹25 lakh, and what is the fixed/variable split?",
         "Which listed skill gaps are essential from day one?"
       ],
       "salary": {
@@ -5327,7 +5586,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Host not approved",
       "availabilityHold": true,
@@ -5338,7 +5597,7 @@
       "id": "arista-networks-97dc8cb660f4",
       "company": "Arista Networks",
       "title": "Software Test Engineer (Wi-Fi)",
-      "location": "Chennai, TN, India, India",
+      "location": "Chennai, TN, India",
       "workModel": "Not specified",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -5435,8 +5694,8 @@
       ],
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/aristanetworks/postings/744000101650945",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000101650945",
@@ -5448,13 +5707,14 @@
       "employerDescriptionHash": "828ee2d0886dba94a652596c6341045ed7bfe45131fd3501893e209f85547008",
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
-      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability.",
+      "discoveryEligible": true
     },
     {
       "id": "microstrategy-9d560c63df10",
       "company": "MicroStrategy",
       "title": "Manager, Quality Engineering",
-      "location": "Chennai, , India, India",
+      "location": "Chennai, India",
       "workModel": "Not specified",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -5469,7 +5729,7 @@
       "verificationNote": "Employer recruiting API marks vacancy inactive",
       "analysisStatus": "needs-review",
       "score": [],
-      "summary": "Strategy (Nasdaq: MSTR) is at the forefront of transforming organizations into intelligent enterprises through data-driven innovation. We don't just follow trends\u2014we set them and drive change. As a market leader in enterprise analytics and AI software, we've pioneered the BI and analytics space, empowering people to make better decisions and revolutionizing how businesses operate. We are now also at the forefront of AI disruption, providing data via our enterprise semantic layer to AI agents, tools, and platforms. But that's not all. Strategy is also leading a groundbreaking shift in digital",
+      "summary": "Strategy (Nasdaq: MSTR) is at the forefront of transforming organizations into intelligent enterprises through data-driven innovation. We don't just follow trends—we set them and drive change. As a market leader in enterprise analytics and AI software, we've pioneered the BI and analytics space, empowering people to make better decisions and revolutionizing how businesses operate. We are now also at the forefront of AI disruption, providing data via our enterprise semantic layer to AI agents, tools, and platforms. But that's not all. Strategy is also leading a groundbreaking shift in digital",
       "hardGaps": [
         "Full JD and candidate evidence require review before scoring."
       ],
@@ -5529,13 +5789,15 @@
         "company": "MicroStrategy"
       },
       "reviewNote": "Employer vacancy matched by company, exact normalized title and location. Re-review the current employer description before restoring a match score.",
-      "employerDescriptionHash": "2afc4bd6343642899c79bff1e85f70ba781598498386a328791d463379d7ecce"
+      "employerDescriptionHash": "2afc4bd6343642899c79bff1e85f70ba781598498386a328791d463379d7ecce",
+      "discoveryEligible": false,
+      "discoveryExclusion": "Current full description requires 12+ years; dated candidate experience is below this threshold."
     },
     {
       "id": "rotork-d18cd9b73c0f",
       "company": "Rotork",
       "title": "Test Development Engineer",
-      "location": "Chennai, TN, India, India",
+      "location": "Chennai, TN, India",
       "workModel": "Not specified",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -5566,7 +5828,7 @@
           "name": "Experience and seniority",
           "weight": 20,
           "points": 17,
-          "reason": "The 8\u201312-year range broadly fits dated experience."
+          "reason": "The 8–12-year range broadly fits dated experience."
         },
         {
           "name": "Industry",
@@ -5632,8 +5894,8 @@
       ],
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/rotork1/postings/744000151263670",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000151263670",
@@ -5645,13 +5907,14 @@
       "employerDescriptionHash": "5c881b3349011458290697754ff277c6604e46444378fba5048ef4837176bb5f",
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
-      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability.",
+      "discoveryEligible": true
     },
     {
       "id": "microstrategy-2299000620f1",
       "company": "MicroStrategy",
       "title": "Manager, Quality Engineering",
-      "location": "Chennai, , India, India",
+      "location": "Chennai, India",
       "workModel": "Not specified",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -5666,7 +5929,7 @@
       "verificationNote": "Exact active SmartRecruiters vacancy with matching application route. Application submission was not attempted.",
       "analysisStatus": "needs-review",
       "score": [],
-      "summary": "Strategy (Nasdaq: MSTR) is at the forefront of transforming organizations into intelligent enterprises through data-driven innovation. We don't just follow trends\u2014we set them and drive change. As a market leader in enterprise analytics and AI software, we've pioneered the BI and analytics space, empowering people to make better decisions and revolutionizing how businesses operate. We are now also at the forefront of AI disruption, providing data via our enterprise semantic layer to AI agents, tools, and platforms. But that's not all. Strategy is also leading a groundbreaking shift in digital",
+      "summary": "Strategy (Nasdaq: MSTR) is at the forefront of transforming organizations into intelligent enterprises through data-driven innovation. We don't just follow trends—we set them and drive change. As a market leader in enterprise analytics and AI software, we've pioneered the BI and analytics space, empowering people to make better decisions and revolutionizing how businesses operate. We are now also at the forefront of AI disruption, providing data via our enterprise semantic layer to AI agents, tools, and platforms. But that's not all. Strategy is also leading a groundbreaking shift in digital",
       "hardGaps": [
         "Full JD and candidate evidence require review before scoring."
       ],
@@ -5723,8 +5986,8 @@
       "employerDescriptionHash": "0b75aeea0c37e9856e65d9d63ec032e034fde2a5b83e41ac7eec28c75ac614fe",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/microstrategy1/postings/744000156725089",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000156725089",
@@ -5732,13 +5995,15 @@
         "kind": "smart",
         "slug": "MicroStrategy1",
         "company": "MicroStrategy"
-      }
+      },
+      "discoveryEligible": false,
+      "discoveryExclusion": "Current full description requires 12+ years; dated candidate experience is below this threshold."
     },
     {
       "id": "savvymoney-5efdd6abe2e9",
       "company": "SavvyMoney",
       "title": "Senior Software Development Engineer in Test (SDET) (India)",
-      "location": "Remote India (remote)",
+      "location": "Remote, India",
       "workModel": "Remote - verify eligibility",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -5784,7 +6049,7 @@
           "reason": "Employer explicitly states fully remote India."
         }
       ],
-      "summary": "Fully remote product SDET role with a disclosed fixed-pay range of \u20b920\u201325L plus variable; total CTC needs confirmation.",
+      "summary": "Fully remote product SDET role with a disclosed fixed-pay range of ₹20–25L plus variable; total CTC needs confirmation.",
       "hardGaps": [
         "Fintech domain, JUnit/Cucumber and US-time overlap need confirmation."
       ],
@@ -5854,7 +6119,7 @@
       "id": "bidgely-cb53442a0085",
       "company": "Bidgely",
       "title": "SDET 2",
-      "location": "Remote India (remote)",
+      "location": "Remote, India",
       "workModel": "Remote - verify eligibility",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -5970,7 +6235,7 @@
       "id": "bidgely-ddf8770d5f18",
       "company": "Bidgely",
       "title": "Product QA",
-      "location": "Remote India (remote)",
+      "location": "Remote, India",
       "workModel": "Remote - verify eligibility",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -6085,8 +6350,8 @@
     {
       "id": "extreme-networks-1f87af8d97d8",
       "company": "Extreme Networks",
-      "title": "SR QA Engineer 10297 \u2013 Networking (Wired/Wireless) | Cloud (AWS/Azure/GCP) | Python",
-      "location": "Chennai, India, India",
+      "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) | Cloud (AWS/Azure/GCP) | Python",
+      "location": "Chennai, India",
       "workModel": "Not specified",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -6117,7 +6382,7 @@
           "name": "Experience and seniority",
           "weight": 20,
           "points": 17,
-          "reason": "The 4\u20138-year band is below total dated experience; confirm level fit."
+          "reason": "The 4–8-year band is below total dated experience; confirm level fit."
         },
         {
           "name": "Industry",
@@ -6184,8 +6449,8 @@
       "employerDescriptionHash": "24ff5305b6b28c3b7a88b0e4f5ad9ba1c18dfed9014da301cc273312fcfe11e5",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "employerPostingId": "e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -6196,13 +6461,14 @@
       },
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability.",
+      "discoveryEligible": true
     },
     {
       "id": "extreme-networks-758ed5693ac1",
       "company": "Extreme Networks",
       "title": "SR QA SW ENGINEER 10381-  Layer2/Layer3 Protocol Testing- Python |Data Center Networking",
-      "location": "Chennai, India, India",
+      "location": "Chennai, India",
       "workModel": "Not specified",
       "family": "Needs classification",
       "experience": "Review full JD",
@@ -6233,7 +6499,7 @@
           "name": "Experience and seniority",
           "weight": 20,
           "points": 18,
-          "reason": "The 5\u201310-year range fits dated experience."
+          "reason": "The 5–10-year range fits dated experience."
         },
         {
           "name": "Industry",
@@ -6300,8 +6566,8 @@
       "employerDescriptionHash": "8e6b320b689fa7e4e06ee71975ef6c1ed31cd782c216d20d36c4f532d62b72b1",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "employerPostingId": "2e1f81a5-9895-4e0b-902d-90efbdf46344",
@@ -6312,7 +6578,8 @@
       },
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
-      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+      "reviewNote": "Exact current employer posting compared with candidate-supplied resume evidence. Match is a weighted evidence heuristic, not an ATS score or hiring probability.",
+      "discoveryEligible": true
     },
     {
       "id": "linkedin-4465007006",
@@ -6373,7 +6640,7 @@
           "checkedOn": "2026-09-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4465007006",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6438,7 +6705,7 @@
           "checkedOn": "2026-09-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470029221",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6503,7 +6770,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471447664",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6568,7 +6835,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471422658",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6633,7 +6900,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4364774600",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6698,7 +6965,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4460171129",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6763,7 +7030,7 @@
           "checkedOn": "2026-09-30"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472461313",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6828,7 +7095,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4460976646",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6893,7 +7160,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4466210089",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -6958,7 +7225,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471305484",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7023,7 +7290,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471096411",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7088,7 +7355,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4464868533",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7153,7 +7420,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4461764719",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7218,7 +7485,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467169894",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7283,7 +7550,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470258028",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7348,7 +7615,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471094603",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7413,7 +7680,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4473739202",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7478,7 +7745,7 @@
           "checkedOn": "2026-10-02"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471837909",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7543,7 +7810,7 @@
           "checkedOn": "2026-10-03"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472141102",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7608,7 +7875,7 @@
           "checkedOn": "2026-10-03"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471333186",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7673,7 +7940,7 @@
           "checkedOn": "2026-10-03"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469678190",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7738,7 +8005,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474190406",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7803,7 +8070,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472564965",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7868,7 +8135,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474125364",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7933,7 +8200,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472826524",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -7998,7 +8265,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4466898928",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8063,7 +8330,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472868319",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8128,7 +8395,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469727431",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8193,7 +8460,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469801956",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8258,7 +8525,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472436399",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8323,7 +8590,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4473120120",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8388,7 +8655,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470682610",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8453,7 +8720,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4463037631",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8583,7 +8850,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://careers.cognizant.com/global-en/jobs/00069387659/sdet-playwright-automation",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
@@ -8593,10 +8860,10 @@
       "id": "extreme-networks-49eb0ece5748",
       "company": "Extreme Networks",
       "title": "QA SW ENGINEER - 10544",
-      "location": "Chennai, India, India",
+      "location": "Chennai, India",
       "workModel": "Not specified",
       "family": "Needs classification",
-      "experience": "Review full JD",
+      "experience": "3–6 years",
       "requisition": "f0565b68-9cab-4c16-a4c6-1dce91672170",
       "applyUrl": "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
       "linkedinUrl": null,
@@ -8606,18 +8873,51 @@
       "checkedOn": "2026-10-22",
       "verification": "live",
       "verificationNote": "Exact vacancy is published by the employer recruiting API with an application URL. Application submission was not attempted.",
-      "analysisStatus": "needs-review",
-      "score": [],
-      "summary": "Over 50,000 customers globally trust our end-to-end, cloud-driven networking solutions. They rely on our top-rated services and support to accelerate their digital transformation efforts and deliver unprecedented progress. With double-digit growth year over year, no provider is better positioned to deliver scalable outcomes than Extreme. Inclusion is one of our core values and in our DNA. We are committed to fostering an inclusive workplace that embraces our differences and creates an atmosphere where all our employees thrive because of their differences, not in spite of them. Become part of Something",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 29,
+          "reason": "Network test planning, API and GUI automation transfer well."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 15,
+          "reason": "Python, Robot and Selenium align; load and observability tools remain gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 10,
+          "reason": "The stated band is lower than dated experience; confirm placement."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 14,
+          "reason": "Wireless and network-management experience are directly relevant."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is within the requested region."
+        }
+      ],
+      "summary": "Network QA and automation overlap; a lower advertised experience band needs level and budget confirmation.",
       "hardGaps": [
-        "Full JD and candidate evidence require review before scoring."
+        "JMeter/Locust, production cloud orchestration and advanced routing expertise are unproven.",
+        "The advertised 3–6-year band is below dated experience."
       ],
       "benefits": [],
       "risks": [
-        "Compensation and team conditions unverified."
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
       ],
       "questions": [
-        "Confirm role level, salary budget, work model and required experience."
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
       ],
       "salary": {
         "kind": "unknown",
@@ -8634,9 +8934,18 @@
         "sources": []
       },
       "ats": {
-        "supported": [],
+        "supported": [
+          "Python",
+          "Robot Framework",
+          "Selenium",
+          "Jenkins",
+          "Network testing"
+        ],
         "confirm": [],
-        "unsupported": []
+        "unsupported": [
+          "JMeter/Locust, production cloud orchestration and advanced routing expertise are unproven.",
+          "The advertised 3–6-year band is below dated experience."
+        ]
       },
       "resumeEdits": [],
       "sources": [
@@ -8651,8 +8960,8 @@
       "employerDescriptionHash": "770cef3f1dfad32ba0baeef080af5fc770f7c0c587e748a4a32321708ffaafc8",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "employerPostingId": "f0565b68-9cab-4c16-a4c6-1dce91672170",
@@ -8660,7 +8969,11 @@
         "kind": "lever",
         "slug": "extremenetworks",
         "company": "Extreme Networks"
-      }
+      },
+      "discoveryEligible": true,
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
     },
     {
       "id": "linkedin-4474347146",
@@ -8721,7 +9034,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474347146",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8786,7 +9099,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469687482",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8851,7 +9164,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4463515794",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8916,7 +9229,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474657949",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -8981,7 +9294,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467552433",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9046,7 +9359,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476545363",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9111,7 +9424,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476369043",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9176,7 +9489,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475527854",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9241,7 +9554,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472586715",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9306,7 +9619,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474960656",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9371,7 +9684,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472569822",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9436,7 +9749,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474865610",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9501,7 +9814,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472358505",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9566,7 +9879,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474140561",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9631,7 +9944,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4457719068",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9696,7 +10009,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470895606",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9761,7 +10074,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477143259",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9826,7 +10139,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476243349",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9891,7 +10204,7 @@
           "checkedOn": "2026-10-12"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4473855365",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -9956,7 +10269,7 @@
           "checkedOn": "2026-10-12"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474903134",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10021,7 +10334,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475757710",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10086,7 +10399,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467510095",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10151,7 +10464,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478507660",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10216,7 +10529,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478386352",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10281,7 +10594,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467875927",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10346,7 +10659,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474969766",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10411,7 +10724,7 @@
           "checkedOn": "2026-10-14"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477987152",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10476,7 +10789,7 @@
           "checkedOn": "2026-10-14"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478769437",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10541,7 +10854,7 @@
           "checkedOn": "2026-10-14"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4463020415",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10606,7 +10919,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4464464945",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10671,7 +10984,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471505645",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10736,7 +11049,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477106912",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10801,7 +11114,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478793469",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10866,7 +11179,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477509121",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10931,7 +11244,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478400682",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -10996,7 +11309,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475685532",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11061,7 +11374,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474140560",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11126,7 +11439,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478861655",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11191,7 +11504,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478787512",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11256,7 +11569,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475287245",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11321,7 +11634,7 @@
           "checkedOn": "2026-10-18"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4479064556",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11386,7 +11699,7 @@
           "checkedOn": "2026-10-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471093281",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11451,7 +11764,7 @@
           "checkedOn": "2026-10-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469011496",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11516,7 +11829,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478237252",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11581,7 +11894,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478225748",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11646,7 +11959,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478231422",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11711,7 +12024,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4455139502",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11776,7 +12089,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4479360038",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11786,10 +12099,10 @@
       "id": "microstrategy-1b75cb659d00",
       "company": "MicroStrategy",
       "title": "Quality Engineer, Senior",
-      "location": "Chennai, , India, India",
+      "location": "Chennai, India",
       "workModel": "Not specified",
       "family": "Needs classification",
-      "experience": "Review full JD",
+      "experience": "8+ years",
       "requisition": "R6373",
       "applyUrl": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161",
       "linkedinUrl": null,
@@ -11799,18 +12112,51 @@
       "checkedOn": "2026-10-22",
       "verification": "live",
       "verificationNote": "Exact active SmartRecruiters vacancy with matching application route. Application submission was not attempted.",
-      "analysisStatus": "needs-review",
-      "score": [],
-      "summary": "Strategy (Nasdaq: MSTR) is at the forefront of transforming organizations into intelligent enterprises through data-driven innovation. We don't just follow trends\u2014we set them and drive change. As a market leader in enterprise analytics and AI software, we've pioneered the BI and analytics space, empowering people to make better decisions and revolutionizing how businesses operate. We are now also at the forefront of AI disruption, providing data via our enterprise semantic layer to AI agents, tools, and platforms. But that's not all. Strategy is also leading a groundbreaking shift in digital",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 26,
+          "reason": "API, integration and regression checks transfer."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 12,
+          "reason": "API and CI tools align partly; AI and container depth remain gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Dated experience supports the stated senior threshold."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 6,
+          "reason": "Analytics and model-serving platforms are new domains."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai onsite fits the location constraint."
+        }
+      ],
+      "summary": "Current Chennai senior backend QA role; API automation transfers, while AI inference and data validation need evidence.",
       "hardGaps": [
-        "Full JD and candidate evidence require review before scoring."
+        "AI/ML component validation, pytest/TestNG and production data-pipeline testing are not evidenced.",
+        "Five days onsite, 11:30–20:30 IST; confirm suitability."
       ],
       "benefits": [],
       "risks": [
-        "Compensation and team conditions unverified."
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
       ],
       "questions": [
-        "Confirm role level, salary budget, work model and required experience."
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
       ],
       "salary": {
         "kind": "unknown",
@@ -11827,9 +12173,17 @@
         "sources": []
       },
       "ats": {
-        "supported": [],
+        "supported": [
+          "REST API",
+          "Python",
+          "Jenkins",
+          "Docker basics"
+        ],
         "confirm": [],
-        "unsupported": []
+        "unsupported": [
+          "AI/ML component validation, pytest/TestNG and production data-pipeline testing are not evidenced.",
+          "Five days onsite, 11:30–20:30 IST; confirm suitability."
+        ]
       },
       "resumeEdits": [],
       "sources": [
@@ -11844,8 +12198,8 @@
       "employerDescriptionHash": "bc8a96f1f5430121ab9486acc6589ae22aec110ec653c068b996ae61c1ae278a",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-22T08:53:07+00:00",
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/microstrategy1/postings/744000156720161",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000156720161",
@@ -11853,7 +12207,11 @@
         "kind": "smart",
         "slug": "MicroStrategy1",
         "company": "MicroStrategy"
-      }
+      },
+      "discoveryEligible": true,
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
     },
     {
       "id": "linkedin-4478902123",
@@ -11914,7 +12272,7 @@
           "checkedOn": "2026-10-21"
         }
       ],
-      "availabilityCheckedAt": "2026-10-22T08:53:07+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478902123",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -11923,7 +12281,7 @@
     {
       "id": "linkedin-4470267901",
       "company": "Atatus",
-      "title": "QA Engineer \u2013 Manual Testing",
+      "title": "QA Engineer – Manual Testing",
       "location": "Chennai, India",
       "workModel": "Not verified",
       "family": "Needs classification",
@@ -11978,7 +12336,12 @@
           "asOf": "2026-10-22",
           "checkedOn": "2026-10-22"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470267901",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
     },
     {
       "id": "linkedin-4480211468",
@@ -12038,7 +12401,12 @@
           "asOf": "2026-10-22",
           "checkedOn": "2026-10-22"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4480211468",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
     },
     {
       "id": "linkedin-4475272938",
@@ -12098,7 +12466,12 @@
           "asOf": "2026-10-22",
           "checkedOn": "2026-10-22"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475272938",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
     },
     {
       "id": "linkedin-4476817576",
@@ -12158,7 +12531,1064 @@
           "asOf": "2026-10-22",
           "checkedOn": "2026-10-22"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476817576",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
+    },
+    {
+      "id": "nielseniq-841691a01c66",
+      "company": "NielsenIQ",
+      "title": "Senior Software Test Engineer",
+      "location": "Chennai, TN, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "6–10 years",
+      "requisition": "R26_0022428|IN",
+      "applyUrl": "https://jobs.smartrecruiters.com/NielsenIQ/744000155577399",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact active SmartRecruiters vacancy with matching application route. Application submission was not attempted.",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 26,
+          "reason": "Framework design, API checks and technical guidance transfer."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 13,
+          "reason": "Python, SQL and CI/CD align partially; big-data tools are substantial gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Dated experience fits the 6–10-year range."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 6,
+          "reason": "Retail and consumer-data analytics are new domains."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is within the requested region."
+        }
+      ],
+      "summary": "Python automation opportunity on NIQ’s data platform, with material data-engineering requirements.",
+      "hardGaps": [
+        "PySpark, Hive, Databricks, Airflow, advanced Azure and ML-validation frameworks are not evidenced."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
+      ],
+      "questions": [
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "PostgreSQL",
+          "Jenkins",
+          "Git",
+          "Selenium"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "PySpark, Hive, Databricks, Airflow, advanced Azure and ML-validation frameworks are not evidenced."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155577399",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "e03a8c0457ea21b5d8775fd0c573862ab106baee77079da95f1581a625534e1c",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/nielseniq/postings/744000155577399",
+      "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
+      "employerPostingId": "744000155577399",
+      "employerBoard": {
+        "kind": "smart",
+        "slug": "NielsenIQ",
+        "company": "NielsenIQ"
+      },
+      "discoveryEligible": true,
+      "roleLevel": "technical-lead",
+      "locationEligibility": "chennai",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+    },
+    {
+      "id": "sutherland-04ad6aa291c2",
+      "company": "Sutherland",
+      "title": "Tech Lead - QA - Performance Testing",
+      "location": "Remote, India",
+      "workModel": "Remote - verify eligibility",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "REF46986J",
+      "applyUrl": "https://jobs.smartrecruiters.com/Sutherland/744000152345930",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact active SmartRecruiters vacancy with matching application route. Application submission was not attempted.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "About Sutherland Artificial Intelligence. Automation. Cloud engineering. Advanced analytics. For business leaders, these are key factors of success. For us, they’re our core expertise. We work with iconic brands worldwide. We bring them a unique value proposition through market-leading technology and business process excellence. We’ve created over 200 unique inventions under several patents across AI and other critical technologies. Leveraging our advanced products and platforms, we drive digital transformation, optimize critical business operations, reinvent experiences, and pioneer new solutions, all provided through a seamless “as a service” model. For each",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://jobs.smartrecruiters.com/Sutherland/744000152345930",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "55617eec52ce8c68d35a16b011b785a7a6b72825b150b8b2e076e408b7eff081",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/sutherland/postings/744000152345930",
+      "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
+      "employerPostingId": "744000152345930",
+      "employerBoard": {
+        "kind": "smart",
+        "slug": "Sutherland",
+        "company": "Sutherland"
+      },
+      "discoveryEligible": true
+    },
+    {
+      "id": "pod-network-f47511f9562b",
+      "company": "Pod Network",
+      "title": "QA Engineer",
+      "location": "Remote, India",
+      "workModel": "Remote - verify eligibility",
+      "family": "Needs classification",
+      "experience": "Years not specified",
+      "requisition": "60fffc28-e1ed-45f9-aca0-b38f6535df5b",
+      "applyUrl": "https://jobs.ashbyhq.com/pod-network/60fffc28-e1ed-45f9-aca0-b38f6535df5b",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact published Ashby vacancy and matching application route. Application submission was not attempted.",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 28,
+          "reason": "Manual QA, regression and defect reproduction align with demonstrated work."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "Python is accepted; requested browser automation frameworks are gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 15,
+          "reason": "QA experience is supported, but no manager or senior level is advertised."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 5,
+          "reason": "Trading and crypto are new domains."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Employer lists India among eligible remote locations."
+        }
+      ],
+      "summary": "Remote product QA for a trading platform. Exploratory testing and Python transfer; trading and browser-framework gaps are material.",
+      "hardGaps": [
+        "Trading/DeFi, crypto wallets, bridging, Playwright and Cypress are not established.",
+        "Confirm seniority, working hours and the annual total CTC budget."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
+      ],
+      "questions": [
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Exploratory testing",
+          "Regression testing",
+          "Defect investigation"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Trading/DeFi, crypto wallets, bridging, Playwright and Cypress are not established.",
+          "Confirm seniority, working hours and the annual total CTC budget."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://jobs.ashbyhq.com/pod-network/60fffc28-e1ed-45f9-aca0-b38f6535df5b",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "fde5c94539682a8ae8ab0edeb60ae7d414caa6647ad38dfd27c2b7e845421ebd",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/pod-network",
+      "availabilityReason": "Exact published Ashby vacancy and matching application route",
+      "employerPostingId": "60fffc28-e1ed-45f9-aca0-b38f6535df5b",
+      "employerBoard": {
+        "kind": "ashby",
+        "slug": "pod-network",
+        "company": "Pod Network"
+      },
+      "discoveryEligible": true,
+      "roleLevel": "individual",
+      "locationEligibility": "remote-india",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+    },
+    {
+      "id": "rifa-ai-05522d6f9b84",
+      "company": "Rifa AI",
+      "title": "QA Lead, AI Agents",
+      "location": "Remote, India",
+      "workModel": "Remote - verify eligibility",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "89be912e-f1f5-40cc-99a3-5e7e0205abae",
+      "applyUrl": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact published Ashby vacancy and matching application route. Application submission was not attempted.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "ABOUT US Rifa AI https://rifa.ai is building the AI agents platform for contact centers in regulated industries. Enterprises in these industries want AI agents handling their customer operations and mostly can't deploy them. It's not a model problem. Horizontal platforms lack governance, release processes, and change management, and in a domain where every call can be reviewed by a regulator, that's disqualifying. Building an AI agent has never been easier. Deploying one an enterprise can trust has never been harder. That harder problem is the one we work on. Our",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "employer-disclosed",
+        "minLpa": 12,
+        "maxLpa": 20,
+        "basis": "Annual compensation; CTC unspecified",
+        "confidence": "Employer posting",
+        "note": "Published range is ₹12–20 lakh. Confirm whether this is total CTC; it is below the ₹25L search target unless additional compensation closes the gap.",
+        "sources": [
+          {
+            "label": "Employer compensation range",
+            "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+            "scope": "Published annual range; CTC definition not specified",
+            "asOf": "2026-10-22",
+            "checkedOn": "2026-10-22"
+          }
+        ]
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "041c7b1cf1f9b49b8f4bc420f291056d3c36f499c5a5c987143699d10a9c75f1",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/rifa",
+      "availabilityReason": "Exact published Ashby vacancy and matching application route",
+      "employerPostingId": "89be912e-f1f5-40cc-99a3-5e7e0205abae",
+      "employerBoard": {
+        "kind": "ashby",
+        "slug": "rifa",
+        "company": "Rifa AI"
+      },
+      "discoveryEligible": true
+    },
+    {
+      "id": "hp-2cdbe4c46d36",
+      "company": "HP",
+      "title": "Quality Engineer - Surface Mount Technology",
+      "location": "Chennai, Tamil Nadu, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "3165344",
+      "applyUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Chennai-Tamil-Nadu-India/Quality-Engineer---Surface-Mount-Technology_3165344-2",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact employer career record explicitly permits applications. Application submission was not attempted.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "Quality Engineer - Surface Mount Technology Description - HP is the world’s leading personal systems and printing company, we create technology that makes life better for everyone, everywhere. Our innovation springs from a team of individuals, each collaborating and contributing their own perspectives, knowledge, and experience to advance the way the world works and lives. We are looking for visionaries, like you, who are ready to make a purposeful impact on the way the world works. At HP, the future is yours to create! Details • Based in our CM",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Chennai-Tamil-Nadu-India/Quality-Engineer---Surface-Mount-Technology_3165344-2",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "29e810f8062331337b62b7823e9e96c61a42d04d858b694387ca002c3f522aca",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/job/Chennai-Tamil-Nadu-India/Quality-Engineer---Surface-Mount-Technology_3165344-2",
+      "availabilityReason": "Exact employer career record explicitly permits applications",
+      "employerPostingId": "3165344",
+      "employerBoard": {
+        "kind": "workday",
+        "slug": "hp",
+        "site": "ExternalCareerSite",
+        "host": "hp.wd5.myworkdayjobs.com",
+        "company": "HP",
+        "total": 6,
+        "evidenceUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+        "searchTerms": [
+          "Chennai",
+          "remote India"
+        ]
+      },
+      "discoveryEligible": false,
+      "discoveryExclusion": "Manufacturing SMT/PCA quality experience is required; this is outside the software-test target scope."
+    },
+    {
+      "id": "logitech-a424b7b567e4",
+      "company": "Logitech",
+      "title": "Hardware Test Automation Engineer",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "3–6 years",
+      "requisition": "148517",
+      "applyUrl": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact employer career record explicitly permits applications. Application submission was not attempted.",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 25,
+          "reason": "Automation and troubleshooting transfer; hardware bench ownership is not proven."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 13,
+          "reason": "Python and Git align; pytest and instruments remain gaps."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 10,
+          "reason": "The role is below dated experience and has no management scope."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 9,
+          "reason": "Electronics education and infotainment testing are adjacent to peripherals."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is within the requested region."
+        }
+      ],
+      "summary": "Chennai hardware automation role with Python overlap; lab instrumentation and a lower experience band make it a stretch.",
+      "hardGaps": [
+        "Pytest, test-bench wiring, oscilloscopes and USB analyser proficiency are not established.",
+        "Confirm level and compensation against the advertised 3–6-year band."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
+      ],
+      "questions": [
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Git",
+          "Test automation",
+          "Infotainment testing"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Pytest, test-bench wiring, oscilloscopes and USB analyser proficiency are not established.",
+          "Confirm level and compensation against the advertised 3–6-year band."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "a06378b7595ee9a1d83c5133bb9465b289e869e87db52b3d560a11e6bee33786",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://logitech.wd5.myworkdayjobs.com/wday/cxs/logitech/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+      "availabilityReason": "Exact employer career record explicitly permits applications",
+      "employerPostingId": "148517",
+      "employerBoard": {
+        "kind": "workday",
+        "slug": "logitech",
+        "site": "Logitech",
+        "host": "logitech.wd5.myworkdayjobs.com",
+        "company": "Logitech",
+        "total": 18,
+        "evidenceUrl": "https://logitech.wd5.myworkdayjobs.com/Logitech",
+        "searchTerms": [
+          "Chennai",
+          "remote India"
+        ]
+      },
+      "discoveryEligible": true,
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+    },
+    {
+      "id": "kla-333affc06be2",
+      "company": "KLA",
+      "title": "Software Quality Engineer – Automation & AI",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "Bachelor’s + 2 years minimum",
+      "requisition": "2641371",
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer---Automation---AI_2641371",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact employer career record explicitly permits applications. Application submission was not attempted.",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 28,
+          "reason": "Software qualification, test planning and regression ownership transfer."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 15,
+          "reason": "Python and QA frameworks align; advanced AI application delivery is unproven."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 10,
+          "reason": "Experience exceeds the minimum, but level and budget are unverified."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 7,
+          "reason": "Semiconductor metrology is a new product domain."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is within the requested region."
+        }
+      ],
+      "summary": "Software QA and Python overlap at KLA, with AI-productivity and semiconductor-domain gaps; confirm level before applying.",
+      "hardGaps": [
+        "Building and deploying AI agents/LLM utilities is not evidenced; current AI use is introductory.",
+        "The stated minimum suggests a potentially lower level than the target move."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
+      ],
+      "questions": [
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "Regression testing",
+          "Automation frameworks",
+          "Defect analysis"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Building and deploying AI agents/LLM utilities is not evidenced; current AI use is introductory.",
+          "The stated minimum suggests a potentially lower level than the target move."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer---Automation---AI_2641371",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "e5f40016f7fdae38b5e50adc3b6cca40478c884cda57d16955c2e02e02e2a2ca",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Chennai-India/Software-Quality-Engineer---Automation---AI_2641371",
+      "availabilityReason": "Exact employer career record explicitly permits applications",
+      "employerPostingId": "2641371",
+      "employerBoard": {
+        "kind": "workday",
+        "slug": "kla",
+        "site": "Search",
+        "host": "kla.wd1.myworkdayjobs.com",
+        "company": "KLA",
+        "total": 49,
+        "evidenceUrl": "https://kla.wd1.myworkdayjobs.com/Search",
+        "searchTerms": [
+          "Chennai",
+          "remote India"
+        ]
+      },
+      "discoveryEligible": true,
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+    },
+    {
+      "id": "kla-365834acf990",
+      "company": "KLA",
+      "title": "Engr, Software QA 2",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "2+ years minimum",
+      "requisition": "2640389",
+      "applyUrl": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Engr--Software-QA-2_2640389",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact employer career record explicitly permits applications. Application submission was not attempted.",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 27,
+          "reason": "Manual and automated software QA transfer."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 10,
+          "reason": "Selenium aligns, but mandatory C#/Java automation is unproven."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 9,
+          "reason": "Minimum experience is substantially below dated experience."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 7,
+          "reason": "Semiconductor tools are a new domain."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Chennai is within the requested region."
+        }
+      ],
+      "summary": "Current Chennai software QA role with significant C#/Java requirements and a likely level mismatch.",
+      "hardGaps": [
+        "C#, Java, FlaUI, CodedUI and Appium are not evidenced.",
+        "Short overseas assignments are required; confirm willingness and seniority."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
+      ],
+      "questions": [
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Selenium",
+          "Test planning",
+          "Regression testing",
+          "Defect analysis"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "C#, Java, FlaUI, CodedUI and Appium are not evidenced.",
+          "Short overseas assignments are required; confirm willingness and seniority."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Engr--Software-QA-2_2640389",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "a00863eab699cbedd4d51d3a381a1d502dc1056b7142b9347b353b39a94278d0",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Chennai-India/Engr--Software-QA-2_2640389",
+      "availabilityReason": "Exact employer career record explicitly permits applications",
+      "employerPostingId": "2640389",
+      "employerBoard": {
+        "kind": "workday",
+        "slug": "kla",
+        "site": "Search",
+        "host": "kla.wd1.myworkdayjobs.com",
+        "company": "KLA",
+        "total": 49,
+        "evidenceUrl": "https://kla.wd1.myworkdayjobs.com/Search",
+        "searchTerms": [
+          "Chennai",
+          "remote India"
+        ]
+      },
+      "discoveryEligible": true,
+      "roleLevel": "individual",
+      "locationEligibility": "chennai",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
+    },
+    {
+      "id": "ge-vernova-4b9431c3d06d",
+      "company": "GE Vernova",
+      "title": "Embedded SW Quality Test Engineer",
+      "location": "Chennai, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "R5052000",
+      "applyUrl": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/Embedded-SW-Quality-Test-Engineer_R5052000-2",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact employer career record explicitly permits applications. Application submission was not attempted.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "Job Description Summary You will be a part of a global, matrixed design and testing team, working in new product introduction and existing product sustaining / support. You will be responsible for validating GE hardware and software functionalities. Define & develop test strategies and perform extensive tests to test every hardware and software component of the control platform of GE PC drives & ensure that products are bug-free while delivered. This role requires, in addition to closely interacting with internal & external customers, strong inclusive team player with outcome focus",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/Embedded-SW-Quality-Test-Engineer_R5052000-2",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "d433e376fd5b30e6bfcb0483f898b84499f2889c7e1c7ca0049dad8eccfe0b75",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/job/Chennai/Embedded-SW-Quality-Test-Engineer_R5052000-2",
+      "availabilityReason": "Exact employer career record explicitly permits applications",
+      "employerPostingId": "R5052000",
+      "employerBoard": {
+        "kind": "workday",
+        "slug": "gevernova",
+        "site": "Vernova_ExternalSite",
+        "host": "gevernova.wd5.myworkdayjobs.com",
+        "company": "GE Vernova",
+        "total": 69,
+        "evidenceUrl": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite",
+        "searchTerms": [
+          "Chennai",
+          "remote India"
+        ]
+      },
+      "discoveryEligible": false,
+      "discoveryExclusion": "The current full employer description falls outside the requested role or experience range."
+    },
+    {
+      "id": "juniper-square-70f1d88cdd7f",
+      "company": "Juniper Square",
+      "title": "QA Automation Lead (Data Engineering)- India",
+      "location": "Remote, India",
+      "workModel": "Remote - verify eligibility",
+      "family": "Needs classification",
+      "experience": "7–10 years",
+      "requisition": "f5e9c2e3-496f-473c-8891-ecc5f7bc9ddb",
+      "applyUrl": "https://jobs.ashbyhq.com/junipersquare/f5e9c2e3-496f-473c-8891-ecc5f7bc9ddb",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-22",
+      "checkedOn": "2026-10-22",
+      "verification": "live",
+      "verificationNote": "Exact published Ashby vacancy and matching application route. Application submission was not attempted.",
+      "analysisStatus": "reviewed",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 26,
+          "reason": "QA planning and framework leadership transfer; data-pipeline ownership is unproven."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 14,
+          "reason": "Python and introductory SQL align partly; advanced data tooling needs evidence."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Dated experience and technical leadership fit the range."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 6,
+          "reason": "Private-market finance and warehouse platforms are new domains."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "The employer posting explicitly permits remote India."
+        }
+      ],
+      "summary": "Remote India automation lead for data quality; Python leadership transfers, while warehouse and ETL validation remain gaps.",
+      "hardGaps": [
+        "Complex SQL reconciliation, ETL/ELT, OLAP warehouses and data-release ownership are not established."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed. Salary target is not a verified offer range."
+      ],
+      "questions": [
+        "What is the annual total CTC budget and fixed/variable split?",
+        "Which stated skill gaps are required from day one?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "Python",
+          "SQL",
+          "Jenkins",
+          "Test frameworks",
+          "Technical leadership"
+        ],
+        "confirm": [],
+        "unsupported": [
+          "Complex SQL reconciliation, ETL/ELT, OLAP warehouses and data-release ownership are not established."
+        ]
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://jobs.ashbyhq.com/junipersquare/f5e9c2e3-496f-473c-8891-ecc5f7bc9ddb",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-22",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "employerDescriptionHash": "a848daab44f408bfb6f550f49937d19cd5f1d292f8d0bd6400ad1de7e494aba1",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-22T10:42:44+00:00",
+      "availabilityCheckedAt": "2026-10-22T10:42:44+00:00",
+      "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/junipersquare",
+      "availabilityReason": "Exact published Ashby vacancy and matching application route",
+      "discoveryEligible": true,
+      "employerPostingId": "f5e9c2e3-496f-473c-8891-ecc5f7bc9ddb",
+      "employerBoard": {
+        "kind": "ashby",
+        "slug": "junipersquare",
+        "company": "Juniper Square"
+      },
+      "roleLevel": "technical-lead",
+      "locationEligibility": "remote-india",
+      "reviewNote": "Full current employer description reviewed against candidate-supplied resume evidence on 22 October 2026. Match is a weighted evidence heuristic, not an ATS score or hiring probability."
     }
   ]
 }

@@ -51,7 +51,19 @@
     "api.smartrecruiters.com",
     "api.ashbyhq.com",
     "api.lever.co",
-    "boards-api.greenhouse.io"
+    "boards-api.greenhouse.io",
+    "flextronics.wd1.myworkdayjobs.com",
+    "hp.wd5.myworkdayjobs.com",
+    "alliancewd.wd3.myworkdayjobs.com",
+    "hitachi.wd1.myworkdayjobs.com",
+    "shell.wd3.myworkdayjobs.com",
+    "cat.wd5.myworkdayjobs.com",
+    "borgwarner.wd5.myworkdayjobs.com",
+    "flsmidth.wd3.myworkdayjobs.com",
+    "valeo.wd3.myworkdayjobs.com",
+    "rockwellautomation.wd1.myworkdayjobs.com",
+    "trimble.wd1.myworkdayjobs.com",
+    "gevernova.wd5.myworkdayjobs.com"
   ],
   "maxPageFetches": 36,
   "requestDelaySeconds": 1.2,
@@ -84,7 +96,7 @@
     {
       "kind": "ashby",
       "slug": "ahl-saafai",
-      "company": "AHL \u2013 Saaf AI"
+      "company": "AHL – Saaf AI"
     },
     {
       "kind": "ashby",
@@ -115,6 +127,374 @@
       "kind": "greenhouse",
       "slug": "yipitdata",
       "company": "YipitData"
+    },
+    {
+      "kind": "smart",
+      "slug": "SGS",
+      "company": "SGS"
+    },
+    {
+      "kind": "smart",
+      "slug": "Eurofins",
+      "company": "Eurofins"
+    },
+    {
+      "kind": "smart",
+      "slug": "SopraSteria1",
+      "company": "Sopra Steria"
+    },
+    {
+      "kind": "smart",
+      "slug": "Nagarro1",
+      "company": "Nagarro"
+    },
+    {
+      "kind": "smart",
+      "slug": "TOMRA",
+      "company": "Tomra"
+    },
+    {
+      "kind": "smart",
+      "slug": "Continental",
+      "company": "Continental"
+    },
+    {
+      "kind": "smart",
+      "slug": "BoschGroup",
+      "company": "Bosch Group"
+    },
+    {
+      "kind": "smart",
+      "slug": "NielsenIQ",
+      "company": "NielsenIQ"
+    },
+    {
+      "kind": "smart",
+      "slug": "Sutherland",
+      "company": "Sutherland"
+    },
+    {
+      "kind": "ashby",
+      "slug": "kestra",
+      "company": "Kestra"
+    },
+    {
+      "kind": "ashby",
+      "slug": "junipersquare",
+      "company": "Juniper Square"
+    },
+    {
+      "kind": "ashby",
+      "slug": "pod-network",
+      "company": "Pod Network"
+    },
+    {
+      "kind": "ashby",
+      "slug": "rifa",
+      "company": "Rifa AI"
+    },
+    {
+      "kind": "ashby",
+      "slug": "plane",
+      "company": "Plane"
+    },
+    {
+      "kind": "ashby",
+      "slug": "sentry",
+      "company": "Sentry"
+    },
+    {
+      "kind": "ashby",
+      "slug": "linear",
+      "company": "Linear"
+    },
+    {
+      "kind": "ashby",
+      "slug": "posthog",
+      "company": "PostHog"
+    },
+    {
+      "kind": "ashby",
+      "slug": "supabase",
+      "company": "Supabase"
+    },
+    {
+      "kind": "ashby",
+      "slug": "n8n",
+      "company": "n8n"
+    },
+    {
+      "kind": "ashby",
+      "slug": "zapier",
+      "company": "Zapier"
+    },
+    {
+      "kind": "ashby",
+      "slug": "docker",
+      "company": "Docker"
+    },
+    {
+      "kind": "ashby",
+      "slug": "atlan",
+      "company": "Atlan"
+    },
+    {
+      "kind": "ashby",
+      "slug": "vanta",
+      "company": "Vanta"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "zuora",
+      "company": "Zuora"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "druva",
+      "company": "Druva"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "zscaler",
+      "company": "Zscaler"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "rubrik",
+      "company": "Rubrik"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "netskope",
+      "company": "Netskope"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "harnessinc",
+      "company": "Harness"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "gitlab",
+      "company": "GitLab"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "grafanalabs",
+      "company": "Grafana Labs"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "canonical",
+      "company": "Canonical"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "elastic",
+      "company": "Elastic"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "mongodb",
+      "company": "MongoDB"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "cloudflare",
+      "company": "Cloudflare"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "samsara",
+      "company": "Samsara"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "toast",
+      "company": "Toast"
+    },
+    {
+      "kind": "workday",
+      "slug": "flextronics",
+      "site": "Careers",
+      "host": "flextronics.wd1.myworkdayjobs.com",
+      "company": "Flex",
+      "total": 52,
+      "evidenceUrl": "https://flextronics.wd1.myworkdayjobs.com/Careers",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "hp",
+      "site": "ExternalCareerSite",
+      "host": "hp.wd5.myworkdayjobs.com",
+      "company": "HP",
+      "total": 6,
+      "evidenceUrl": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "alliancewd",
+      "site": "renault-group-careers",
+      "host": "alliancewd.wd3.myworkdayjobs.com",
+      "company": "Renault Group / RNTBCI",
+      "total": 53,
+      "evidenceUrl": "https://alliancewd.wd3.myworkdayjobs.com/renault-group-careers",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "hitachi",
+      "site": "hitachi",
+      "host": "hitachi.wd1.myworkdayjobs.com",
+      "company": "Hitachi Energy",
+      "total": 217,
+      "evidenceUrl": "https://hitachi.wd1.myworkdayjobs.com/hitachi",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "shell",
+      "site": "ShellCareers",
+      "host": "shell.wd3.myworkdayjobs.com",
+      "company": "Shell",
+      "total": 17,
+      "evidenceUrl": "https://shell.wd3.myworkdayjobs.com/ShellCareers",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "cat",
+      "site": "CaterpillarCareers",
+      "host": "cat.wd5.myworkdayjobs.com",
+      "company": "Caterpillar",
+      "total": 66,
+      "evidenceUrl": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "borgwarner",
+      "site": "BorgWarner_Careers",
+      "host": "borgwarner.wd5.myworkdayjobs.com",
+      "company": "BorgWarner",
+      "total": 1,
+      "evidenceUrl": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "flsmidth",
+      "site": "FLS_Global",
+      "host": "flsmidth.wd3.myworkdayjobs.com",
+      "company": "FLSmidth",
+      "total": 29,
+      "evidenceUrl": "https://flsmidth.wd3.myworkdayjobs.com/FLS_Global",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "valeo",
+      "site": "valeo_jobs",
+      "host": "valeo.wd3.myworkdayjobs.com",
+      "company": "Valeo",
+      "total": 154,
+      "evidenceUrl": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "rockwellautomation",
+      "site": "External_Rockwell_Automation",
+      "host": "rockwellautomation.wd1.myworkdayjobs.com",
+      "company": "Rockwell Automation",
+      "total": 22,
+      "evidenceUrl": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "logitech",
+      "site": "Logitech",
+      "host": "logitech.wd5.myworkdayjobs.com",
+      "company": "Logitech",
+      "total": 18,
+      "evidenceUrl": "https://logitech.wd5.myworkdayjobs.com/Logitech",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "kla",
+      "site": "Search",
+      "host": "kla.wd1.myworkdayjobs.com",
+      "company": "KLA",
+      "total": 49,
+      "evidenceUrl": "https://kla.wd1.myworkdayjobs.com/Search",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "trimble",
+      "site": "TrimbleCareers",
+      "host": "trimble.wd1.myworkdayjobs.com",
+      "company": "Trimble",
+      "total": 23,
+      "evidenceUrl": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
+    },
+    {
+      "kind": "workday",
+      "slug": "gevernova",
+      "site": "Vernova_ExternalSite",
+      "host": "gevernova.wd5.myworkdayjobs.com",
+      "company": "GE Vernova",
+      "total": 69,
+      "evidenceUrl": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite",
+      "searchTerms": [
+        "Chennai",
+        "remote India"
+      ]
     }
-  ]
+  ],
+  "employerConcurrency": 3
 }
