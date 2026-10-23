@@ -75,7 +75,11 @@ def discover(data,cfg,catalog,limit=10,now=None):
         states[company['id']]={'company':company['name'],'careerUrl':url,'checkedAt':stamp,'status':state,'fetchStatus':status,'atsKinds':sorted({b['kind'] for b in found}),'nextCheckAt':(now+dt.timedelta(hours=6 if text else 12)).isoformat(timespec='seconds')}
     if boards:
         local={**cfg,'employerBoards':boards,'allowedHosts':list(set(cfg['allowedHosts'])|{b['host'] for b in boards if b['kind']=='workday'})}
+        old_report=data['run'].get('employerDiscovery');old_coverage=list(data['run'].get('coverage',[]))
         before=len(data['jobs']);employers.discover(data,local,scan);added+=len(data['jobs'])-before
+        seen={c.get('source') for c in data['run'].get('coverage',[])}
+        data['run']['coverage']+= [c for c in old_coverage if c.get('source') not in seen]
+        if old_report:data['run']['employerDiscovery']=old_report
     report={'catalogSize':len(catalog),'checkedThisRun':len(chosen),'everChecked':len(states),'nextIndex':cursor,'newLeads':added,'linkedBoards':len(boards),'checkedAt':stamp,'companies':states}
     report['connectedCompanies']=sum(s['status'] in ('ats-linked','structured-vacancy-checked') for s in states.values())
     report['blockedCompanies']=sum(s['status']=='blocked-or-unavailable' for s in states.values())

@@ -151,15 +151,385 @@
         "source": "Standard Chartered",
         "status": "Fetched",
         "detail": "https://jobs.standardchartered.com/job/Manager%2C-Test-Automation-Tax/63264-en_GB - job metadata found"
+      },
+      {
+        "source": "Employer feed: Arista Networks",
+        "status": "26 postings examined; 1 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Freshworks",
+        "status": "35 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: MicroStrategy",
+        "status": "12 postings examined; 1 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rotork",
+        "status": "12 postings examined; 1 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: AHL \u2013 Saaf AI",
+        "status": "5 postings examined; 1 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: SavvyMoney",
+        "status": "13 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Bidgely",
+        "status": "16 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Inflection.io",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: OpenObserve",
+        "status": "6 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Extreme Networks",
+        "status": "97 postings examined; 5 relevant",
+        "detail": "Complete; public lever career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: YipitData",
+        "status": "54 postings examined; 1 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: SGS",
+        "status": "26 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Eurofins",
+        "status": "342 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sopra Steria",
+        "status": "63 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Nagarro",
+        "status": "185 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Tomra",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Continental",
+        "status": "14 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Bosch Group",
+        "status": "636 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: NielsenIQ",
+        "status": "60 postings examined; 1 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sutherland",
+        "status": "53 postings examined; 1 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Kestra",
+        "status": "5 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Juniper Square",
+        "status": "48 postings examined; 1 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Pod Network",
+        "status": "4 postings examined; 1 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rifa AI",
+        "status": "5 postings examined; 1 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Plane",
+        "status": "33 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sentry",
+        "status": "42 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Linear",
+        "status": "34 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: PostHog",
+        "status": "10 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Supabase",
+        "status": "59 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: n8n",
+        "status": "40 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Zapier",
+        "status": "12 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Docker",
+        "status": "68 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Atlan",
+        "status": "5 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Vanta",
+        "status": "85 postings examined; 0 relevant",
+        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Zuora",
+        "status": "29 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Druva",
+        "status": "32 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Zscaler",
+        "status": "355 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rubrik",
+        "status": "147 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Netskope",
+        "status": "126 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Harness",
+        "status": "65 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: GitLab",
+        "status": "231 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Grafana Labs",
+        "status": "141 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Canonical",
+        "status": "312 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Elastic",
+        "status": "392 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: MongoDB",
+        "status": "388 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Cloudflare",
+        "status": "446 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Samsara",
+        "status": "279 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Toast",
+        "status": "315 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Flex",
+        "status": "2 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: HP",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Renault Group / RNTBCI",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Hitachi Energy",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Shell",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Caterpillar",
+        "status": "2 postings examined; 1 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: BorgWarner",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: FLSmidth",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Valeo",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rockwell Automation",
+        "status": "1 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Logitech",
+        "status": "1 postings examined; 1 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: KLA",
+        "status": "2 postings examined; 2 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Trimble",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: GE Vernova",
+        "status": "2 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Expeditors",
+        "status": "11 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: AECOM",
+        "status": "383 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Accor",
+        "status": "808 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: H&M",
+        "status": "117 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Veolia",
+        "status": "71 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Cielo",
+        "status": "4 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Avery Dennison",
+        "status": "28 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sika",
+        "status": "53 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Enviri",
+        "status": "44 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Louis Dreyfus Company",
+        "status": "18 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Informa",
+        "status": "3 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Egis",
+        "status": "242 postings examined; 0 relevant",
+        "detail": "Complete; public smart career data. Full descriptions required before scoring."
       }
     ],
     "scanDateIst": "2026-10-23",
     "employerDiscovery": {
-      "checkedAt": "2026-10-23T08:03:32+00:00",
-      "boards": 1,
-      "newLeads": 1,
+      "checkedAt": "2026-10-23T04:50:29+00:00",
+      "boards": 74,
+      "newLeads": 0,
       "linkedEmployerRoutes": 0,
-      "relevantPostings": 1
+      "relevantPostings": 19
     },
     "openingPool": {
       "minimum": 20,
