@@ -1,0 +1,135 @@
+{
+  "scope": "Research targets for Chennai-region testing roles. Membership does not establish active hiring, Chennai placement, salary or product classification. Each vacancy requires independent evidence.",
+  "companies": [
+    {
+      "id": "rocketlane",
+      "name": "Rocketlane",
+      "careerUrl": "https://careers.kula.ai/rocketlane?jobs=true"
+    },
+    {
+      "id": "superops",
+      "name": "SuperOps",
+      "careerUrl": "https://superops.com/careers"
+    },
+    {
+      "id": "facilio",
+      "name": "Facilio",
+      "careerUrl": "https://facilio.com/careers/"
+    },
+    {
+      "id": "kissflow",
+      "name": "Kissflow",
+      "careerUrl": "https://careers.kissflow.com/"
+    },
+    {
+      "id": "chargebee",
+      "name": "Chargebee",
+      "careerUrl": "https://jobs.chargebee.com/"
+    },
+    {
+      "id": "zuper",
+      "name": "Zuper",
+      "careerUrl": "https://www.zuper.co/careers"
+    },
+    {
+      "id": "zoho",
+      "name": "Zoho",
+      "careerUrl": "https://careers.zohocorp.com/jobs/Careers"
+    },
+    {
+      "id": "freshworks",
+      "name": "Freshworks",
+      "careerUrl": "https://careers.smartrecruiters.com/Freshworks"
+    },
+    {
+      "id": "surveysparrow",
+      "name": "SurveySparrow",
+      "careerUrl": "https://surveysparrow.com/careers/"
+    },
+    {
+      "id": "testsigma",
+      "name": "Testsigma",
+      "careerUrl": "https://testsigma.com/careers"
+    },
+    {
+      "id": "spendflo",
+      "name": "Spendflo",
+      "careerUrl": "https://www.spendflo.com/careers"
+    },
+    {
+      "id": "disprz",
+      "name": "Disprz",
+      "careerUrl": "https://disprz.ai/company/about-us"
+    },
+    {
+      "id": "uniphore",
+      "name": "Uniphore",
+      "careerUrl": "https://www.uniphore.com/careers/"
+    },
+    {
+      "id": "fourkites",
+      "name": "FourKites",
+      "careerUrl": "https://www.fourkites.com/careers/"
+    },
+    {
+      "id": "pando",
+      "name": "Pando",
+      "careerUrl": "https://pando.ai/careers"
+    },
+    {
+      "id": "m2p-fintech",
+      "name": "M2P Fintech",
+      "careerUrl": "https://m2pfintech.com/careers/"
+    },
+    {
+      "id": "yubi",
+      "name": "Yubi",
+      "careerUrl": "https://www.go-yubi.com/careers/"
+    },
+    {
+      "id": "rheo",
+      "name": "Rheo",
+      "careerUrl": "https://rheo.ai/careers/"
+    },
+    {
+      "id": "aroopa",
+      "name": "Aroopa",
+      "careerUrl": "https://www.aroopatech.com/careers"
+    },
+    {
+      "id": "vazhai-tech",
+      "name": "Vazhai Tech",
+      "careerUrl": "https://vazh.ai/career"
+    },
+    {
+      "id": "galactis",
+      "name": "Galactis",
+      "careerUrl": "https://www.galactis.ai/careers"
+    },
+    {
+      "id": "saadhvi-technology",
+      "name": "Saadhvi Technology",
+      "careerUrl": "https://saadhvi.com/careers/"
+    },
+    {
+      "id": "pyramidions",
+      "name": "Pyramidions",
+      "careerUrl": "https://www.pyramidions.com/careers/"
+    },
+    {
+      "id": "algorian-solutions",
+      "name": "Algorian Solutions",
+      "careerUrl": "https://www.algoriansolutions.com/jobs"
+    },
+    {
+      "id": "sentos-technologies",
+      "name": "Sentos Technologies",
+      "careerUrl": "https://sentostech.com/company/careers"
+    },
+    {
+      "id": "pixel-tech",
+      "name": "Pixel Tech",
+      "careerUrl": "https://pixeltech.ai/careers"
+    }
+  ]
+}

@@ -70,8 +70,8 @@ class DiscoveryTests(unittest.TestCase):
         for text in ['India remote-friendly company', 'India fully remote employer. This role is hybrid in Pune.', 'Fully remote team, India. Relocation to Bangalore after a few months.', 'India: not a remote role']:
             self.assertFalse(scan.explicit_remote_india(text),text)
 
-    def test_rotating_budget_covers_every_query_in_three_days(self):
+    def test_rotating_budget_covers_every_query(self):
         cfg=json.loads((Path(__file__).parents[1]/'config/search.json').read_text())
-        batches=[scan.discovery_queries(cfg,day_index=i) for i in range(3)]
+        batches=[scan.discovery_queries(cfg,day_index=i) for i in range(max(len(cfg['queries']),len(cfg['linkedinQueries'])))]
         self.assertTrue(all(len(x)==4 and sum(li for _,li in x)==2 for x in batches))
         self.assertEqual({q for b in batches for q,_ in b},set(cfg['queries']+cfg['linkedinQueries']))

@@ -98,6 +98,16 @@ def audit(data, config, scan):
     stamp = now.isoformat(timespec='seconds')
     cfg = dict(config)
     cfg['allowedHosts'] = list(set(config['allowedHosts']) | {'www.linkedin.com', 'in.linkedin.com', 'boards-api.greenhouse.io', 'api.lever.co','api.smartrecruiters.com','api.ashbyhq.com'})
+    # Employer-linked career hosts discovered from the company catalog must
+    # remain auditable on later runs. Only validated Workday URLs qualify.
+    try:
+        from scripts import workday_connector
+    except ModuleNotFoundError:
+        import workday_connector
+    for job in data['jobs']:
+        parts = workday_connector.parts(job.get('applyUrl', ''))
+        if parts and job.get('employerBoard', {}).get('host') == parts[0]:
+            cfg['allowedHosts'].append(parts[0])
     cfg['maxPageFetches'] = max(100, len(data['jobs']) * 2)
     fetcher = scan.Fetcher(cfg)
     api_cache = {}

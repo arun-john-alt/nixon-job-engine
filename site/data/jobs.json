@@ -10,382 +10,22 @@
       {
         "source": "Opening target",
         "status": "20/20 confirmed matches",
-        "detail": "20/20 reviewed, confirmed openings; 4 additional confirmed vacancies awaiting match review. Expansion level 1; 74 employer sources planned. Hourly credit-free checks replenish toward a buffer of 25. Broad search remains once daily at 9 AM IST. No expired, unconfirmed, excluded or unscored role counts toward the minimum. GitHub schedules may be delayed."
+        "detail": "20/20 reviewed, confirmed openings; 5 additional confirmed vacancies awaiting match review. Expansion level 1; 74 employer sources planned. Hourly credit-free checks replenish toward a buffer of 25. Broad search remains once daily at 9 AM IST. No expired, unconfirmed, excluded or unscored role counts toward the minimum. GitHub schedules may be delayed."
+      },
+      {
+        "source": "Chennai company catalog",
+        "status": "26/26 companies checked; 0 new leads this run",
+        "detail": "2 career pages attempted. Employer-linked ATS feeds and exact structured vacancies checked. Blocked pages and pages needing adapters remain explicit coverage gaps. Catalog membership does not prove a suitable vacancy. New jobs require full-description match review."
+      },
+      {
+        "source": "Employer feed: Uniphore",
+        "status": "1 postings examined; 1 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
       },
       {
         "source": "Direct application availability",
         "status": "27 confirmed open; 7 closed; 133 unconfirmed; 1 retained within 48h",
         "detail": "Every non-closed record attempted before discovery. Blocked or unprovable vacancies stay unconfirmed; only positive exact-vacancy evidence refreshes the 48-hour clock. No application was submitted."
-      },
-      {
-        "source": "Employer feed: Arista Networks",
-        "status": "26 postings examined; 1 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Freshworks",
-        "status": "35 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: MicroStrategy",
-        "status": "12 postings examined; 1 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Rotork",
-        "status": "12 postings examined; 1 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: AHL \u2013 Saaf AI",
-        "status": "5 postings examined; 1 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: SavvyMoney",
-        "status": "13 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Bidgely",
-        "status": "16 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Inflection.io",
-        "status": "1 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: OpenObserve",
-        "status": "6 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Extreme Networks",
-        "status": "97 postings examined; 5 relevant",
-        "detail": "Complete; public lever career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: YipitData",
-        "status": "54 postings examined; 1 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: SGS",
-        "status": "26 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Eurofins",
-        "status": "342 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Sopra Steria",
-        "status": "63 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Nagarro",
-        "status": "185 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Tomra",
-        "status": "1 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Continental",
-        "status": "14 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Bosch Group",
-        "status": "636 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: NielsenIQ",
-        "status": "60 postings examined; 1 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Sutherland",
-        "status": "53 postings examined; 1 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Kestra",
-        "status": "5 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Juniper Square",
-        "status": "48 postings examined; 1 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Pod Network",
-        "status": "4 postings examined; 1 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Rifa AI",
-        "status": "5 postings examined; 1 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Plane",
-        "status": "33 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Sentry",
-        "status": "42 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Linear",
-        "status": "34 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: PostHog",
-        "status": "10 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Supabase",
-        "status": "59 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: n8n",
-        "status": "40 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Zapier",
-        "status": "12 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Docker",
-        "status": "68 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Atlan",
-        "status": "5 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Vanta",
-        "status": "85 postings examined; 0 relevant",
-        "detail": "Complete; public ashby career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Zuora",
-        "status": "29 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Druva",
-        "status": "32 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Zscaler",
-        "status": "355 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Rubrik",
-        "status": "147 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Netskope",
-        "status": "126 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Harness",
-        "status": "65 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: GitLab",
-        "status": "231 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Grafana Labs",
-        "status": "141 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Canonical",
-        "status": "312 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Elastic",
-        "status": "392 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: MongoDB",
-        "status": "388 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Cloudflare",
-        "status": "446 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Samsara",
-        "status": "279 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Toast",
-        "status": "315 postings examined; 0 relevant",
-        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Flex",
-        "status": "2 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: HP",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Renault Group / RNTBCI",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Hitachi Energy",
-        "status": "1 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Shell",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Caterpillar",
-        "status": "2 postings examined; 1 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: BorgWarner",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: FLSmidth",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Valeo",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Rockwell Automation",
-        "status": "1 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Logitech",
-        "status": "1 postings examined; 1 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: KLA",
-        "status": "2 postings examined; 2 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Trimble",
-        "status": "0 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: GE Vernova",
-        "status": "2 postings examined; 0 relevant",
-        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Expeditors",
-        "status": "11 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: AECOM",
-        "status": "383 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Accor",
-        "status": "808 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: H&M",
-        "status": "117 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Veolia",
-        "status": "71 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Cielo",
-        "status": "4 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Avery Dennison",
-        "status": "28 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Sika",
-        "status": "53 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Enviri",
-        "status": "44 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Louis Dreyfus Company",
-        "status": "18 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Informa",
-        "status": "3 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
-      },
-      {
-        "source": "Employer feed: Egis",
-        "status": "242 postings examined; 0 relevant",
-        "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
         "source": "LinkedIn public search index",
@@ -515,25 +155,274 @@
     ],
     "scanDateIst": "2026-10-23",
     "employerDiscovery": {
-      "checkedAt": "2026-10-23T04:50:29+00:00",
-      "boards": 74,
-      "newLeads": 0,
+      "checkedAt": "2026-10-23T08:03:32+00:00",
+      "boards": 1,
+      "newLeads": 1,
       "linkedEmployerRoutes": 0,
-      "relevantPostings": 19
+      "relevantPostings": 1
     },
     "openingPool": {
       "minimum": 20,
       "buffer": 25,
       "reviewedOpen": 20,
-      "pendingOpen": 4,
+      "pendingOpen": 5,
       "shortfall": 0,
       "bufferShortfall": 5,
       "expansionLevel": 1,
       "boardsPlanned": 74,
-      "lastReplenishedAt": "2026-10-23T04:53:07+00:00",
+      "lastReplenishedAt": "2026-10-23T08:08:29+00:00",
       "consecutiveShortfalls": 0,
       "status": "target-met",
-      "nextCheckAfter": "2026-10-23T05:38:07+00:00"
+      "nextCheckAfter": "2026-10-23T08:53:29+00:00"
+    },
+    "companyDiscovery": {
+      "catalogSize": 26,
+      "checkedThisRun": 2,
+      "everChecked": 26,
+      "nextIndex": 20,
+      "newLeads": 0,
+      "linkedBoards": 0,
+      "checkedAt": "2026-10-23T08:07:05+00:00",
+      "companies": {
+        "rocketlane": {
+          "company": "Rocketlane",
+          "careerUrl": "https://careers.kula.ai/rocketlane?jobs=true",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "superops": {
+          "company": "SuperOps",
+          "careerUrl": "https://superops.com/careers",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "facilio": {
+          "company": "Facilio",
+          "careerUrl": "https://facilio.com/careers/",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "kissflow": {
+          "company": "Kissflow",
+          "careerUrl": "https://careers.kissflow.com/",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "chargebee": {
+          "company": "Chargebee",
+          "careerUrl": "https://jobs.chargebee.com/",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "zuper": {
+          "company": "Zuper",
+          "careerUrl": "https://www.zuper.co/careers",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "zoho": {
+          "company": "Zoho",
+          "careerUrl": "https://careers.zohocorp.com/jobs/Careers",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "freshworks": {
+          "company": "Freshworks",
+          "careerUrl": "https://careers.smartrecruiters.com/Freshworks",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "ats-linked",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [
+            "smart"
+          ],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "surveysparrow": {
+          "company": "SurveySparrow",
+          "careerUrl": "https://surveysparrow.com/careers/",
+          "checkedAt": "2026-10-23T08:07:05+00:00",
+          "status": "blocked-or-unavailable",
+          "fetchStatus": "ValueError",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T20:07:05+00:00"
+        },
+        "testsigma": {
+          "company": "Testsigma",
+          "careerUrl": "https://testsigma.com/careers",
+          "checkedAt": "2026-10-23T08:01:58+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:01:58+00:00"
+        },
+        "spendflo": {
+          "company": "Spendflo",
+          "careerUrl": "https://www.spendflo.com/careers",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:16+00:00"
+        },
+        "disprz": {
+          "company": "Disprz",
+          "careerUrl": "https://disprz.ai/company/about-us",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:16+00:00"
+        },
+        "uniphore": {
+          "company": "Uniphore",
+          "careerUrl": "https://www.uniphore.com/careers/",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "ats-linked",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [
+            "workday"
+          ],
+          "nextCheckAt": "2026-10-23T14:03:16+00:00"
+        },
+        "fourkites": {
+          "company": "FourKites",
+          "careerUrl": "https://www.fourkites.com/careers/",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "blocked-or-unavailable",
+          "fetchStatus": "Skipped: robots disallow or robots could not be checked",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T20:03:16+00:00"
+        },
+        "pando": {
+          "company": "Pando",
+          "careerUrl": "https://pando.ai/careers",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "blocked-or-unavailable",
+          "fetchStatus": "HTTP 404",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T20:03:16+00:00"
+        },
+        "m2p-fintech": {
+          "company": "M2P Fintech",
+          "careerUrl": "https://m2pfintech.com/careers/",
+          "checkedAt": "2026-10-23T08:07:05+00:00",
+          "status": "blocked-or-unavailable",
+          "fetchStatus": "ValueError",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T20:07:05+00:00"
+        },
+        "yubi": {
+          "company": "Yubi",
+          "careerUrl": "https://www.go-yubi.com/careers/",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "blocked-or-unavailable",
+          "fetchStatus": "Skipped: robots disallow or robots could not be checked",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T20:03:16+00:00"
+        },
+        "rheo": {
+          "company": "Rheo",
+          "careerUrl": "https://rheo.ai/careers/",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "blocked-or-unavailable",
+          "fetchStatus": "Skipped: robots disallow or robots could not be checked",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T20:03:16+00:00"
+        },
+        "aroopa": {
+          "company": "Aroopa",
+          "careerUrl": "https://www.aroopatech.com/careers",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:16+00:00"
+        },
+        "vazhai-tech": {
+          "company": "Vazhai Tech",
+          "careerUrl": "https://vazh.ai/career",
+          "checkedAt": "2026-10-23T08:03:16+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:16+00:00"
+        },
+        "galactis": {
+          "company": "Galactis",
+          "careerUrl": "https://www.galactis.ai/careers",
+          "checkedAt": "2026-10-23T08:03:37+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:37+00:00"
+        },
+        "saadhvi-technology": {
+          "company": "Saadhvi Technology",
+          "careerUrl": "https://saadhvi.com/careers/",
+          "checkedAt": "2026-10-23T08:03:37+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:37+00:00"
+        },
+        "pyramidions": {
+          "company": "Pyramidions",
+          "careerUrl": "https://www.pyramidions.com/careers/",
+          "checkedAt": "2026-10-23T08:03:37+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:37+00:00"
+        },
+        "algorian-solutions": {
+          "company": "Algorian Solutions",
+          "careerUrl": "https://www.algoriansolutions.com/jobs",
+          "checkedAt": "2026-10-23T08:03:37+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:37+00:00"
+        },
+        "sentos-technologies": {
+          "company": "Sentos Technologies",
+          "careerUrl": "https://sentostech.com/company/careers",
+          "checkedAt": "2026-10-23T08:03:37+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:37+00:00"
+        },
+        "pixel-tech": {
+          "company": "Pixel Tech",
+          "careerUrl": "https://pixeltech.ai/careers",
+          "checkedAt": "2026-10-23T08:03:37+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-23T14:03:37+00:00"
+        }
+      }
     }
   },
   "jobs": [
@@ -14415,6 +14304,86 @@
           "checkedOn": "2026-10-23"
         }
       ]
+    },
+    {
+      "id": "uniphore-e94f407f35a5",
+      "company": "Uniphore",
+      "title": "Senior Staff Software Engineer (SDET)",
+      "location": "- Bangalore / - Chennai, India",
+      "workModel": "Not specified",
+      "family": "Needs classification",
+      "experience": "Review full JD",
+      "requisition": "JR101144",
+      "applyUrl": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-10-23",
+      "checkedOn": "2026-10-23",
+      "verification": "live",
+      "verificationNote": "Employer JobPosting metadata fetched directly. This checks the page, not completion of the application form.",
+      "analysisStatus": "needs-review",
+      "score": [],
+      "summary": "Uniphore is the Business AI company. Our sovereign, composable and secure AI platform connects enterprise data, fine-tunes AI models and deploys agentic AI across the enterprise. We empower every worker to boost productivity and help businesses grow faster, operate smarter and reduce costs. Trusted by more than 2,000 businesses globally, and recognized on the Deloitte Fast 500, Uniphore delivers on the promise of AI as a transformative force for business. Job Description: Key Responsibilities Lead QA strategy and roadmap for Uniphore\u2019s AI and SaaS platforms, driving continuous improvements in automation,",
+      "hardGaps": [
+        "Full JD and candidate evidence require review before scoring."
+      ],
+      "benefits": [],
+      "risks": [
+        "Compensation and team conditions unverified."
+      ],
+      "questions": [
+        "Confirm role level, salary budget, work model and required experience."
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No defensible salary estimate generated. Ask for the annual fixed/variable split and total CTC.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Not researched; no review claims generated.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [],
+        "confirm": [],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer job posting",
+          "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+          "scope": "Public JobPosting metadata",
+          "asOf": "2026-10-23",
+          "checkedOn": "2026-10-23"
+        }
+      ],
+      "employerDescriptionHash": "5658a2558b5cd75bde634ca56cd4f3073e8ca4165ac34a2b783f5422312cc5e9",
+      "availabilityStatus": "open",
+      "availabilityHold": false,
+      "lastConfirmedOpenAt": "2026-10-23T08:03:32+00:00",
+      "availabilityCheckedAt": "2026-10-23T08:03:32+00:00",
+      "availabilityEvidenceUrl": "https://uniphore.wd503.myworkdayjobs.com/wday/cxs/uniphore/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+      "availabilityReason": "Exact vacancy published in the employer recruiting API with its application route.",
+      "discoveryEligible": true,
+      "employerPostingId": "JR101144",
+      "employerBoard": {
+        "company": "Uniphore",
+        "kind": "workday",
+        "host": "uniphore.wd503.myworkdayjobs.com",
+        "slug": "uniphore",
+        "site": "Uniphore",
+        "searchTerms": [
+          "Chennai",
+          "remote India"
+        ]
+      }
     }
   ]
 }

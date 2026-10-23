@@ -55,6 +55,9 @@ jobs:
       - name: Plan adaptive employer search
         if: steps.daily.outputs.replenish == 'true'
         run: python scripts/opening_pool.py prepare --plan "$RUNNER_TEMP/opening-plan.json"
+      - name: Discover Chennai startup career sources
+        if: steps.daily.outputs.replenish == 'true'
+        run: python scripts/company_sources.py
       - name: Discover and match employer vacancies
         if: steps.daily.outputs.replenish == 'true'
         run: python scripts/employers.py --config "$RUNNER_TEMP/opening-plan.config.json"
