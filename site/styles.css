@@ -16,3 +16,9 @@ body.dark{--bg:#171820;--paper:#20212c;--ink:#eeeef6;--muted:#a1a3b4;--line:#323
 .stats{flex-wrap:wrap;row-gap:8px}.pending-opening{margin-top:16px}.pending-opening .section-head{align-items:flex-start;gap:12px}.pending-opening .section-head h3{margin:6px 0 0}.pending-opening .tag{white-space:normal;text-align:center}#pendingSearch{padding-left:14px}
 
 .careerops-summary{flex-wrap:wrap}.careerops-method{margin-bottom:20px}.job-open .careerops-summary,.job-open .careerops-method{display:none}
+
+/* Keep the vacancy heading readable when the status needs another line. */
+.opportunities-heading{flex-wrap:wrap;align-items:baseline;row-gap:6px}
+.opportunities-heading>h3{flex:0 0 auto;white-space:nowrap;line-height:1.5}
+.opportunities-heading>.scan-status{flex-wrap:wrap;min-width:0}
+@media(max-width:480px){.opportunities-heading>.scan-status,.opportunities-heading>.muted{flex-basis:100%;line-height:1.5}}

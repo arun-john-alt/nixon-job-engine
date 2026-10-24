@@ -59,3 +59,5 @@ Local verification: 52 Node tests passed (including 10 pre-existing, uncommitted
 ## Career Ops navigation correction — 25 October 2026
 
 Reproduced inherited Jobs search filtering Career Ops to zero results on the live site. Fixed cross-tab filter reset and tab-only hash navigation; reload now uses the same route handler, including Settings and Saved. Career Ops visibly identifies its manual snapshot and review date. Chrome checks passed at 320, 390, 768 and 1440px without horizontal overflow or page errors; tested search-to-tab transition, hash navigation, job deep-link reload and Settings reload. Mobile screenshot inspected. Existing 52 local Node and 78 Python tests passed; dataset validation and public build passed. This does not establish exhaustive UI QA or independent Career Ops search quality.
+
+Opportunities heading follow-up: keep the complete heading/count together and wrap the adjacent status onto its own line on small screens. Chrome text-bound checks passed for Jobs and Career Ops at 320, 375, 390, 768 and 1440px. Node/Python suites, validation and privacy build passed.
