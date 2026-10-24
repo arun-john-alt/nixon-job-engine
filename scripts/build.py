@@ -6,7 +6,7 @@ import shutil
 import re
 ROOT=Path(__file__).resolve().parents[1]
 source=ROOT/'site';target=ROOT/'dist'
-allowed={'index.html','styles.css','app.js','engine.js','resume.js','favicon.svg','data/jobs.json','companies.js'}
+allowed={'index.html','styles.css','app.js','engine.js','resume.js','favicon.svg','data/jobs.json','companies.js','career-ops.js','data/career-ops.json'}
 allowed.update({'assets/companies/'+key+'.png' for key in ['standard-chartered']})
 allowed.update({'assets/companies/'+key+'.png' for key in ['niq','juniper','pod','strategy','rotork']})
 allowed.update({'assets/companies/extreme.png', 'assets/companies/company.svg', 'assets/companies/miratech.png', 'assets/companies/kla.png', 'assets/companies/ust.svg', 'assets/companies/logitech.png', 'assets/companies/kumaran.png', 'assets/companies/epam.png', 'assets/companies/omnissa.png', 'assets/companies/hcltech.png', 'assets/companies/virtusa.png', 'assets/companies/arista.png', 'assets/companies/viasat.png'})
@@ -27,6 +27,7 @@ def check(value):
     elif isinstance(value,list):
         for v in value:check(v)
 check(data)
+check(json.loads((source/'data/career-ops.json').read_text()))
 if target.exists():shutil.rmtree(target)
 shutil.copytree(source,target)
 (target/'.nojekyll').write_text('')

@@ -49,3 +49,9 @@ Validation: Node and Python suites passed, dataset validation passed, and the pu
 ## Company-first source discovery — 23 October 2026
 
 A 26-company catalog was attempted in three bounded batches, followed by a retry for canonical-host redirects. It found an additional employer-confirmed Uniphore SDET requisition with Chennai among the locations; it remains pending full-description match review. Coverage retains blocked sources and missing-adapter states. Registry membership is not advertised as an active opening. Added tests cover source rotation/backoff, exact ATS domains, malformed URLs, robots denial, directories without vacancy proof, expanded testing titles and preserved location/junior filters. Node/Python suites, dataset validation and the public privacy/build gate passed. No layout changes were made.
+
+## Career Ops trial — 24 October 2026
+
+Nixon-only Career Ops view tested against the real upstream scanner receipt and full current descriptions. Tests cover cohort isolation, independent score labels, rejected provenance, confidence with missing evidence, closed/stale/unreviewed/changed-description suppression and unchanged regular Jobs results. Both datasets pass validation and public-build privacy checks. The trial is a reviewed snapshot; only existing vacancy availability checks are scheduled. See CAREER-OPS.md for scope and limitations.
+
+Local verification: 52 Node tests passed (including 10 pre-existing, uncommitted scheduler tests); 78 Python tests passed. Chrome headless on a real HTTP server verified 2 Career Ops cards, shared Saved tracking, mobile details/back navigation, preserved Career Ops URL on reload, no horizontal overflow at 390px and no page errors. Mobile screenshot inspected. New tab also retains every listing's weighted match percentage and company logo.

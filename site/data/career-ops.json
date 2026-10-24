@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "evaluatedAt": "2026-10-24",
+  "upstream": {
+    "repository": "https://github.com/career-ops-hq/career-ops",
+    "commit": "2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af",
+    "version": "1.38.0"
+  },
+  "method": "Unmodified upstream scan.mjs; full employer descriptions assessed by Codex using the Career Ops five-dimension rubric. These are agent-assisted assessments, not output from its API evaluator. Native 1–5 ratings are holistic, not converted from Nextmove match percentages.",
+  "refresh": "Reviewed trial snapshot. Existing hourly employer checks control availability; changed descriptions require a new Career Ops review. New Career Ops discovery and assessments are not scheduled.",
+  "scan": {
+    "date": "2026-10-24",
+    "scanned": 69,
+    "skipped": 25,
+    "found": 47096,
+    "filtered": 47076,
+    "added": 20
+  },
+  "candidateUrls": [
+    "https://jobs.smartrecruiters.com/MicroStrategy1/744000156725089-manager-quality-engineering",
+    "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
+    "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+    "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
+    "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
+    "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+    "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
+    "https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
+    "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+    "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+    "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
+    "https://jobs.smartrecruiters.com/NielsenIQ/744000155577399-senior-software-test-engineer",
+    "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+    "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
+    "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
+    "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
+    "https://jobs.smartrecruiters.com/QIMA/744000074491587-quality-inspector",
+    "https://jobs.smartrecruiters.com/QIMA/744000034920685-quality-inspector",
+    "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+    "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer---Automation---AI_2641371"
+  ],
+  "recommendations": [
+    {
+      "jobId": "extreme-10413",
+      "discoveredUrl": "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
+      "descriptionHash": "24300291fe0c55000594acd243bc570ea0e08545b0c26ffd8b0a9e1b5ce557e3",
+      "rating": 4.1,
+      "confidence": "Low",
+      "rationale": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8–12-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management.",
+      "dimensions": [
+        {
+          "name": "CV match",
+          "status": "partial",
+          "evidence": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8–12-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management."
+        },
+        {
+          "name": "North Star alignment",
+          "status": "partial",
+          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; ₹25L+ budget is unverified."
+        },
+        {
+          "name": "Compensation",
+          "status": "unknown",
+          "evidence": "No employer-disclosed annual total CTC range; ₹25L+ is not established."
+        },
+        {
+          "name": "Cultural signals",
+          "status": "unknown",
+          "evidence": "Employer descriptions are self-reported; independent team-level working conditions are not established."
+        },
+        {
+          "name": "Red flags",
+          "status": "partial",
+          "evidence": "Exact employer application route is active. Specialist skill gaps and unknown compensation remain checks before applying; no assurance of hiring outcome."
+        }
+      ]
+    },
+    {
+      "jobId": "yipitdata-6743082",
+      "discoveredUrl": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+      "descriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
+      "rating": 4.0,
+      "confidence": "Low",
+      "rationale": "Python, Robot Framework, Selenium, API testing and test-strategy ownership align with the full description. Remote India is explicit. Performance tools remain a gap; this is an IC role and the data-product domain is new.",
+      "dimensions": [
+        {
+          "name": "CV match",
+          "status": "partial",
+          "evidence": "Python, Robot Framework, Selenium, API testing and test-strategy ownership align with the full description. Remote India is explicit. Performance tools remain a gap; this is an IC role and the data-product domain is new."
+        },
+        {
+          "name": "North Star alignment",
+          "status": "partial",
+          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; ₹25L+ budget is unverified."
+        },
+        {
+          "name": "Compensation",
+          "status": "unknown",
+          "evidence": "No employer-disclosed annual total CTC range; ₹25L+ is not established."
+        },
+        {
+          "name": "Cultural signals",
+          "status": "unknown",
+          "evidence": "Employer descriptions are self-reported; independent team-level working conditions are not established."
+        },
+        {
+          "name": "Red flags",
+          "status": "partial",
+          "evidence": "Exact employer application route is active. Specialist skill gaps and unknown compensation remain checks before applying; no assurance of hiring outcome."
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "company": "MicroStrategy",
+      "reason": "Manager role requires 12+ QA years and BI/cloud/AI platform experience; dated experience is about 9.5 years. Senior role requires hands-on AI/ML testing not evidenced."
+    },
+    {
+      "company": "Arista Networks",
+      "reason": "Mandatory RF/L1, current Wi-Fi technologies and lab-scale expertise are not sufficiently established."
+    },
+    {
+      "company": "Extreme Networks",
+      "reason": "Other discovered roles require deeper cloud/performance/security or data-centre/5G expertise, or advertise a lower experience band."
+    },
+    {
+      "company": "Rotork",
+      "reason": "LabVIEW, NI TestStand and industrial instrumentation gaps."
+    },
+    {
+      "company": "QIMA / Sika",
+      "reason": "Manufacturing inspection or chemical QA, rather than software testing."
+    }
+  ]
+}
