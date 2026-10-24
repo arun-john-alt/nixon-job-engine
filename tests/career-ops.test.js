@@ -24,3 +24,10 @@ test('actual app isolates Career Ops without changing regular Jobs and keeps bot
  assert.equal(vm.runInContext('eligible().length',c),0);
  vm.runInContext("view='jobs';filter.archived=false;D.jobs.forEach(j=>j.lastConfirmedOpenAt=new Date().toISOString())",c);assert.equal(vm.runInContext('eligible().length',c),main);
 });
+
+test('independent trial vacancy can add coverage without becoming a regular match',()=>{
+ const jobs=fresh();const seed=jobs.find(j=>j.id===trial.recommendations[0].jobId);const extra={...seed,id:'independent-trial-job',applyUrl:'https://jobs.lever.co/example/independent'};
+ const t=structuredClone(trial);t.jobs=[extra];t.candidateUrls.push(extra.applyUrl);t.recommendations.push({...t.recommendations[0],jobId:extra.id,discoveredUrl:extra.applyUrl});
+ const valid=co.validateTrial(t);assert.equal(co.trialJobs(valid,jobs,25).length,3);const counts=co.compareTrial(valid,jobs,25);assert.equal(counts.careerOps-counts.overlap,1);
+ const merged=[...jobs,{...extra,careerOpsOnly:true}];assert.equal(co.compareTrial(valid,merged,25).main,counts.main);assert.equal(co.compareTrial(valid,merged,25).overlap,2);
+});

@@ -131,5 +131,51 @@
       "company": "QIMA / Sika",
       "reason": "Manufacturing inspection or chemical QA, rather than software testing."
     }
-  ]
+  ],
+  "jobs": [],
+  "expansion": {
+    "date": "2026-10-25",
+    "receipt": {
+      "version": "careerops.scan.receipt@1",
+      "date": "2026-10-25",
+      "scanned": 2,
+      "skipped": 0,
+      "found": 142,
+      "filtered": 138,
+      "duplicates": 0,
+      "added": 4,
+      "added_urls": [
+        "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
+        "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=o7PFAfwV",
+        "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=osrCAfwP",
+        "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=opOFAfwc"
+      ],
+      "errors": [],
+      "unverified_zero": [],
+      "dry_run": false
+    },
+    "summary": "Two additional employer boards scanned by Career Ops: 142 postings examined, four title/location candidates. These are leads, not four new recommendations. New sources can now contribute their own reviewed jobs without requiring an existing Nextmove listing.",
+    "candidates": [
+      {
+        "company": "Gen Digital",
+        "title": "Mobile QA Architect",
+        "status": "Full-description verification blocked (HTTP 403 from employer API); not promoted."
+      },
+      {
+        "company": "Gigamon",
+        "title": "Sr. Staff SW QA Engineer — AppIntel",
+        "status": "12+ QA years and specialist traffic-generator requirements; not promoted to a strong match."
+      },
+      {
+        "company": "Gigamon",
+        "title": "Sr. Staff SW QA Engineer — Cloud",
+        "status": "Python/Robot/networking overlap, but 10+ years, production cloud, Terraform/Ansible and scale-test expertise need confirmation; not promoted to a strong match."
+      },
+      {
+        "company": "Gigamon",
+        "title": "Sr. SW QA Engineer — AppIntel",
+        "status": "3–5-year band and traffic-generator expertise; level and budget need confirmation."
+      }
+    ]
+  }
 }
