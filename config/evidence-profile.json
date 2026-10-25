@@ -1,0 +1,43 @@
+{
+  "years": 9.5,
+  "peopleManager": true,
+  "responsibilities": [
+    "test automation",
+    "regression",
+    "test planning",
+    "api testing",
+    "quality assurance",
+    "software testing",
+    "validation",
+    "selenium",
+    "robot framework"
+  ],
+  "tools": [
+    "python",
+    "robot framework",
+    "selenium",
+    "jenkins",
+    "git",
+    "rest api"
+  ],
+  "domains": [
+    "networking",
+    "telecom",
+    "wireless",
+    "infotainment"
+  ],
+  "unconfirmed": [
+    "java",
+    "playwright",
+    "pytest",
+    "terraform",
+    "ansible",
+    "labview",
+    "teststand",
+    "ixia",
+    "spirent",
+    "performance testing",
+    "kubernetes",
+    "machine learning"
+  ]
+}
