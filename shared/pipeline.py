@@ -8,7 +8,13 @@ def load(name,path):
     spec=importlib.util.spec_from_file_location(name,path);mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod);return mod
 
 def hits(text,terms):
-    return [term for term in terms if re.search(r'(?<!\w)'+re.escape(term)+r'(?!\w)',text,re.I)]
+    result=[]
+    for term in terms:
+        pattern=r'(?<!\w)'+re.escape(term)+r'(?!\w)'
+        if not re.search(pattern,text,re.I):continue
+        if re.search(r'no\s+'+pattern+r'\s+(?:experience\s+)?required|'+pattern+r'\s+(?:is\s+)?not required',text,re.I):continue
+        result.append(term)
+    return result
 
 def assess(item,profile):
     """Score only full descriptions; never infer candidate skills from job wording."""
@@ -54,6 +60,9 @@ def install_cache(scan,path):
     scan.Fetcher=Cached
     return original
 
+def cache_urls(board,item,engine):
+    return [] if board['kind']=='workday' else [engine.api_url(board['kind'],board['slug']),item.get('api','')]
+
 def run(root,cache):
     sys.path.insert(0,str(root/'scripts'));import scan
     engine=load('shared_employers',HERE/'employers.py')
@@ -86,7 +95,7 @@ def run(root,cache):
         result=base_collect(board,cfg,scan)
         for item in result[2]:
             stamps=[]
-            for url in ([] if board['kind']=='workday' else [engine.api_url(board['kind'],board['slug']),item.get('api','')]):
+            for url in cache_urls(board,item,engine):
                 key=cache/(hashlib.sha256(url.encode()).hexdigest()+'.json')
                 if key.exists():
                     try:stamps.append(json.loads(key.read_text())['checkedAt'])
