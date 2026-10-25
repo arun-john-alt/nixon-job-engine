@@ -179,12 +179,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-25T08:58:27+00:00",
+    "checkedAt": "2026-10-25T13:58:31+00:00",
     "scanDateIst": "2026-10-25",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 47249,
+    "examined": 47253,
     "candidateCount": 24,
     "sourceFailures": 0,
     "candidates": [
@@ -297,16 +297,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
-        "company": "Uniphore",
-        "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore · India - Chennai"
-      },
-      {
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
         "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
+      },
+      {
+        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+        "company": "Uniphore",
+        "title": "Senior Staff Software Engineer (SDET)",
+        "location": "India - Bangalore · India - Chennai"
       },
       {
         "url": "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=o7PFAfwV",
