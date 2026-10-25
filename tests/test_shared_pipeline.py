@@ -17,6 +17,10 @@ class AssessmentTests(unittest.TestCase):
   self.assertLess(b['total'],a['total']);self.assertIn('java',b['hardGaps'][0].lower())
  def test_experience_gap_visible(self):
   a=self.m.assess(self.item('Test automation with 15 years experience Python'),self.p);self.assertTrue(any('15' in s for s in a['hardGaps']))
+ def test_new_workday_host_registered_before_collection(self):
+  cfg={'allowedHosts':['api.lever.co']}
+  self.m.approve_board_hosts(cfg,[{'kind':'workday','host':'example.wd1.myworkdayjobs.com'},{'kind':'workday','host':'127.0.0.1'}])
+  self.assertIn('example.wd1.myworkdayjobs.com',cfg['allowedHosts']);self.assertNotIn('127.0.0.1',cfg['allowedHosts'])
  def test_workday_does_not_use_get_cache(self):
   class Engine:
    def api_url(*args):raise AssertionError('Workday must use its live connector')

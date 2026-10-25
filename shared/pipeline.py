@@ -63,6 +63,10 @@ def install_cache(scan,path):
 def cache_urls(board,item,engine):
     return [] if board['kind']=='workday' else [engine.api_url(board['kind'],board['slug']),item.get('api','')]
 
+def approve_board_hosts(cfg,boards):
+    approved={b['host'] for b in boards if b.get('kind')=='workday' and re.fullmatch(r'[a-z0-9-]+\.wd\d+\.myworkdayjobs\.com',b.get('host',''))}
+    cfg['allowedHosts']=list(set(cfg['allowedHosts'])|approved)
+
 def run(root,cache,directory_limit=None):
     sys.path.insert(0,str(root/'scripts'));import scan
     engine=load('shared_employers',HERE/'employers.py')
@@ -71,7 +75,7 @@ def run(root,cache,directory_limit=None):
     retired=json.loads((HERE/'retired-sources.json').read_text())['sources']
     retired_keys={(r['board']['kind'],r['board']['slug'].casefold()) for r in retired}
     def retired_board(board):return (board['kind'],board['slug'].casefold()) in retired_keys
-    cfg['allowedHosts']=list(set(cfg['allowedHosts'])|{b['host'] for b in cfg['employerBoards'] if b.get('host')})
+    approve_board_hosts(cfg,cfg['employerBoards'])
     path=root/'site/data/jobs.json';data=json.loads(path.read_text());original=install_cache(scan,cache)
     previous_watch=data.get('run',{}).get('retiredSourceWatch',{})
     today=dt.datetime.now(dt.timezone.utc).date().isoformat();watch={}
@@ -110,6 +114,7 @@ def run(root,cache,directory_limit=None):
             if key not in known and not retired_board(board):cfg['employerBoards'].append(board);known.add(key)
 
     def item_key(url):return engine.exact_key(url) or ('url',scan.canonical(url))
+    approve_board_hosts(cfg,cfg['employerBoards'])
     base_collect=engine.collect_board;assessed={};source_states=[]
     for job,description in direct:
         item={'url':job['applyUrl'],'title':job['title'],'description':description}
@@ -131,10 +136,19 @@ def run(root,cache,directory_limit=None):
     safe=engine.safe_collect
     def tracked_safe(board,cfg,scan):
         result=safe(board,cfg,scan)
-        source_states.append(dict(company=board['company'],kind=board['kind'],slug=board['slug'],status=result[3],postings=len(result[1]),relevant=len(result[2])))
+        source_states.append(dict(company=board['company'],kind=board['kind'],slug=board['slug'],site=board.get('site',''),status=result[3],postings=len(result[1]),relevant=len(result[2])))
         return result
     engine.safe_collect=tracked_safe
     report=engine.discover(data,cfg,scan)
+    checked={(r['kind'],r['slug'],r.get('site','')):r for r in source_states}
+    company_report=data['run']['companyDiscovery']
+    for state in company_report['companies'].values():
+        boards=state.get('boards',[])
+        if not boards:continue
+        state['validatedBoards']=[b for b in boards if checked.get((b['kind'],b['slug'],b.get('site','')),{}).get('status') in ('Complete','Search complete')]
+        if state['validatedBoards']:state['status']='ats-linked'
+        else:state['status']='feed-unavailable'
+    company_report['connectedCompanies']=sum(r['status'] in ('ats-linked','structured-vacancy-checked','career-list-checked') for r in company_report['companies'].values())
     new=0
     for job in data['jobs']:
         pair=assessed.get(item_key(job['applyUrl']))
@@ -147,7 +161,7 @@ def run(root,cache,directory_limit=None):
         job['summary']=re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[public contact omitted]', item['description'][:1100]);job['resumeEdits']=[];new+=1
     stamp=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     failures=[s for s in source_states if s['status'] not in ('Complete','Search complete')]
-    health=dict(version=VERSION,checkedAt=stamp,status='partial' if failures else 'success',boards=len(source_states),sourceFailures=len(failures),assessed=new,sources=sorted(source_states,key=lambda s:s['company']))
+    health=dict(version=VERSION,checkedAt=stamp,status='partial' if failures else 'success',boards=len(source_states),workingSources=len(source_states)-len(failures),sourceFailures=len(failures),assessed=new,sources=sorted(source_states,key=lambda s:s['company']))
     health['retiredSources']=retired
     data.setdefault('run',{})['sharedPipeline']=health
     data['run']['coverage']=[{'source':'Retired employer feeds','status':f'{len(retired)} retired feeds; checked daily for recovery','detail':'Made Card posting API and public embed no longer publish a board. Its official careers page remains in the company directory. This is not evidence that individual vacancies were filled.'}]+[c for c in data['run'].get('coverage',[]) if c['source']!='Retired employer feeds']
