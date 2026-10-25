@@ -114,12 +114,12 @@ def run(root,cache):
     new=0
     for job in data['jobs']:
         pair=assessed.get(engine.exact_key(job['applyUrl']))
-        if not pair:continue
+        if not pair or re.search(r'\.(?:com|io|net)$',job.get('company','')):continue
         item,result=pair
         if not result:continue
         # Preserve reviewed human/agent assessments while description hashes match.
         if job.get('analysisStatus')=='reviewed' and not job.get('assessmentMethod','').startswith('rules'):continue
-        job.update(analysisStatus='reviewed',score=result['score'],hardGaps=result['hardGaps'],assessmentMethod='rules-v1-full-description',assessmentTier='weak' if result['total']<55 else 'strong' if result['total']>=80 and not result['hardGaps'] else 'consider',reviewNote='Automated evidence assessment from the full employer description and confirmed profile facts. Keyword overlap is a conservative heuristic; mandatory requirements and role scope need candidate confirmation. Salary is assessed separately.',ats={'supported':result['supported'],'confirm':result['hardGaps'],'unsupported':[]})
+        job.update(analysisStatus='needs-review' if result['total']<55 else 'reviewed',score=result['score'],hardGaps=result['hardGaps'],assessmentMethod='rules-v1-full-description',assessmentTier='weak' if result['total']<55 else 'strong' if result['total']>=80 and not result['hardGaps'] else 'consider',reviewNote='Automated evidence assessment from the full employer description and confirmed profile facts. Keyword overlap is a conservative heuristic; mandatory requirements and role scope need candidate confirmation. Salary is assessed separately.',ats={'supported':result['supported'],'confirm':result['hardGaps'],'unsupported':[]})
         job['summary']=re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[public contact omitted]', item['description'][:1100]);job['resumeEdits']=[];new+=1
     stamp=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     failures=[s for s in source_states if s['status'] not in ('Complete','Search complete')]
