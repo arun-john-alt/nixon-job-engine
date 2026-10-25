@@ -109,10 +109,16 @@ def run(root,cache,directory_limit=None):
             if key not in known and not retired_board(board):cfg['employerBoards'].append(board);known.add(key)
 
     for state in data['run']['companyDiscovery']['companies'].values():
+        fixed_boards=[]
         for board in state.get('boards',[]):
+            if board['kind']=='workday' and re.fullmatch(r'[a-z]{2}-[a-z]{2}',board.get('site',''),re.I):
+                board=sources.board_from_link(state.get('careerUrl',''),board['company'])
+                if not board or re.fullmatch(r'[a-z]{2}-[a-z]{2}',board.get('site',''),re.I):continue
+            fixed_boards.append(board)
             key=(board['kind'],board['slug'],board.get('site',''))
             if key not in known and not retired_board(board):cfg['employerBoards'].append(board);known.add(key)
 
+        state['boards']=fixed_boards
     def item_key(url):return engine.exact_key(url) or ('url',scan.canonical(url))
     approve_board_hosts(cfg,cfg['employerBoards'])
     base_collect=engine.collect_board;assessed={};source_states=[]

@@ -8,6 +8,9 @@ class DirectoryTests(unittest.TestCase):
   rows=json.loads((ROOT/'shared/company-catalog.json').read_text())['companies']
   self.assertGreaterEqual(len(rows),600);self.assertEqual(len(rows),len({r['id'] for r in rows}))
   for r in rows:self.assertTrue(m.scan.valid_url(r['careerUrl'],{m.urls.urlsplit(r['careerUrl']).hostname}))
+ def test_lowercase_workday_locale_not_a_board_name(self):
+  b=m.board_from_link('https://ghr.wd1.myworkdayjobs.com/en-us/Lateral-US','Bank of America')
+  self.assertEqual(b['site'],'Lateral-US')
  def test_unchecked_companies_precede_rechecks(self):
   now=dt.datetime.now(dt.timezone.utc);rows=[{'id':'old'},{'id':'new'}]
   chosen,_=m.choose(rows,{'companies':{'old':{}}},1,now);self.assertEqual(chosen,[{'id':'new'}])

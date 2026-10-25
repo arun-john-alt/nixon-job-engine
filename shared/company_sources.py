@@ -14,7 +14,7 @@ def board_from_link(url,company):
     kind={'jobs.lever.co':'lever','jobs.ashbyhq.com':'ashby','jobs.smartrecruiters.com':'smart','careers.smartrecruiters.com':'smart','boards.greenhouse.io':'greenhouse','job-boards.greenhouse.io':'greenhouse'}.get(u.hostname)
     if kind and re.fullmatch(r'[A-Za-z0-9_-]+',parts[0]):return dict(company=company,kind=kind,slug=parts[0])
     if re.fullmatch(r'[a-z0-9-]+\.wd\d+\.myworkdayjobs\.com',u.hostname or ''):
-        if re.fullmatch(r'[a-z]{2}-[A-Z]{2}',parts[0]):parts=parts[1:]
+        if re.fullmatch(r'[a-z]{2}-[a-z]{2}',parts[0],re.I):parts=parts[1:]
         if parts and re.fullmatch(r'[A-Za-z0-9_-]+',parts[0]):return dict(company=company,kind='workday',host=u.hostname,slug=u.hostname.split('.')[0],site=parts[0],searchTerms=['Chennai','remote India'])
     return None
 
