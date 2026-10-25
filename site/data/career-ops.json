@@ -179,12 +179,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-25T03:38:30+00:00",
+    "checkedAt": "2026-10-25T04:17:58+00:00",
     "scanDateIst": "2026-10-25",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 47246,
+    "examined": 47245,
     "candidateCount": 24,
     "sourceFailures": 0,
     "candidates": [
@@ -205,12 +205,6 @@
         "company": "MicroStrategy",
         "title": "Quality Engineer, Senior",
         "location": "Chennai, , India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
-        "company": "Rotork",
-        "title": "Test Development Engineer",
-        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
@@ -241,6 +235,12 @@
         "company": "Extreme Networks",
         "title": "Staff QA SW Engineer (Wireless Testing) - 10413",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
+        "company": "Rotork",
+        "title": "Test Development Engineer",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
