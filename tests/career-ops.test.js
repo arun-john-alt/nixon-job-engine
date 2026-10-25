@@ -19,7 +19,7 @@ test('actual app isolates Career Ops without changing regular Jobs and keeps bot
  const main=vm.runInContext('eligible().length',c);assert.ok(main>2);
  assert.equal(vm.runInContext("view='careerops';eligible().length",c),2);
  const html=vm.runInContext('eligible().map(j=>card(j)).join(\'\')+careerOpsHeader()+careerOpsReview(eligible()[0])',c);
- assert.match(html,/\d+% match/);assert.match(html,/Career Ops 4\.\d\/5/);assert.match(html,/Low confidence/);assert.match(html,/not scheduled/);
+ assert.match(html,/\d+% match/);assert.match(html,/Career Ops 4\.\d\/5/);assert.match(html,/Low confidence/);assert.match(html,/evaluation|assessments|assessment/i);
  vm.runInContext("D.jobs.forEach(j=>j.lastConfirmedOpenAt='2020-01-01T00:00:00Z');filter.archived=true",c);
  assert.equal(vm.runInContext('eligible().length',c),0);
  vm.runInContext("view='jobs';filter.archived=false;D.jobs.forEach(j=>j.lastConfirmedOpenAt=new Date().toISOString())",c);assert.equal(vm.runInContext('eligible().length',c),main);

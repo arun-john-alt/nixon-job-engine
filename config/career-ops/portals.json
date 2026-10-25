@@ -1,0 +1,620 @@
+{
+  "tracked_companies": [
+    {
+      "name": "Arista Networks",
+      "careers_url": "https://careers.smartrecruiters.com/AristaNetworks",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Freshworks",
+      "careers_url": "https://careers.smartrecruiters.com/Freshworks",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "MicroStrategy",
+      "careers_url": "https://careers.smartrecruiters.com/MicroStrategy1",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Rotork",
+      "careers_url": "https://careers.smartrecruiters.com/Rotork1",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "AHL \u2013 Saaf AI",
+      "careers_url": "https://jobs.ashbyhq.com/ahl-saafai",
+      "enabled": true
+    },
+    {
+      "name": "SavvyMoney",
+      "careers_url": "https://jobs.ashbyhq.com/savvymoney",
+      "enabled": true
+    },
+    {
+      "name": "Bidgely",
+      "careers_url": "https://jobs.ashbyhq.com/bidgely-inc",
+      "enabled": true
+    },
+    {
+      "name": "Inflection.io",
+      "careers_url": "https://jobs.ashbyhq.com/inflectionio",
+      "enabled": true
+    },
+    {
+      "name": "OpenObserve",
+      "careers_url": "https://jobs.ashbyhq.com/openobserve-careers",
+      "enabled": true
+    },
+    {
+      "name": "Extreme Networks",
+      "careers_url": "https://jobs.lever.co/extremenetworks",
+      "enabled": true
+    },
+    {
+      "name": "YipitData",
+      "careers_url": "https://boards.greenhouse.io/yipitdata",
+      "enabled": true
+    },
+    {
+      "name": "SGS",
+      "careers_url": "https://careers.smartrecruiters.com/SGS",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Eurofins",
+      "careers_url": "https://careers.smartrecruiters.com/Eurofins",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Sopra Steria",
+      "careers_url": "https://careers.smartrecruiters.com/SopraSteria1",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Nagarro",
+      "careers_url": "https://careers.smartrecruiters.com/Nagarro1",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Tomra",
+      "careers_url": "https://careers.smartrecruiters.com/TOMRA",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Continental",
+      "careers_url": "https://careers.smartrecruiters.com/Continental",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Bosch Group",
+      "careers_url": "https://careers.smartrecruiters.com/BoschGroup",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "NielsenIQ",
+      "careers_url": "https://careers.smartrecruiters.com/NielsenIQ",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Sutherland",
+      "careers_url": "https://careers.smartrecruiters.com/Sutherland",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Kestra",
+      "careers_url": "https://jobs.ashbyhq.com/kestra",
+      "enabled": true
+    },
+    {
+      "name": "Juniper Square",
+      "careers_url": "https://jobs.ashbyhq.com/junipersquare",
+      "enabled": true
+    },
+    {
+      "name": "Pod Network",
+      "careers_url": "https://jobs.ashbyhq.com/pod-network",
+      "enabled": true
+    },
+    {
+      "name": "Rifa AI",
+      "careers_url": "https://jobs.ashbyhq.com/rifa",
+      "enabled": true
+    },
+    {
+      "name": "Plane",
+      "careers_url": "https://jobs.ashbyhq.com/plane",
+      "enabled": true
+    },
+    {
+      "name": "Sentry",
+      "careers_url": "https://jobs.ashbyhq.com/sentry",
+      "enabled": true
+    },
+    {
+      "name": "Linear",
+      "careers_url": "https://jobs.ashbyhq.com/linear",
+      "enabled": true
+    },
+    {
+      "name": "PostHog",
+      "careers_url": "https://jobs.ashbyhq.com/posthog",
+      "enabled": true
+    },
+    {
+      "name": "Supabase",
+      "careers_url": "https://jobs.ashbyhq.com/supabase",
+      "enabled": true
+    },
+    {
+      "name": "n8n",
+      "careers_url": "https://jobs.ashbyhq.com/n8n",
+      "enabled": true
+    },
+    {
+      "name": "Zapier",
+      "careers_url": "https://jobs.ashbyhq.com/zapier",
+      "enabled": true
+    },
+    {
+      "name": "Docker",
+      "careers_url": "https://jobs.ashbyhq.com/docker",
+      "enabled": true
+    },
+    {
+      "name": "Atlan",
+      "careers_url": "https://jobs.ashbyhq.com/atlan",
+      "enabled": true
+    },
+    {
+      "name": "Vanta",
+      "careers_url": "https://jobs.ashbyhq.com/vanta",
+      "enabled": true
+    },
+    {
+      "name": "Zuora",
+      "careers_url": "https://boards.greenhouse.io/zuora",
+      "enabled": true
+    },
+    {
+      "name": "Druva",
+      "careers_url": "https://boards.greenhouse.io/druva",
+      "enabled": true
+    },
+    {
+      "name": "Zscaler",
+      "careers_url": "https://boards.greenhouse.io/zscaler",
+      "enabled": true
+    },
+    {
+      "name": "Rubrik",
+      "careers_url": "https://boards.greenhouse.io/rubrik",
+      "enabled": true
+    },
+    {
+      "name": "Netskope",
+      "careers_url": "https://boards.greenhouse.io/netskope",
+      "enabled": true
+    },
+    {
+      "name": "Harness",
+      "careers_url": "https://boards.greenhouse.io/harnessinc",
+      "enabled": true
+    },
+    {
+      "name": "GitLab",
+      "careers_url": "https://boards.greenhouse.io/gitlab",
+      "enabled": true
+    },
+    {
+      "name": "Grafana Labs",
+      "careers_url": "https://boards.greenhouse.io/grafanalabs",
+      "enabled": true
+    },
+    {
+      "name": "Canonical",
+      "careers_url": "https://boards.greenhouse.io/canonical",
+      "enabled": true
+    },
+    {
+      "name": "Elastic",
+      "careers_url": "https://boards.greenhouse.io/elastic",
+      "enabled": true
+    },
+    {
+      "name": "MongoDB",
+      "careers_url": "https://boards.greenhouse.io/mongodb",
+      "enabled": true
+    },
+    {
+      "name": "Cloudflare",
+      "careers_url": "https://boards.greenhouse.io/cloudflare",
+      "enabled": true
+    },
+    {
+      "name": "Samsara",
+      "careers_url": "https://boards.greenhouse.io/samsara",
+      "enabled": true
+    },
+    {
+      "name": "Toast",
+      "careers_url": "https://boards.greenhouse.io/toast",
+      "enabled": true
+    },
+    {
+      "name": "Logitech",
+      "careers_url": "https://logitech.wd5.myworkdayjobs.com/Logitech",
+      "enabled": true,
+      "max_pages": 30
+    },
+    {
+      "name": "KLA",
+      "careers_url": "https://kla.wd1.myworkdayjobs.com/Search",
+      "enabled": true,
+      "max_pages": 30
+    },
+    {
+      "name": "Trimble",
+      "careers_url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers",
+      "enabled": true,
+      "max_pages": 30
+    },
+    {
+      "name": "Expeditors",
+      "careers_url": "https://careers.smartrecruiters.com/Expeditors",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "AECOM",
+      "careers_url": "https://careers.smartrecruiters.com/AECOM2",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Accor",
+      "careers_url": "https://careers.smartrecruiters.com/AccorHotel",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "H&M",
+      "careers_url": "https://careers.smartrecruiters.com/HMGroup",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Veolia",
+      "careers_url": "https://careers.smartrecruiters.com/VeoliaEnvironnementSA",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Cielo",
+      "careers_url": "https://careers.smartrecruiters.com/Cielo2",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Avery Dennison",
+      "careers_url": "https://careers.smartrecruiters.com/AveryDennison",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Sika",
+      "careers_url": "https://careers.smartrecruiters.com/SikaAG",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Enviri",
+      "careers_url": "https://careers.smartrecruiters.com/EnviriCorporation",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Louis Dreyfus Company",
+      "careers_url": "https://careers.smartrecruiters.com/LouisDreyfusCompany",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Informa",
+      "careers_url": "https://careers.smartrecruiters.com/InformaGroupPlc",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Egis",
+      "careers_url": "https://careers.smartrecruiters.com/EgisGroup",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "QIMA",
+      "careers_url": "https://careers.smartrecruiters.com/QIMA",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Turner & Townsend",
+      "careers_url": "https://careers.smartrecruiters.com/TurnerTownsend",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Konecranes",
+      "careers_url": "https://careers.smartrecruiters.com/Konecranes",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Renesas Electronics",
+      "careers_url": "https://careers.smartrecruiters.com/RenesasElectronics",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Syngenta",
+      "careers_url": "https://careers.smartrecruiters.com/SyngentaGroup",
+      "enabled": true,
+      "smartrecruiters": {
+        "fetchDetails": false
+      }
+    },
+    {
+      "name": "Rocketlane",
+      "careers_url": "https://careers.kula.ai/rocketlane?jobs=true",
+      "enabled": true
+    },
+    {
+      "name": "SuperOps",
+      "careers_url": "https://superops.com/careers",
+      "enabled": true
+    },
+    {
+      "name": "Facilio",
+      "careers_url": "https://facilio.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Kissflow",
+      "careers_url": "https://careers.kissflow.com/",
+      "enabled": true
+    },
+    {
+      "name": "Chargebee",
+      "careers_url": "https://jobs.chargebee.com/",
+      "enabled": true
+    },
+    {
+      "name": "Zuper",
+      "careers_url": "https://www.zuper.co/careers",
+      "enabled": true
+    },
+    {
+      "name": "Zoho",
+      "careers_url": "https://careers.zohocorp.com/jobs/Careers",
+      "enabled": true
+    },
+    {
+      "name": "SurveySparrow",
+      "careers_url": "https://surveysparrow.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Testsigma",
+      "careers_url": "https://testsigma.com/careers",
+      "enabled": true
+    },
+    {
+      "name": "Spendflo",
+      "careers_url": "https://www.spendflo.com/careers",
+      "enabled": true
+    },
+    {
+      "name": "Disprz",
+      "careers_url": "https://disprz.ai/company/about-us",
+      "enabled": true
+    },
+    {
+      "name": "Uniphore",
+      "careers_url": "https://www.uniphore.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "FourKites",
+      "careers_url": "https://www.fourkites.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Pando",
+      "careers_url": "https://pando.ai/careers",
+      "enabled": true
+    },
+    {
+      "name": "M2P Fintech",
+      "careers_url": "https://m2pfintech.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Yubi",
+      "careers_url": "https://www.go-yubi.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Rheo",
+      "careers_url": "https://rheo.ai/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Aroopa",
+      "careers_url": "https://www.aroopatech.com/careers",
+      "enabled": true
+    },
+    {
+      "name": "Vazhai Tech",
+      "careers_url": "https://vazh.ai/career",
+      "enabled": true
+    },
+    {
+      "name": "Galactis",
+      "careers_url": "https://www.galactis.ai/careers",
+      "enabled": true
+    },
+    {
+      "name": "Saadhvi Technology",
+      "careers_url": "https://saadhvi.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Pyramidions",
+      "careers_url": "https://www.pyramidions.com/careers/",
+      "enabled": true
+    },
+    {
+      "name": "Algorian Solutions",
+      "careers_url": "https://www.algoriansolutions.com/jobs",
+      "enabled": true
+    },
+    {
+      "name": "Sentos Technologies",
+      "careers_url": "https://sentostech.com/company/careers",
+      "enabled": true
+    },
+    {
+      "name": "Pixel Tech",
+      "careers_url": "https://pixeltech.ai/careers",
+      "enabled": true
+    },
+    {
+      "name": "Uniphore",
+      "careers_url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore",
+      "enabled": true,
+      "max_pages": 20
+    },
+    {
+      "name": "Gigamon",
+      "careers_url": "https://jobs.jobvite.com/gigamon",
+      "enabled": true
+    },
+    {
+      "name": "Gen Digital",
+      "careers_url": "https://jobs.ashbyhq.com/gen-digital",
+      "enabled": true
+    }
+  ],
+  "title_filter": {
+    "positive": [
+      "QA",
+      "QE",
+      "SDET",
+      "test",
+      "testing",
+      "quality",
+      "verification",
+      "validation"
+    ],
+    "negative": [
+      "intern",
+      "junior",
+      "graduate trainee",
+      "director",
+      "vice president"
+    ]
+  },
+  "location_filter": {
+    "strict": true,
+    "allow": [
+      "Chennai",
+      "Sriperumbudur",
+      "Oragadam",
+      "Chengalpattu",
+      "Thiruvallur",
+      "Tiruvallur",
+      "Pallavaram",
+      "Remote India",
+      "Remote, India",
+      "India - Remote",
+      "India (Remote)",
+      "India Remote"
+    ],
+    "remote_title_fallback": false
+  },
+  "skip_tiers": [
+    "intern",
+    "entry"
+  ],
+  "concurrency": 3
+}

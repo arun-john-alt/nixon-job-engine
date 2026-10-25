@@ -5043,7 +5043,7 @@
       "postedOn": null,
       "closesOn": null,
       "discoveredOn": "2026-09-22",
-      "checkedOn": "2026-10-24",
+      "checkedOn": "2026-10-25",
       "verification": "live",
       "verificationNote": "Exact vacancy is published by the employer recruiting API with an application URL. Application submission was not attempted.",
       "analysisStatus": "reviewed",
@@ -5129,10 +5129,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-24T18:11:23+00:00",
+      "availabilityCheckedAt": "2026-10-25T03:31:47+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-24T18:11:23+00:00",
+      "lastConfirmedOpenAt": "2026-10-25T03:31:47+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
       "employerDescriptionHash": "24300291fe0c55000594acd243bc570ea0e08545b0c26ffd8b0a9e1b5ce557e3",
@@ -5277,7 +5277,7 @@
       "postedOn": null,
       "closesOn": null,
       "discoveredOn": "2026-09-22",
-      "checkedOn": "2026-10-24",
+      "checkedOn": "2026-10-25",
       "verification": "live",
       "verificationNote": "Exact vacancy is published by the employer recruiting API with an application URL. Application submission was not attempted.",
       "analysisStatus": "reviewed",
@@ -5363,10 +5363,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-24T18:11:23+00:00",
+      "availabilityCheckedAt": "2026-10-25T03:31:47+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-24T18:11:23+00:00",
+      "lastConfirmedOpenAt": "2026-10-25T03:31:47+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://boards-api.greenhouse.io/v1/boards/yipitdata/jobs/6743082",
       "employerDescriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",

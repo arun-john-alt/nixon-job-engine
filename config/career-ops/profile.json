@@ -1,0 +1,18 @@
+{
+  "location": {
+    "country": "India",
+    "city": "Chennai",
+    "timezone": "Asia/Kolkata"
+  },
+  "target_roles": {
+    "primary": [
+      "QA Manager",
+      "Test Lead",
+      "Senior SDET",
+      "Staff QA Engineer"
+    ]
+  },
+  "language": {
+    "output": "en"
+  }
+}

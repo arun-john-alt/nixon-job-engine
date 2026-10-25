@@ -73,6 +73,30 @@ jobs:
       - name: Record opening target and shortfall
         if: steps.daily.outputs.replenish == 'true'
         run: python scripts/opening_pool.py record --plan "$RUNNER_TEMP/opening-plan.json"
+      - name: Check Career Ops discovery schedule
+        id: careerops
+        if: steps.daily.outputs.replenish == 'true'
+        run: python scripts/career_ops.py due
+      - name: Fetch pinned Career Ops upstream
+        if: steps.careerops.outputs.career_ops_due == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: career-ops-hq/career-ops
+          ref: 2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af
+          path: .career-ops-runtime
+          persist-credentials: false
+      - name: Install locked scanner dependencies
+        if: steps.careerops.outputs.career_ops_due == 'true'
+        run: |
+          cp config/career-ops/package-lock.json .career-ops-runtime/package-lock.json
+          cd .career-ops-runtime
+          npm ci --ignore-scripts --no-audit --no-fund
+      - name: Run real Career Ops discovery
+        if: steps.careerops.outputs.career_ops_due == 'true'
+        run: python scripts/career_ops.py scan --upstream .career-ops-runtime
+      - name: Recheck independent Career Ops vacancies
+        if: steps.daily.outputs.replenish == 'true'
+        run: python scripts/career_ops.py audit
       - name: Validate resulting public dataset
         if: steps.daily.outputs.publish == 'true'
         run: node scripts/validate.mjs
@@ -82,10 +106,10 @@ jobs:
       - name: Commit updated public research, when changed
         if: steps.daily.outputs.replenish == 'true'
         run: |
-          if ! git diff --quiet -- site/data/jobs.json; then
+          if ! git diff --quiet -- site/data/jobs.json site/data/career-ops.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add site/data/jobs.json
+            git add site/data/jobs.json site/data/career-ops.json
             git commit -m 'data: refresh employer-job discovery and coverage'
             git push origin HEAD:main
           fi
