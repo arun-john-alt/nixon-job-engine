@@ -86,16 +86,21 @@ def run(root,cache):
         result=base_collect(board,cfg,scan)
         for item in result[2]:
             stamps=[]
-            for url in [engine.api_url(board['kind'],board['slug']),item.get('api','')]:
+            for url in ([] if board['kind']=='workday' else [engine.api_url(board['kind'],board['slug']),item.get('api','')]):
                 key=cache/(hashlib.sha256(url.encode()).hexdigest()+'.json')
                 if key.exists():
                     try:stamps.append(json.loads(key.read_text())['checkedAt'])
                     except (ValueError,KeyError):pass
             if stamps:item['confirmedAt']=min(stamps)
             assessed[engine.exact_key(item['url'])]=(item,assess(item,profile))
-        source_states.append(dict(company=board['company'],kind=board['kind'],slug=board['slug'],status=result[3],postings=len(result[1]),relevant=len(result[2])))
         return result
     engine.collect_board=collect
+    safe=engine.safe_collect
+    def tracked_safe(board,cfg,scan):
+        result=safe(board,cfg,scan)
+        source_states.append(dict(company=board['company'],kind=board['kind'],slug=board['slug'],status=result[3],postings=len(result[1]),relevant=len(result[2])))
+        return result
+    engine.safe_collect=tracked_safe
     report=engine.discover(data,cfg,scan)
     new=0
     for job in data['jobs']:
@@ -108,7 +113,7 @@ def run(root,cache):
         job.update(analysisStatus='reviewed',score=result['score'],hardGaps=result['hardGaps'],assessmentMethod='rules-v1-full-description',assessmentTier='weak' if result['total']<55 else 'strong' if result['total']>=80 and not result['hardGaps'] else 'consider',reviewNote='Automated evidence assessment from the full employer description and confirmed profile facts. Keyword overlap is a conservative heuristic; mandatory requirements and role scope need candidate confirmation. Salary is assessed separately.',ats={'supported':result['supported'],'confirm':result['hardGaps'],'unsupported':[]})
         job['summary']=re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[public contact omitted]', item['description'][:1100]);job['resumeEdits']=[];new+=1
     stamp=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
-    failures=[s for s in source_states if s['status']!='Complete']
+    failures=[s for s in source_states if s['status'] not in ('Complete','Search complete')]
     health=dict(version=VERSION,checkedAt=stamp,status='partial' if failures else 'success',boards=len(source_states),sourceFailures=len(failures),assessed=new,sources=sorted(source_states,key=lambda s:s['company']))
     data.setdefault('run',{})['sharedPipeline']=health
     data['run']['coverage']=[{'source':'Shared discovery and assessment','status':f'{len(source_states)} sources; {new} full-description assessments','detail':f'{len(failures)} sources incomplete or unavailable. Both sites use the same source registry and connector code. Assessment runs in GitHub without a Mac or model API key; human Career Ops review is supplemental.'}]+[c for c in data['run'].get('coverage',[]) if c['source']!='Shared discovery and assessment']
