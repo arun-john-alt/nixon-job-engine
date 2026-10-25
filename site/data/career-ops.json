@@ -179,12 +179,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-25T04:17:58+00:00",
+    "checkedAt": "2026-10-25T07:55:50+00:00",
     "scanDateIst": "2026-10-25",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 47245,
+    "examined": 47246,
     "candidateCount": 24,
     "sourceFailures": 0,
     "candidates": [
@@ -205,6 +205,30 @@
         "company": "MicroStrategy",
         "title": "Quality Engineer, Senior",
         "location": "Chennai, , India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
+        "company": "Rotork",
+        "title": "Test Development Engineer",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
+        "company": "Arista Networks",
+        "title": "Software Test Engineer (Wi-Fi)",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+        "company": "Rifa AI",
+        "title": "QA Lead, AI Agents",
+        "location": "Remote, India · Bengaluru · India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155577399-senior-software-test-engineer",
+        "company": "NielsenIQ",
+        "title": "Senior Software Test Engineer",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
@@ -235,30 +259,6 @@
         "company": "Extreme Networks",
         "title": "Staff QA SW Engineer (Wireless Testing) - 10413",
         "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
-        "company": "Rotork",
-        "title": "Test Development Engineer",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
-        "company": "Arista Networks",
-        "title": "Software Test Engineer (Wi-Fi)",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
-        "company": "Rifa AI",
-        "title": "QA Lead, AI Agents",
-        "location": "Remote, India · Bengaluru · India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155577399-senior-software-test-engineer",
-        "company": "NielsenIQ",
-        "title": "Senior Software Test Engineer",
-        "location": "Chennai, TN, India"
       },
       {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
