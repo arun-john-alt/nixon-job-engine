@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "board": {
+        "company": "Made Card",
+        "kind": "ashby",
+        "slug": "madecard"
+      },
+      "checkedAt": "2026-10-25T04:31:23+00:00",
+      "reason": "Posting API returned 404 and the employer-linked public embed explicitly reported jobBoard=null. Employer careers page still watched; no individual vacancy closure inferred.",
+      "evidenceUrls": [
+        "https://api.ashbyhq.com/posting-api/job-board/madecard",
+        "https://jobs.ashbyhq.com/madecard?embed=js",
+        "https://www.madecard.com/careers"
+      ]
+    }
+  ]
+}

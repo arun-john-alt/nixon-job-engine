@@ -559,22 +559,17 @@
       "slug": "gen-digital"
     },
     {
-      "company": "Made Card",
-      "kind": "ashby",
-      "slug": "madecard"
-    },
-    {
       "company": "WPP",
       "kind": "greenhouse",
       "slug": "wpp"
     },
     {
-      "company": "job-boards.greenhouse.io",
+      "company": "Fresh Prints",
       "kind": "greenhouse",
       "slug": "freshprints"
     },
     {
-      "company": "jobs.smartrecruiters.com",
+      "company": "Rexel",
       "kind": "smart",
       "slug": "REXEL1"
     }

@@ -1,484 +1,5243 @@
 {
+  "scope": "Public company/career research directory. Entries do not prove hiring, role fit or active vacancies. Homepage entries require discovery of an actual career link; never guess career URLs.",
+  "sources": [
+    {
+      "repository": "https://github.com/Kajaasfaq/Company-list-Chennai",
+      "commit": "d74dc67fc51df9d72b589a2909fa6a0d757bdf21"
+    },
+    {
+      "url": "https://tamilnadustartupmap.com/",
+      "retrievedOn": "2026-10-25"
+    }
+  ],
   "companies": [
     {
       "id": "rocketlane",
       "name": "Rocketlane",
-      "careerUrl": "https://careers.kula.ai/rocketlane?jobs=true"
+      "careerUrl": "https://careers.kula.ai/rocketlane?jobs=true",
+      "entryType": "career-page"
     },
     {
       "id": "superops",
       "name": "SuperOps",
-      "careerUrl": "https://superops.com/careers"
+      "careerUrl": "https://superops.com/careers",
+      "entryType": "career-page"
     },
     {
       "id": "facilio",
       "name": "Facilio",
-      "careerUrl": "https://facilio.com/careers/"
+      "careerUrl": "https://facilio.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "kissflow",
       "name": "Kissflow",
-      "careerUrl": "https://careers.kissflow.com/"
+      "careerUrl": "https://careers.kissflow.com/",
+      "entryType": "career-page"
     },
     {
       "id": "chargebee",
       "name": "Chargebee",
-      "careerUrl": "https://jobs.chargebee.com/"
+      "careerUrl": "https://jobs.chargebee.com/",
+      "entryType": "career-page"
     },
     {
       "id": "zuper",
       "name": "Zuper",
-      "careerUrl": "https://www.zuper.co/careers"
+      "careerUrl": "https://www.zuper.co/careers",
+      "entryType": "career-page"
     },
     {
       "id": "zoho",
       "name": "Zoho",
-      "careerUrl": "https://careers.zohocorp.com/jobs/Careers"
+      "careerUrl": "https://careers.zohocorp.com/jobs/Careers",
+      "entryType": "career-page"
     },
     {
       "id": "freshworks",
       "name": "Freshworks",
-      "careerUrl": "https://careers.smartrecruiters.com/Freshworks"
+      "careerUrl": "https://careers.smartrecruiters.com/Freshworks",
+      "entryType": "career-page"
     },
     {
       "id": "surveysparrow",
       "name": "SurveySparrow",
-      "careerUrl": "https://surveysparrow.com/careers/"
+      "careerUrl": "https://surveysparrow.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "testsigma",
       "name": "Testsigma",
-      "careerUrl": "https://testsigma.com/careers"
+      "careerUrl": "https://testsigma.com/careers",
+      "entryType": "career-page"
     },
     {
       "id": "spendflo",
       "name": "Spendflo",
-      "careerUrl": "https://www.spendflo.com/careers"
+      "careerUrl": "https://www.spendflo.com/careers",
+      "entryType": "career-page"
     },
     {
       "id": "disprz",
       "name": "Disprz",
-      "careerUrl": "https://disprz.ai/company/about-us"
+      "careerUrl": "https://disprz.ai/company/about-us",
+      "entryType": "career-page"
     },
     {
       "id": "uniphore",
       "name": "Uniphore",
-      "careerUrl": "https://www.uniphore.com/careers/"
+      "careerUrl": "https://www.uniphore.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "fourkites",
       "name": "FourKites",
-      "careerUrl": "https://www.fourkites.com/careers/"
+      "careerUrl": "https://www.fourkites.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "pando",
       "name": "Pando",
-      "careerUrl": "https://pando.ai/careers"
+      "careerUrl": "https://pando.ai/careers",
+      "entryType": "career-page"
     },
     {
       "id": "m2p-fintech",
       "name": "M2P Fintech",
-      "careerUrl": "https://m2pfintech.com/careers/"
+      "careerUrl": "https://m2pfintech.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "yubi",
       "name": "Yubi",
-      "careerUrl": "https://www.go-yubi.com/careers/"
+      "careerUrl": "https://www.go-yubi.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "rheo",
       "name": "Rheo",
-      "careerUrl": "https://rheo.ai/careers/"
+      "careerUrl": "https://rheo.ai/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "aroopa",
       "name": "Aroopa",
-      "careerUrl": "https://www.aroopatech.com/careers"
+      "careerUrl": "https://www.aroopatech.com/careers",
+      "entryType": "career-page"
     },
     {
       "id": "vazhai-tech",
       "name": "Vazhai Tech",
-      "careerUrl": "https://vazh.ai/career"
+      "careerUrl": "https://vazh.ai/career",
+      "entryType": "career-page"
     },
     {
       "id": "galactis",
       "name": "Galactis",
-      "careerUrl": "https://www.galactis.ai/careers"
+      "careerUrl": "https://www.galactis.ai/careers",
+      "entryType": "career-page"
     },
     {
       "id": "saadhvi-technology",
       "name": "Saadhvi Technology",
-      "careerUrl": "https://saadhvi.com/careers/"
+      "careerUrl": "https://saadhvi.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "pyramidions",
       "name": "Pyramidions",
-      "careerUrl": "https://www.pyramidions.com/careers/"
+      "careerUrl": "https://www.pyramidions.com/careers/",
+      "entryType": "career-page"
     },
     {
       "id": "algorian-solutions",
       "name": "Algorian Solutions",
-      "careerUrl": "https://www.algoriansolutions.com/jobs"
+      "careerUrl": "https://www.algoriansolutions.com/jobs",
+      "entryType": "career-page"
     },
     {
       "id": "sentos-technologies",
       "name": "Sentos Technologies",
-      "careerUrl": "https://sentostech.com/company/careers"
+      "careerUrl": "https://sentostech.com/company/careers",
+      "entryType": "career-page"
     },
     {
       "id": "pixel-tech",
       "name": "Pixel Tech",
-      "careerUrl": "https://pixeltech.ai/careers"
+      "careerUrl": "https://pixeltech.ai/careers",
+      "entryType": "career-page"
     },
     {
       "id": "source-26",
       "name": "Arista Networks",
-      "careerUrl": "https://careers.smartrecruiters.com/AristaNetworks"
+      "careerUrl": "https://careers.smartrecruiters.com/AristaNetworks",
+      "entryType": "career-page"
     },
     {
       "id": "source-27",
       "name": "MicroStrategy",
-      "careerUrl": "https://careers.smartrecruiters.com/MicroStrategy1"
+      "careerUrl": "https://careers.smartrecruiters.com/MicroStrategy1",
+      "entryType": "career-page"
     },
     {
       "id": "source-28",
       "name": "Rotork",
-      "careerUrl": "https://careers.smartrecruiters.com/Rotork1"
+      "careerUrl": "https://careers.smartrecruiters.com/Rotork1",
+      "entryType": "career-page"
     },
     {
       "id": "source-29",
       "name": "AHL \u2013 Saaf AI",
-      "careerUrl": "https://jobs.ashbyhq.com/ahl-saafai"
+      "careerUrl": "https://jobs.ashbyhq.com/ahl-saafai",
+      "entryType": "career-page"
     },
     {
       "id": "source-30",
       "name": "SavvyMoney",
-      "careerUrl": "https://jobs.ashbyhq.com/savvymoney"
+      "careerUrl": "https://jobs.ashbyhq.com/savvymoney",
+      "entryType": "career-page"
     },
     {
       "id": "source-31",
       "name": "Bidgely",
-      "careerUrl": "https://jobs.ashbyhq.com/bidgely-inc"
+      "careerUrl": "https://jobs.ashbyhq.com/bidgely-inc",
+      "entryType": "career-page"
     },
     {
       "id": "source-32",
       "name": "Inflection.io",
-      "careerUrl": "https://jobs.ashbyhq.com/inflectionio"
+      "careerUrl": "https://jobs.ashbyhq.com/inflectionio",
+      "entryType": "career-page"
     },
     {
       "id": "source-33",
       "name": "OpenObserve",
-      "careerUrl": "https://jobs.ashbyhq.com/openobserve-careers"
+      "careerUrl": "https://jobs.ashbyhq.com/openobserve-careers",
+      "entryType": "career-page"
     },
     {
       "id": "source-34",
       "name": "Extreme Networks",
-      "careerUrl": "https://jobs.lever.co/extremenetworks"
+      "careerUrl": "https://jobs.lever.co/extremenetworks",
+      "entryType": "career-page"
     },
     {
       "id": "source-35",
       "name": "YipitData",
-      "careerUrl": "https://boards.greenhouse.io/yipitdata"
+      "careerUrl": "https://boards.greenhouse.io/yipitdata",
+      "entryType": "career-page"
     },
     {
       "id": "source-36",
       "name": "SGS",
-      "careerUrl": "https://careers.smartrecruiters.com/SGS"
+      "careerUrl": "https://careers.smartrecruiters.com/SGS",
+      "entryType": "career-page"
     },
     {
       "id": "source-37",
       "name": "Eurofins",
-      "careerUrl": "https://careers.smartrecruiters.com/Eurofins"
+      "careerUrl": "https://careers.smartrecruiters.com/Eurofins",
+      "entryType": "career-page"
     },
     {
       "id": "source-38",
       "name": "Sopra Steria",
-      "careerUrl": "https://careers.smartrecruiters.com/SopraSteria1"
+      "careerUrl": "https://careers.smartrecruiters.com/SopraSteria1",
+      "entryType": "career-page"
     },
     {
       "id": "source-39",
       "name": "Nagarro",
-      "careerUrl": "https://careers.smartrecruiters.com/Nagarro1"
+      "careerUrl": "https://careers.smartrecruiters.com/Nagarro1",
+      "entryType": "career-page"
     },
     {
       "id": "source-40",
       "name": "Tomra",
-      "careerUrl": "https://careers.smartrecruiters.com/TOMRA"
+      "careerUrl": "https://careers.smartrecruiters.com/TOMRA",
+      "entryType": "career-page"
     },
     {
       "id": "source-41",
       "name": "Continental",
-      "careerUrl": "https://careers.smartrecruiters.com/Continental"
+      "careerUrl": "https://careers.smartrecruiters.com/Continental",
+      "entryType": "career-page"
     },
     {
       "id": "source-42",
       "name": "Bosch Group",
-      "careerUrl": "https://careers.smartrecruiters.com/BoschGroup"
+      "careerUrl": "https://careers.smartrecruiters.com/BoschGroup",
+      "entryType": "career-page"
     },
     {
       "id": "source-43",
       "name": "NielsenIQ",
-      "careerUrl": "https://careers.smartrecruiters.com/NielsenIQ"
+      "careerUrl": "https://careers.smartrecruiters.com/NielsenIQ",
+      "entryType": "career-page"
     },
     {
       "id": "source-44",
       "name": "Sutherland",
-      "careerUrl": "https://careers.smartrecruiters.com/Sutherland"
+      "careerUrl": "https://careers.smartrecruiters.com/Sutherland",
+      "entryType": "career-page"
     },
     {
       "id": "source-45",
       "name": "Kestra",
-      "careerUrl": "https://jobs.ashbyhq.com/kestra"
+      "careerUrl": "https://jobs.ashbyhq.com/kestra",
+      "entryType": "career-page"
     },
     {
       "id": "source-46",
       "name": "Juniper Square",
-      "careerUrl": "https://jobs.ashbyhq.com/junipersquare"
+      "careerUrl": "https://jobs.ashbyhq.com/junipersquare",
+      "entryType": "career-page"
     },
     {
       "id": "source-47",
       "name": "Pod Network",
-      "careerUrl": "https://jobs.ashbyhq.com/pod-network"
+      "careerUrl": "https://jobs.ashbyhq.com/pod-network",
+      "entryType": "career-page"
     },
     {
       "id": "source-48",
       "name": "Rifa AI",
-      "careerUrl": "https://jobs.ashbyhq.com/rifa"
+      "careerUrl": "https://jobs.ashbyhq.com/rifa",
+      "entryType": "career-page"
     },
     {
       "id": "source-49",
       "name": "Plane",
-      "careerUrl": "https://jobs.ashbyhq.com/plane"
+      "careerUrl": "https://jobs.ashbyhq.com/plane",
+      "entryType": "career-page"
     },
     {
       "id": "source-50",
       "name": "Sentry",
-      "careerUrl": "https://jobs.ashbyhq.com/sentry"
+      "careerUrl": "https://jobs.ashbyhq.com/sentry",
+      "entryType": "career-page"
     },
     {
       "id": "source-51",
       "name": "Linear",
-      "careerUrl": "https://jobs.ashbyhq.com/linear"
+      "careerUrl": "https://jobs.ashbyhq.com/linear",
+      "entryType": "career-page"
     },
     {
       "id": "source-52",
       "name": "PostHog",
-      "careerUrl": "https://jobs.ashbyhq.com/posthog"
+      "careerUrl": "https://jobs.ashbyhq.com/posthog",
+      "entryType": "career-page"
     },
     {
       "id": "source-53",
       "name": "Supabase",
-      "careerUrl": "https://jobs.ashbyhq.com/supabase"
+      "careerUrl": "https://jobs.ashbyhq.com/supabase",
+      "entryType": "career-page"
     },
     {
       "id": "source-54",
       "name": "n8n",
-      "careerUrl": "https://jobs.ashbyhq.com/n8n"
+      "careerUrl": "https://jobs.ashbyhq.com/n8n",
+      "entryType": "career-page"
     },
     {
       "id": "source-55",
       "name": "Zapier",
-      "careerUrl": "https://jobs.ashbyhq.com/zapier"
+      "careerUrl": "https://jobs.ashbyhq.com/zapier",
+      "entryType": "career-page"
     },
     {
       "id": "source-56",
       "name": "Docker",
-      "careerUrl": "https://jobs.ashbyhq.com/docker"
+      "careerUrl": "https://jobs.ashbyhq.com/docker",
+      "entryType": "career-page"
     },
     {
       "id": "source-57",
       "name": "Atlan",
-      "careerUrl": "https://jobs.ashbyhq.com/atlan"
+      "careerUrl": "https://jobs.ashbyhq.com/atlan",
+      "entryType": "career-page"
     },
     {
       "id": "source-58",
       "name": "Vanta",
-      "careerUrl": "https://jobs.ashbyhq.com/vanta"
+      "careerUrl": "https://jobs.ashbyhq.com/vanta",
+      "entryType": "career-page"
     },
     {
       "id": "source-59",
       "name": "Zuora",
-      "careerUrl": "https://boards.greenhouse.io/zuora"
+      "careerUrl": "https://boards.greenhouse.io/zuora",
+      "entryType": "career-page"
     },
     {
       "id": "source-60",
       "name": "Druva",
-      "careerUrl": "https://boards.greenhouse.io/druva"
+      "careerUrl": "https://boards.greenhouse.io/druva",
+      "entryType": "career-page"
     },
     {
       "id": "source-61",
       "name": "Zscaler",
-      "careerUrl": "https://boards.greenhouse.io/zscaler"
+      "careerUrl": "https://boards.greenhouse.io/zscaler",
+      "entryType": "career-page"
     },
     {
       "id": "source-62",
       "name": "Rubrik",
-      "careerUrl": "https://boards.greenhouse.io/rubrik"
+      "careerUrl": "https://boards.greenhouse.io/rubrik",
+      "entryType": "career-page"
     },
     {
       "id": "source-63",
       "name": "Netskope",
-      "careerUrl": "https://boards.greenhouse.io/netskope"
+      "careerUrl": "https://boards.greenhouse.io/netskope",
+      "entryType": "career-page"
     },
     {
       "id": "source-64",
       "name": "Harness",
-      "careerUrl": "https://boards.greenhouse.io/harnessinc"
+      "careerUrl": "https://boards.greenhouse.io/harnessinc",
+      "entryType": "career-page"
     },
     {
       "id": "source-65",
       "name": "GitLab",
-      "careerUrl": "https://boards.greenhouse.io/gitlab"
+      "careerUrl": "https://boards.greenhouse.io/gitlab",
+      "entryType": "career-page"
     },
     {
       "id": "source-66",
       "name": "Grafana Labs",
-      "careerUrl": "https://boards.greenhouse.io/grafanalabs"
+      "careerUrl": "https://boards.greenhouse.io/grafanalabs",
+      "entryType": "career-page"
     },
     {
       "id": "source-67",
       "name": "Canonical",
-      "careerUrl": "https://boards.greenhouse.io/canonical"
+      "careerUrl": "https://boards.greenhouse.io/canonical",
+      "entryType": "career-page"
     },
     {
       "id": "source-68",
       "name": "Elastic",
-      "careerUrl": "https://boards.greenhouse.io/elastic"
+      "careerUrl": "https://boards.greenhouse.io/elastic",
+      "entryType": "career-page"
     },
     {
       "id": "source-69",
       "name": "MongoDB",
-      "careerUrl": "https://boards.greenhouse.io/mongodb"
+      "careerUrl": "https://boards.greenhouse.io/mongodb",
+      "entryType": "career-page"
     },
     {
       "id": "source-70",
       "name": "Cloudflare",
-      "careerUrl": "https://boards.greenhouse.io/cloudflare"
+      "careerUrl": "https://boards.greenhouse.io/cloudflare",
+      "entryType": "career-page"
     },
     {
       "id": "source-71",
       "name": "Samsara",
-      "careerUrl": "https://boards.greenhouse.io/samsara"
+      "careerUrl": "https://boards.greenhouse.io/samsara",
+      "entryType": "career-page"
     },
     {
       "id": "source-72",
       "name": "Toast",
-      "careerUrl": "https://boards.greenhouse.io/toast"
+      "careerUrl": "https://boards.greenhouse.io/toast",
+      "entryType": "career-page"
     },
     {
       "id": "source-73",
       "name": "Logitech",
-      "careerUrl": "https://logitech.wd5.myworkdayjobs.com/Logitech"
+      "careerUrl": "https://logitech.wd5.myworkdayjobs.com/Logitech",
+      "entryType": "career-page"
     },
     {
       "id": "source-74",
       "name": "KLA",
-      "careerUrl": "https://kla.wd1.myworkdayjobs.com/Search"
+      "careerUrl": "https://kla.wd1.myworkdayjobs.com/Search",
+      "entryType": "career-page"
     },
     {
       "id": "source-75",
       "name": "Trimble",
-      "careerUrl": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers"
+      "careerUrl": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers",
+      "entryType": "career-page"
     },
     {
       "id": "source-76",
       "name": "Expeditors",
-      "careerUrl": "https://careers.smartrecruiters.com/Expeditors"
+      "careerUrl": "https://careers.smartrecruiters.com/Expeditors",
+      "entryType": "career-page"
     },
     {
       "id": "source-77",
       "name": "AECOM",
-      "careerUrl": "https://careers.smartrecruiters.com/AECOM2"
+      "careerUrl": "https://careers.smartrecruiters.com/AECOM2",
+      "entryType": "career-page"
     },
     {
       "id": "source-78",
       "name": "Accor",
-      "careerUrl": "https://careers.smartrecruiters.com/AccorHotel"
+      "careerUrl": "https://careers.smartrecruiters.com/AccorHotel",
+      "entryType": "career-page"
     },
     {
       "id": "source-79",
       "name": "H&M",
-      "careerUrl": "https://careers.smartrecruiters.com/HMGroup"
+      "careerUrl": "https://careers.smartrecruiters.com/HMGroup",
+      "entryType": "career-page"
     },
     {
       "id": "source-80",
       "name": "Veolia",
-      "careerUrl": "https://careers.smartrecruiters.com/VeoliaEnvironnementSA"
+      "careerUrl": "https://careers.smartrecruiters.com/VeoliaEnvironnementSA",
+      "entryType": "career-page"
     },
     {
       "id": "source-81",
       "name": "Cielo",
-      "careerUrl": "https://careers.smartrecruiters.com/Cielo2"
+      "careerUrl": "https://careers.smartrecruiters.com/Cielo2",
+      "entryType": "career-page"
     },
     {
       "id": "source-82",
       "name": "Avery Dennison",
-      "careerUrl": "https://careers.smartrecruiters.com/AveryDennison"
+      "careerUrl": "https://careers.smartrecruiters.com/AveryDennison",
+      "entryType": "career-page"
     },
     {
       "id": "source-83",
       "name": "Sika",
-      "careerUrl": "https://careers.smartrecruiters.com/SikaAG"
+      "careerUrl": "https://careers.smartrecruiters.com/SikaAG",
+      "entryType": "career-page"
     },
     {
       "id": "source-84",
       "name": "Enviri",
-      "careerUrl": "https://careers.smartrecruiters.com/EnviriCorporation"
+      "careerUrl": "https://careers.smartrecruiters.com/EnviriCorporation",
+      "entryType": "career-page"
     },
     {
       "id": "source-85",
       "name": "Louis Dreyfus Company",
-      "careerUrl": "https://careers.smartrecruiters.com/LouisDreyfusCompany"
+      "careerUrl": "https://careers.smartrecruiters.com/LouisDreyfusCompany",
+      "entryType": "career-page"
     },
     {
       "id": "source-86",
       "name": "Informa",
-      "careerUrl": "https://careers.smartrecruiters.com/InformaGroupPlc"
+      "careerUrl": "https://careers.smartrecruiters.com/InformaGroupPlc",
+      "entryType": "career-page"
     },
     {
       "id": "source-87",
       "name": "Egis",
-      "careerUrl": "https://careers.smartrecruiters.com/EgisGroup"
+      "careerUrl": "https://careers.smartrecruiters.com/EgisGroup",
+      "entryType": "career-page"
     },
     {
       "id": "source-88",
       "name": "QIMA",
-      "careerUrl": "https://careers.smartrecruiters.com/QIMA"
+      "careerUrl": "https://careers.smartrecruiters.com/QIMA",
+      "entryType": "career-page"
     },
     {
       "id": "source-89",
       "name": "Turner & Townsend",
-      "careerUrl": "https://careers.smartrecruiters.com/TurnerTownsend"
+      "careerUrl": "https://careers.smartrecruiters.com/TurnerTownsend",
+      "entryType": "career-page"
     },
     {
       "id": "source-90",
       "name": "Konecranes",
-      "careerUrl": "https://careers.smartrecruiters.com/Konecranes"
+      "careerUrl": "https://careers.smartrecruiters.com/Konecranes",
+      "entryType": "career-page"
     },
     {
       "id": "source-91",
       "name": "Renesas Electronics",
-      "careerUrl": "https://careers.smartrecruiters.com/RenesasElectronics"
+      "careerUrl": "https://careers.smartrecruiters.com/RenesasElectronics",
+      "entryType": "career-page"
     },
     {
       "id": "source-92",
       "name": "Syngenta",
-      "careerUrl": "https://careers.smartrecruiters.com/SyngentaGroup"
-    },
-    {
-      "id": "source-93",
-      "name": "Uniphore",
-      "careerUrl": "https://uniphore.wd503.myworkdayjobs.com/Uniphore"
+      "careerUrl": "https://careers.smartrecruiters.com/SyngentaGroup",
+      "entryType": "career-page"
     },
     {
       "id": "source-94",
       "name": "Gigamon",
-      "careerUrl": "https://jobs.jobvite.com/gigamon"
+      "careerUrl": "https://jobs.jobvite.com/gigamon",
+      "entryType": "career-page"
     },
     {
       "id": "source-95",
       "name": "Gen Digital",
-      "careerUrl": "https://jobs.ashbyhq.com/gen-digital"
+      "careerUrl": "https://jobs.ashbyhq.com/gen-digital",
+      "entryType": "career-page"
+    },
+    {
+      "name": "Accenture",
+      "careerUrl": "https://www.accenture.com/in-en/careers/jobsearch?jk=&sb=1&vw=0&is_rj=0&pg=1",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-505ed09c2252"
+    },
+    {
+      "name": "Adidas",
+      "careerUrl": "https://careers.adidas-group.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-003b4cd21fa5"
+    },
+    {
+      "name": "ADP",
+      "careerUrl": "https://tech.adp.com/en/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-15ebef2b052c"
+    },
+    {
+      "name": "Agilysys NV LLC",
+      "careerUrl": "https://www.agilysys.com/en/career/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6835e50ccb50"
+    },
+    {
+      "name": "Alation",
+      "careerUrl": "https://www.alation.com/careers/all-careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-0dc321fc8cd5"
+    },
+    {
+      "name": "Altrata",
+      "careerUrl": "https://altrata.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-694e6964246f"
+    },
+    {
+      "name": "Amazon",
+      "careerUrl": "https://amazon.jobs/content/en/job-categories/software-development?country%5B%5D=IN",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-66300d3dc26f"
+    },
+    {
+      "name": "American Express",
+      "careerUrl": "https://www.americanexpress.com/en-us/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-d6afc9318c34"
+    },
+    {
+      "name": "Angikul Cosmos",
+      "careerUrl": "https://agnikul.in/#/career",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f5231742cd5a"
+    },
+    {
+      "name": "Anthology",
+      "careerUrl": "https://careers.anthology.com/search/jobs",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-3903728fbf0a"
+    },
+    {
+      "name": "AntWorks",
+      "careerUrl": "https://www.ant.works/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-5c79e8215ebc"
+    },
+    {
+      "name": "Appian",
+      "careerUrl": "https://job-boards.greenhouse.io/appian?gh_src=ba4a216d1us&offices%5B%5D=89628",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-7e494afdeb74"
+    },
+    {
+      "name": "Arcadia",
+      "careerUrl": "https://boards.greenhouse.io/arcadiacareers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e23c61124869"
+    },
+    {
+      "name": "Bank of America",
+      "careerUrl": "https://careers.bankofamerica.com/en-us/job-search",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-baba804986e8"
+    },
+    {
+      "name": "Banyan Software",
+      "careerUrl": "https://job-boards.greenhouse.io/banyansoftware/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-a034320910f7"
+    },
+    {
+      "name": "Barclays",
+      "careerUrl": "https://search.jobs.barclays/search-jobs/Chennai%2C%20Tamil%20Nadu/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-45768e94b37e"
+    },
+    {
+      "name": "BMW TechWorks India",
+      "careerUrl": "https://careers-bmwtechworks.peoplestrong.com/job/joblist",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-8ed9a8063118"
+    },
+    {
+      "name": "BNP Paribas",
+      "careerUrl": "https://group.bnpparibas/en/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-cef56e0e304e"
+    },
+    {
+      "name": "BNY Mellon",
+      "careerUrl": "https://www.bny.com/corporate/global/en/careers/work-with-us.html",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-70e0cafd801a"
+    },
+    {
+      "name": "BOT VFX",
+      "careerUrl": "https://botvfx.com/jobs/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-69f7dd12afde"
+    },
+    {
+      "name": "Bounteous",
+      "careerUrl": "https://www.bounteous.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-cba997fe722e"
+    },
+    {
+      "name": "Broadcom",
+      "careerUrl": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-5bdc5862d940"
+    },
+    {
+      "name": "Bungee",
+      "careerUrl": "https://bungeetech-talent.freshteam.com/jobs",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-3f417faebb5f"
+    },
+    {
+      "name": "Calibraint",
+      "careerUrl": "https://www.calibraint.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-fa2450832841"
+    },
+    {
+      "name": "Caterpillar Inc",
+      "careerUrl": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-9993fcb2d1aa"
+    },
+    {
+      "name": "CDM Smith",
+      "careerUrl": "https://www.cdmsmith.com/en/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-798b7d23c7bf"
+    },
+    {
+      "name": "Citi",
+      "careerUrl": "https://jobs.citi.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-068cf81a06b2"
+    },
+    {
+      "name": "Clarivate",
+      "careerUrl": "https://careers.clarivate.com/search-results",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f9d96948d68f"
+    },
+    {
+      "name": "Concentrix",
+      "careerUrl": "https://jobs.concentrix.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-61f01d3c1877"
+    },
+    {
+      "name": "Crayondata",
+      "careerUrl": "https://crayondata.zohorecruit.com/jobs/Opening",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-356c6ad87739"
+    },
+    {
+      "name": "Dentsu",
+      "careerUrl": "https://dentsuaegis.wd3.myworkdayjobs.com/en-US/DAN_GLOBAL?locationCountry=c4f78be1a8f14da0ab49ce1162348a5e",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6018e760c463"
+    },
+    {
+      "name": "DevRev",
+      "careerUrl": "https://devrev.ai/careers?utm_source=devrev",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-2072cf2a0ec9"
+    },
+    {
+      "name": "DHL",
+      "careerUrl": "https://careers.dhl.com/apac/en",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-22faf4b0caec"
+    },
+    {
+      "name": "Digital.AI",
+      "careerUrl": "https://digital.ai/why-digital-ai/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-03c881ce87f7"
+    },
+    {
+      "name": "Dow Inc",
+      "careerUrl": "https://corporate.dow.com/en-us/careers.html",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-473ef5d1a9ce"
+    },
+    {
+      "name": "DTCC",
+      "careerUrl": "https://www.dtcc.com/careers?utm_source=LinkedIn_Slots&utm_medium=jobboard",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-ee6084b2fbae"
+    },
+    {
+      "name": "DXC Technology",
+      "careerUrl": "https://careers.dxc.com/global/en/search-results?qcity=Chennai&qcountry=India",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-fec10b60a556"
+    },
+    {
+      "name": "Elsevier",
+      "careerUrl": "https://relx.wd3.myworkdayjobs.com/en-US/ElsevierJobs",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-3f351b3c2df3"
+    },
+    {
+      "name": "EPAM System",
+      "careerUrl": "https://www.epam.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-0417483a224e"
+    },
+    {
+      "name": "ePlane Company",
+      "careerUrl": "https://www.eplane.ai/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-faa5e108681c"
+    },
+    {
+      "name": "Ericsson",
+      "careerUrl": "https://www.ericsson.com/en/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e851d2c7530f"
+    },
+    {
+      "name": "Everstage",
+      "careerUrl": "https://www.everstage.com/careers#jobs-section",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-690033c18bd6"
+    },
+    {
+      "name": "FedEX",
+      "careerUrl": "https://careers.fedex.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-42665df11928"
+    },
+    {
+      "name": "Finzly",
+      "careerUrl": "https://finzly.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-d5b4d0013342"
+    },
+    {
+      "name": "Fiserv",
+      "careerUrl": "https://fiserv.wd5.myworkdayjobs.com/en-US/EXT/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-0b5489e7c275"
+    },
+    {
+      "name": "Fleet Studio",
+      "careerUrl": "https://fleetstudio.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f8791709772a"
+    },
+    {
+      "name": "Forbes Advisor",
+      "careerUrl": "https://www.forbes.com/advisor/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c556af1f4743"
+    },
+    {
+      "name": "Ford",
+      "careerUrl": "https://www.careers.ford.com/en/home.html",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6721d50e06e3"
+    },
+    {
+      "name": "Fullfily",
+      "careerUrl": "https://fullfily.com/career",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-3432460a6f57"
+    },
+    {
+      "name": "Genesys",
+      "careerUrl": "https://genesys.wd1.myworkdayjobs.com/en-US/Genesys",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-eea0e8d2f5f7"
+    },
+    {
+      "name": "Getronics",
+      "careerUrl": "https://www.getronics.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-57ef0add5ad4"
+    },
+    {
+      "name": "GlobalLogic",
+      "careerUrl": "https://www.globallogic.com/in/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-09da98d92cef"
+    },
+    {
+      "name": "Growfin.ai",
+      "careerUrl": "https://www.growfin.ai/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-09b993caec9c"
+    },
+    {
+      "name": "Grundfos",
+      "careerUrl": "https://www.grundfos.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-fee194d8071d"
+    },
+    {
+      "name": "GT Holidays",
+      "careerUrl": "https://www.gtholidays.in/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-5716a5418826"
+    },
+    {
+      "name": "Guardian Link",
+      "careerUrl": "https://www.guardianlink.io/no-code-platform",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e00aedf7bf06"
+    },
+    {
+      "name": "HappyFox",
+      "careerUrl": "https://www.happyfox.com/jobs/chennai/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-32f8851a59b9"
+    },
+    {
+      "name": "HD Supply",
+      "careerUrl": "https://hdsupply.zohorecruit.in/jobs/Careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c1c0cf6a0af0"
+    },
+    {
+      "name": "HippoVideo",
+      "careerUrl": "https://www.hippovideo.io/careers.html",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-a7e4e82dd253"
+    },
+    {
+      "name": "Hitachi",
+      "careerUrl": "https://careers.hitachi.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c6e9ad469b47"
+    },
+    {
+      "name": "Hottinger Br\u00fcel & Kjaer",
+      "careerUrl": "https://spectris.wd3.myworkdayjobs.com/en-US/HBK_Careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f947683f751b"
+    },
+    {
+      "name": "Hp",
+      "careerUrl": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e379073bfafd"
+    },
+    {
+      "name": "Hubino",
+      "careerUrl": "https://www.hubino.com/career/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-7d275733af5b"
+    },
+    {
+      "name": "ICON plc",
+      "careerUrl": "https://careers.iconplc.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-68b9e74b2004"
+    },
+    {
+      "name": "Idea2IT",
+      "careerUrl": "https://www.ideas2it.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-9f0d72864373"
+    },
+    {
+      "name": "Ingram Micro",
+      "careerUrl": "https://careers.ingrammicro.com/en/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-89c001b35c6f"
+    },
+    {
+      "name": "IQVIA",
+      "careerUrl": "https://jobs.iqvia.com/en",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-9ab2724b7658"
+    },
+    {
+      "name": "K7 Computing",
+      "careerUrl": "https://www.k7computing.com/us/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-21a78c39e65b"
+    },
+    {
+      "name": "Kaleris",
+      "careerUrl": "https://boards.greenhouse.io/kaleris",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-8640a633524f"
+    },
+    {
+      "name": "KPMG",
+      "careerUrl": "https://kpmg.com/in/en/home/careers.html",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f4d4a7addede"
+    },
+    {
+      "name": "LatentView Analytics",
+      "careerUrl": "https://www.latentview.com/career/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-b7afeee72ede"
+    },
+    {
+      "name": "LemonPeak",
+      "careerUrl": "https://www.lemonpeak.com/careers.php",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f2ceac206478"
+    },
+    {
+      "name": "LexisNexis",
+      "careerUrl": "https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-eada511b776d"
+    },
+    {
+      "name": "Light & Wonder",
+      "careerUrl": "https://lnw.wd5.myworkdayjobs.com/LightWonderExternalCareers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-2bbd8b8454dc"
+    },
+    {
+      "name": "Likewize",
+      "careerUrl": "https://likewize.wd1.myworkdayjobs.com/en-US/External",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-126ac5285090"
+    },
+    {
+      "name": "Lloyd's List Intelligence",
+      "careerUrl": "https://www.lloydslistintelligence.com/careers/vacancies",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-585043cd3b45"
+    },
+    {
+      "name": "Lumina Datamatics",
+      "careerUrl": "https://www.luminadatamatics.com/people/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-cecdcfe6ffdb"
+    },
+    {
+      "name": "Mad Street Den",
+      "careerUrl": "https://www.madstreetden.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-5fcadcbf2e83"
+    },
+    {
+      "name": "Matrimony.com",
+      "careerUrl": "https://www.matrimony.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c8d2f7258056"
+    },
+    {
+      "name": "McKinsey & Company",
+      "careerUrl": "https://www.mckinsey.com/careers/search-jobs",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-d50b488b7d8e"
+    },
+    {
+      "name": "Microsoft",
+      "careerUrl": "https://jobs.careers.microsoft.com/global/en/search?lc=Chennai%2C%20Tamil%20Nadu%2C%20India",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-915baccb80f8"
+    },
+    {
+      "name": "Mindsprint",
+      "careerUrl": "https://www.mindsprint.com/why-mindsprint",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-5b2b0a09cd79"
+    },
+    {
+      "name": "Mitsogo",
+      "careerUrl": "https://www.mitsogo.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-66dccd32d369"
+    },
+    {
+      "name": "Mr Cooper Group",
+      "careerUrl": "https://nationstar.wd5.myworkdayjobs.com/en-US/MrCooper",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-9713f8d48753"
+    },
+    {
+      "name": "Mx Technologies Inc",
+      "careerUrl": "https://mx.wd1.myworkdayjobs.com/en-US/MX-IND",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-1f991c66269a"
+    },
+    {
+      "name": "Nasdaq",
+      "careerUrl": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-711bea27762f"
+    },
+    {
+      "name": "Nasscom",
+      "careerUrl": "https://www.nasscom.in/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-d0942b2a4600"
+    },
+    {
+      "name": "NatWest",
+      "careerUrl": "https://jobs.natwestgroup.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e2ec8fa648bd"
+    },
+    {
+      "name": "Navis",
+      "careerUrl": "https://kaleris.com/company/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-cfa0c06485ec"
+    },
+    {
+      "name": "NCR Voyix",
+      "careerUrl": "https://ncr.wd1.myworkdayjobs.com/en-US/ext_apac",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-77832af4bd4b"
+    },
+    {
+      "name": "Newell Brands",
+      "careerUrl": "https://jobs.newellbrands.com/viewalljobs/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-2e29cbcec5d4"
+    },
+    {
+      "name": "Nextiva",
+      "careerUrl": "https://www.nextiva.com/company/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-ca03859d54bb"
+    },
+    {
+      "name": "NKT A S",
+      "careerUrl": "https://www.nkt.com/career",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c8ccddca12cd"
+    },
+    {
+      "name": "NTT Data",
+      "careerUrl": "https://careers.services.global.ntt/global/en",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-462361aef216"
+    },
+    {
+      "name": "Nutanix",
+      "careerUrl": "https://www.nutanix.com/company/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-68fcc42c764c"
+    },
+    {
+      "name": "OneMagnify",
+      "careerUrl": "https://onemagnify.wd5.myworkdayjobs.com/en-US/OneMagnify_Careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e98b95850436"
+    },
+    {
+      "name": "Optimum Solutions Pte Ltd",
+      "careerUrl": "https://theoptimum.net/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-b90377159df5"
+    },
+    {
+      "name": "Optum",
+      "careerUrl": "https://careers.unitedhealthgroup.com/job-search-results/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-7b8506b9e970"
+    },
+    {
+      "name": "Orion Innovation",
+      "careerUrl": "https://www.orioninc.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-3e18cc5d1e5d"
+    },
+    {
+      "name": "PAPERFLITE",
+      "careerUrl": "https://paperflite.careers.evalgator.com/careers/job-list",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-d82a92b95ce2"
+    },
+    {
+      "name": "Payoda Technology Inc",
+      "careerUrl": "https://www.payoda.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-ee18b2530c38"
+    },
+    {
+      "name": "PayPal",
+      "careerUrl": "https://careers.pypl.com/home/default.aspx",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-23b73807a628"
+    },
+    {
+      "name": "Paytm",
+      "careerUrl": "https://jobs.lever.co/paytm",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-ba9fba1ac49c"
+    },
+    {
+      "name": "PDI Technologies Inc",
+      "careerUrl": "https://pditechnologies.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-07dfc15faecf"
+    },
+    {
+      "name": "Pearson",
+      "careerUrl": "https://plc.pearson.com/en-GB/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-276b0aff7099"
+    },
+    {
+      "name": "Petrofac",
+      "careerUrl": "https://petrofac.referrals.selectminds.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-8822044fed77"
+    },
+    {
+      "name": "Photon",
+      "careerUrl": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e5172b534195"
+    },
+    {
+      "name": "Pickyourtrail",
+      "careerUrl": "https://careers.pickyourtrail.com/jobs/Careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-28981d88dfea"
+    },
+    {
+      "name": "Planys Technologies",
+      "careerUrl": "https://planystech.com/career/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-792d5d670fdd"
+    },
+    {
+      "name": "Poshmark",
+      "careerUrl": "https://poshmark.wd5.myworkdayjobs.com/en-US/Poshmark_Careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-61e0b6c064df"
+    },
+    {
+      "name": "PRESIDIO",
+      "careerUrl": "https://www.presidio.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-40b392a28903"
+    },
+    {
+      "name": "Prodapt",
+      "careerUrl": "https://career-portal.prodapt.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6912dbc577c7"
+    },
+    {
+      "name": "Prove Identity Inc",
+      "careerUrl": "https://boards.greenhouse.io/prove/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-48ffb015cc7f"
+    },
+    {
+      "name": "Qualitest Group",
+      "careerUrl": "https://www.qualitestgroup.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-00f772cd63c0"
+    },
+    {
+      "name": "QualityKiosk Technologies",
+      "careerUrl": "https://qualitykiosk.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-cc981bc9b456"
+    },
+    {
+      "name": "Qubecinema",
+      "careerUrl": "https://www.qubecinema.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-a6302c6f52c1"
+    },
+    {
+      "name": "R1",
+      "careerUrl": "https://r1rcm.wd1.myworkdayjobs.com/R1RCM?Location_Country=c4f78be1a8f14da0ab49ce1162348a5e",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6e473cdcf901"
+    },
+    {
+      "name": "Ramboll",
+      "careerUrl": "https://www.ramboll.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c1f33a17950a"
+    },
+    {
+      "name": "Raptee",
+      "careerUrl": "https://rapteehv.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-ea41f87a6909"
+    },
+    {
+      "name": "Response Informatics",
+      "careerUrl": "https://www.responseinformaticsltd.com/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-a238c4c40a27"
+    },
+    {
+      "name": "Resulticks",
+      "careerUrl": "https://www.go.resul.io/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-0f3122969b3b"
+    },
+    {
+      "name": "Rocket Software Inc",
+      "careerUrl": "https://rocket.wd5.myworkdayjobs.com/rocket_careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6f7ae492aee1"
+    },
+    {
+      "name": "Sagent M&C LLC",
+      "careerUrl": "https://job-boards.greenhouse.io/sagent",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-8ac69ad454b2"
+    },
+    {
+      "name": "Saint-Gobain Glass",
+      "careerUrl": "https://in.saint-gobain-glass.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c6f74ec7cf8c"
+    },
+    {
+      "name": "Sanmina",
+      "careerUrl": "https://careers.sanmina.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-589df743effb"
+    },
+    {
+      "name": "Sciera",
+      "careerUrl": "https://sciera.freshteam.com/jobs",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-e49e1f366b1d"
+    },
+    {
+      "name": "SecureW2",
+      "careerUrl": "https://www.securew2.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-a96097137eea"
+    },
+    {
+      "name": "Sedin Technologies",
+      "careerUrl": "https://sedintechnologies.com/opportunities/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f9828c0bf0b6"
+    },
+    {
+      "name": "Shell",
+      "careerUrl": "https://shell.wd3.myworkdayjobs.com/en-US/ShellCareers/userHome",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-fcc121ade5f1"
+    },
+    {
+      "name": "SMBC",
+      "careerUrl": "https://careerasia.smbc.co.jp/SMBC/?locale=en_US&previewLink=true&referrerSave=false",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-5ccbf4d31b15"
+    },
+    {
+      "name": "Spintadigital",
+      "careerUrl": "https://www.spintadigital.com/career",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-9fcd0618b366"
+    },
+    {
+      "name": "SquareShift Technologies",
+      "careerUrl": "https://www.squareshift.co/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-b63bc6d91391"
+    },
+    {
+      "name": "Staples",
+      "careerUrl": "https://staples.zohorecruit.in/jobs/Careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6ea782bf267c"
+    },
+    {
+      "name": "Strategy",
+      "careerUrl": "https://www.strategysoftware.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-80b86175242a"
+    },
+    {
+      "name": "Synergech",
+      "careerUrl": "https://www.synergech.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-d6b9f958695c"
+    },
+    {
+      "name": "Sysvine Technologies",
+      "careerUrl": "https://sysvine.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c44511f0f949"
+    },
+    {
+      "name": "Telliant Systems",
+      "careerUrl": "https://www.telliant.com/careers/?st=current-job-openings",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-a017f3b43917"
+    },
+    {
+      "name": "Temenos",
+      "careerUrl": "https://www.temenos.com/about-us/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-36c127ff6770"
+    },
+    {
+      "name": "Tiger Analytics",
+      "careerUrl": "https://www.tigeranalytics.com/about-us/current-openings/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-f15c65e8183b"
+    },
+    {
+      "name": "Toast Inc",
+      "careerUrl": "https://careers.toasttab.com/homepage",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-41cfde0eb4a8"
+    },
+    {
+      "name": "Trane Technologies",
+      "careerUrl": "https://careers.tranetechnologies.com/global/en/home",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-de2cfb49e5af"
+    },
+    {
+      "name": "TransUnion LLC",
+      "careerUrl": "https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-acdbcf1b3cee"
+    },
+    {
+      "name": "UPS",
+      "careerUrl": "https://www.jobs-ups.in/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-7b49880172d5"
+    },
+    {
+      "name": "UST",
+      "careerUrl": "https://fa-erwh-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?location=India&locationId=300000000433119&locationLevel=country&mode=location",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-c3b89cb47edf"
+    },
+    {
+      "name": "UST Global",
+      "careerUrl": "https://www.ust.com/en/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-416758651766"
+    },
+    {
+      "name": "Valeo",
+      "careerUrl": "https://valeo.wd3.myworkdayjobs.com/en-US/valeo_jobs?locationCountry=c4f78be1a8f14da0ab49ce1162348a5e",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-802b697fbcb2"
+    },
+    {
+      "name": "Valor PayTech",
+      "careerUrl": "https://valorpaytech.com/get-to-know-us/join-our-team/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-31d3590be554"
+    },
+    {
+      "name": "Verizon",
+      "careerUrl": "https://mycareer.verizon.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-47eb710c9e6c"
+    },
+    {
+      "name": "Walmart",
+      "careerUrl": "https://careers.walmart.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-4fbdf3e0ff7f"
+    },
+    {
+      "name": "Walmart Global Tech India",
+      "careerUrl": "https://tech.walmart.com/content/walmart-global-tech/en_us.html",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-3cb4ff6f59d3"
+    },
+    {
+      "name": "Waycool",
+      "careerUrl": "https://waycool.in/work-with-us/career",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-372f142acab6"
+    },
+    {
+      "name": "Wing",
+      "careerUrl": "https://wing.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-75d7d037dcf7"
+    },
+    {
+      "name": "Wiz",
+      "careerUrl": "https://wizfreight.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-7d986787b71d"
+    },
+    {
+      "name": "Wolters Kluwer",
+      "careerUrl": "https://wk.wd3.myworkdayjobs.com/en-US/External",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-1490205653e8"
+    },
+    {
+      "name": "Wood",
+      "careerUrl": "https://ehif.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Chennai%2C+Tamil+Nadu%2C+India&locationId=100006076502136&locationLevel=city&mode=location&radius=25&radiusUnit=KM",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-41a6a31b2c13"
+    },
+    {
+      "name": "Workday",
+      "careerUrl": "https://workday.wd5.myworkdayjobs.com/en-US/Workday_Early_Career/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-597742fe7c26"
+    },
+    {
+      "name": "WPP",
+      "careerUrl": "https://job-boards.greenhouse.io/wpp",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-392a6fe00516"
+    },
+    {
+      "name": "YouTrip",
+      "careerUrl": "https://www.you.co/sg/careers/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-24f066cae4af"
+    },
+    {
+      "name": "Yuniq",
+      "careerUrl": "https://yuniq.co/career/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-bee78dbc8826"
+    },
+    {
+      "name": "Zensar Technologies Ltd",
+      "careerUrl": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-edcce8285c9d"
+    },
+    {
+      "name": "ZeroNorth",
+      "careerUrl": "https://careers.zeronorth.com/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-219b0368c63a"
+    },
+    {
+      "name": "ZF",
+      "careerUrl": "https://jobs.zf.com/go/All-Jobs/3630801/",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-2af5a0097fc9"
+    },
+    {
+      "name": "Zocket",
+      "careerUrl": "https://zocket.keka.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-eceda8812b9f"
+    },
+    {
+      "name": "ZoomInfo Technologies LLC",
+      "careerUrl": "https://www.zoominfo.com/careers",
+      "entryType": "career-page",
+      "directorySource": "https://github.com/Kajaasfaq/Company-list-Chennai/blob/d74dc67fc51df9d72b589a2909fa6a0d757bdf21/Readme.md",
+      "id": "directory-6cdc67a493dd"
+    },
+    {
+      "name": "2d Matx Private Limited",
+      "careerUrl": "https://2dmatx.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2546d4d0a9c5"
+    },
+    {
+      "name": "3Dician",
+      "careerUrl": "https://3dcian.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5551de1add3a"
+    },
+    {
+      "name": "Aachi Masala Foods Private Limited",
+      "careerUrl": "https://aachifoods.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-613a2f3ed478"
+    },
+    {
+      "name": "Aaii Technologies Private Limited",
+      "careerUrl": "https://aaiitechnologies.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-907fee14da22"
+    },
+    {
+      "name": "Aarthi Scans and Labs",
+      "careerUrl": "https://aarthiscan.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c02a0b638277"
+    },
+    {
+      "name": "Aavritti Technologies",
+      "careerUrl": "https://aavrtti.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-24b2e8052602"
+    },
+    {
+      "name": "Abyom Spacetech",
+      "careerUrl": "https://abyom.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6c08272415d9"
+    },
+    {
+      "name": "Acculize Innovations",
+      "careerUrl": "https://acculize.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5456bef4e279"
+    },
+    {
+      "name": "Acutix Soft LLP",
+      "careerUrl": "https://acutixsoft.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9bfed0dbde2a"
+    },
+    {
+      "name": "AdMAVIN",
+      "careerUrl": "https://admavin.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9c2b46cff3f0"
+    },
+    {
+      "name": "Adyarhealth Technologies Private Limited",
+      "careerUrl": "https://adyarhealth.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f391cc083e00"
+    },
+    {
+      "name": "Afrodyte Private Limited",
+      "careerUrl": "https://ggloty.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-27a6ab92300f"
+    },
+    {
+      "name": "Agami Fintech Solutions Private Limited",
+      "careerUrl": "https://agamipay.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dae34999c174"
+    },
+    {
+      "name": "Aganam Integrated Solutions Private Limited",
+      "careerUrl": "https://aganam.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-129c58a2206b"
+    },
+    {
+      "name": "Agripal Farm Solutions Private Limited",
+      "careerUrl": "https://agripal.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c60ed9312381"
+    },
+    {
+      "name": "Aieton Labs Private Limited",
+      "careerUrl": "https://aietonlabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c2fc0fbb3521"
+    },
+    {
+      "name": "Aimbootha Ventures Private Limited",
+      "careerUrl": "https://aimbootha.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1821e8d8b7a5"
+    },
+    {
+      "name": "Aiq Sixty Five Smartkart Hub Private Limited",
+      "careerUrl": "https://shino.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-68d3a038a29d"
+    },
+    {
+      "name": "AIRMAN Aeronautics",
+      "careerUrl": "https://theairman.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c3f7c5712708"
+    },
+    {
+      "name": "AirOk",
+      "careerUrl": "https://airoktech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-44fccb33689d"
+    },
+    {
+      "name": "Akra Minerals LLP",
+      "careerUrl": "https://akraminerals.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-da6d9738681e"
+    },
+    {
+      "name": "Akshaya Private Limited",
+      "careerUrl": "https://akshaya.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c77ac700dc3e"
+    },
+    {
+      "name": "AKXA Tech",
+      "careerUrl": "https://akxatech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d3ec04d0db4d"
+    },
+    {
+      "name": "Alagar Herbal Innovation Private Limited",
+      "careerUrl": "https://alagarherbals.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7467f7423fad"
+    },
+    {
+      "name": "Alliance Group",
+      "careerUrl": "https://alliancein.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ad6cc581cc7a"
+    },
+    {
+      "name": "Altavolant Technologies Private Limited",
+      "careerUrl": "https://altavolant.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3a92c8bc8270"
+    },
+    {
+      "name": "Amber Wings",
+      "careerUrl": "https://amberwings.co/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bc040627766c"
+    },
+    {
+      "name": "Amrutanjan Health Care Limited",
+      "careerUrl": "https://amrutanjan.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-95096a56c040"
+    },
+    {
+      "name": "Anabond Limited",
+      "careerUrl": "https://anabond.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-991f4d0ee2ee"
+    },
+    {
+      "name": "Analytics Avenue LLP",
+      "careerUrl": "https://analyticsavenue.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-74cc7cae2c3b"
+    },
+    {
+      "name": "Anandasuvai Private Limited",
+      "careerUrl": "https://anandasuvai.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-74aeb11229bc"
+    },
+    {
+      "name": "Anayon Quantum Energy Private Limited",
+      "careerUrl": "https://anayon.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fc3b447a7ea9"
+    },
+    {
+      "name": "Apk Cosmic Systems Private Limited",
+      "careerUrl": "https://apkcosmic.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-15cfb8f05ccc"
+    },
+    {
+      "name": "Aptus Value Housing Finance India Limited",
+      "careerUrl": "https://aptusindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-caf45c55bf27"
+    },
+    {
+      "name": "Arcedus Motors India Private Limited",
+      "careerUrl": "https://arcedus.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-50bc0de2ee41"
+    },
+    {
+      "name": "Architanz Technologies Private Limited",
+      "careerUrl": "https://architanz.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9dc28e531410"
+    },
+    {
+      "name": "Arh Solutions Private Limited",
+      "careerUrl": "https://arhsolutions.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-12b797800169"
+    },
+    {
+      "name": "Arus MR",
+      "careerUrl": "https://arusmrtech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3dc22dfa47ee"
+    },
+    {
+      "name": "Asgardia Tech Intelligence Private Limited",
+      "careerUrl": "https://asgardiaintelligence.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4a1cf24c5022"
+    },
+    {
+      "name": "Asm Energies (OPC) Private Limited",
+      "careerUrl": "https://greenquanta.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a65da03fda0e"
+    },
+    {
+      "name": "Aspire Systems (India) Private Limited",
+      "careerUrl": "https://aspiresys.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b51ac6a6d9a0"
+    },
+    {
+      "name": "AssetPlus Investment Private Limited",
+      "careerUrl": "https://assetplus.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f607bf189c0e"
+    },
+    {
+      "name": "AstraYAN",
+      "careerUrl": "https://astrayan.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-03b12b175896"
+    },
+    {
+      "name": "Ather Energy",
+      "careerUrl": "https://atherenergy.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8161dc816de7"
+    },
+    {
+      "name": "Aureole Soft-I Solutions Private Limited",
+      "careerUrl": "https://aureolesofti.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d26d05ef0d10"
+    },
+    {
+      "name": "Auxill Innovation (OPC) Private Limited",
+      "careerUrl": "https://auxill.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8d978ca0fd62"
+    },
+    {
+      "name": "Ayyakar Cloud Solutions (OPC) Private Limited",
+      "careerUrl": "https://ayyakarcloudsolutions.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-668c70b99add"
+    },
+    {
+      "name": "B12 Healthcare Technologies Private Limited",
+      "careerUrl": "https://b12healthcare.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-99708073cba6"
+    },
+    {
+      "name": "Backyard Story Private Limited",
+      "careerUrl": "https://theurbanlife.co/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d967169a209b"
+    },
+    {
+      "name": "Baigen Technolabs (OPC) Private Limited",
+      "careerUrl": "https://baigenlabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e410392fbd37"
+    },
+    {
+      "name": "Bakodehub Private Limited",
+      "careerUrl": "https://batechnology.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b0f4d422dcc8"
+    },
+    {
+      "name": "BankBazaar.com",
+      "careerUrl": "https://bankbazaar.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1cfc68395bab"
+    },
+    {
+      "name": "Beautydips Private Limited",
+      "careerUrl": "https://dips.beauty/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d440066b53bd"
+    },
+    {
+      "name": "Beebox Studios",
+      "careerUrl": "https://beeboxstudios.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f342403f0c75"
+    },
+    {
+      "name": "Bezier Technologies And Enterprises LLP",
+      "careerUrl": "https://beziertech.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e0ea9e67b400"
+    },
+    {
+      "name": "Bhuvati Natural Farms LLP",
+      "careerUrl": "https://bhuvatifarms.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7d16f95c0a45"
+    },
+    {
+      "name": "Billiontags Creations Private Limited",
+      "careerUrl": "https://billiontags.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c0521399e396"
+    },
+    {
+      "name": "Biotastic Health Systems Private Limited",
+      "careerUrl": "https://biotastic.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d921b9187cf6"
+    },
+    {
+      "name": "Blue Silicon Infotech Private Limited",
+      "careerUrl": "https://bluesiliconinfotech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-042a168ea74b"
+    },
+    {
+      "name": "Bluetrn Technology Private Limited",
+      "careerUrl": "https://waterfly.info/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-25b97d62e837"
+    },
+    {
+      "name": "BluNav",
+      "careerUrl": "https://blunav.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b4ffb5a4da1a"
+    },
+    {
+      "name": "Blusummit Ventures Private Limited",
+      "careerUrl": "https://blusummitventures.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4fb3a684ec00"
+    },
+    {
+      "name": "Boffin Butler Private Limited",
+      "careerUrl": "https://boffinbutler.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0356c22421b6"
+    },
+    {
+      "name": "Bonne Sai Sante Healthcare Private Limited",
+      "careerUrl": "https://bsshealth.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d62289db8c41"
+    },
+    {
+      "name": "Brakes India Private Limited",
+      "careerUrl": "https://brakesindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2ef2b5fe8fb6"
+    },
+    {
+      "name": "Brandtom & Brandter India Private Limited",
+      "careerUrl": "https://brandtomandbrandter.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c6ef18dba75e"
+    },
+    {
+      "name": "Brothers Global Exports",
+      "careerUrl": "https://brothersglobalexports.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-467eb9688472"
+    },
+    {
+      "name": "Builtrix Labs Private Limited",
+      "careerUrl": "https://builtrix.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-61f9c3b832a5"
+    },
+    {
+      "name": "Caapi.ai Private Limited",
+      "careerUrl": "https://caapi.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-06c409cd179e"
+    },
+    {
+      "name": "Cadet Labs Private Limited",
+      "careerUrl": "https://cadetlabs.io/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8374b1767952"
+    },
+    {
+      "name": "Canary BioSensors",
+      "careerUrl": "https://canarybiosensors.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-10aeb105f1fe"
+    },
+    {
+      "name": "CaratLane Trading Private Limited",
+      "careerUrl": "https://caratlane.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-53c0ea7c5023"
+    },
+    {
+      "name": "Carbonfueltech Private Limited",
+      "careerUrl": "https://carbonfueltech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-309df920e267"
+    },
+    {
+      "name": "Casagrand Builder Private Limited",
+      "careerUrl": "https://casagrand.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c87d1c770c61"
+    },
+    {
+      "name": "CavinKare Private Limited",
+      "careerUrl": "https://cavinkare.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-21946557326d"
+    },
+    {
+      "name": "CeraTattva InnoTech",
+      "careerUrl": "https://ceratattva.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dfff454f10ec"
+    },
+    {
+      "name": "Cestrum Technologies Private Limited",
+      "careerUrl": "https://cestrum.tech/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-75bd5d2ce904"
+    },
+    {
+      "name": "Chai Kings Hospitality Private Limited",
+      "careerUrl": "https://chaikings.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6d6cf3b8cbdd"
+    },
+    {
+      "name": "Champedge Technologies Private Limited",
+      "careerUrl": "https://champedge.carrd.co/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-17f6c14439c7"
+    },
+    {
+      "name": "Chargebee Technologies Private Limited",
+      "careerUrl": "https://chargebee.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a36e5779b332"
+    },
+    {
+      "name": "Chembiosens",
+      "careerUrl": "https://chembiosens.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a5a9c383ec96"
+    },
+    {
+      "name": "Chemplast Sanmar Limited",
+      "careerUrl": "https://chemplastsanmar.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bb420548f7eb"
+    },
+    {
+      "name": "Chennai Food Safety Mitra LLP",
+      "careerUrl": "https://cfsm.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dbc6abe01d14"
+    },
+    {
+      "name": "Chennai Petroleum Corporation Limited",
+      "careerUrl": "https://cpcl.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5888772f59c6"
+    },
+    {
+      "name": "Chipmates Technologies Private Limited",
+      "careerUrl": "https://chipmates.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dac45b198faa"
+    },
+    {
+      "name": "Chola Business Automation Private Limited",
+      "careerUrl": "https://cholabiz.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b14784a2fc40"
+    },
+    {
+      "name": "Citara Labs LLP",
+      "careerUrl": "https://citaralabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f05f224fc9b7"
+    },
+    {
+      "name": "ClothMeds (Dukil)",
+      "careerUrl": "https://clothmeds.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0a69244e7d79"
+    },
+    {
+      "name": "Codeup Global Solutions Private Limited",
+      "careerUrl": "https://thexakal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-474adeea4671"
+    },
+    {
+      "name": "Cognaize Systems Private Limited",
+      "careerUrl": "https://cognaizesys.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4146cec6782a"
+    },
+    {
+      "name": "Coldchainx Global Private Limited",
+      "careerUrl": "https://coldchainx.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6f9d4ead9d0f"
+    },
+    {
+      "name": "Computer Age Management Services Limited",
+      "careerUrl": "https://camsonline.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-99ac65816e68"
+    },
+    {
+      "name": "Crion Technologies",
+      "careerUrl": "https://criontech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8d90c4e67949"
+    },
+    {
+      "name": "Cybele Electra Private Limited",
+      "careerUrl": "https://quintexa.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fdf9e1910e03"
+    },
+    {
+      "name": "Cyclowind Dynamics Private Limited",
+      "careerUrl": "https://cyclowinddynamics.net/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-024f2d5cd05c"
+    },
+    {
+      "name": "Cygni Energy",
+      "careerUrl": "https://cygni.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ec8775c93a33"
+    },
+    {
+      "name": "D-Propulse Aerospace",
+      "careerUrl": "https://d-propulse.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d727b374c338"
+    },
+    {
+      "name": "Daloft Aerospace",
+      "careerUrl": "https://daloftaerospace.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-613aa449eb19"
+    },
+    {
+      "name": "Dcv Hotels LLP",
+      "careerUrl": "https://restobizpro.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7286b74e6432"
+    },
+    {
+      "name": "Detect Technologies Private Limited",
+      "careerUrl": "https://detecttechnologies.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6a7621fff18d"
+    },
+    {
+      "name": "Dextroware Devices",
+      "careerUrl": "https://dextroware.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-24121abf1ee0"
+    },
+    {
+      "name": "Dipsy Personal Care & Cosmetics LLP",
+      "careerUrl": "https://dipsy.store/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d81587feb25e"
+    },
+    {
+      "name": "Doubletap Innovations & Technologies Private Limited",
+      "careerUrl": "https://doubletapinnovations.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7649136cab5e"
+    },
+    {
+      "name": "Dr. Agarwal's Health Care Limited",
+      "careerUrl": "https://dragarwal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d0901a400e15"
+    },
+    {
+      "name": "Dr. Prem's Foot Care Hospital Private Limited",
+      "careerUrl": "https://chennaidiabeticfootcare.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6b7c1f55239a"
+    },
+    {
+      "name": "Dreaminfinity Technology Private Limited",
+      "careerUrl": "https://dreaminfinity.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-667c89b25225"
+    },
+    {
+      "name": "Drexon Industries",
+      "careerUrl": "https://drexonindustries.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-69a1aace4e3b"
+    },
+    {
+      "name": "Dtyle.AI",
+      "careerUrl": "https://dtyle.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-db4804754069"
+    },
+    {
+      "name": "e-con Systems India Private Limited",
+      "careerUrl": "https://e-consystems.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-99b4a68034b0"
+    },
+    {
+      "name": "ecoNiram",
+      "careerUrl": "https://econiram.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-383113b356d9"
+    },
+    {
+      "name": "Edistem Bio Private Limited",
+      "careerUrl": "https://edistembio.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3a458f54b1ad"
+    },
+    {
+      "name": "Edsix Brain Lab",
+      "careerUrl": "https://skillangels.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-618adf272397"
+    },
+    {
+      "name": "Eicon Vision Private Limited",
+      "careerUrl": "https://eicon.io/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b27ef2d98d8a"
+    },
+    {
+      "name": "Einshield Cybersecurity Solutions Private Limited",
+      "careerUrl": "https://einshield.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-10d3800bc595"
+    },
+    {
+      "name": "Elements Energy",
+      "careerUrl": "https://elementsenergies.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c1ef05d3af9d"
+    },
+    {
+      "name": "EON Space Labs",
+      "careerUrl": "https://eonspacelabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-aa008e053800"
+    },
+    {
+      "name": "Ethos Analytics LLP",
+      "careerUrl": "https://ethosba.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-957cb5190954"
+    },
+    {
+      "name": "Ewebstore AI Private Limited",
+      "careerUrl": "https://ewebstore.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b7b342c61bc0"
+    },
+    {
+      "name": "Exm AI Solutions Private Limited",
+      "careerUrl": "https://venba.app/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-148ccdf9aa16"
+    },
+    {
+      "name": "Fabheads",
+      "careerUrl": "https://fabheads.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-50ad10837844"
+    },
+    {
+      "name": "Fabheads Automation Private Limited",
+      "careerUrl": "https://fabheads.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5519e1a7e908"
+    },
+    {
+      "name": "Faceble Solutions Private Limited",
+      "careerUrl": "https://faceble.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-755a07d9eb6c"
+    },
+    {
+      "name": "Falzin Technologies Private Limited",
+      "careerUrl": "https://zaylo.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-71701678cb89"
+    },
+    {
+      "name": "Ferr Rivet Technologies And Solutions LLP",
+      "careerUrl": "https://rivetmech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-feb22e69b3a5"
+    },
+    {
+      "name": "Findmyclass Solutions Private Limited",
+      "careerUrl": "https://findmyclass.app/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d0356cb5bc4c"
+    },
+    {
+      "name": "Finpe Innovations Private Limited",
+      "careerUrl": "https://finpe.app/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-45b7d4d355dc"
+    },
+    {
+      "name": "Finytive Private Limited",
+      "careerUrl": "https://finytive.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-def784514a26"
+    },
+    {
+      "name": "Five Star Business Finance Limited",
+      "careerUrl": "https://fivestargroup.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bf17762184be"
+    },
+    {
+      "name": "Fixonow Technologies Private Limited",
+      "careerUrl": "https://fixonow.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-330275efd125"
+    },
+    {
+      "name": "Flometriq Filtration And Instruments Private Limited",
+      "careerUrl": "https://flometriq.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-02064b51f572"
+    },
+    {
+      "name": "Folium Sensing",
+      "careerUrl": "https://foliumsensing.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f1e5f49c3a4d"
+    },
+    {
+      "name": "Forex Masters Edtech Private Limited",
+      "careerUrl": "https://forexmasters.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-068a943aa0c1"
+    },
+    {
+      "name": "Freshworks Inc.",
+      "careerUrl": "https://freshworks.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b85d3b585447"
+    },
+    {
+      "name": "FundsIndia (Wealth India Financial Services Private Limited)",
+      "careerUrl": "https://fundsindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-66ce61fcfefe"
+    },
+    {
+      "name": "Futura Edtech Private Limited",
+      "careerUrl": "https://futuraedtech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-eac1805e1b9b"
+    },
+    {
+      "name": "Future Max Contracting Private Limited",
+      "careerUrl": "https://futuremaxengg.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1509f2cad630"
+    },
+    {
+      "name": "G3 Cyberspace Private Limited",
+      "careerUrl": "https://g3cyberspace.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-079c61b178ff"
+    },
+    {
+      "name": "GalaxEye",
+      "careerUrl": "https://galaxeye.space/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a3d71552e6e3"
+    },
+    {
+      "name": "Garuda Aerospace Private Limited",
+      "careerUrl": "https://garudaaerospace.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2b022b6fff89"
+    },
+    {
+      "name": "Ges Ko Membranes Private Limited",
+      "careerUrl": "https://geskomem.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d76dfdf717c6"
+    },
+    {
+      "name": "Getgowns Fashion Private Limited",
+      "careerUrl": "https://getgowns.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ad1f7e773316"
+    },
+    {
+      "name": "Goride Run Private Limited",
+      "careerUrl": "https://goride.run/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2fe3245e3bdb"
+    },
+    {
+      "name": "Greenvironment",
+      "careerUrl": "https://greenvironmentindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5c7011e18813"
+    },
+    {
+      "name": "Growxcd Finance Private Limited",
+      "careerUrl": "https://growxcd.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-db3bbeb56929"
+    },
+    {
+      "name": "Gts Facility Management Services Private Limited",
+      "careerUrl": "https://gtsfm.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c83cbe955aca"
+    },
+    {
+      "name": "GUVI Geek Networks Private Limited",
+      "careerUrl": "https://guvi.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-99024993ca1c"
+    },
+    {
+      "name": "Gvr Aero Services Private Limited",
+      "careerUrl": "https://gvraero.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a217b291ee03"
+    },
+    {
+      "name": "Harshu Oil Tools Private Limited",
+      "careerUrl": "https://harshugroup.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-170b8224bb46"
+    },
+    {
+      "name": "HbarOmega",
+      "careerUrl": "https://hbaromega.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-676d783b6660"
+    },
+    {
+      "name": "Helyxon",
+      "careerUrl": "https://helyxon.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e56ed8bb4754"
+    },
+    {
+      "name": "Hemath And Hemath Legal Consultant LLP",
+      "careerUrl": "https://hnhlegalcllp.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5ff606118b7b"
+    },
+    {
+      "name": "Hexagrams Technologies Private Limited",
+      "careerUrl": "https://hexagrams.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1b18f00dad1e"
+    },
+    {
+      "name": "Hivericks Technologies",
+      "careerUrl": "https://hivericks.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c17dad32fc18"
+    },
+    {
+      "name": "Holiday Mint Private Limited",
+      "careerUrl": "https://holidaymint.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-287557f43a20"
+    },
+    {
+      "name": "HyperVerge",
+      "careerUrl": "https://hyperverge.co/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a31a0a2133fd"
+    },
+    {
+      "name": "Hyrowah Technologies",
+      "careerUrl": "https://hyrowah.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-50c0a36c0e99"
+    },
+    {
+      "name": "Iedeo Tech Labs Private Limited",
+      "careerUrl": "https://iedeo.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-cd636dee5d81"
+    },
+    {
+      "name": "Iepcc Solutions Private Limited",
+      "careerUrl": "https://iepccsolutions.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-39a5d8193b88"
+    },
+    {
+      "name": "Imitate Labs Private Limited",
+      "careerUrl": "https://imitatelabs.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e46b58d38162"
+    },
+    {
+      "name": "Impensus",
+      "careerUrl": "https://impensuselectronics.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5c4f0e4905e8"
+    },
+    {
+      "name": "Inbound Aerospace",
+      "careerUrl": "https://inboundaerospace.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4f273ae63a56"
+    },
+    {
+      "name": "InCore Semiconductors Private Limited",
+      "careerUrl": "https://incoresemi.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-803bdab89a01"
+    },
+    {
+      "name": "Indierise Research Labs Private Limited",
+      "careerUrl": "https://theindierise.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-efb42e83e86c"
+    },
+    {
+      "name": "Indium Software (India) Limited",
+      "careerUrl": "https://indium.tech/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f9feef9a5e08"
+    },
+    {
+      "name": "Inner Sanctum LLP",
+      "careerUrl": "https://holistictherapistgayathri.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9eea75dcb9b4"
+    },
+    {
+      "name": "Innoxr Labs Private Limited",
+      "careerUrl": "https://innoxrlabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5226af1f416a"
+    },
+    {
+      "name": "InsituMicron",
+      "careerUrl": "https://insitumicron.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-03ece2851900"
+    },
+    {
+      "name": "Intra Mobility And Precision Systems Private Limited",
+      "careerUrl": "https://intraemobility.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d9dfcbe4ea1e"
+    },
+    {
+      "name": "Intrust Innovation Labs",
+      "careerUrl": "https://intrustlabs.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fca3965a36ed"
+    },
+    {
+      "name": "Invok Nectar Private Limited",
+      "careerUrl": "https://goresolve.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-63914e26ab6b"
+    },
+    {
+      "name": "IppoPay Technologies Private Limited",
+      "careerUrl": "https://ippopay.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b5bb68554a7a"
+    },
+    {
+      "name": "Iqrobots Technology Private Limited",
+      "careerUrl": "https://iqrobots.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b75a31abb4c9"
+    },
+    {
+      "name": "Iraise Gp Sustainable Solutions Private Limited",
+      "careerUrl": "https://iraisegreenplanet.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3ac282d3541c"
+    },
+    {
+      "name": "ISMO Bio-Photonics",
+      "careerUrl": "https://ismobiophotonics.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2bb4b5a403bd"
+    },
+    {
+      "name": "Johnson Lifts Private Limited",
+      "careerUrl": "https://johnsonliftsltd.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2d5f4e555a4a"
+    },
+    {
+      "name": "Jompoi",
+      "careerUrl": "https://jompoi.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8354e0ddaeb6"
+    },
+    {
+      "name": "Jus' Onco Private Limited",
+      "careerUrl": "https://jusonco.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f573c27613fe"
+    },
+    {
+      "name": "Kaadosh Real Estates Private Limited",
+      "careerUrl": "https://kaadosh.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fd39242ccc01"
+    },
+    {
+      "name": "Kaleidofin Private Limited",
+      "careerUrl": "https://kaleidofin.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a356dba7dc5a"
+    },
+    {
+      "name": "KANINI Software Solutions",
+      "careerUrl": "https://kanini.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f99e1cd791d3"
+    },
+    {
+      "name": "Kapindra Precision Engineering",
+      "careerUrl": "https://kapindra.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-54be14942af6"
+    },
+    {
+      "name": "Kashminds Fintech Private Limited",
+      "careerUrl": "https://kashminds.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-83ab19024acb"
+    },
+    {
+      "name": "Kavorax Global Private Limited",
+      "careerUrl": "https://kavorax.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-afe66cfc6398"
+    },
+    {
+      "name": "Khazana Jewellery Private Limited",
+      "careerUrl": "https://khazanajewellery.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b727703d0b04"
+    },
+    {
+      "name": "Kissflow Inc.",
+      "careerUrl": "https://kissflow.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dd0b358c2b44"
+    },
+    {
+      "name": "Klenty Inc.",
+      "careerUrl": "https://klenty.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-69fa1c4c5d7b"
+    },
+    {
+      "name": "Knowcomp Control Plane Private Limited",
+      "careerUrl": "https://knowcomp.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-38889338563e"
+    },
+    {
+      "name": "Koppr AI Tech Private Limited",
+      "careerUrl": "https://koppr.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-452afad6a4b4"
+    },
+    {
+      "name": "Kozhnosys",
+      "careerUrl": "https://kozhnosys.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-260332b95f39"
+    },
+    {
+      "name": "Krylox LLP",
+      "careerUrl": "https://krylox.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d963b94a0ef6"
+    },
+    {
+      "name": "Lightspire Media Private Limited",
+      "careerUrl": "https://lightspiremedia.tv/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-58a6a7c1e23d"
+    },
+    {
+      "name": "Limestone Designs Private Limited",
+      "careerUrl": "https://limestonedesignstudio.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-af553156b9d5"
+    },
+    {
+      "name": "Loado",
+      "careerUrl": "https://loado.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7d5906d6ec0a"
+    },
+    {
+      "name": "Looptager AI Private Limited",
+      "careerUrl": "https://tagerai.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-df517cb8f235"
+    },
+    {
+      "name": "Machintell Solutions Private Limited",
+      "careerUrl": "https://machintell.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-32c83ef68d3c"
+    },
+    {
+      "name": "Magwil Global Private Limited",
+      "careerUrl": "https://magwilglobal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b8593f7401a0"
+    },
+    {
+      "name": "Manju Wellness LLP",
+      "careerUrl": "https://aivida.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-783cc03828e7"
+    },
+    {
+      "name": "Mawalog Enterprises Private Limited",
+      "careerUrl": "https://mawalog.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b1ac4e138b0b"
+    },
+    {
+      "name": "Mayden Smarthealth",
+      "careerUrl": "https://mysmarthealth.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0d793d74c8ba"
+    },
+    {
+      "name": "Mazuja EV Motors Private Limited",
+      "careerUrl": "https://upcot.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-cd2bdb693855"
+    },
+    {
+      "name": "MediBuddy",
+      "careerUrl": "https://medibuddy.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2609f63fb2bd"
+    },
+    {
+      "name": "Mediocean Private Limited",
+      "careerUrl": "https://medi-ocean.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e2cf6d180703"
+    },
+    {
+      "name": "MediSim VR",
+      "careerUrl": "https://medisimvr.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9cca6e40dd16"
+    },
+    {
+      "name": "Mednyai Healthtech Private Limited",
+      "careerUrl": "https://mednyai.netlify.app/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9bdb6f888bb2"
+    },
+    {
+      "name": "Meister-Gen Technologies",
+      "careerUrl": "https://meistergen.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b0bb18378a60"
+    },
+    {
+      "name": "Mervasoft Private Limited",
+      "careerUrl": "https://mervasoft.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-55fe8b45b54c"
+    },
+    {
+      "name": "Mi-Bot",
+      "careerUrl": "https://mi-bot.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2c01986422e9"
+    },
+    {
+      "name": "Mind Dynamics Private Limited",
+      "careerUrl": "https://dinodial.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d8dc5d2de418"
+    },
+    {
+      "name": "Mindgrove Technologies Private Limited",
+      "careerUrl": "https://mindgrovetech.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9d90a1c6babf"
+    },
+    {
+      "name": "Minsky Digital Solutions Private Limited",
+      "careerUrl": "https://minsky.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-71d7f4068e01"
+    },
+    {
+      "name": "Mocero Health Solutions",
+      "careerUrl": "https://mocerohealth.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c2da2db8ddc1"
+    },
+    {
+      "name": "Modulus Housing",
+      "careerUrl": "https://modulushousing.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bcf421d365e7"
+    },
+    {
+      "name": "Morpho Innovations",
+      "careerUrl": "https://morphoinnovations.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f0f48254858c"
+    },
+    {
+      "name": "Motoguys Automotive (OPC) Private Limited",
+      "careerUrl": "https://motoguys.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-01a2ff15574e"
+    },
+    {
+      "name": "MRF Limited",
+      "careerUrl": "https://mrftyres.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d7a3fdb11521"
+    },
+    {
+      "name": "Muzeola Tech Private Limited",
+      "careerUrl": "https://muzeola.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ff3bc85a09e6"
+    },
+    {
+      "name": "Naadathi Infotech India LLP",
+      "careerUrl": "https://naadathiinfotech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b2eb80c674f1"
+    },
+    {
+      "name": "Nambikkai Rehabilitation Devices Knee Private Limited",
+      "careerUrl": "https://nambikkairehab.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5286288acb64"
+    },
+    {
+      "name": "Nandaka Interactive Private Limited",
+      "careerUrl": "https://legendsofhastinapur.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4a7991e05796"
+    },
+    {
+      "name": "Natcornerstudio Private Limited",
+      "careerUrl": "https://natcorner.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-482adf1ba22b"
+    },
+    {
+      "name": "NCash",
+      "careerUrl": "https://ncash.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a0ea632cac88"
+    },
+    {
+      "name": "Nebwee Products Private Limited",
+      "careerUrl": "https://nativethings.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1dfa2a586def"
+    },
+    {
+      "name": "Neelan Engineers & Consultants LLP",
+      "careerUrl": "https://neelan.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c0b904a87c15"
+    },
+    {
+      "name": "Neomotion",
+      "careerUrl": "https://neomotion.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-862e7579538d"
+    },
+    {
+      "name": "Neurium Private Limited",
+      "careerUrl": "https://nuera.tech/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dfaf054464ef"
+    },
+    {
+      "name": "Neurogati Private Limited",
+      "careerUrl": "https://neurogati.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f438aa8be260"
+    },
+    {
+      "name": "Neurostellar",
+      "careerUrl": "https://neurostellar.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-57789cd7a8a6"
+    },
+    {
+      "name": "Nexlyf Technology Private Limited",
+      "careerUrl": "https://genexlyf.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c57eda26b690"
+    },
+    {
+      "name": "Nocomat Private Limited",
+      "careerUrl": "https://nocomat.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ada35882f459"
+    },
+    {
+      "name": "Noctis Tide Studios Private Limited",
+      "careerUrl": "https://noctistide.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d058f635d2cb"
+    },
+    {
+      "name": "Northern Arc Capital Limited",
+      "careerUrl": "https://northernarc.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d80dd93e74db"
+    },
+    {
+      "name": "Northern Arc Securities Private Limited",
+      "careerUrl": "https://altifi.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f38f9189bd4d"
+    },
+    {
+      "name": "Novynix Technologies Private Limited",
+      "careerUrl": "https://novynix.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-60ecf8d3903a"
+    },
+    {
+      "name": "Nura AI Labs Private Limited",
+      "careerUrl": "https://60plusindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-299ee1966454"
+    },
+    {
+      "name": "Nura Analytics Private Limited",
+      "careerUrl": "https://nuraanalytics.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3cb3c4fe92b3"
+    },
+    {
+      "name": "Nutrextr Private Limited",
+      "careerUrl": "https://nutrextr.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0db20c819b4d"
+    },
+    {
+      "name": "Onlci Edtech Private Limited",
+      "careerUrl": "https://onlci.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0383ec660792"
+    },
+    {
+      "name": "Oorva Private Limited",
+      "careerUrl": "https://oorva.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-109634b28a32"
+    },
+    {
+      "name": "Openstellar Global Tech & Intelligence Private Limited",
+      "careerUrl": "https://openstellar.tech/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d73aa80aced4"
+    },
+    {
+      "name": "Otter Private Limited",
+      "careerUrl": "https://justotternow.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-072ea5205abf"
+    },
+    {
+      "name": "Overman Studio Private Limited",
+      "careerUrl": "https://theovermanstudio.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2c25c8c31a2d"
+    },
+    {
+      "name": "Panoculon Labs",
+      "careerUrl": "https://panoculonlabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-66841dead00e"
+    },
+    {
+      "name": "Parshu Tactical Defence",
+      "careerUrl": "https://parshutacticaldefence.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-61d153442b7c"
+    },
+    {
+      "name": "ParvAI Labs",
+      "careerUrl": "https://parvailabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b3c509c8d084"
+    },
+    {
+      "name": "Pelilab Scientific Private Limited",
+      "careerUrl": "https://pelilabscientific.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c378d6d80835"
+    },
+    {
+      "name": "PeLocal Fintech Private Limited",
+      "careerUrl": "https://pelocal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f2aba893580c"
+    },
+    {
+      "name": "Photon Interactive",
+      "careerUrl": "https://photon.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1222b4e464fb"
+    },
+    {
+      "name": "Phytee Nursery Tech Private Limited",
+      "careerUrl": "https://phytee.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7ccfef9b5bf1"
+    },
+    {
+      "name": "Phyto Flux Private Limited",
+      "careerUrl": "https://phytoflux.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8a4c3b732312"
+    },
+    {
+      "name": "Piaxis AI Private Limited",
+      "careerUrl": "https://piaxis.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0ae072eac5a6"
+    },
+    {
+      "name": "Pickyourtrail Private Limited",
+      "careerUrl": "https://pickyourtrail.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2302a3139b76"
+    },
+    {
+      "name": "Pindi Food Products LLP",
+      "careerUrl": "https://pindifoodproducts.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6f1138c21e7e"
+    },
+    {
+      "name": "Planytics AI",
+      "careerUrl": "https://planytics.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e73c37c213a3"
+    },
+    {
+      "name": "Plenome",
+      "careerUrl": "https://plenome.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-89844fd89542"
+    },
+    {
+      "name": "Plugzmart",
+      "careerUrl": "https://plugzmart.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8cfc027cee6b"
+    },
+    {
+      "name": "Pramridhami Kitchen Private Limited",
+      "careerUrl": "https://pramridhamikitchen.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-03b972222057"
+    },
+    {
+      "name": "Prediscan",
+      "careerUrl": "https://prediscan.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-826eb715c107"
+    },
+    {
+      "name": "Prime Acumen Finserv Private Limited",
+      "careerUrl": "https://primeacumen.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d55d9887aa14"
+    },
+    {
+      "name": "Proglint Software Solutions Private Limited",
+      "careerUrl": "https://proglint.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-801e9c8a3d91"
+    },
+    {
+      "name": "Propul Evidence LLP",
+      "careerUrl": "https://propulevidence.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2ca170cc0709"
+    },
+    {
+      "name": "Prvnt Clinics & Diagnostics Private Limited",
+      "careerUrl": "https://letsprvnt.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bb7e012c81c1"
+    },
+    {
+      "name": "Psyiani Corp Private Limited",
+      "careerUrl": "https://psyiani.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-58af155dd444"
+    },
+    {
+      "name": "Q Tether Global Technologies Private Limited",
+      "careerUrl": "https://q-tether.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-711f31b12cfb"
+    },
+    {
+      "name": "Qera AI LLP",
+      "careerUrl": "https://qeraai.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-18052cebeaf3"
+    },
+    {
+      "name": "QNu Labs",
+      "careerUrl": "https://qnulabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-59eb19b66ae7"
+    },
+    {
+      "name": "Quanfluence",
+      "careerUrl": "https://quanfluence.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-434a795ceaf9"
+    },
+    {
+      "name": "Quantamsecure Private Limited",
+      "careerUrl": "https://knowspams.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7c50d19139ec"
+    },
+    {
+      "name": "Quantleap Collective Private Limited",
+      "careerUrl": "https://quantleap.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8cd0421f67ba"
+    },
+    {
+      "name": "Quarkitech",
+      "careerUrl": "https://quarkitech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8f697e98b4e9"
+    },
+    {
+      "name": "Quartusbrain Ideas Private Limited",
+      "careerUrl": "https://gridshare.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dfa899bb7d4d"
+    },
+    {
+      "name": "Querily Labs",
+      "careerUrl": "https://querilylabs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-44345c964d76"
+    },
+    {
+      "name": "Quicklab Asia Private Limited",
+      "careerUrl": "https://quicklabpoct.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3ee9b8e3f6d9"
+    },
+    {
+      "name": "R N Algaetech LLP",
+      "careerUrl": "https://algology.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d6d5bc241468"
+    },
+    {
+      "name": "Rail Labs",
+      "careerUrl": "https://rail-labs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5e711954100a"
+    },
+    {
+      "name": "Ramasubramanian AI Software Private Limited",
+      "careerUrl": "https://lexram.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-39e107746cdd"
+    },
+    {
+      "name": "Rane Holdings Limited",
+      "careerUrl": "https://ranegroup.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-945c1f62f271"
+    },
+    {
+      "name": "Rangbio",
+      "careerUrl": "https://rangbio.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3ffc133ed79e"
+    },
+    {
+      "name": "Raptee Energy Private Limited (Raptee.HV)",
+      "careerUrl": "https://raptee.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fbdf1c5f63ce"
+    },
+    {
+      "name": "Recruitr AI Technologies Private Limited",
+      "careerUrl": "https://vakyam.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8d4ce935bd35"
+    },
+    {
+      "name": "Red Giant Movies",
+      "careerUrl": "https://redgiantmovies.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b9e0009a641f"
+    },
+    {
+      "name": "Regal Specialty Foods & Beverages India Private Limited",
+      "careerUrl": "https://regalspecialtyfoods.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9bc27198a9c6"
+    },
+    {
+      "name": "Revivo Metabolic Health Private Limited",
+      "careerUrl": "https://revivo.health/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-24432e952c9a"
+    },
+    {
+      "name": "Revolution Games Private Limited",
+      "careerUrl": "https://revolutiongamesindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3a258ed28bc6"
+    },
+    {
+      "name": "Rexer Smart Devices Private Limited",
+      "careerUrl": "https://rexer.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c8bedea9ea7d"
+    },
+    {
+      "name": "Ridelink Innovations Private Limited",
+      "careerUrl": "https://qlutchgrid.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-efe1902f72c9"
+    },
+    {
+      "name": "RK Swamy Limited",
+      "careerUrl": "https://rkswamy.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-51c4514ede1b"
+    },
+    {
+      "name": "Roamie Mobility LLP",
+      "careerUrl": "https://roamie.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-cbf88df0487c"
+    },
+    {
+      "name": "Rocketlane Corp.",
+      "careerUrl": "https://rocketlane.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-445f78621c1c"
+    },
+    {
+      "name": "Roostr Arangam Private Limited",
+      "careerUrl": "https://roostr.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-62190bfb9cc9"
+    },
+    {
+      "name": "Rtym AI Works LLP",
+      "careerUrl": "https://rtymaiworks.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-88686f35caa5"
+    },
+    {
+      "name": "Rudram Dynamics",
+      "careerUrl": "https://rudramdynamics.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-acf3014c072c"
+    },
+    {
+      "name": "Rv Testing Machines Private Limited",
+      "careerUrl": "https://rvtestingmachines.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5ead5766b24d"
+    },
+    {
+      "name": "Saanvi Agricultural Products Private Limited",
+      "careerUrl": "https://saanviproducts.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4f8e59c0e590"
+    },
+    {
+      "name": "Saasgold Technologies Private Limited",
+      "careerUrl": "https://saasgold.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-446b326b51bc"
+    },
+    {
+      "name": "Sajh Fine Jewellery LLP",
+      "careerUrl": "https://sajhjewellery.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d3c918ce1c67"
+    },
+    {
+      "name": "Samunnati Financial Intermediation & Services Private Limited",
+      "careerUrl": "https://samunnati.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5e1e5c6588d9"
+    },
+    {
+      "name": "Satlabs",
+      "careerUrl": "https://satlabs.space/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5040dc776a64"
+    },
+    {
+      "name": "Satlatrix Remote Sensing Private Limited",
+      "careerUrl": "https://satlatrix.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dc6ca0996c50"
+    },
+    {
+      "name": "Satori XR",
+      "careerUrl": "https://satorixr.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-260f2a42aab5"
+    },
+    {
+      "name": "Scipra-X Edtech Private Limited",
+      "careerUrl": "https://sciprax.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4e96803fd492"
+    },
+    {
+      "name": "Seamless Speciality Foods And Beverages Private Limited",
+      "careerUrl": "https://seamlessspecialityfb.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ec9e231bb0c0"
+    },
+    {
+      "name": "Securin Labs Private Limited",
+      "careerUrl": "https://securin.io/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2e37e2d8196a"
+    },
+    {
+      "name": "SecurSi",
+      "careerUrl": "https://secursi.io/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-25c984acac43"
+    },
+    {
+      "name": "Sekkei Bio",
+      "careerUrl": "https://sekkeibio.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-88f18d5e8bb1"
+    },
+    {
+      "name": "Shakra Innovations",
+      "careerUrl": "https://shakrainnovations.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d9b82a11ca3c"
+    },
+    {
+      "name": "Shri Kamatchi Creative Studios LLP",
+      "careerUrl": "https://reelzo.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7bc4a6dbece9"
+    },
+    {
+      "name": "Shriram Finance Limited",
+      "careerUrl": "https://shriramfinance.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-28fbcf8f8069"
+    },
+    {
+      "name": "Shunyanantam Technologies Private Limited",
+      "careerUrl": "https://shunyanantam.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-774e81b090dc"
+    },
+    {
+      "name": "Sical Logistics Limited",
+      "careerUrl": "https://sical.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3f55a53e5bf8"
+    },
+    {
+      "name": "Sify Technologies Limited",
+      "careerUrl": "https://sifytechnologies.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c05a943f484e"
+    },
+    {
+      "name": "Silphion Research Private Limited",
+      "careerUrl": "https://chosenstore.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d727ef1b101f"
+    },
+    {
+      "name": "Skill-Lync Private Limited",
+      "careerUrl": "https://skill-lync.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a6490bcb561a"
+    },
+    {
+      "name": "Skyscout Solutions Private Limited",
+      "careerUrl": "https://skyscout.co.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1bd685732b03"
+    },
+    {
+      "name": "Slatemate Private Limited",
+      "careerUrl": "https://slatemate.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3e6c495f0913"
+    },
+    {
+      "name": "Sma Greenshield Bio LLP",
+      "careerUrl": "https://greenshieldbio.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e8eb77b5867e"
+    },
+    {
+      "name": "Smart Well Fluid Private Limited",
+      "careerUrl": "https://smartwellfluid.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3f26de0bfee9"
+    },
+    {
+      "name": "Smiles On Millions Technology Private Limited",
+      "careerUrl": "https://smilesonmillions.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4c5d3bb61b54"
+    },
+    {
+      "name": "Softrate Technologies Private Limited",
+      "careerUrl": "https://softrateglobal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f502472044d6"
+    },
+    {
+      "name": "Solinas Integrity Private Limited",
+      "careerUrl": "https://solinas.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-49f0e70426a3"
+    },
+    {
+      "name": "Sommer Beauty Private Limited",
+      "careerUrl": "https://sommerbeauty.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-239c50c3d79d"
+    },
+    {
+      "name": "Sonolight Imaging",
+      "careerUrl": "https://htic.iitm.ac.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-75db24f9b2bd"
+    },
+    {
+      "name": "Sooru AI",
+      "careerUrl": "https://sooru.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1f5dee68433d"
+    },
+    {
+      "name": "Sourcesys Technologies Private Limited",
+      "careerUrl": "https://sourcesys.co/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e9b3b3c99dc5"
+    },
+    {
+      "name": "Space Kidz India Private Limited",
+      "careerUrl": "https://spacekidzindia.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ed8f940091ba"
+    },
+    {
+      "name": "Sparqle Lifestyle Diamonds Private Limited",
+      "careerUrl": "https://vrddhidiamonds.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4b9e7c42181c"
+    },
+    {
+      "name": "Sportifyingind Sports LLP",
+      "careerUrl": "https://sportifyingindia.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b1075126617c"
+    },
+    {
+      "name": "Sports2science Private Limited",
+      "careerUrl": "https://sports2science.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fe9ec9928556"
+    },
+    {
+      "name": "Sreeviewer Private Limited",
+      "careerUrl": "https://sreeviewer.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3eb56a345726"
+    },
+    {
+      "name": "Sri Jayaram Infotech Private Limited",
+      "careerUrl": "https://srijayaraminfotech.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ab0e7cfd1f15"
+    },
+    {
+      "name": "Statfin Global Services Private Limited",
+      "careerUrl": "https://statfin.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-dca8b1f9ff94"
+    },
+    {
+      "name": "Stellapps",
+      "careerUrl": "https://stellapps.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-cd5682f85b6e"
+    },
+    {
+      "name": "Sterling Holiday Resorts Limited",
+      "careerUrl": "https://sterlingholidays.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5f386cd0a54f"
+    },
+    {
+      "name": "Streben Healthcare",
+      "careerUrl": "https://strebenhealth.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7fed80a7f262"
+    },
+    {
+      "name": "Sudarshana Semiconductors",
+      "careerUrl": "https://sudarshana.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a0baed156448"
+    },
+    {
+      "name": "Sulekha.com",
+      "careerUrl": "https://sulekha.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-db7f3e2a72cd"
+    },
+    {
+      "name": "Sundram Fasteners Limited",
+      "careerUrl": "https://sundram.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f4d6e5408ae2"
+    },
+    {
+      "name": "Supercore Private Limited",
+      "careerUrl": "https://superlaw.co/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3f66128869c4"
+    },
+    {
+      "name": "Susan Future Technologies",
+      "careerUrl": "https://susanfuturetechnologies.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2d12e2a07e37"
+    },
+    {
+      "name": "Svp Viswa Vidyapith Private Limited",
+      "careerUrl": "https://svpou.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-919496aabd0d"
+    },
+    {
+      "name": "Swatle Tech Solutions Private Limited",
+      "careerUrl": "https://swatle.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a5386b4397f9"
+    },
+    {
+      "name": "Sweet Karam Coffee",
+      "careerUrl": "https://sweetkaramcoffee.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-07a640714038"
+    },
+    {
+      "name": "Swits Digital Private Limited",
+      "careerUrl": "https://smartworkitservices.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e9616eafdc37"
+    },
+    {
+      "name": "Takraf India Private Limited",
+      "careerUrl": "https://takraf.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3678799ba10a"
+    },
+    {
+      "name": "Tamil Nadu Newsprint and Papers Limited",
+      "careerUrl": "https://tnpl.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-006aaf3e01b6"
+    },
+    {
+      "name": "Taxla Services Private Limited",
+      "careerUrl": "https://taxlaservices.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a3a417f1e4ac"
+    },
+    {
+      "name": "Tclc AI Services Private Limited",
+      "careerUrl": "https://tclc.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d12f9843bd53"
+    },
+    {
+      "name": "Techknots Academy LLP",
+      "careerUrl": "https://techknots.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-521dbc6ac022"
+    },
+    {
+      "name": "Techknowmad Labs Private Limited",
+      "careerUrl": "https://techknowmad.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bcc055ced74a"
+    },
+    {
+      "name": "Techsha Futuristic Innovations Private Limited",
+      "careerUrl": "https://techshafi.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c1bdd20bd509"
+    },
+    {
+      "name": "Tejoflex Private Limited",
+      "careerUrl": "https://tejoflex.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8dc63fcf25e6"
+    },
+    {
+      "name": "Tekclover Private Limited",
+      "careerUrl": "https://tekclover.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-912c73387a23"
+    },
+    {
+      "name": "Tenacrity Technologies Private Limited",
+      "careerUrl": "https://tenacrity.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-876c62e7d08c"
+    },
+    {
+      "name": "Terraclime Technologies Private Limited",
+      "careerUrl": "https://terraclime.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f6a70845623f"
+    },
+    {
+      "name": "Tesco Structures LLP",
+      "careerUrl": "https://tescostructures.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-88483693da26"
+    },
+    {
+      "name": "Teska Fusion LLP",
+      "careerUrl": "https://teskafusion.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-65a958f5a199"
+    },
+    {
+      "name": "The Grand Sweets and Snacks",
+      "careerUrl": "https://thegrandsweets.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-13c8630b4339"
+    },
+    {
+      "name": "The Indus Valley Private Limited",
+      "careerUrl": "https://theindusvalley.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b6f5a828f43e"
+    },
+    {
+      "name": "The Sanmar Group",
+      "careerUrl": "https://sanmargroup.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4724aa94a59c"
+    },
+    {
+      "name": "Thillaiyaan Overseas Private Limited",
+      "careerUrl": "https://thillaiyaan.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-cad5347b24d8"
+    },
+    {
+      "name": "THRYV Mobility",
+      "careerUrl": "https://thryvmobility.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-304b48f9520d"
+    },
+    {
+      "name": "Tiqworld Private Limited",
+      "careerUrl": "https://tiqworld.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a3263db57ac7"
+    },
+    {
+      "name": "Tractors and Farm Equipment Limited (TAFE)",
+      "careerUrl": "https://tafe.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-72e25071b69b"
+    },
+    {
+      "name": "Transbhasha Solutions Private Limited",
+      "careerUrl": "https://transbhasha.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3a4a2cd2cec0"
+    },
+    {
+      "name": "TridenTech Engineering",
+      "careerUrl": "https://tridentech.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f16c54ca3b62"
+    },
+    {
+      "name": "Trigen DC",
+      "careerUrl": "https://trigendc.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ecf3aa5f99e4"
+    },
+    {
+      "name": "Trishool Tech Solutions Private Limited",
+      "careerUrl": "https://happymanbusiness.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e98e473228f5"
+    },
+    {
+      "name": "Tryneutera Electronics Private Limited",
+      "careerUrl": "https://tryneutera.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c7d6bb9dd711"
+    },
+    {
+      "name": "Tutelar Solutions Private Limited",
+      "careerUrl": "https://tutelar.io/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f8ba63b1a6db"
+    },
+    {
+      "name": "TuTr Hyperloop",
+      "careerUrl": "https://tutr.tech/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-abd71321d48d"
+    },
+    {
+      "name": "Tvasta",
+      "careerUrl": "https://tvasta.construction/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-9760af2316ab"
+    },
+    {
+      "name": "TVS Credit Services Limited",
+      "careerUrl": "https://tvscredit.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8958796d914f"
+    },
+    {
+      "name": "TVS Motor Company Limited",
+      "careerUrl": "https://tvsmotor.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-17032a26a642"
+    },
+    {
+      "name": "Udo Bots Innovations Private Limited",
+      "careerUrl": "https://udobots.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-97b6a95e0fcd"
+    },
+    {
+      "name": "Udvavisk",
+      "careerUrl": "https://udvavisk.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8b2bd21052f0"
+    },
+    {
+      "name": "Unifyiq Solutions Private Limited",
+      "careerUrl": "https://unifyiq.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-81f7774c63af"
+    },
+    {
+      "name": "UNITE",
+      "careerUrl": "https://unitehub.tech/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ebe06deae1b8"
+    },
+    {
+      "name": "Universum Global Solution Private Limited",
+      "careerUrl": "https://universumgs.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c8f75cd8e544"
+    },
+    {
+      "name": "VA Tech Wabag Limited",
+      "careerUrl": "https://wabag.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-53922f691b91"
+    },
+    {
+      "name": "Vaan Megam Networks",
+      "careerUrl": "https://vaanmegam.net/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7c10a268793a"
+    },
+    {
+      "name": "Vaayusastra",
+      "careerUrl": "https://vaayusastra.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-725269acc9be"
+    },
+    {
+      "name": "Vaccelai Dynamics Private Limited",
+      "careerUrl": "https://v-accel.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f6de6786a9a0"
+    },
+    {
+      "name": "Vakilsearch",
+      "careerUrl": "https://vakilsearch.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-966a09d63556"
+    },
+    {
+      "name": "Value1 Tech Mom Card Private Limited",
+      "careerUrl": "https://goldify.world/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a2b11180cec3"
+    },
+    {
+      "name": "Vasanth & Co",
+      "careerUrl": "https://vasanthandco.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-a9230a3cd968"
+    },
+    {
+      "name": "Vayujal",
+      "careerUrl": "https://vayujal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8420c1132d42"
+    },
+    {
+      "name": "Vcoders AI LLP",
+      "careerUrl": "https://vcoders.ai/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e26a6d0ee7bf"
+    },
+    {
+      "name": "Vdut-AI Private Limited",
+      "careerUrl": "https://vdut-ai.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ae5445a660a9"
+    },
+    {
+      "name": "Vendinvent Solutions Private Limited",
+      "careerUrl": "https://vendinventsolutions.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-409bbd97df67"
+    },
+    {
+      "name": "Veranda Learning Solutions Limited",
+      "careerUrl": "https://verandalearning.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-35e79af8c774"
+    },
+    {
+      "name": "Veritas Finance Private Limited",
+      "careerUrl": "https://veritasfin.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7d8b26f0e2b4"
+    },
+    {
+      "name": "VetInstant",
+      "careerUrl": "https://vetinstant.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-97becd9fe333"
+    },
+    {
+      "name": "Vinpropel",
+      "careerUrl": "https://vinpropel.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2be59e0f9f3c"
+    },
+    {
+      "name": "Viriksham Wellness Private Limited",
+      "careerUrl": "https://prevektaayurveda.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2b7d5bd0b18b"
+    },
+    {
+      "name": "Virtua Portal Private Limited",
+      "careerUrl": "https://virtuaportal.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5c90c9ee9493"
+    },
+    {
+      "name": "Vision Solve Private Limited",
+      "careerUrl": "https://visionsolveai.me/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-f9ed2ae6719f"
+    },
+    {
+      "name": "Vitalic Health Private Limited (Netmeds)",
+      "careerUrl": "https://netmeds.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-064e3b785a43"
+    },
+    {
+      "name": "Vivriti Capital Limited",
+      "careerUrl": "https://vivriticapital.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-eb4b9d3e6bb1"
+    },
+    {
+      "name": "Vouchtails Private Limited",
+      "careerUrl": "https://vouchtails.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b40552897c70"
+    },
+    {
+      "name": "Vyoma Systems",
+      "careerUrl": "https://vyomasystems.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-99d4cc5a08bd"
+    },
+    {
+      "name": "Walkfree",
+      "careerUrl": "https://walkfree.life/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6544ef0bd17a"
+    },
+    {
+      "name": "Wealthos Technologies Private Limited",
+      "careerUrl": "https://visorwealth.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0e63046582fb"
+    },
+    {
+      "name": "Wedzat Technologies Private Limited",
+      "careerUrl": "https://wedzat.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-78d952b30d47"
+    },
+    {
+      "name": "Welkinrim Technologies",
+      "careerUrl": "https://welkinrim.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1bc7c0caa57b"
+    },
+    {
+      "name": "Wentrite Technologies Private Limited",
+      "careerUrl": "https://wentrite.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-ca4d45377568"
+    },
+    {
+      "name": "Wetano Solutions Private Limited",
+      "careerUrl": "https://wetano.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-fadc3907be9f"
+    },
+    {
+      "name": "White AI Analytics Private Limited",
+      "careerUrl": "https://fincorpx.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e07a52d98296"
+    },
+    {
+      "name": "White Rabbit Designers Private Limited",
+      "careerUrl": "https://studiowrd.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7243211ef41b"
+    },
+    {
+      "name": "WiiTronics",
+      "careerUrl": "https://wiitronics.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-94d4b80c8b91"
+    },
+    {
+      "name": "Winwal Agro International Private Limited",
+      "careerUrl": "https://bananacircles.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d8640fac352c"
+    },
+    {
+      "name": "Wiserun Consulting Services Private Limited",
+      "careerUrl": "https://bridgelearn.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-47b11dd78c3a"
+    },
+    {
+      "name": "Xteriya Corporate Private Limited",
+      "careerUrl": "https://xteriya.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-e89904754807"
+    },
+    {
+      "name": "XYMA Analytics Private Limited",
+      "careerUrl": "https://xyma.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-69c61367bcb0"
+    },
+    {
+      "name": "Yali Mobility",
+      "careerUrl": "https://yalimobility.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-054956ba5561"
+    },
+    {
+      "name": "YNOS Venture Engine",
+      "careerUrl": "https://ynos.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-b426cb3fcf00"
+    },
+    {
+      "name": "Yotuh Energy",
+      "careerUrl": "https://yotuh.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-7556a4029280"
+    },
+    {
+      "name": "Zaazau Private Limited",
+      "careerUrl": "https://zaazau.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-be8177a7e4b3"
+    },
+    {
+      "name": "Zealev",
+      "careerUrl": "https://zealev.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4691bcc65f3a"
+    },
+    {
+      "name": "ZedBee Technologies",
+      "careerUrl": "https://zedbee.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4494187de8e8"
+    },
+    {
+      "name": "Zeka Solutions Private Limited",
+      "careerUrl": "https://zekasolutions.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-33c62082c521"
+    },
+    {
+      "name": "Zenfinity Energy",
+      "careerUrl": "https://zenfinity.energy/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-5730f97a5ab6"
+    },
+    {
+      "name": "Zhennai India Private Limited",
+      "careerUrl": "https://kural.bot/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-49b519cea4c4"
+    },
+    {
+      "name": "Zoho Corporation",
+      "careerUrl": "https://zoho.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8ec97fbada5c"
+    },
+    {
+      "name": "Zuci Systems",
+      "careerUrl": "https://zucisystems.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-3fbffa1354f1"
+    },
+    {
+      "name": "Zynoviq Solutions Private Limited",
+      "careerUrl": "https://zynoviq.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-2d8ebca82e33"
+    },
+    {
+      "name": "a99 VC",
+      "careerUrl": "https://a99.vc/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d5b5ec08ef88"
+    },
+    {
+      "name": "Anicut Capital",
+      "careerUrl": "https://anicutcapital.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-d7d50575ec47"
+    },
+    {
+      "name": "GHL India Ventures",
+      "careerUrl": "https://ghlindiaventures.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-07c50ce31c06"
+    },
+    {
+      "name": "IIT Madras Incubation Cell",
+      "careerUrl": "https://rtbi.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-6837f53fcbf8"
+    },
+    {
+      "name": "Keiretsu Forum Chennai",
+      "careerUrl": "https://keiretsuchennai.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0c6cf037a668"
+    },
+    {
+      "name": "Peaceful Progress",
+      "careerUrl": "https://peacefulprogress.in/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-0c18fe7c3c50"
+    },
+    {
+      "name": "Pontaq",
+      "careerUrl": "https://pontaq.vc/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-4fa7745589bc"
+    },
+    {
+      "name": "Refex Capital",
+      "careerUrl": "https://refexcapital.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-8d4616d157be"
+    },
+    {
+      "name": "Speciale Invest",
+      "careerUrl": "https://specialeinvest.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-bfed497c526b"
+    },
+    {
+      "name": "The Chennai Angels",
+      "careerUrl": "https://thechennaiangels.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-249091faeba0"
+    },
+    {
+      "name": "TiE Chennai",
+      "careerUrl": "https://chennai.tie.org/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-1540bed88693"
+    },
+    {
+      "name": "TNIFMC (Tamil Nadu Emerging Sector Seed Fund)",
+      "careerUrl": "https://tnifmc.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-889f06809c3d"
+    },
+    {
+      "name": "Veltis Capital",
+      "careerUrl": "https://veltiscapital.com/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-c83e52ccb055"
+    },
+    {
+      "name": "Ventureast",
+      "careerUrl": "https://ventureast.net/",
+      "entryType": "company-homepage",
+      "directorySource": "https://tamilnadustartupmap.com/",
+      "directoryRegion": "Chennai",
+      "id": "directory-88317cbf37d9"
+    },
+    {
+      "id": "madecard-employer-watch",
+      "name": "Made Card",
+      "careerUrl": "https://www.madecard.com/careers",
+      "entryType": "career-page"
     }
   ]
 }

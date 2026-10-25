@@ -43,8 +43,8 @@ def install_cache(scan,path):
     class Cached(original):
         def __init__(self,cfg):super().__init__(cfg);self.oldest=None
         def request(self,url,headers=None,payload=None):
-            # Cache only public recruiting GETs. Workday search POSTs use live requests.
-            allowed=any(h in url for h in ['://api.smartrecruiters.com/','://api.ashbyhq.com/','://api.lever.co/','://boards-api.greenhouse.io/']) and payload is None
+            # Cache only approved public GETs without credentials; robots rules are still evaluated by each profile.
+            allowed=payload is None and not any(k.lower() in ('authorization','cookie','x-subscription-token','x-api-key') for k in (headers or {})) and scan.valid_url(url,self.hosts,True)
             key=path/(hashlib.sha256(url.encode()).hexdigest()+'.json');now=dt.datetime.now(dt.timezone.utc)
             if allowed and key.exists():
                 try:
@@ -63,17 +63,35 @@ def install_cache(scan,path):
 def cache_urls(board,item,engine):
     return [] if board['kind']=='workday' else [engine.api_url(board['kind'],board['slug']),item.get('api','')]
 
-def run(root,cache):
+def run(root,cache,directory_limit=None):
     sys.path.insert(0,str(root/'scripts'));import scan
     engine=load('shared_employers',HERE/'employers.py')
     profile=json.loads((root/'config/evidence-profile.json').read_text());cfg=json.loads((root/'config/search.json').read_text())
     cfg['employerBoards']=json.loads((HERE/'registry.json').read_text())['boards'];cfg['employerConcurrency']=4
+    retired=json.loads((HERE/'retired-sources.json').read_text())['sources']
+    retired_keys={(r['board']['kind'],r['board']['slug'].casefold()) for r in retired}
+    def retired_board(board):return (board['kind'],board['slug'].casefold()) in retired_keys
     cfg['allowedHosts']=list(set(cfg['allowedHosts'])|{b['host'] for b in cfg['employerBoards'] if b.get('host')})
     path=root/'site/data/jobs.json';data=json.loads(path.read_text());original=install_cache(scan,cache)
+    previous_watch=data.get('run',{}).get('retiredSourceWatch',{})
+    today=dt.datetime.now(dt.timezone.utc).date().isoformat();watch={}
+    for row in retired:
+        board=row['board'];key=board['kind']+':'+board['slug'];old=previous_watch.get(key,{})
+        current=old if old.get('checkedOn')==today else None
+        if current is None:
+            fetcher=scan.Fetcher({**cfg,'allowedHosts':list(set(cfg['allowedHosts'])|engine.API_HOSTS|engine.JOB_HOSTS)})
+            blob,status=engine.get_json(fetcher,engine.api_url(board['kind'],board['slug']))
+            current={'checkedOn':today,'status':status,'recovered':isinstance(blob,dict) and isinstance(blob.get('jobs'),list)}
+        watch[key]=current
+        if current['recovered']:
+            cfg['employerBoards'].append(board);retired_keys.discard((board['kind'],board['slug'].casefold()))
+    data.setdefault('run',{})['retiredSourceWatch']=watch
+    retired=[r for r in retired if (r['board']['kind'],r['board']['slug'].casefold()) in retired_keys]
     sources=load('shared_company_sources',HERE/'company_sources.py')
     from opening_pool import inventory
-    current=inventory(data,cfg)['reviewedOpen']
-    try:sources.discover(data,cfg,json.loads((HERE/'company-catalog.json').read_text())['companies'],limit=30 if current<20 else 20 if current<25 else 10)
+    current=inventory(data,cfg)['reviewedOpen'];direct=[]
+    sources.employers=engine
+    try:sources.discover(data,cfg,json.loads((HERE/'company-catalog.json').read_text())['companies'],limit=directory_limit or (60 if current<20 else 40 if current<35 else 20),on_candidate=lambda job,description:direct.append((job,description)))
     except Exception as exc:
         data.setdefault('run',{}).setdefault('companyDiscovery',{}).setdefault('companies',{})
         data['run'].setdefault('coverage',[]).append({'source':'Career directory discovery','status':'Incomplete','detail':'Directory error: '+type(exc).__name__+'; registered employer feeds continue.'})
@@ -84,14 +102,18 @@ def run(root,cache):
         board=sources.board_from_link(job.get('applyUrl',''),job['company'])
         if board:
             key=(board['kind'],board['slug'],board.get('site',''))
-            if key not in known:cfg['employerBoards'].append(board);known.add(key)
+            if key not in known and not retired_board(board):cfg['employerBoards'].append(board);known.add(key)
 
     for state in data['run']['companyDiscovery']['companies'].values():
         for board in state.get('boards',[]):
             key=(board['kind'],board['slug'],board.get('site',''))
-            if key not in known:cfg['employerBoards'].append(board);known.add(key)
+            if key not in known and not retired_board(board):cfg['employerBoards'].append(board);known.add(key)
 
+    def item_key(url):return engine.exact_key(url) or ('url',scan.canonical(url))
     base_collect=engine.collect_board;assessed={};source_states=[]
+    for job,description in direct:
+        item={'url':job['applyUrl'],'title':job['title'],'description':description}
+        assessed[item_key(item['url'])]=(item,assess(item,profile))
     def collect(board,cfg,scan):
         # Track the actual evidence timestamp, including a reused cloud cache.
         result=base_collect(board,cfg,scan)
@@ -103,7 +125,7 @@ def run(root,cache):
                     try:stamps.append(json.loads(key.read_text())['checkedAt'])
                     except (ValueError,KeyError):pass
             if stamps:item['confirmedAt']=min(stamps)
-            assessed[engine.exact_key(item['url'])]=(item,assess(item,profile))
+            assessed[item_key(item['url'])]=(item,assess(item,profile))
         return result
     engine.collect_board=collect
     safe=engine.safe_collect
@@ -115,7 +137,7 @@ def run(root,cache):
     report=engine.discover(data,cfg,scan)
     new=0
     for job in data['jobs']:
-        pair=assessed.get(engine.exact_key(job['applyUrl']))
+        pair=assessed.get(item_key(job['applyUrl']))
         if not pair or re.search(r'\.(?:com|io|net)$',job.get('company','')):continue
         item,result=pair
         if not result:continue
@@ -126,7 +148,9 @@ def run(root,cache):
     stamp=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     failures=[s for s in source_states if s['status'] not in ('Complete','Search complete')]
     health=dict(version=VERSION,checkedAt=stamp,status='partial' if failures else 'success',boards=len(source_states),sourceFailures=len(failures),assessed=new,sources=sorted(source_states,key=lambda s:s['company']))
+    health['retiredSources']=retired
     data.setdefault('run',{})['sharedPipeline']=health
+    data['run']['coverage']=[{'source':'Retired employer feeds','status':f'{len(retired)} retired feeds; checked daily for recovery','detail':'Made Card posting API and public embed no longer publish a board. Its official careers page remains in the company directory. This is not evidence that individual vacancies were filled.'}]+[c for c in data['run'].get('coverage',[]) if c['source']!='Retired employer feeds']
     data['run']['coverage']=[{'source':'Shared discovery and assessment','status':f'{len(source_states)} sources; {new} full-description assessments','detail':f'{len(failures)} sources incomplete or unavailable. Both sites use the same source registry and connector code. Assessment runs in GitHub without a Mac or model API key; human Career Ops review is supplemental.'}]+[c for c in data['run'].get('coverage',[]) if c['source']!='Shared discovery and assessment']
     data['updatedAt']=stamp[:10]
     path.write_text(json.dumps(data,ensure_ascii=True,indent=2)+'\n')
@@ -135,4 +159,4 @@ def run(root,cache):
     return health
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path.cwd());p.add_argument('--cache',type=Path,default=Path('/tmp/job-engine-public-cache'));a=p.parse_args();run(a.root.resolve(),a.cache)
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path.cwd());p.add_argument('--directory-limit',type=int);p.add_argument('--cache',type=Path,default=Path('/tmp/job-engine-public-cache'));a=p.parse_args();run(a.root.resolve(),a.cache,a.directory_limit)
