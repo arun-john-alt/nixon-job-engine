@@ -71,7 +71,9 @@ def run(root,cache):
     cfg['allowedHosts']=list(set(cfg['allowedHosts'])|{b['host'] for b in cfg['employerBoards'] if b.get('host')})
     path=root/'site/data/jobs.json';data=json.loads(path.read_text());original=install_cache(scan,cache)
     sources=load('shared_company_sources',HERE/'company_sources.py')
-    try:sources.discover(data,cfg,json.loads((HERE/'company-catalog.json').read_text())['companies'],limit=10)
+    from opening_pool import inventory
+    current=inventory(data,cfg)['reviewedOpen']
+    try:sources.discover(data,cfg,json.loads((HERE/'company-catalog.json').read_text())['companies'],limit=30 if current<20 else 20 if current<25 else 10)
     except Exception as exc:
         data.setdefault('run',{}).setdefault('companyDiscovery',{}).setdefault('companies',{})
         data['run'].setdefault('coverage',[]).append({'source':'Career directory discovery','status':'Incomplete','detail':'Directory error: '+type(exc).__name__+'; registered employer feeds continue.'})
