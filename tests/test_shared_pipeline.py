@@ -27,6 +27,11 @@ class AssessmentTests(unittest.TestCase):
   self.assertTrue(all(0<=s['points']<=s['weight'] for s in a['score']))
  def test_reliability_not_claimed_after_one_run(self):
   m=module('health','health.py');d={'run':{}};self.assertEqual(m.record(d)['status'],'observing');self.assertEqual(d['run']['reliability']['observationDays'],1)
+ def test_relevant_remote_role_requires_india_eligibility(self):
+  import sys;sys.path.insert(0,str(ROOT/'scripts'));import scan
+  m=module('remote_employers','employers.py')
+  row=dict(title='Senior QA Engineer',location='Remote US',remote=True,description='Software testing Python Robot Framework')
+  self.assertFalse(m.relevant(row,scan))
  def test_one_broken_connector_does_not_abort(self):
   import sys;sys.path.insert(0,str(ROOT/'scripts'));m=module('employers','employers.py');m.collect_board=lambda *a: (_ for _ in ()).throw(ValueError('failure'))
   b={'company':'Example'};self.assertEqual(m.safe_collect(b,{},None)[3],'Connector error: ValueError')

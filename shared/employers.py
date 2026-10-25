@@ -185,6 +185,9 @@ def discover(data,cfg,scan,cache_dir=None):
             j['employerDescriptionHash']=digest
             j.update(verification='live',availabilityStatus='open',availabilityHold=False,lastConfirmedOpenAt=item.get("confirmedAt",stamp),availabilityCheckedAt=item.get("confirmedAt",stamp),availabilityEvidenceUrl=item['api'],availabilityReason='Exact vacancy published in the employer recruiting API with its application route.',checkedOn=date)
             if item.get('closesOn'):j['closesOn']=item['closesOn']
+            j['locationEligibility']='chennai' if re.search(r'chennai|sriperumbudur|oragadam|chengalpattu|thiruvallur|tiruvallur|pallavaram',item['location'],re.I) else 'remote-india'
+            j['roleLevel']='manager' if re.search(r'\bmanager\b',item['title'],re.I) else 'technical-lead' if re.search(r'\blead\b',item['title'],re.I) else 'individual'
+            if j['locationEligibility']=='remote-india':j['workModel']='Fully remote India'
             j['discoveryEligible']=True
             j['requisition']=item['requisition']
             j['employerPostingId']=item['id'];j['employerBoard']=board
