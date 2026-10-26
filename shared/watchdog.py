@@ -12,15 +12,16 @@ def timestamp(value):
 def decide(repository,live,runs,cfg,now,inventory):
     if any(r.get('status') in ACTIVE for r in runs):return 'wait','Engine already active; no duplicate dispatch.'
     recovery=[r for r in runs if r.get('display_title','').startswith('Recovery ·') and timestamp(r.get('created_at')) and 0<=(now-timestamp(r['created_at'])).total_seconds()<86400]
-    if len(recovery)>=3:return 'alert','Three recovery attempts in 24 hours; operator review required.'
-    if any((now-timestamp(r['created_at'])).total_seconds()<1500 for r in recovery):return 'wait','Recovery cooldown: 25 minutes.'
     pool=repository.get('run',{}).get('openingPool',{});last=timestamp(pool.get('lastReplenishedAt'));counts=inventory(repository,cfg,now)
     interval=2700 if counts['bufferShortfall'] else 21600
     due=not last or not 0<=(now-last).total_seconds()<interval
     local=now.astimezone(IST);scan_day=repository.get('run',{}).get('scanDateIst') or repository.get('run',{}).get('checkedOn')
     daily_missing=local.hour>=9 and scan_day!=local.date().isoformat()
-    if due or daily_missing:return 'scan','Employer refresh or daily discovery is due; workflow success alone does not establish freshness.'
-    if repository!=live:return 'publish','Committed research differs from live data; publish without repeating discovery.'
+    needed='scan' if due or daily_missing else 'publish' if repository!=live else None
+    if needed:
+        if len(recovery)>=3:return 'alert','Three recovery attempts in 24 hours; operator review required.'
+        if any((now-timestamp(r['created_at'])).total_seconds()<1500 for r in recovery):return 'wait','Recovery cooldown: 25 minutes.'
+        return (needed,'Employer refresh or daily discovery is due; workflow success alone does not establish freshness.' if needed=='scan' else 'Committed research differs from live data; publish without repeating discovery.')
     return 'healthy',f'{counts["reviewedOpen"]} confirmed assessments; current repository matches live data.'
 
 def gh(*args):return subprocess.check_output(['gh',*args],text=True)

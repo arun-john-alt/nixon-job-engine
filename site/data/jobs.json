@@ -9,8 +9,8 @@
     "coverage": [
       {
         "source": "Reliability trial",
-        "status": "1/7 IST days observed",
-        "detail": "1 real observations. 0 days with opening shortfalls; 0 days with source errors. Missing days cannot count as success. Cloud watchdog plus an existing Mac-based Codex follow-up provide recovery; no new external hosting login is configured."
+        "status": "2/7 IST days observed",
+        "detail": "11 real observations. 0 days with opening shortfalls; 1 days with source errors. History restored from committed observations; source timestamps remain their actual check times."
       },
       {
         "source": "Opening target",
@@ -516,6 +516,256 @@
         "source": "Employer feed: Enviri",
         "status": "0 postings examined; 0 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Shared discovery and assessment",
+        "status": "122 sources; 19 full-description assessments",
+        "detail": "0 sources incomplete or unavailable. Both sites use the same source registry and connector code. Assessment runs in GitHub without a Mac or model API key; human Career Ops review is supplemental."
+      },
+      {
+        "source": "Retired employer feeds",
+        "status": "1 retired feeds; checked daily for recovery",
+        "detail": "Made Card posting API and public embed no longer publish a board. Its official careers page remains in the company directory. This is not evidence that individual vacancies were filled."
+      },
+      {
+        "source": "Employer feed: Accenture",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Alation",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Bank of America",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Banyan Software",
+        "status": "48 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Broadcom",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Citi",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Dentsu",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Genesys",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Hottinger Br\u00fcel & Kjaer",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Likewize",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Mr Cooper Group",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Nasdaq",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Navis",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: OneMagnify",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Paytm",
+        "status": "196 postings examined; 0 relevant",
+        "detail": "Complete; public lever career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: PDI Technologies Inc",
+        "status": "27 postings examined; 0 relevant",
+        "detail": "Complete; public lever career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Prove Identity Inc",
+        "status": "10 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: R1",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Rocket Software Inc",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Sagent M&C LLC",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Temenos",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Workday",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Employer feed: Takraf India Private Limited",
+        "status": "0 postings examined; 0 relevant",
+        "detail": "Search complete; public workday career data. Full descriptions required before scoring."
+      },
+      {
+        "source": "Chennai company catalog",
+        "status": "698/698 companies checked; 0 new leads this run",
+        "detail": "40 company/career entries attempted with robots checks. 88 connected; 169 blocked/unavailable; 435 need adapters. Unchecked directory entries are research targets, not verified hiring."
+      },
+      {
+        "source": "LinkedIn public search index",
+        "status": "2 queries completed",
+        "detail": "Tavily: 6 new unscored leads. Partial coverage; exact-result closure signals checked; no LinkedIn login or direct scraping."
+      },
+      {
+        "source": "Tavily web discovery",
+        "status": "2 queries completed",
+        "detail": "Up to 20 results/query. Relevant employer-indexed leads retained even when structured metadata is missing. New leads require review."
+      },
+      {
+        "source": "Application availability",
+        "status": "0 closed; 2 rechecked",
+        "detail": "Explicit closure signals hide jobs. Oldest indexed leads get up to 10 exact-URL rechecks/run. Missing results or blocked pages are not proof of closure. Search evidence can lag live pages."
+      },
+      {
+        "source": "HCLTech",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US"
+      },
+      {
+        "source": "HCLTech",
+        "status": "Fetched",
+        "detail": "https://careers.hcltech.com/job/Senior-Automation-Tester-Networking-L2L3-Protocol-Testing/137783-en_US - no structured job data"
+      },
+      {
+        "source": "Made Card",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://jobs.ashbyhq.com/madecard/117fafd3-f18f-4aba-8ab2-39b5fe8b5a73"
+      },
+      {
+        "source": "Made Card",
+        "status": "Fetched",
+        "detail": "https://jobs.ashbyhq.com/madecard/117fafd3-f18f-4aba-8ab2-39b5fe8b5a73 - no structured job data"
+      },
+      {
+        "source": "Xerago",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://www.xerago.com/jobs/manager-testing"
+      },
+      {
+        "source": "Xerago",
+        "status": "Fetched",
+        "detail": "https://www.xerago.com/jobs/manager-testing - no structured job data"
+      },
+      {
+        "source": "Novature Tech",
+        "status": "Host not approved",
+        "detail": "https://in.indeed.com/viewjob?jk=ba0abcbf2cdfa4e2"
+      },
+      {
+        "source": "careers.cognizant.com",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://careers.cognizant.com/global-en/jobs/00069387659/sdet-playwright-automation"
+      },
+      {
+        "source": "careers.cognizant.com",
+        "status": "Fetched",
+        "detail": "https://careers.cognizant.com/global-en/jobs/00069387659/sdet-playwright-automation - job metadata found"
+      },
+      {
+        "source": "HCLTech",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://careers.hcltech.com/job/Senior-Test-Lead-Software-Testing%2C-Jira%2C-Python/151870-en_US"
+      },
+      {
+        "source": "HCLTech",
+        "status": "Fetched",
+        "detail": "https://careers.hcltech.com/job/Senior-Test-Lead-Software-Testing%2C-Jira%2C-Python/151870-en_US - no structured job data"
+      },
+      {
+        "source": "careers.cognizant.com",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://careers.cognizant.com/global-en/jobs/00070827451/playwright-automation-testing"
+      },
+      {
+        "source": "careers.cognizant.com",
+        "status": "Fetched",
+        "detail": "https://careers.cognizant.com/global-en/jobs/00070827451/playwright-automation-testing - job metadata found"
+      },
+      {
+        "source": "www.accenture.com",
+        "status": "Fetched",
+        "detail": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en - job metadata found"
+      },
+      {
+        "source": "Extreme Networks",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec"
+      },
+      {
+        "source": "Extreme Networks",
+        "status": "Fetched",
+        "detail": "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec - job metadata found"
+      },
+      {
+        "source": "Extreme Networks",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f"
+      },
+      {
+        "source": "Extreme Networks",
+        "status": "Fetched",
+        "detail": "https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f - job metadata found"
+      },
+      {
+        "source": "YipitData",
+        "status": "Unresolved",
+        "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://job-boards.greenhouse.io/yipitdata/jobs/6743082"
+      },
+      {
+        "source": "YipitData",
+        "status": "Fetched",
+        "detail": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082 - no structured job data"
+      },
+      {
+        "source": "AHL \u2013 Saaf AI",
+        "status": "Fetched",
+        "detail": "https://jobs.ashbyhq.com/ahl-saafai/ea0fdc4d-336e-46df-9ed6-10539f6ff2e5 - job metadata found"
       }
     ],
     "scanDateIst": "2026-10-26",
@@ -11083,21 +11333,99 @@
       "nextCheckAfter": "2026-10-26T07:03:47+00:00"
     },
     "reliability": {
-      "observationDays": 1,
+      "observationDays": 2,
       "requiredDays": 7,
       "status": "observing",
       "daysBelowMinimum": 0,
-      "daysWithSourceErrors": 0,
-      "longestObservedGapHours": 0,
+      "daysWithSourceErrors": 1,
+      "longestObservedGapHours": 5.07,
       "missingIstDates": [
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24",
-        "2026-10-25"
+        "2026-10-24"
       ],
       "samples": [
+        {
+          "checkedAt": "2026-10-25T04:18:37+00:00",
+          "status": "partial",
+          "sourceFailures": 1,
+          "reviewedOpen": 24,
+          "shortfall": 0
+        },
+        {
+          "checkedAt": "2026-10-25T06:14:28+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 24,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-25T07:56:25+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 28,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-25T08:59:05+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 28,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-25T11:34:27+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 29,
+          "shortfall": 0,
+          "newRelevantVacancies": 1
+        },
+        {
+          "checkedAt": "2026-10-25T13:59:09+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 29,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-25T16:23:17+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 29,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-25T19:41:21+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 29,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-25T22:37:33+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 29,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-26T01:15:13+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 29,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
+        },
         {
           "checkedAt": "2026-10-26T06:19:31+00:00",
           "status": "missing",
@@ -11108,6 +11436,1138 @@
         }
       ],
       "note": "Calendar-day observations use IST and real timestamps. Test simulations do not count. Review GitHub deployment history separately before accepting the trial."
+    },
+    "sharedPipeline": {
+      "version": "1.0.0",
+      "checkedAt": "2026-10-26T01:13:26+00:00",
+      "status": "success",
+      "boards": 122,
+      "workingSources": 122,
+      "sourceFailures": 0,
+      "assessed": 19,
+      "sources": [
+        {
+          "company": "AECOM",
+          "kind": "smart",
+          "slug": "AECOM2",
+          "site": "",
+          "status": "Complete",
+          "postings": 389,
+          "relevant": 0
+        },
+        {
+          "company": "AHL \u2013 Saaf AI",
+          "kind": "ashby",
+          "slug": "ahl-saafai",
+          "site": "",
+          "status": "Complete",
+          "postings": 5,
+          "relevant": 1
+        },
+        {
+          "company": "Accenture",
+          "kind": "workday",
+          "slug": "accenture",
+          "site": "AccentureCareers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Accor",
+          "kind": "smart",
+          "slug": "AccorHotel",
+          "site": "",
+          "status": "Complete",
+          "postings": 803,
+          "relevant": 0
+        },
+        {
+          "company": "Alation",
+          "kind": "workday",
+          "slug": "alation",
+          "site": "ExternalSite",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Appian",
+          "kind": "greenhouse",
+          "slug": "appian",
+          "site": "",
+          "status": "Complete",
+          "postings": 164,
+          "relevant": 1
+        },
+        {
+          "company": "Arista Networks",
+          "kind": "smart",
+          "slug": "AristaNetworks",
+          "site": "",
+          "status": "Complete",
+          "postings": 26,
+          "relevant": 1
+        },
+        {
+          "company": "Atlan",
+          "kind": "ashby",
+          "slug": "atlan",
+          "site": "",
+          "status": "Complete",
+          "postings": 6,
+          "relevant": 0
+        },
+        {
+          "company": "Avery Dennison",
+          "kind": "smart",
+          "slug": "AveryDennison",
+          "site": "",
+          "status": "Complete",
+          "postings": 28,
+          "relevant": 0
+        },
+        {
+          "company": "Bank of America",
+          "kind": "workday",
+          "slug": "ghr",
+          "site": "lateral-us",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Banyan Software",
+          "kind": "greenhouse",
+          "slug": "banyansoftware",
+          "site": "",
+          "status": "Complete",
+          "postings": 48,
+          "relevant": 0
+        },
+        {
+          "company": "Barclays",
+          "kind": "workday",
+          "slug": "barclays",
+          "site": "External_Career_Site_Barclays",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Bidgely",
+          "kind": "ashby",
+          "slug": "bidgely-inc",
+          "site": "",
+          "status": "Complete",
+          "postings": 16,
+          "relevant": 1
+        },
+        {
+          "company": "BorgWarner",
+          "kind": "workday",
+          "slug": "borgwarner",
+          "site": "BorgWarner_Careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Bosch Group",
+          "kind": "smart",
+          "slug": "BoschGroup",
+          "site": "",
+          "status": "Complete",
+          "postings": 630,
+          "relevant": 0
+        },
+        {
+          "company": "Broadcom",
+          "kind": "workday",
+          "slug": "broadcom",
+          "site": "External_Career",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Canonical",
+          "kind": "greenhouse",
+          "slug": "canonical",
+          "site": "",
+          "status": "Complete",
+          "postings": 314,
+          "relevant": 0
+        },
+        {
+          "company": "Caterpillar",
+          "kind": "workday",
+          "slug": "cat",
+          "site": "CaterpillarCareers",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 0
+        },
+        {
+          "company": "Cielo",
+          "kind": "smart",
+          "slug": "Cielo2",
+          "site": "",
+          "status": "Complete",
+          "postings": 5,
+          "relevant": 0
+        },
+        {
+          "company": "Citi",
+          "kind": "workday",
+          "slug": "citi",
+          "site": "2",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Cloudflare",
+          "kind": "greenhouse",
+          "slug": "cloudflare",
+          "site": "",
+          "status": "Complete",
+          "postings": 454,
+          "relevant": 0
+        },
+        {
+          "company": "Continental",
+          "kind": "smart",
+          "slug": "Continental",
+          "site": "",
+          "status": "Complete",
+          "postings": 14,
+          "relevant": 0
+        },
+        {
+          "company": "Dentsu",
+          "kind": "workday",
+          "slug": "dentsuaegis",
+          "site": "DAN_GLOBAL",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Docker",
+          "kind": "ashby",
+          "slug": "docker",
+          "site": "",
+          "status": "Complete",
+          "postings": 52,
+          "relevant": 0
+        },
+        {
+          "company": "Druva",
+          "kind": "greenhouse",
+          "slug": "druva",
+          "site": "",
+          "status": "Complete",
+          "postings": 31,
+          "relevant": 0
+        },
+        {
+          "company": "Egis",
+          "kind": "smart",
+          "slug": "EgisGroup",
+          "site": "",
+          "status": "Complete",
+          "postings": 245,
+          "relevant": 0
+        },
+        {
+          "company": "Elastic",
+          "kind": "greenhouse",
+          "slug": "elastic",
+          "site": "",
+          "status": "Complete",
+          "postings": 402,
+          "relevant": 0
+        },
+        {
+          "company": "Elsevier",
+          "kind": "workday",
+          "slug": "relx",
+          "site": "ElsevierJobs",
+          "status": "Search complete",
+          "postings": 3,
+          "relevant": 3
+        },
+        {
+          "company": "Enviri",
+          "kind": "smart",
+          "slug": "EnviriCorporation",
+          "site": "",
+          "status": "Complete",
+          "postings": 44,
+          "relevant": 0
+        },
+        {
+          "company": "Enviri",
+          "kind": "smart",
+          "slug": "HarscoCorporation1",
+          "site": "",
+          "status": "Complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Equiniti",
+          "kind": "workday",
+          "slug": "equiniti",
+          "site": "Opportunities",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Eurofins",
+          "kind": "smart",
+          "slug": "Eurofins",
+          "site": "",
+          "status": "Complete",
+          "postings": 341,
+          "relevant": 0
+        },
+        {
+          "company": "Expeditors",
+          "kind": "smart",
+          "slug": "Expeditors",
+          "site": "",
+          "status": "Complete",
+          "postings": 11,
+          "relevant": 0
+        },
+        {
+          "company": "Extreme Networks",
+          "kind": "lever",
+          "slug": "extremenetworks",
+          "site": "",
+          "status": "Complete",
+          "postings": 97,
+          "relevant": 5
+        },
+        {
+          "company": "FLSmidth",
+          "kind": "workday",
+          "slug": "flsmidth",
+          "site": "FLS_Global",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Fiserv",
+          "kind": "workday",
+          "slug": "fiserv",
+          "site": "EXT",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Flex",
+          "kind": "workday",
+          "slug": "flextronics",
+          "site": "Careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Fresh Prints",
+          "kind": "greenhouse",
+          "slug": "freshprints",
+          "site": "",
+          "status": "Complete",
+          "postings": 39,
+          "relevant": 0
+        },
+        {
+          "company": "Freshworks",
+          "kind": "smart",
+          "slug": "Freshworks",
+          "site": "",
+          "status": "Complete",
+          "postings": 34,
+          "relevant": 0
+        },
+        {
+          "company": "GE Vernova",
+          "kind": "workday",
+          "slug": "gevernova",
+          "site": "Vernova_ExternalSite",
+          "status": "Search complete",
+          "postings": 2,
+          "relevant": 0
+        },
+        {
+          "company": "Gen Digital",
+          "kind": "ashby",
+          "slug": "gen-digital",
+          "site": "",
+          "status": "Complete",
+          "postings": 119,
+          "relevant": 0
+        },
+        {
+          "company": "Genesys",
+          "kind": "workday",
+          "slug": "genesys",
+          "site": "Genesys",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "GitLab",
+          "kind": "greenhouse",
+          "slug": "gitlab",
+          "site": "",
+          "status": "Complete",
+          "postings": 239,
+          "relevant": 0
+        },
+        {
+          "company": "Grafana Labs",
+          "kind": "greenhouse",
+          "slug": "grafanalabs",
+          "site": "",
+          "status": "Complete",
+          "postings": 146,
+          "relevant": 0
+        },
+        {
+          "company": "H&M",
+          "kind": "smart",
+          "slug": "HMGroup",
+          "site": "",
+          "status": "Complete",
+          "postings": 117,
+          "relevant": 0
+        },
+        {
+          "company": "HP",
+          "kind": "workday",
+          "slug": "hp",
+          "site": "ExternalCareerSite",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Harness",
+          "kind": "greenhouse",
+          "slug": "harnessinc",
+          "site": "",
+          "status": "Complete",
+          "postings": 66,
+          "relevant": 0
+        },
+        {
+          "company": "Hitachi Energy",
+          "kind": "workday",
+          "slug": "hitachi",
+          "site": "hitachi",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 0
+        },
+        {
+          "company": "Hottinger Br\u00fcel & Kjaer",
+          "kind": "workday",
+          "slug": "spectris",
+          "site": "HBK_Careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Inflection.io",
+          "kind": "ashby",
+          "slug": "inflectionio",
+          "site": "",
+          "status": "Complete",
+          "postings": 1,
+          "relevant": 0
+        },
+        {
+          "company": "Informa",
+          "kind": "smart",
+          "slug": "InformaGroupPlc",
+          "site": "",
+          "status": "Complete",
+          "postings": 6,
+          "relevant": 0
+        },
+        {
+          "company": "JLL",
+          "kind": "workday",
+          "slug": "jll",
+          "site": "jllcareers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Juniper Square",
+          "kind": "ashby",
+          "slug": "junipersquare",
+          "site": "",
+          "status": "Complete",
+          "postings": 46,
+          "relevant": 1
+        },
+        {
+          "company": "KLA",
+          "kind": "workday",
+          "slug": "kla",
+          "site": "Search",
+          "status": "Search complete",
+          "postings": 2,
+          "relevant": 2
+        },
+        {
+          "company": "Kestra",
+          "kind": "ashby",
+          "slug": "kestra",
+          "site": "",
+          "status": "Complete",
+          "postings": 5,
+          "relevant": 0
+        },
+        {
+          "company": "Konecranes",
+          "kind": "smart",
+          "slug": "Konecranes",
+          "site": "",
+          "status": "Complete",
+          "postings": 68,
+          "relevant": 0
+        },
+        {
+          "company": "LexisNexis",
+          "kind": "workday",
+          "slug": "relx",
+          "site": "RiskSolutions",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Light & Wonder",
+          "kind": "workday",
+          "slug": "lnw",
+          "site": "LightWonderExternalCareers",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Likewize",
+          "kind": "workday",
+          "slug": "likewize",
+          "site": "External",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Linear",
+          "kind": "ashby",
+          "slug": "linear",
+          "site": "",
+          "status": "Complete",
+          "postings": 34,
+          "relevant": 0
+        },
+        {
+          "company": "Logitech",
+          "kind": "workday",
+          "slug": "logitech",
+          "site": "Logitech",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Louis Dreyfus Company",
+          "kind": "smart",
+          "slug": "LouisDreyfusCompany",
+          "site": "",
+          "status": "Complete",
+          "postings": 21,
+          "relevant": 0
+        },
+        {
+          "company": "MicroStrategy",
+          "kind": "smart",
+          "slug": "MicroStrategy1",
+          "site": "",
+          "status": "Complete",
+          "postings": 10,
+          "relevant": 1
+        },
+        {
+          "company": "MongoDB",
+          "kind": "greenhouse",
+          "slug": "mongodb",
+          "site": "",
+          "status": "Complete",
+          "postings": 381,
+          "relevant": 0
+        },
+        {
+          "company": "Mr Cooper Group",
+          "kind": "workday",
+          "slug": "nationstar",
+          "site": "MrCooper",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "NCR Voyix",
+          "kind": "workday",
+          "slug": "ncr",
+          "site": "ext_apac",
+          "status": "Search complete",
+          "postings": 3,
+          "relevant": 3
+        },
+        {
+          "company": "Nagarro",
+          "kind": "smart",
+          "slug": "Nagarro1",
+          "site": "",
+          "status": "Complete",
+          "postings": 187,
+          "relevant": 0
+        },
+        {
+          "company": "Nasdaq",
+          "kind": "workday",
+          "slug": "nasdaq",
+          "site": "Global_External_Site",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Navis",
+          "kind": "workday",
+          "slug": "kaleris",
+          "site": "kaleris_careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Netskope",
+          "kind": "greenhouse",
+          "slug": "netskope",
+          "site": "",
+          "status": "Complete",
+          "postings": 128,
+          "relevant": 0
+        },
+        {
+          "company": "NielsenIQ",
+          "kind": "smart",
+          "slug": "NielsenIQ",
+          "site": "",
+          "status": "Complete",
+          "postings": 64,
+          "relevant": 1
+        },
+        {
+          "company": "OneMagnify",
+          "kind": "workday",
+          "slug": "onemagnify",
+          "site": "OneMagnify_Careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "OpenObserve",
+          "kind": "ashby",
+          "slug": "openobserve-careers",
+          "site": "",
+          "status": "Complete",
+          "postings": 6,
+          "relevant": 0
+        },
+        {
+          "company": "PDI Technologies Inc",
+          "kind": "lever",
+          "slug": "pditechnologies",
+          "site": "",
+          "status": "Complete",
+          "postings": 27,
+          "relevant": 0
+        },
+        {
+          "company": "Paytm",
+          "kind": "lever",
+          "slug": "paytm",
+          "site": "",
+          "status": "Complete",
+          "postings": 196,
+          "relevant": 0
+        },
+        {
+          "company": "Plane",
+          "kind": "ashby",
+          "slug": "plane",
+          "site": "",
+          "status": "Complete",
+          "postings": 33,
+          "relevant": 0
+        },
+        {
+          "company": "Pod Network",
+          "kind": "ashby",
+          "slug": "pod-network",
+          "site": "",
+          "status": "Complete",
+          "postings": 4,
+          "relevant": 1
+        },
+        {
+          "company": "PostHog",
+          "kind": "ashby",
+          "slug": "posthog",
+          "site": "",
+          "status": "Complete",
+          "postings": 10,
+          "relevant": 0
+        },
+        {
+          "company": "Prove Identity Inc",
+          "kind": "greenhouse",
+          "slug": "prove",
+          "site": "",
+          "status": "Complete",
+          "postings": 10,
+          "relevant": 0
+        },
+        {
+          "company": "QIMA",
+          "kind": "smart",
+          "slug": "QIMA",
+          "site": "",
+          "status": "Complete",
+          "postings": 63,
+          "relevant": 0
+        },
+        {
+          "company": "R1",
+          "kind": "workday",
+          "slug": "r1rcm",
+          "site": "R1RCM",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Ramboll",
+          "kind": "smart",
+          "slug": "Ramboll3",
+          "site": "",
+          "status": "Complete",
+          "postings": 105,
+          "relevant": 1
+        },
+        {
+          "company": "Renault Group / RNTBCI",
+          "kind": "workday",
+          "slug": "alliancewd",
+          "site": "renault-group-careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Renesas Electronics",
+          "kind": "smart",
+          "slug": "RenesasElectronics",
+          "site": "",
+          "status": "Complete",
+          "postings": 116,
+          "relevant": 0
+        },
+        {
+          "company": "Rexel",
+          "kind": "smart",
+          "slug": "REXEL1",
+          "site": "",
+          "status": "Complete",
+          "postings": 25,
+          "relevant": 0
+        },
+        {
+          "company": "Rifa AI",
+          "kind": "ashby",
+          "slug": "rifa",
+          "site": "",
+          "status": "Complete",
+          "postings": 5,
+          "relevant": 1
+        },
+        {
+          "company": "Rocket Software Inc",
+          "kind": "workday",
+          "slug": "rocket",
+          "site": "rocket_careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Rockwell Automation",
+          "kind": "workday",
+          "slug": "rockwellautomation",
+          "site": "External_Rockwell_Automation",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 0
+        },
+        {
+          "company": "Rotork",
+          "kind": "smart",
+          "slug": "Rotork1",
+          "site": "",
+          "status": "Complete",
+          "postings": 12,
+          "relevant": 1
+        },
+        {
+          "company": "Rubrik",
+          "kind": "greenhouse",
+          "slug": "rubrik",
+          "site": "",
+          "status": "Complete",
+          "postings": 148,
+          "relevant": 0
+        },
+        {
+          "company": "SGS",
+          "kind": "smart",
+          "slug": "SGS",
+          "site": "",
+          "status": "Complete",
+          "postings": 26,
+          "relevant": 0
+        },
+        {
+          "company": "Sagent M&C LLC",
+          "kind": "greenhouse",
+          "slug": "sagent",
+          "site": "",
+          "status": "Complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Samsara",
+          "kind": "greenhouse",
+          "slug": "samsara",
+          "site": "",
+          "status": "Complete",
+          "postings": 287,
+          "relevant": 0
+        },
+        {
+          "company": "SavvyMoney",
+          "kind": "ashby",
+          "slug": "savvymoney",
+          "site": "",
+          "status": "Complete",
+          "postings": 13,
+          "relevant": 0
+        },
+        {
+          "company": "Sentry",
+          "kind": "ashby",
+          "slug": "sentry",
+          "site": "",
+          "status": "Complete",
+          "postings": 43,
+          "relevant": 0
+        },
+        {
+          "company": "Shell",
+          "kind": "workday",
+          "slug": "shell",
+          "site": "ShellCareers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Sika",
+          "kind": "smart",
+          "slug": "SikaAG",
+          "site": "",
+          "status": "Complete",
+          "postings": 54,
+          "relevant": 0
+        },
+        {
+          "company": "Sopra Steria",
+          "kind": "smart",
+          "slug": "SopraSteria1",
+          "site": "",
+          "status": "Complete",
+          "postings": 63,
+          "relevant": 0
+        },
+        {
+          "company": "Supabase",
+          "kind": "ashby",
+          "slug": "supabase",
+          "site": "",
+          "status": "Complete",
+          "postings": 61,
+          "relevant": 0
+        },
+        {
+          "company": "Sutherland",
+          "kind": "smart",
+          "slug": "Sutherland",
+          "site": "",
+          "status": "Complete",
+          "postings": 56,
+          "relevant": 1
+        },
+        {
+          "company": "Syngenta",
+          "kind": "smart",
+          "slug": "SyngentaGroup",
+          "site": "",
+          "status": "Complete",
+          "postings": 32,
+          "relevant": 0
+        },
+        {
+          "company": "TD SYNNEX",
+          "kind": "workday",
+          "slug": "synnex",
+          "site": "tdsynnexcareers",
+          "status": "Search complete",
+          "postings": 2,
+          "relevant": 2
+        },
+        {
+          "company": "Takraf India Private Limited",
+          "kind": "workday",
+          "slug": "takraf",
+          "site": "TAKRAF_external_careers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Temenos",
+          "kind": "workday",
+          "slug": "temenos",
+          "site": "Temenoscareers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Toast",
+          "kind": "greenhouse",
+          "slug": "toast",
+          "site": "",
+          "status": "Complete",
+          "postings": 321,
+          "relevant": 0
+        },
+        {
+          "company": "Tomra",
+          "kind": "smart",
+          "slug": "TOMRA",
+          "site": "",
+          "status": "Complete",
+          "postings": 1,
+          "relevant": 0
+        },
+        {
+          "company": "Tomra",
+          "kind": "smart",
+          "slug": "Tomra",
+          "site": "",
+          "status": "Complete",
+          "postings": 1,
+          "relevant": 0
+        },
+        {
+          "company": "TransUnion LLC",
+          "kind": "workday",
+          "slug": "transunion",
+          "site": "TransUnion",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Trimble",
+          "kind": "workday",
+          "slug": "trimble",
+          "site": "TrimbleCareers",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Turner & Townsend",
+          "kind": "smart",
+          "slug": "TurnerTownsend",
+          "site": "",
+          "status": "Complete",
+          "postings": 154,
+          "relevant": 0
+        },
+        {
+          "company": "Uniphore",
+          "kind": "workday",
+          "slug": "uniphore",
+          "site": "Uniphore",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Valeo",
+          "kind": "workday",
+          "slug": "valeo",
+          "site": "valeo_jobs",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "Vanta",
+          "kind": "ashby",
+          "slug": "vanta",
+          "site": "",
+          "status": "Complete",
+          "postings": 83,
+          "relevant": 0
+        },
+        {
+          "company": "Veolia",
+          "kind": "smart",
+          "slug": "VeoliaEnvironnementSA",
+          "site": "",
+          "status": "Complete",
+          "postings": 72,
+          "relevant": 0
+        },
+        {
+          "company": "WPP",
+          "kind": "greenhouse",
+          "slug": "wpp",
+          "site": "",
+          "status": "Complete",
+          "postings": 210,
+          "relevant": 1
+        },
+        {
+          "company": "Wolters Kluwer",
+          "kind": "workday",
+          "slug": "wk",
+          "site": "External",
+          "status": "Search complete",
+          "postings": 1,
+          "relevant": 1
+        },
+        {
+          "company": "Workday",
+          "kind": "workday",
+          "slug": "workday",
+          "site": "Workday_Early_Career",
+          "status": "Search complete",
+          "postings": 0,
+          "relevant": 0
+        },
+        {
+          "company": "YipitData",
+          "kind": "greenhouse",
+          "slug": "yipitdata",
+          "site": "",
+          "status": "Complete",
+          "postings": 54,
+          "relevant": 1
+        },
+        {
+          "company": "Zapier",
+          "kind": "ashby",
+          "slug": "zapier",
+          "site": "",
+          "status": "Complete",
+          "postings": 12,
+          "relevant": 0
+        },
+        {
+          "company": "Zscaler",
+          "kind": "greenhouse",
+          "slug": "zscaler",
+          "site": "",
+          "status": "Complete",
+          "postings": 352,
+          "relevant": 0
+        },
+        {
+          "company": "Zuora",
+          "kind": "greenhouse",
+          "slug": "zuora",
+          "site": "",
+          "status": "Complete",
+          "postings": 32,
+          "relevant": 0
+        },
+        {
+          "company": "n8n",
+          "kind": "ashby",
+          "slug": "n8n",
+          "site": "",
+          "status": "Complete",
+          "postings": 39,
+          "relevant": 0
+        }
+      ],
+      "retiredSources": [
+        {
+          "board": {
+            "company": "Made Card",
+            "kind": "ashby",
+            "slug": "madecard"
+          },
+          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "reason": "Posting API returned 404 and the employer-linked public embed explicitly reported jobBoard=null. Employer careers page still watched; no individual vacancy closure inferred.",
+          "evidenceUrls": [
+            "https://api.ashbyhq.com/posting-api/job-board/madecard",
+            "https://jobs.ashbyhq.com/madecard?embed=js",
+            "https://www.madecard.com/careers"
+          ]
+        }
+      ]
+    },
+    "retiredSourceWatch": {
+      "ashby:madecard": {
+        "checkedOn": "2026-10-26",
+        "status": "HTTP 404",
+        "recovered": false
+      }
     }
   },
   "jobs": [

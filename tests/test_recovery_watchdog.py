@@ -10,7 +10,12 @@ class WatchdogTests(unittest.TestCase):
  def test_user_dispatches_do_not_exhaust_recovery_budget(self):
   runs=[{'display_title':'Engine','created_at':'2026-10-25T05:00:00+00:00'}]*20;self.assertEqual(self.decide(runs),'healthy')
  def test_recovery_limit_and_cooldown(self):
+  self.data['run']['openingPool']['lastReplenishedAt']='2026-10-25T03:00:00+00:00'
   runs=[{'display_title':'Recovery · engine','created_at':'2026-10-25T05:00:00+00:00'}]*3;self.assertEqual(self.decide(runs),'alert')
   runs=[{'display_title':'Recovery · engine','created_at':'2026-10-25T05:50:00+00:00'}];self.assertEqual(self.decide(runs),'wait')
  def test_live_mismatch_only_publishes(self):self.assertEqual(self.decide(live={'run':{}}),'publish')
  def test_active_run_prevents_dispatch(self):self.assertEqual(self.decide([{'status':'in_progress'}]),'wait')
+
+ def test_exhausted_budget_does_not_alert_when_healthy(self):
+  runs=[{'display_title':'Recovery · engine','created_at':'2026-10-25T05:00:00+00:00'}]*3
+  self.assertEqual(self.decide(runs),'healthy')
