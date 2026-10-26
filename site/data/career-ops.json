@@ -179,12 +179,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-26T08:31:25+00:00",
+    "checkedAt": "2026-10-26T14:41:19+00:00",
     "scanDateIst": "2026-10-26",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 47228,
+    "examined": 47174,
     "candidateCount": 19,
     "sourceFailures": 0,
     "candidates": [
@@ -219,30 +219,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
-        "company": "Rifa AI",
-        "title": "QA Lead, AI Agents",
-        "location": "Remote, India · Bengaluru · India"
-      },
-      {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
-        "company": "Trimble",
-        "title": "Software Engineer in Test",
-        "location": "India - Chennai"
-      },
-      {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
-        "company": "Logitech",
-        "title": "Hardware Test Automation Engineer",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
-        "company": "Sika",
-        "title": "Sr. Executive / Assistant Manager QA/QC",
-        "location": "Chennai, TN, India"
-      },
-      {
         "url": "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
         "company": "Extreme Networks",
         "title": "QA SW ENGINEER - 10544",
@@ -273,6 +249,30 @@
         "location": "Chennai, India"
       },
       {
+        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+        "company": "Rifa AI",
+        "title": "QA Lead, AI Agents",
+        "location": "Remote, India · Bengaluru · India"
+      },
+      {
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+        "company": "Logitech",
+        "title": "Hardware Test Automation Engineer",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
+        "company": "Trimble",
+        "title": "Software Engineer in Test",
+        "location": "India - Chennai"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
+        "company": "Sika",
+        "title": "Sr. Executive / Assistant Manager QA/QC",
+        "location": "Chennai, TN, India"
+      },
+      {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
         "company": "QIMA",
         "title": "Quality Inspector",
@@ -291,16 +291,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
-        "company": "Uniphore",
-        "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore · India - Chennai"
-      },
-      {
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
         "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
+      },
+      {
+        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+        "company": "Uniphore",
+        "title": "Senior Staff Software Engineer (SDET)",
+        "location": "India - Bangalore · India - Chennai"
       }
     ]
   },
