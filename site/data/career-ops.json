@@ -6,7 +6,7 @@
     "commit": "2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af",
     "version": "1.38.0"
   },
-  "method": "Unmodified upstream scan.mjs; full employer descriptions assessed by Codex using the Career Ops five-dimension rubric. These are agent-assisted assessments, not output from its API evaluator. Native 1\u20135 ratings are holistic, not converted from Nextmove match percentages.",
+  "method": "Unmodified upstream scan.mjs; full employer descriptions assessed by Codex using the Career Ops five-dimension rubric. These are agent-assisted assessments, not output from its API evaluator. Native 1–5 ratings are holistic, not converted from Nextmove match percentages.",
   "refresh": "Employer discovery runs daily at 9 AM IST in GitHub Actions. Codex evaluation runs separately on this Mac; review freshness is shown independently. Unconfirmed or stale vacancies are hidden.",
   "scan": {
     "date": "2026-10-24",
@@ -45,22 +45,22 @@
       "descriptionHash": "24300291fe0c55000594acd243bc570ea0e08545b0c26ffd8b0a9e1b5ce557e3",
       "rating": 4.1,
       "confidence": "Low",
-      "rationale": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8\u201312-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management.",
+      "rationale": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8–12-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management.",
       "dimensions": [
         {
           "name": "CV match",
           "status": "partial",
-          "evidence": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8\u201312-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management."
+          "evidence": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8–12-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management."
         },
         {
           "name": "North Star alignment",
           "status": "partial",
-          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; \u20b925L+ budget is unverified."
+          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; ₹25L+ budget is unverified."
         },
         {
           "name": "Compensation",
           "status": "unknown",
-          "evidence": "No employer-disclosed annual total CTC range; \u20b925L+ is not established."
+          "evidence": "No employer-disclosed annual total CTC range; ₹25L+ is not established."
         },
         {
           "name": "Cultural signals",
@@ -90,12 +90,12 @@
         {
           "name": "North Star alignment",
           "status": "partial",
-          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; \u20b925L+ budget is unverified."
+          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; ₹25L+ budget is unverified."
         },
         {
           "name": "Compensation",
           "status": "unknown",
-          "evidence": "No employer-disclosed annual total CTC range; \u20b925L+ is not established."
+          "evidence": "No employer-disclosed annual total CTC range; ₹25L+ is not established."
         },
         {
           "name": "Cultural signals",
@@ -163,29 +163,29 @@
       },
       {
         "company": "Gigamon",
-        "title": "Sr. Staff SW QA Engineer \u2014 AppIntel",
+        "title": "Sr. Staff SW QA Engineer — AppIntel",
         "status": "26 October: current exact job description/application route could not be established; prior gap assessment is historical."
       },
       {
         "company": "Gigamon",
-        "title": "Sr. Staff SW QA Engineer \u2014 Cloud",
+        "title": "Sr. Staff SW QA Engineer — Cloud",
         "status": "26 October: current exact job description/application route could not be established; prior gap assessment is historical."
       },
       {
         "company": "Gigamon",
-        "title": "Sr. SW QA Engineer \u2014 AppIntel",
+        "title": "Sr. SW QA Engineer — AppIntel",
         "status": "26 October: current exact job description/application route could not be established; prior gap assessment is historical."
       }
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-26T06:18:52+00:00",
+    "checkedAt": "2026-10-26T08:31:25+00:00",
     "scanDateIst": "2026-10-26",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 47221,
-    "candidateCount": 23,
+    "examined": 47228,
+    "candidateCount": 19,
     "sourceFailures": 0,
     "candidates": [
       {
@@ -213,6 +213,36 @@
         "location": "Chennai, TN, India"
       },
       {
+        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
+        "company": "Arista Networks",
+        "title": "Software Test Engineer (Wi-Fi)",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+        "company": "Rifa AI",
+        "title": "QA Lead, AI Agents",
+        "location": "Remote, India · Bengaluru · India"
+      },
+      {
+        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
+        "company": "Trimble",
+        "title": "Software Engineer in Test",
+        "location": "India - Chennai"
+      },
+      {
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+        "company": "Logitech",
+        "title": "Hardware Test Automation Engineer",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
+        "company": "Sika",
+        "title": "Sr. Executive / Assistant Manager QA/QC",
+        "location": "Chennai, TN, India"
+      },
+      {
         "url": "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
         "company": "Extreme Networks",
         "title": "QA SW ENGINEER - 10544",
@@ -227,7 +257,7 @@
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
         "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 \u2013 Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
         "location": "Chennai, India"
       },
       {
@@ -241,42 +271,6 @@
         "company": "Extreme Networks",
         "title": "Staff QA SW Engineer (Wireless Testing) - 10413",
         "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
-        "company": "Arista Networks",
-        "title": "Software Test Engineer (Wi-Fi)",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
-        "company": "Rifa AI",
-        "title": "QA Lead, AI Agents",
-        "location": "Remote, India \u00b7 Bengaluru \u00b7 India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155577399-senior-software-test-engineer",
-        "company": "NielsenIQ",
-        "title": "Senior Software Test Engineer",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
-        "company": "Logitech",
-        "title": "Hardware Test Automation Engineer",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
-        "company": "Trimble",
-        "title": "Software Engineer in Test",
-        "location": "India - Chennai"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
-        "company": "Sika",
-        "title": "Sr. Executive / Assistant Manager QA/QC",
-        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
@@ -300,31 +294,13 @@
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore \u00b7 India - Chennai"
+        "location": "India - Bangalore · India - Chennai"
       },
       {
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
-        "location": "IRL - Dublin \u00b7 Dublin \u00b7 Ireland \u00b7 IND - Chennai \u00b7 Chennai \u00b7 India \u00b7 CZE - Brno \u00b7 Brno \u00b7 Czechia"
-      },
-      {
-        "url": "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=o7PFAfwV",
-        "company": "Gigamon",
-        "title": "Sr. Staff SW QA Engineer - AppIntel",
-        "location": "Guindy, Chennai, Tamil Nadu, India"
-      },
-      {
-        "url": "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=osrCAfwP",
-        "company": "Gigamon",
-        "title": "Sr. Staff SW QA Engineer - Cloud",
-        "location": "Guindy, Chennai, Tamil Nadu, India"
-      },
-      {
-        "url": "https://app.jobvite.com/CompanyJobs/Job.aspx?c=qtA9VfwR&j=opOFAfwc",
-        "company": "Gigamon",
-        "title": "Sr. SW QA Engineer - AppIntel",
-        "location": "Guindy, Chennai, Tamil Nadu, India"
+        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
       }
     ]
   },
@@ -389,7 +365,7 @@
         "title": "QA SW ENGINEER - 10544",
         "location": "Chennai, India",
         "status": "consider-with-gaps",
-        "reason": "Networking/Python overlap; specialist performance/cloud/security or data-centre/5G requirements are not established. The 3\u20136-year band also needs level and budget confirmation.",
+        "reason": "Networking/Python overlap; specialist performance/cloud/security or data-centre/5G requirements are not established. The 3–6-year band also needs level and budget confirmation.",
         "reviewedAt": "2026-10-26T06:49:42+00:00",
         "descriptionHash": "770cef3f1dfad32ba0baeef080af5fc770f7c0c587e748a4a32321708ffaafc8",
         "availabilityCheckedAt": "2026-10-26T06:46:04+00:00"
@@ -408,7 +384,7 @@
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
         "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 \u2013 Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Networking/Python overlap; specialist performance/cloud/security or data-centre/5G requirements are not established.",
@@ -433,7 +409,7 @@
         "title": "Staff QA SW Engineer (Wireless Testing) - 10413",
         "location": "Chennai, India",
         "status": "recommended",
-        "reason": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8\u201312-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management.",
+        "reason": "Enterprise wireless/NMS testing, REST APIs, Jenkins and Git align closely. The 8–12-year band fits dated experience. RF equipment, packet analysis and testbed depth need confirmation; this is a staff IC role, not management.",
         "reviewedAt": "2026-10-26T06:49:42+00:00",
         "descriptionHash": "24300291fe0c55000594acd243bc570ea0e08545b0c26ffd8b0a9e1b5ce557e3",
         "availabilityCheckedAt": "2026-10-26T06:46:04+00:00"
@@ -453,7 +429,7 @@
         "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
         "company": "Rifa AI",
         "title": "QA Lead, AI Agents",
-        "location": "Remote, India \u00b7 Bengaluru \u00b7 India",
+        "location": "Remote, India · Bengaluru · India",
         "status": "consider-with-gaps",
         "reason": "QA leadership transfers, but this role centres on regulated conversation audits and US-hours overlap rather than the targeted senior automation scope.",
         "reviewedAt": "2026-10-26T06:49:42+00:00",
@@ -541,7 +517,7 @@
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore \u00b7 India - Chennai",
+        "location": "India - Bangalore · India - Chennai",
         "status": "consider-with-gaps",
         "reason": "9+ years and Python fit; production foundation-model, RAG and AI testing strategy requirements are not evidenced.",
         "reviewedAt": "2026-10-26T06:49:42+00:00",
@@ -552,7 +528,7 @@
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
-        "location": "IRL - Dublin \u00b7 Dublin \u00b7 Ireland \u00b7 IND - Chennai \u00b7 Chennai \u00b7 India \u00b7 CZE - Brno \u00b7 Brno \u00b7 Czechia",
+        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia",
         "status": "consider-with-gaps",
         "reason": "People management and Python fit; deep Android/iOS application QA and mobile architecture expertise are not established by infotainment integration experience.",
         "reviewedAt": "2026-10-26T06:49:42+00:00",
