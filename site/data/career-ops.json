@@ -179,12 +179,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-26T14:41:19+00:00",
-    "scanDateIst": "2026-10-26",
+    "checkedAt": "2026-10-27T05:09:46+00:00",
+    "scanDateIst": "2026-10-27",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 47174,
+    "examined": 46809,
     "candidateCount": 19,
     "sourceFailures": 0,
     "candidates": [
@@ -210,12 +210,6 @@
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
         "company": "Rotork",
         "title": "Test Development Engineer",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
-        "company": "Arista Networks",
-        "title": "Software Test Engineer (Wi-Fi)",
         "location": "Chennai, TN, India"
       },
       {
@@ -247,6 +241,12 @@
         "company": "Extreme Networks",
         "title": "Staff QA SW Engineer (Wireless Testing) - 10413",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
+        "company": "Arista Networks",
+        "title": "Software Test Engineer (Wi-Fi)",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
@@ -291,16 +291,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
-        "company": "Gen Digital",
-        "title": "Mobile QA Architect",
-        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
-      },
-      {
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
         "location": "India - Bangalore · India - Chennai"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
+        "company": "Gen Digital",
+        "title": "Mobile QA Architect",
+        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
       }
     ]
   },
