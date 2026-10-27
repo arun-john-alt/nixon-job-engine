@@ -179,13 +179,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-27T06:33:03+00:00",
+    "checkedAt": "2026-10-27T15:25:53+00:00",
     "scanDateIst": "2026-10-27",
     "status": "success",
     "scanned": 71,
     "skipped": 25,
-    "examined": 46768,
-    "candidateCount": 19,
+    "examined": 46458,
+    "candidateCount": 17,
     "sourceFailures": 0,
     "candidates": [
       {
@@ -193,36 +193,6 @@
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
-        "company": "Extreme Networks",
-        "title": "QA SW ENGINEER - 10544",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
-        "company": "Extreme Networks",
-        "title": "Senior/Staff SW QA Engineer (Performance & Scale)- 10422 / 10419",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
-        "company": "Extreme Networks",
-        "title": "Staff QA SW Engineer (Wireless Testing) - 10413",
-        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156725089-manager-quality-engineering",
@@ -253,6 +223,18 @@
         "company": "Rifa AI",
         "title": "QA Lead, AI Agents",
         "location": "Remote, India · Bengaluru · India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
@@ -291,16 +273,22 @@
         "location": "Chennai, TN, India"
       },
       {
+        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+        "company": "Uniphore",
+        "title": "Senior Staff Software Engineer (SDET)",
+        "location": "India - Bangalore · India - Chennai"
+      },
+      {
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
         "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
       },
       {
-        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
-        "company": "Uniphore",
-        "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore · India - Chennai"
+        "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
+        "company": "KLA",
+        "title": "Software Quality Engineer",
+        "location": "Chennai, India"
       }
     ]
   },
