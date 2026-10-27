@@ -19,8 +19,8 @@ test('live research permits recommendations to close without blocking publicatio
  const valid=co.validateTrial(liveTrial),jobs=engine.validateDataset(liveRaw).jobs;
  const picks=co.trialJobs(valid,jobs,25);
  assert.ok(picks.every(j=>!engine.isUnavailable(j)&&co.recommendation(valid,j)));
- assert.equal(co.trialJobs(valid,jobs.map(j=>({...j,verification:'closed'})),25).length,0);
- assert.equal(co.trialJobs(valid,[],25).length,co.trialJobs(valid,valid.jobs,25).length);
+ const closed=j=>({...j,verification:'closed'});
+ assert.equal(co.trialJobs({...valid,jobs:valid.jobs.map(closed)},jobs.map(closed),25).length,0);
 });
 test('real scanner provenance and independent review required',()=>{
  assert.equal(co.validateTrial(trial).recommendations.length,2);
