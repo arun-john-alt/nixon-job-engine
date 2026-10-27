@@ -10,7 +10,7 @@
       {
         "source": "Reliability trial",
         "status": "3/7 IST days observed",
-        "detail": "18 real observations. 0 days with opening shortfalls; 2 days with source errors. Missing days cannot count as success. Cloud watchdog plus an existing Mac-based Codex follow-up provide recovery; no new external hosting login is configured."
+        "detail": "19 real observations. 0 days with opening shortfalls; 2 days with source errors. Missing days cannot count as success. Cloud watchdog plus an existing Mac-based Codex follow-up provide recovery; no new external hosting login is configured."
       },
       {
         "source": "Opening target",
@@ -19,8 +19,18 @@
       },
       {
         "source": "Direct application availability",
-        "status": "40 confirmed open; 10 closed; 153 unconfirmed; 4 retained within 48h",
+        "status": "40 confirmed open; 11 closed; 155 unconfirmed; 4 retained within 48h",
         "detail": "Every non-closed record attempted before discovery. Blocked or unprovable vacancies stay unconfirmed; only positive exact-vacancy evidence refreshes the 48-hour clock. No application was submitted."
+      },
+      {
+        "source": "Shared discovery and assessment",
+        "status": "122 sources; 14 full-description assessments",
+        "detail": "0 sources incomplete or unavailable. Both sites use the same source registry and connector code. Assessment runs in GitHub without a Mac or model API key; human Career Ops review is supplemental."
+      },
+      {
+        "source": "Retired employer feeds",
+        "status": "1 retired feeds; checked daily for recovery",
+        "detail": "Made Card posting API and public embed no longer publish a board. Its official careers page remains in the company directory. This is not evidence that individual vacancies were filled."
       },
       {
         "source": "Employer feed: Arista Networks",
@@ -74,7 +84,7 @@
       },
       {
         "source": "Employer feed: YipitData",
-        "status": "57 postings examined; 1 relevant",
+        "status": "58 postings examined; 1 relevant",
         "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
       },
       {
@@ -104,12 +114,12 @@
       },
       {
         "source": "Employer feed: Continental",
-        "status": "14 postings examined; 0 relevant",
+        "status": "13 postings examined; 0 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
         "source": "Employer feed: Bosch Group",
-        "status": "631 postings examined; 0 relevant",
+        "status": "628 postings examined; 0 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
@@ -119,7 +129,7 @@
       },
       {
         "source": "Employer feed: Sutherland",
-        "status": "56 postings examined; 1 relevant",
+        "status": "53 postings examined; 1 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
@@ -204,12 +214,12 @@
       },
       {
         "source": "Employer feed: Zscaler",
-        "status": "354 postings examined; 0 relevant",
+        "status": "355 postings examined; 0 relevant",
         "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
       },
       {
         "source": "Employer feed: Rubrik",
-        "status": "148 postings examined; 0 relevant",
+        "status": "147 postings examined; 0 relevant",
         "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
       },
       {
@@ -259,7 +269,7 @@
       },
       {
         "source": "Employer feed: Toast",
-        "status": "332 postings examined; 0 relevant",
+        "status": "330 postings examined; 0 relevant",
         "detail": "Complete; public greenhouse career data. Full descriptions required before scoring."
       },
       {
@@ -339,12 +349,12 @@
       },
       {
         "source": "Employer feed: AECOM",
-        "status": "389 postings examined; 0 relevant",
+        "status": "385 postings examined; 0 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
         "source": "Employer feed: Accor",
-        "status": "800 postings examined; 0 relevant",
+        "status": "799 postings examined; 0 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
@@ -409,7 +419,7 @@
       },
       {
         "source": "Employer feed: Renesas Electronics",
-        "status": "114 postings examined; 0 relevant",
+        "status": "113 postings examined; 0 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
@@ -419,7 +429,7 @@
       },
       {
         "source": "Employer feed: Ramboll",
-        "status": "104 postings examined; 1 relevant",
+        "status": "103 postings examined; 1 relevant",
         "detail": "Complete; public smart career data. Full descriptions required before scoring."
       },
       {
@@ -635,7 +645,7 @@
       {
         "source": "Chennai company catalog",
         "status": "698/698 companies checked; 0 new leads this run",
-        "detail": "40 company/career entries attempted with robots checks. 88 connected; 151 blocked/unavailable; 453 need adapters. Unchecked directory entries are research targets, not verified hiring."
+        "detail": "40 company/career entries attempted with robots checks. 89 connected; 150 blocked/unavailable; 453 need adapters. Unchecked directory entries are research targets, not verified hiring."
       },
       {
         "source": "LinkedIn public search index",
@@ -758,16 +768,6 @@
         "detail": "New leads are unscored. The crawler never invents pay, reviews, candidate achievements or tailored bullets."
       },
       {
-        "source": "Shared discovery and assessment",
-        "status": "122 sources; 14 full-description assessments",
-        "detail": "0 sources incomplete or unavailable. Both sites use the same source registry and connector code. Assessment runs in GitHub without a Mac or model API key; human Career Ops review is supplemental."
-      },
-      {
-        "source": "Retired employer feeds",
-        "status": "1 retired feeds; checked daily for recovery",
-        "detail": "Made Card posting API and public embed no longer publish a board. Its official careers page remains in the company directory. This is not evidence that individual vacancies were filled."
-      },
-      {
         "source": "Extreme Networks",
         "status": "Unresolved",
         "detail": "Page fetched but exact JobPosting could not be confirmed. Prior evidence retained: https://jobs.lever.co/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec"
@@ -808,253 +808,96 @@
       "catalogSize": 698,
       "checkedThisRun": 40,
       "everChecked": 698,
-      "nextIndex": 691,
+      "nextIndex": 33,
       "newLeads": 0,
       "linkedBoards": 0,
-      "checkedAt": "2026-10-27T05:06:07+00:00",
+      "checkedAt": "2026-10-27T06:29:24+00:00",
       "companies": {
         "rocketlane": {
           "company": "Rocketlane",
           "careerUrl": "https://careers.kula.ai/rocketlane?jobs=true",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
-          "status": "needs-adapter",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "career-list-checked",
           "fetchStatus": "HTTP 200",
+          "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "superops": {
           "company": "SuperOps",
           "careerUrl": "https://superops.com/careers",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
-          "status": "needs-adapter",
-          "fetchStatus": "HTTP 200",
-          "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
-        },
-        "facilio": {
-          "company": "Facilio",
-          "careerUrl": "https://facilio.com/careers/",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
-          "status": "needs-adapter",
-          "fetchStatus": "HTTP 200",
-          "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
-        },
-        "kissflow": {
-          "company": "Kissflow",
-          "careerUrl": "https://careers.kissflow.com/",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
-          "status": "needs-adapter",
-          "fetchStatus": "HTTP 200",
-          "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
-        },
-        "chargebee": {
-          "company": "Chargebee",
-          "careerUrl": "https://jobs.chargebee.com/",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
-          "status": "needs-adapter",
-          "fetchStatus": "HTTP 200",
-          "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
-        },
-        "zuper": {
-          "company": "Zuper",
-          "careerUrl": "https://www.zuper.co/careers",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
-          "status": "no-openings-published",
-          "fetchStatus": "HTTP 200",
-          "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
-        },
-        "zoho": {
-          "company": "Zoho",
-          "careerUrl": "https://careers.zohocorp.com/jobs/Careers",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
+        },
+        "facilio": {
+          "company": "Facilio",
+          "careerUrl": "https://facilio.com/careers/",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "boards": [],
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
+        },
+        "kissflow": {
+          "company": "Kissflow",
+          "careerUrl": "https://careers.kissflow.com/",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "boards": [],
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
+        },
+        "chargebee": {
+          "company": "Chargebee",
+          "careerUrl": "https://jobs.chargebee.com/",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "boards": [],
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
+        },
+        "zuper": {
+          "company": "Zuper",
+          "careerUrl": "https://www.zuper.co/careers",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "no-openings-published",
+          "fetchStatus": "HTTP 200",
+          "boards": [],
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
+        },
+        "zoho": {
+          "company": "Zoho",
+          "careerUrl": "https://careers.zohocorp.com/jobs/Careers",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
+          "boards": [],
+          "atsKinds": [],
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "freshworks": {
           "company": "Freshworks",
           "careerUrl": "https://careers.smartrecruiters.com/Freshworks",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
             {
               "company": "Freshworks",
               "kind": "smart",
@@ -1064,173 +907,8 @@
           "atsKinds": [
             "smart"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
-            {
-              "company": "Freshworks",
-              "kind": "smart",
-              "slug": "Freshworks"
-            },
             {
               "company": "Freshworks",
               "kind": "smart",
@@ -1241,51 +919,52 @@
         "surveysparrow": {
           "company": "SurveySparrow",
           "careerUrl": "https://surveysparrow.com/careers/",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "ValueError",
+          "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T15:35:23+00:00",
-          "boards": []
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "testsigma": {
           "company": "Testsigma",
           "careerUrl": "https://testsigma.com/careers",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "spendflo": {
           "company": "Spendflo",
           "careerUrl": "https://www.spendflo.com/careers",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "disprz": {
           "company": "Disprz",
           "careerUrl": "https://disprz.ai/company/about-us",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "uniphore": {
           "company": "Uniphore",
           "careerUrl": "https://www.uniphore.com/careers/",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
@@ -1304,7 +983,7 @@
           "atsKinds": [
             "workday"
           ],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
             {
               "company": "Uniphore",
@@ -1322,430 +1001,154 @@
         "fourkites": {
           "company": "FourKites",
           "careerUrl": "https://www.fourkites.com/careers/",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "Skipped: robots disallow or robots could not be checked",
+          "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T15:35:23+00:00",
-          "boards": []
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "pando": {
           "company": "Pando",
           "careerUrl": "https://pando.ai/careers",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "HTTP 404",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T19:52:54+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "m2p-fintech": {
           "company": "M2P Fintech",
           "careerUrl": "https://m2pfintech.com/careers/",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "ValueError",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T19:52:54+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "yubi": {
           "company": "Yubi",
           "careerUrl": "https://www.go-yubi.com/careers/",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "Skipped: robots disallow or robots could not be checked",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T19:52:54+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "rheo": {
           "company": "Rheo",
           "careerUrl": "https://rheo.ai/careers/",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "Skipped: robots disallow or robots could not be checked",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T19:52:54+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "aroopa": {
           "company": "Aroopa",
           "careerUrl": "https://www.aroopatech.com/careers",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "vazhai-tech": {
           "company": "Vazhai Tech",
           "careerUrl": "https://vazh.ai/career",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "galactis": {
           "company": "Galactis",
           "careerUrl": "https://www.galactis.ai/careers",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "saadhvi-technology": {
           "company": "Saadhvi Technology",
           "careerUrl": "https://saadhvi.com/careers/",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "pyramidions": {
           "company": "Pyramidions",
           "careerUrl": "https://www.pyramidions.com/careers/",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "algorian-solutions": {
           "company": "Algorian Solutions",
           "careerUrl": "https://www.algoriansolutions.com/jobs",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T07:52:54+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T13:52:54+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "sentos-technologies": {
           "company": "Sentos Technologies",
           "careerUrl": "https://sentostech.com/company/careers",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
+          "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "pixel-tech": {
           "company": "Pixel Tech",
           "careerUrl": "https://pixeltech.ai/careers",
-          "checkedAt": "2026-10-25T03:35:23+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
+          "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T09:35:23+00:00",
-          "boards": []
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "source-26": {
           "company": "Arista Networks",
           "careerUrl": "https://careers.smartrecruiters.com/AristaNetworks",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
             {
               "company": "Arista Networks",
               "kind": "smart",
@@ -1755,288 +1158,8 @@
           "atsKinds": [
             "smart"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
-            {
-              "company": "Arista Networks",
-              "kind": "smart",
-              "slug": "AristaNetworks"
-            },
             {
               "company": "Arista Networks",
               "kind": "smart",
@@ -2047,130 +1170,22 @@
         "source-27": {
           "company": "MicroStrategy",
           "careerUrl": "https://careers.smartrecruiters.com/MicroStrategy1",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "ValueError",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T16:15:45+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "source-28": {
           "company": "Rotork",
           "careerUrl": "https://careers.smartrecruiters.com/Rotork1",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
             {
               "company": "Rotork",
               "kind": "smart",
@@ -2180,118 +1195,8 @@
           "atsKinds": [
             "smart"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
-            {
-              "company": "Rotork",
-              "kind": "smart",
-              "slug": "Rotork1"
-            },
             {
               "company": "Rotork",
               "kind": "smart",
@@ -2302,7 +1207,8 @@
         "source-29": {
           "company": "AHL \u2013 Saaf AI",
           "careerUrl": "https://jobs.ashbyhq.com/ahl-saafai",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
@@ -2315,7 +1221,7 @@
           "atsKinds": [
             "ashby"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
             {
               "company": "AHL \u2013 Saaf AI",
@@ -2327,7 +1233,8 @@
         "source-30": {
           "company": "SavvyMoney",
           "careerUrl": "https://jobs.ashbyhq.com/savvymoney",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
@@ -2340,7 +1247,7 @@
           "atsKinds": [
             "ashby"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
             {
               "company": "SavvyMoney",
@@ -2352,7 +1259,8 @@
         "source-31": {
           "company": "Bidgely",
           "careerUrl": "https://jobs.ashbyhq.com/bidgely-inc",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
@@ -2365,7 +1273,7 @@
           "atsKinds": [
             "ashby"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
             {
               "company": "Bidgely",
@@ -2377,7 +1285,8 @@
         "source-32": {
           "company": "Inflection.io",
           "careerUrl": "https://jobs.ashbyhq.com/inflectionio",
-          "checkedAt": "2026-10-25T04:15:45+00:00",
+          "entryType": "career-page",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "ats-linked",
           "fetchStatus": "HTTP 200",
           "boards": [
@@ -2390,7 +1299,7 @@
           "atsKinds": [
             "ashby"
           ],
-          "nextCheckAt": "2026-10-25T10:15:45+00:00",
+          "nextCheckAt": "2026-10-27T12:29:24+00:00",
           "validatedBoards": [
             {
               "company": "Inflection.io",
@@ -11268,86 +10177,86 @@
           "company": "Speciale Invest",
           "careerUrl": "https://specialeinvest.com/",
           "entryType": "company-homepage",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "Response too large",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T16:31:23+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "directory-249091faeba0": {
           "company": "The Chennai Angels",
           "careerUrl": "https://thechennaiangels.com/",
           "entryType": "company-homepage",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T10:31:23+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "directory-1540bed88693": {
           "company": "TiE Chennai",
           "careerUrl": "https://chennai.tie.org/",
           "entryType": "company-homepage",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
-          "status": "blocked-or-unavailable",
-          "fetchStatus": "HTTP 403",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
+          "status": "needs-adapter",
+          "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T16:31:23+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "directory-889f06809c3d": {
           "company": "TNIFMC (Tamil Nadu Emerging Sector Seed Fund)",
           "careerUrl": "https://tnifmc.com/careers/",
           "entryType": "company-homepage",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T10:31:23+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "directory-c83e52ccb055": {
           "company": "Veltis Capital",
           "careerUrl": "https://veltiscapital.com/",
           "entryType": "company-homepage",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T10:31:23+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         },
         "directory-88317cbf37d9": {
           "company": "Ventureast",
           "careerUrl": "https://ventureast.net/",
           "entryType": "company-homepage",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "blocked-or-unavailable",
           "fetchStatus": "Skipped: robots disallow or robots could not be checked",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T16:31:23+00:00"
+          "nextCheckAt": "2026-10-27T18:29:24+00:00"
         },
         "madecard-employer-watch": {
           "company": "Made Card",
           "careerUrl": "https://www.madecard.com/careers",
           "entryType": "career-page",
-          "checkedAt": "2026-10-25T04:31:23+00:00",
+          "checkedAt": "2026-10-27T06:29:24+00:00",
           "status": "needs-adapter",
           "fetchStatus": "HTTP 200",
           "boards": [],
           "atsKinds": [],
-          "nextCheckAt": "2026-10-25T10:31:23+00:00"
+          "nextCheckAt": "2026-10-27T12:29:24+00:00"
         }
       },
-      "connectedCompanies": 88,
-      "blockedCompanies": 151,
+      "connectedCompanies": 89,
+      "blockedCompanies": 150,
       "adapterGaps": 453
     },
     "employerDiscovery": {
-      "checkedAt": "2026-10-27T05:06:31+00:00",
+      "checkedAt": "2026-10-27T06:29:38+00:00",
       "boards": 122,
       "newLeads": 0,
       "linkedEmployerRoutes": 0,
@@ -11362,10 +10271,10 @@
       "bufferShortfall": 9,
       "expansionLevel": 1,
       "boardsPlanned": 122,
-      "lastReplenishedAt": "2026-10-27T05:09:42+00:00",
+      "lastReplenishedAt": "2026-10-27T06:32:59+00:00",
       "consecutiveShortfalls": 0,
       "status": "target-met",
-      "nextCheckAfter": "2026-10-27T05:54:42+00:00"
+      "nextCheckAfter": "2026-10-27T07:17:59+00:00"
     },
     "reliability": {
       "observationDays": 3,
@@ -11523,13 +10432,21 @@
           "reviewedOpen": 26,
           "shortfall": 0,
           "newRelevantVacancies": 0
+        },
+        {
+          "checkedAt": "2026-10-27T06:33:43+00:00",
+          "status": "success",
+          "sourceFailures": 0,
+          "reviewedOpen": 26,
+          "shortfall": 0,
+          "newRelevantVacancies": 0
         }
       ],
       "note": "Calendar-day observations use IST and real timestamps. Test simulations do not count. Review GitHub deployment history separately before accepting the trial."
     },
     "sharedPipeline": {
       "version": "1.0.0",
-      "checkedAt": "2026-10-27T05:07:43+00:00",
+      "checkedAt": "2026-10-27T06:31:23+00:00",
       "status": "success",
       "boards": 122,
       "workingSources": 122,
@@ -11542,7 +10459,7 @@
           "slug": "AECOM2",
           "site": "",
           "status": "Complete",
-          "postings": 389,
+          "postings": 385,
           "relevant": 0
         },
         {
@@ -11569,7 +10486,7 @@
           "slug": "AccorHotel",
           "site": "",
           "status": "Complete",
-          "postings": 800,
+          "postings": 799,
           "relevant": 0
         },
         {
@@ -11668,7 +10585,7 @@
           "slug": "BoschGroup",
           "site": "",
           "status": "Complete",
-          "postings": 631,
+          "postings": 628,
           "relevant": 0
         },
         {
@@ -11731,7 +10648,7 @@
           "slug": "Continental",
           "site": "",
           "status": "Complete",
-          "postings": 14,
+          "postings": 13,
           "relevant": 0
         },
         {
@@ -12271,7 +11188,7 @@
           "slug": "Ramboll3",
           "site": "",
           "status": "Complete",
-          "postings": 104,
+          "postings": 103,
           "relevant": 1
         },
         {
@@ -12289,7 +11206,7 @@
           "slug": "RenesasElectronics",
           "site": "",
           "status": "Complete",
-          "postings": 114,
+          "postings": 113,
           "relevant": 0
         },
         {
@@ -12343,7 +11260,7 @@
           "slug": "rubrik",
           "site": "",
           "status": "Complete",
-          "postings": 148,
+          "postings": 147,
           "relevant": 0
         },
         {
@@ -12433,7 +11350,7 @@
           "slug": "Sutherland",
           "site": "",
           "status": "Complete",
-          "postings": 56,
+          "postings": 53,
           "relevant": 1
         },
         {
@@ -12478,7 +11395,7 @@
           "slug": "toast",
           "site": "",
           "status": "Complete",
-          "postings": 332,
+          "postings": 330,
           "relevant": 0
         },
         {
@@ -12595,7 +11512,7 @@
           "slug": "yipitdata",
           "site": "",
           "status": "Complete",
-          "postings": 57,
+          "postings": 58,
           "relevant": 1
         },
         {
@@ -12613,7 +11530,7 @@
           "slug": "zscaler",
           "site": "",
           "status": "Complete",
-          "postings": 354,
+          "postings": 355,
           "relevant": 0
         },
         {
@@ -12778,7 +11695,7 @@
       ],
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -12900,7 +11817,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13020,7 +11937,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-21",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13140,7 +12057,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13262,7 +12179,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-22",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13383,7 +12300,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-23",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13503,7 +12420,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-19",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
       "availabilityHold": true,
@@ -13624,7 +12541,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-22",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13742,7 +12659,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13864,7 +12781,7 @@
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-23",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -13984,7 +12901,7 @@
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-20",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14106,7 +13023,7 @@
       "roleLevel": "individual",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-21",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14226,7 +13143,7 @@
       "roleLevel": "technical-lead",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-20",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14345,7 +13262,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14466,7 +13383,7 @@
       "roleLevel": "manager",
       "locationEligibility": "chennai",
       "availabilityAttemptedOn": "2026-09-19",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14585,7 +13502,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14705,7 +13622,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14826,7 +13743,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -14946,7 +13863,7 @@
       ],
       "roleLevel": "manager",
       "locationEligibility": "remote-india",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15067,7 +13984,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "remote-india",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15189,7 +14106,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15310,7 +14227,7 @@
       ],
       "roleLevel": "individual",
       "locationEligibility": "chennai",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15376,7 +14293,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15442,7 +14359,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15508,7 +14425,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15574,7 +14491,7 @@
           "checkedOn": "2026-09-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15640,7 +14557,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15706,7 +14623,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15772,7 +14689,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15838,7 +14755,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -15904,7 +14821,7 @@
           "checkedOn": "2026-09-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16036,7 +14953,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16102,7 +15019,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16168,7 +15085,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16234,7 +15151,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16300,7 +15217,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16366,7 +15283,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16389,7 +15306,7 @@
       "discoveredOn": "2026-09-22",
       "checkedOn": "2026-10-27",
       "verification": "live",
-      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
+      "verificationNote": "Matching exact JobPosting and application control found on the employer page. Application submission was not attempted.",
       "analysisStatus": "needs-review",
       "score": [],
       "summary": "Project Role : Quality Engineer Project Role Description : Enables full stack solutions through multi-disciplinary team planning and ecosystem integration to accelerate delivery and drive quality across the application lifecycle. Performs continuous testing for security, API, and regression suite. Creates automation strategy, automated scripts and supports data and environment configuration. Participates in code reviews, monitors, and reports defects to support continuous improvement activities for the end-to-end testing process. Must have skills : Test Management Good to have skills : Automated Testing, Quality Management Minimum 2 year(s) of experience is required",
@@ -16432,10 +15349,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Matching exact JobPosting and application control found on the employer page",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://www.accenture.com/ae-en/careers/jobdetails?id=ATCI-5548058-S2060225_en"
     },
@@ -16498,7 +15415,7 @@
           "checkedOn": "2026-09-23"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16564,7 +15481,7 @@
           "checkedOn": "2026-09-23"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16675,7 +15592,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16784,7 +15701,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -16892,7 +15809,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true,
@@ -17001,10 +15918,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/7e7b532c-b029-43fe-8831-ac1421c4e5ec",
       "employerDescriptionHash": "24300291fe0c55000594acd243bc570ea0e08545b0c26ffd8b0a9e1b5ce557e3",
@@ -17118,10 +16035,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/40963840-c33b-4e17-a928-982d826b048f",
       "employerDescriptionHash": "5045a7fe4656fa768c396ab8bf9bbc297fceb8f613febc4f343b5c43db83128d",
@@ -17235,10 +16152,10 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://boards-api.greenhouse.io/v1/boards/yipitdata/jobs/6743082",
       "employerDescriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
@@ -17460,13 +16377,13 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "open",
       "availabilityReason": "Exact published Ashby vacancy and matching application route",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/ahl-saafai",
       "employerDescriptionHash": "d05fea6a8b9fdb162ca295ab43cb07f632466a34ea1692cf4928765490bf172c",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
       "employerPostingId": "ea0fdc4d-336e-46df-9ed6-10539f6ff2e5",
       "employerBoard": {
         "kind": "ashby",
@@ -17684,7 +16601,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
       "availabilityHold": true,
@@ -17795,7 +16712,7 @@
           "checkedOn": "2026-09-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Host not approved",
       "availabilityHold": true,
@@ -17903,8 +16820,8 @@
       ],
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/aristanetworks/postings/744000101650945",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000101650945",
@@ -18103,8 +17020,8 @@
       ],
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/rotork1/postings/744000151263670",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000151263670",
@@ -18195,8 +17112,8 @@
       "employerDescriptionHash": "0b75aeea0c37e9856e65d9d63ec032e034fde2a5b83e41ac7eec28c75ac614fe",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/microstrategy1/postings/744000156725089",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000156725089",
@@ -18658,8 +17575,8 @@
       "employerDescriptionHash": "24ff5305b6b28c3b7a88b0e4f5ad9ba1c18dfed9014da301cc273312fcfe11e5",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "employerPostingId": "e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -18775,8 +17692,8 @@
       "employerDescriptionHash": "8e6b320b689fa7e4e06ee71975ef6c1ed31cd782c216d20d36c4f532d62b72b1",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "employerPostingId": "2e1f81a5-9895-4e0b-902d-90efbdf46344",
@@ -18849,7 +17766,7 @@
           "checkedOn": "2026-09-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4465007006",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -18915,7 +17832,7 @@
           "checkedOn": "2026-09-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470029221",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -18981,7 +17898,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471447664",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19047,7 +17964,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471422658",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19113,7 +18030,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4364774600",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19179,7 +18096,7 @@
           "checkedOn": "2026-09-27"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4460171129",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19245,7 +18162,7 @@
           "checkedOn": "2026-09-30"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472461313",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19311,7 +18228,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4460976646",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19377,7 +18294,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4466210089",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19442,7 +18359,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471305484",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19507,7 +18424,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471096411",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19572,7 +18489,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4464868533",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19637,7 +18554,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4461764719",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19703,7 +18620,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467169894",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19768,7 +18685,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470258028",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19833,7 +18750,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471094603",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19898,7 +18815,7 @@
           "checkedOn": "2026-10-01"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4473739202",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -19963,7 +18880,7 @@
           "checkedOn": "2026-10-02"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471837909",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20028,7 +18945,7 @@
           "checkedOn": "2026-10-03"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472141102",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20093,7 +19010,7 @@
           "checkedOn": "2026-10-03"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471333186",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20158,7 +19075,7 @@
           "checkedOn": "2026-10-03"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469678190",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20223,7 +19140,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474190406",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20288,7 +19205,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472564965",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20353,7 +19270,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474125364",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20418,7 +19335,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472826524",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20483,7 +19400,7 @@
           "checkedOn": "2026-10-04"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4466898928",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20548,7 +19465,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472868319",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20613,7 +19530,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469727431",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20678,7 +19595,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469801956",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20743,7 +19660,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472436399",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20808,7 +19725,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4473120120",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20873,7 +19790,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470682610",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -20938,7 +19855,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4463037631",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21068,7 +19985,7 @@
           "checkedOn": "2026-10-05"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://careers.cognizant.com/global-en/jobs/00069387659/sdet-playwright-automation",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
@@ -21178,8 +20095,8 @@
       "employerDescriptionHash": "770cef3f1dfad32ba0baeef080af5fc770f7c0c587e748a4a32321708ffaafc8",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.lever.co/v0/postings/extremenetworks/f0565b68-9cab-4c16-a4c6-1dce91672170",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "employerPostingId": "f0565b68-9cab-4c16-a4c6-1dce91672170",
@@ -21252,7 +20169,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474347146",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21317,7 +20234,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469687482",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21382,7 +20299,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4463515794",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21447,7 +20364,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474657949",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21512,7 +20429,7 @@
           "checkedOn": "2026-10-07"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467552433",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21577,7 +20494,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476545363",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21642,7 +20559,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476369043",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21707,7 +20624,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475527854",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21772,7 +20689,7 @@
           "checkedOn": "2026-10-08"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472586715",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21837,7 +20754,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474960656",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21902,7 +20819,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472569822",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -21967,7 +20884,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474865610",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22032,7 +20949,7 @@
           "checkedOn": "2026-10-10"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4472358505",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22097,7 +21014,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474140561",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22162,7 +21079,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4457719068",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22227,7 +21144,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470895606",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22292,7 +21209,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477143259",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22357,7 +21274,7 @@
           "checkedOn": "2026-10-11"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476243349",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22422,7 +21339,7 @@
           "checkedOn": "2026-10-12"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4473855365",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22487,7 +21404,7 @@
           "checkedOn": "2026-10-12"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474903134",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22552,7 +21469,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475757710",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22617,7 +21534,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467510095",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22682,7 +21599,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478507660",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22747,7 +21664,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478386352",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22812,7 +21729,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4467875927",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22877,7 +21794,7 @@
           "checkedOn": "2026-10-13"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474969766",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -22942,7 +21859,7 @@
           "checkedOn": "2026-10-14"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477987152",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23007,7 +21924,7 @@
           "checkedOn": "2026-10-14"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478769437",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23072,7 +21989,7 @@
           "checkedOn": "2026-10-14"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4463020415",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23137,7 +22054,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4464464945",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23202,7 +22119,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471505645",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23267,7 +22184,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477106912",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23332,7 +22249,7 @@
           "checkedOn": "2026-10-16"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478793469",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23397,7 +22314,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477509121",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23462,7 +22379,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478400682",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23527,7 +22444,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475685532",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23592,7 +22509,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474140560",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23657,7 +22574,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478861655",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23722,7 +22639,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478787512",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23787,7 +22704,7 @@
           "checkedOn": "2026-10-17"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475287245",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23852,7 +22769,7 @@
           "checkedOn": "2026-10-18"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4479064556",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23917,7 +22834,7 @@
           "checkedOn": "2026-10-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471093281",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -23982,7 +22899,7 @@
           "checkedOn": "2026-10-19"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4469011496",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24047,7 +22964,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478237252",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24112,7 +23029,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478225748",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24177,7 +23094,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478231422",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24242,7 +23159,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4455139502",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24307,7 +23224,7 @@
           "checkedOn": "2026-10-20"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4479360038",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24416,8 +23333,8 @@
       "employerDescriptionHash": "bc8a96f1f5430121ab9486acc6589ae22aec110ec653c068b996ae61c1ae278a",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/microstrategy1/postings/744000156720161",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000156720161",
@@ -24490,7 +23407,7 @@
           "checkedOn": "2026-10-21"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478902123",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24555,7 +23472,7 @@
           "checkedOn": "2026-10-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4470267901",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24620,7 +23537,7 @@
           "checkedOn": "2026-10-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4480211468",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24685,7 +23602,7 @@
           "checkedOn": "2026-10-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475272938",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24750,7 +23667,7 @@
           "checkedOn": "2026-10-22"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4476817576",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -24981,8 +23898,8 @@
       "employerDescriptionHash": "55617eec52ce8c68d35a16b011b785a7a6b72825b150b8b2e076e408b7eff081",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/sutherland/postings/744000152345930",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "employerPostingId": "744000152345930",
@@ -25101,8 +24018,8 @@
       "employerDescriptionHash": "fde5c94539682a8ae8ab0edeb60ae7d414caa6647ad38dfd27c2b7e845421ebd",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/pod-network",
       "availabilityReason": "Exact published Ashby vacancy and matching application route",
       "employerPostingId": "60fffc28-e1ed-45f9-aca0-b38f6535df5b",
@@ -25217,8 +24134,8 @@
       "employerDescriptionHash": "041c7b1cf1f9b49b8f4bc420f291056d3c36f499c5a5c987143699d10a9c75f1",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/rifa",
       "availabilityReason": "Exact published Ashby vacancy and matching application route",
       "employerPostingId": "89be912e-f1f5-40cc-99a3-5e7e0205abae",
@@ -25296,8 +24213,8 @@
       "employerDescriptionHash": "29e810f8062331337b62b7823e9e96c61a42d04d858b694387ca002c3f522aca",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/job/Chennai-Tamil-Nadu-India/Quality-Engineer---Surface-Mount-Technology_3165344-2",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "employerPostingId": "3165344",
@@ -25420,8 +24337,8 @@
       "employerDescriptionHash": "a06378b7595ee9a1d83c5133bb9465b289e869e87db52b3d560a11e6bee33786",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://logitech.wd5.myworkdayjobs.com/wday/cxs/logitech/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "employerPostingId": "148517",
@@ -25546,8 +24463,8 @@
       "employerDescriptionHash": "e5f40016f7fdae38b5e50adc3b6cca40478c884cda57d16955c2e02e02e2a2ca",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Chennai-India/Software-Quality-Engineer---Automation---AI_2641371",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "employerPostingId": "2641371",
@@ -25672,8 +24589,8 @@
       "employerDescriptionHash": "a00863eab699cbedd4d51d3a381a1d502dc1056b7142b9347b353b39a94278d0",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Chennai-India/Engr--Software-QA-2_2640389",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "employerPostingId": "2640389",
@@ -25757,8 +24674,8 @@
       "employerDescriptionHash": "d433e376fd5b30e6bfcb0483f898b84499f2889c7e1c7ca0049dad8eccfe0b75",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/job/Chennai/Embedded-SW-Quality-Test-Engineer_R5052000-2",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "employerPostingId": "R5052000",
@@ -25880,8 +24797,8 @@
       "employerDescriptionHash": "a848daab44f408bfb6f550f49937d19cd5f1d292f8d0bd6400ad1de7e494aba1",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/junipersquare",
       "availabilityReason": "Exact published Ashby vacancy and matching application route",
       "discoveryEligible": true,
@@ -25957,8 +24874,8 @@
       "employerDescriptionHash": "85bfe78e399ab25d18fd9266bbad6e9d141610b962ac6b4f28a18ebcf6974e97",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/sikaag/postings/744000147221199",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "discoveryEligible": false,
@@ -25986,7 +24903,7 @@
       "discoveredOn": "2026-10-22",
       "checkedOn": "2026-10-27",
       "verification": "live",
-      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
+      "verificationNote": "Matching exact JobPosting and application control found on the employer page. Application submission was not attempted.",
       "analysisStatus": "reviewed",
       "score": [
         {
@@ -26079,8 +24996,8 @@
       "locationEligibility": "chennai",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://jobs.standardchartered.com/job/Manager%2C-Test-Automation-Tax/63264-en_GB",
       "availabilityReason": "Matching exact JobPosting and application control found on the employer page",
       "discoveryEligible": true
@@ -26101,7 +25018,7 @@
       "discoveredOn": "2026-10-22",
       "checkedOn": "2026-10-27",
       "verification": "live",
-      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
+      "verificationNote": "Matching exact JobPosting and application control found on the employer page. Application submission was not attempted.",
       "analysisStatus": "reviewed",
       "score": [
         {
@@ -26192,8 +25109,8 @@
       "locationEligibility": "chennai",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://careers.hcltech.com/job/Senior-Test-Lead/152770-en_US",
       "availabilityReason": "Matching exact JobPosting and application control found on the employer page",
       "discoveryEligible": true
@@ -26214,7 +25131,7 @@
       "discoveredOn": "2026-10-22",
       "checkedOn": "2026-10-27",
       "verification": "live",
-      "verificationNote": "Matching employer JobPosting metadata fetched directly. Application submission was not attempted.",
+      "verificationNote": "Matching exact JobPosting and application control found on the employer page. Application submission was not attempted.",
       "analysisStatus": "reviewed",
       "score": [
         {
@@ -26304,8 +25221,8 @@
       "locationEligibility": "chennai",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://careers.hcltech.com/job/Senior-Test-Lead/156220-en_US",
       "availabilityReason": "Matching exact JobPosting and application control found on the employer page",
       "discoveryEligible": true
@@ -26420,7 +25337,7 @@
       "availabilityStatus": "unconfirmed",
       "availabilityHold": true,
       "lastConfirmedOpenAt": "2026-10-23T00:00:21+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://careers.hcltech.com/job/Senior-Test-Lead-Software-Testing%2C-Jira%2C-Python/151870-en_US",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
       "discoveryEligible": true
@@ -26619,7 +25536,7 @@
           "checkedOn": "2026-10-23"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4479433509",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -26684,7 +25601,7 @@
           "checkedOn": "2026-10-23"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475279474",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -26806,8 +25723,8 @@
       "employerDescriptionHash": "5658a2558b5cd75bde634ca56cd4f3073e8ca4165ac34a2b783f5422312cc5e9",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://uniphore.wd503.myworkdayjobs.com/wday/cxs/uniphore/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "discoveryEligible": true,
@@ -26939,8 +25856,8 @@
       "employerDescriptionHash": "b5daca2e5a07a6f1e53280e94864e0ba69f2003de87133bca7d94f27b5caf5c1",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.ashbyhq.com/posting-api/job-board/bidgely-inc",
       "availabilityReason": "Exact published Ashby vacancy and matching application route",
       "discoveryEligible": true,
@@ -27015,7 +25932,7 @@
           "checkedOn": "2026-10-24"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4480609526",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27080,7 +25997,7 @@
           "checkedOn": "2026-10-24"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4482446275",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27145,7 +26062,7 @@
           "checkedOn": "2026-10-24"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477500526",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27210,7 +26127,7 @@
           "checkedOn": "2026-10-24"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://careers.cognizant.com/global-en/jobs/00070827451/playwright-automation-testing",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "No matching vacancy plus usable application evidence; metadata or page fetch alone is insufficient",
@@ -27275,7 +26192,7 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4475422446",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27340,7 +26257,7 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4481926184",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27405,7 +26322,7 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4480954805",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27470,7 +26387,7 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4481637261",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27535,7 +26452,7 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4474269710",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27600,7 +26517,7 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477249287",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -27665,11 +26582,11 @@
           "checkedOn": "2026-10-25"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://careers.hcltech.com/job/Senior-Test-Lead/172350-en_US",
       "availabilityStatus": "open",
       "availabilityReason": "Matching exact JobPosting and application control found on the employer page",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
       "availabilityHold": false
     },
     {
@@ -27777,8 +26694,8 @@
       "employerDescriptionHash": "6a59365c78354188439c65dafdb9606a25168e7c9d04d90edf498e587fe626cf",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://synnex.wd5.myworkdayjobs.com/wday/cxs/synnex/tdsynnexcareers/job/Chennai-India/StreamOne-Quality-engineer_R52091",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "discoveryEligible": true,
@@ -27904,8 +26821,8 @@
       "employerDescriptionHash": "017b9650e4c4180832f013cf44e4f3cff0638119160c44e25e7fa58f67f31727",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://synnex.wd5.myworkdayjobs.com/wday/cxs/synnex/tdsynnexcareers/job/Chennai-India/StreamOne-Quality-engineer_R52066",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "discoveryEligible": true,
@@ -27988,8 +26905,8 @@
       "employerDescriptionHash": "a04010717b154974940d6675389f79d154955a5611a2a5c43778ab33af011e2d",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://boards-api.greenhouse.io/v1/boards/wpp/jobs/8785111002",
       "availabilityReason": "Exact vacancy is published by the employer recruiting API with an application URL",
       "discoveryEligible": true,
@@ -28121,8 +27038,8 @@
       ],
       "availabilityStatus": "open",
       "availabilityReason": "Exact employer career record explicitly permits applications",
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityHold": false,
       "availabilityEvidenceUrl": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Test-Engineer---BA4_JR-0000086366-1",
       "assessmentMethod": "rules-v1-full-description",
@@ -28370,8 +27287,8 @@
       "employerDescriptionHash": "c0e8fd21eae0cff4eb99439d5b98c1158d49f040601ee0de282f0e88cd6b9e67",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/ElsevierJobs/job/Chennai/Quality-Engineer-II_R113892",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -28498,7 +27415,7 @@
       "availabilityStatus": "unconfirmed",
       "availabilityHold": false,
       "lastConfirmedOpenAt": "2026-10-26T06:16:39+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/ElsevierJobs/job/Chennai/Senior-Quality-Test-Engineer-II_R118447",
       "availabilityReason": "Employer career data unavailable: HTTP 403",
       "locationEligibility": "chennai",
@@ -28615,7 +27532,7 @@
       "availabilityStatus": "unconfirmed",
       "availabilityHold": false,
       "lastConfirmedOpenAt": "2026-10-26T08:29:53+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/ElsevierJobs/job/Chennai/Quality-Test-Engineer-II_R118583",
       "availabilityReason": "Employer career data unavailable: HTTP 403",
       "locationEligibility": "chennai",
@@ -28750,8 +27667,8 @@
       "employerDescriptionHash": "9a6fa6f0fdb4e9de62f6d3ce3f1b8f093528cd05e4e5f66ac2ed35c81816bf69",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/job/Chennai-India/Tech-Lead--Software-Development-Engineer_R-10391977",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -28875,7 +27792,7 @@
       "availabilityStatus": "unconfirmed",
       "availabilityHold": false,
       "lastConfirmedOpenAt": "2026-10-26T06:16:39+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/RiskSolutions/job/Chennai/Senior-Quality-Test-Engineer_R105027",
       "availabilityReason": "Employer career data unavailable: HTTP 403",
       "locationEligibility": "chennai",
@@ -28959,8 +27876,8 @@
       "employerDescriptionHash": "e99060d2ad289491550614e6c595c7f2e0fcb97474bab1b2e094e31f1a45eeb7",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://lnw.wd5.myworkdayjobs.com/wday/cxs/lnw/LightWonderExternalCareers/job/Chennai-India/Senior-QA-Engineer---Software_R322648-1",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -29083,8 +28000,8 @@
       "employerDescriptionHash": "25c322d5cc943738fc7e41f9a0f7ee0eb0b85bf07375783dd9d4fd240f445739",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://ncr.wd1.myworkdayjobs.com/wday/cxs/ncr/ext_apac/job/CHENNAI-IND/Quality-Engineer-II_R0158885",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -29210,8 +28127,8 @@
       "employerDescriptionHash": "f03725ab9c415cceb8a2a10061be8319f8a602e2f13fef09a6c9a1e1b7ff4b3f",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://ncr.wd1.myworkdayjobs.com/wday/cxs/ncr/ext_apac/job/CHENNAI-IND/Senior-Software-Quality-Engineer_R0158884",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -29337,8 +28254,8 @@
       "employerDescriptionHash": "f03725ab9c415cceb8a2a10061be8319f8a602e2f13fef09a6c9a1e1b7ff4b3f",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://ncr.wd1.myworkdayjobs.com/wday/cxs/ncr/ext_apac/job/CHENNAI-IND/Senior-Software-Quality-Engineer_R0158881",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -29467,7 +28384,7 @@
       "availabilityStatus": "unconfirmed",
       "availabilityHold": false,
       "lastConfirmedOpenAt": "2026-10-26T06:16:39+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://transunion.wd5.myworkdayjobs.com/wday/cxs/transunion/TransUnion/job/Chennai/Lead-Engineer--Quality-Assurance_19042115",
       "availabilityReason": "Employer career data unavailable: HTTP 403",
       "locationEligibility": "chennai",
@@ -29591,8 +28508,8 @@
       "employerDescriptionHash": "4afbc38234073a09b876cc7a45fef2dec2c49036e6aca28addf518ec3921b9e5",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://wk.wd3.myworkdayjobs.com/wday/cxs/wk/External/job/IND---Chennai-Neville-Towers/Senior-Software-Quality-Assurance-Analyst--SAP-Finance---CFIN-_R0059579",
       "availabilityReason": "Exact employer career record explicitly permits applications",
       "locationEligibility": "chennai",
@@ -29710,8 +28627,8 @@
       "employerDescriptionHash": "1d5dc7b68209342c62ffe89ea89c70ee09776fbdfa20985e97e8379d0846297e",
       "availabilityStatus": "open",
       "availabilityHold": false,
-      "lastConfirmedOpenAt": "2026-10-27T05:07:48+00:00",
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "lastConfirmedOpenAt": "2026-10-27T06:31:28+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://api.smartrecruiters.com/v1/companies/ramboll3/postings/744000157668529",
       "availabilityReason": "Exact active SmartRecruiters vacancy with matching application route",
       "locationEligibility": "chennai",
@@ -29786,7 +28703,7 @@
           "checkedOn": "2026-10-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4478237253",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -29851,7 +28768,7 @@
           "checkedOn": "2026-10-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4480615218",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -29916,7 +28833,7 @@
           "checkedOn": "2026-10-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4481359615",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -29981,7 +28898,7 @@
           "checkedOn": "2026-10-26"
         }
       ],
-      "availabilityCheckedAt": "2026-10-27T05:07:48+00:00",
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
       "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4480750990",
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
@@ -30045,7 +28962,12 @@
           "asOf": "2026-10-27",
           "checkedOn": "2026-10-27"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4479849349",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
     },
     {
       "id": "linkedin-4471276845",
@@ -30105,7 +29027,12 @@
           "asOf": "2026-10-27",
           "checkedOn": "2026-10-27"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4471276845",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
     },
     {
       "id": "linkedin-4477092242",
@@ -30165,7 +29092,12 @@
           "asOf": "2026-10-27",
           "checkedOn": "2026-10-27"
         }
-      ]
+      ],
+      "availabilityCheckedAt": "2026-10-27T06:31:28+00:00",
+      "availabilityEvidenceUrl": "https://www.linkedin.com/jobs/view/4477092242",
+      "availabilityStatus": "unconfirmed",
+      "availabilityReason": "Skipped: robots disallow or robots could not be checked",
+      "availabilityHold": true
     }
   ]
 }
