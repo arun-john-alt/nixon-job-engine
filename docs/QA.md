@@ -90,3 +90,8 @@ Watchdog budget/cooldown apply only when recovery is needed; healthy current sit
 ## 27 October 2026 — daily Career Ops evaluation
 
 Rechecked all 19 current scanner candidates through their exact public employer APIs. Full descriptions were unchanged from 26 October, confirmed profile facts unchanged, and all 19 application routes freshly confirmed open. Retained evidence assessments: two recommendations, 13 with material gaps, four out of scope. Previous candidates missing from the scanner are not inferred closed. Private full descriptions and per-vacancy reports remain outside the repository. Node and Python suites, validation/provenance gate and public-only privacy build passed. Real Chrome at 1440px and 390px verified Career Ops counts, navigation/details, no horizontal overflow and no JavaScript errors.
+
+
+## 27 October 2026 — refresh failures after a vacancy closes
+
+Three Career Ops behaviour tests assumed two real recommendations would remain live. The employer removed the Extreme Networks wireless requisition; availability correctly marked the exact public API vacancy closed, then those fixed-count tests blocked publication. Behaviour tests now use synthetic controlled jobs, with production provenance/eligibility validated separately and zero available recommendations permitted. Closed, stale, changed-description and unreviewed jobs still must be hidden. Reproduced the failure using the saved cloud diagnostic dataset and verified the updated full suite against it. The watchdog alert was the preserved recovery-attempt cap, not a site outage.

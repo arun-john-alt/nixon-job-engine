@@ -1,8 +1,27 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
 import * as engine from '../site/engine.js';import * as co from '../site/career-ops.js';import {companyLogo,productCompany} from '../site/companies.js';
-const trial=JSON.parse(fs.readFileSync(new URL('../site/data/career-ops.json',import.meta.url)));
-const raw=JSON.parse(fs.readFileSync(new URL('../site/data/jobs.json',import.meta.url)));
+// Behaviour fixtures are independent of employers closing/changing real vacancies.
+// Production data is validated separately and may legitimately yield zero picks.
+const liveTrial=JSON.parse(fs.readFileSync(new URL('../site/data/career-ops.json',import.meta.url)));
+const liveRaw=JSON.parse(fs.readFileSync(new URL('../site/data/jobs.json',import.meta.url)));
+const weights=[35,20,20,15,10];
+const raw={schemaVersion:2,updatedAt:'2026-10-27',run:{},jobs:Array.from({length:3},(_,i)=>({
+ id:'fixture-job-'+i,company:'Fixture Employer '+i,title:'QA Engineer',applyUrl:'https://example.com/jobs/'+i,
+ employerDescriptionHash:String(i+1).repeat(64),analysisStatus:'reviewed',verification:'live',discoveryEligible:true,
+ score:weights.map((weight,n)=>({name:'Dimension '+n,weight,points:weight-2,reason:'Synthetic evidence for behaviour tests'})),salary:{kind:'unknown'},
+}))};
+const trial={schemaVersion:1,evaluatedAt:'2026-10-27',upstream:{commit:'2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af',repository:'https://github.com/career-ops-hq/career-ops',version:'fixture'},
+ scan:{date:'2026-10-27',scanned:1,skipped:0,added:2,found:2},method:'Synthetic assessment fixture',refresh:'Fixture only',exclusions:[],jobs:[],
+ candidateUrls:raw.jobs.slice(0,2).map(j=>j.applyUrl),recommendations:raw.jobs.slice(0,2).map(j=>({jobId:j.id,discoveredUrl:j.applyUrl,descriptionHash:j.employerDescriptionHash,rating:4.1,confidence:'Low',rationale:'Synthetic recommendation',
+ dimensions:['CV match','North Star alignment','Compensation','Cultural signals','Red flags'].map((name,i)=>({name,evidence:'Synthetic dimension evidence',status:i<2?'supported':'unknown'}))}))};
 const fresh=()=>raw.jobs.map(j=>({...j,lastConfirmedOpenAt:new Date().toISOString(),availabilityHold:false}));
+test('live research permits recommendations to close without blocking publication',()=>{
+ const valid=co.validateTrial(liveTrial),jobs=engine.validateDataset(liveRaw).jobs;
+ const picks=co.trialJobs(valid,jobs,25);
+ assert.ok(picks.every(j=>!engine.isUnavailable(j)&&co.recommendation(valid,j)));
+ assert.equal(co.trialJobs(valid,jobs.map(j=>({...j,verification:'closed'})),25).length,0);
+ assert.equal(co.trialJobs(valid,[],25).length,co.trialJobs(valid,valid.jobs,25).length);
+});
 test('real scanner provenance and independent review required',()=>{
  assert.equal(co.validateTrial(trial).recommendations.length,2);
  for(const alter of [t=>t.upstream.commit='invented',t=>t.recommendations[0].rating=3.9,t=>t.candidateUrls=[],t=>t.recommendations[0].confidence='High',t=>t.recommendations.push(t.recommendations[0])]){const bad=structuredClone(trial);alter(bad);assert.throws(()=>co.validateTrial(bad));}
