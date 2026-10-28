@@ -6,7 +6,7 @@
     "commit": "2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af",
     "version": "1.38.0"
   },
-  "method": "Unmodified upstream scan.mjs; full employer descriptions assessed by Codex using the Career Ops five-dimension rubric. These are agent-assisted assessments, not output from its API evaluator. Native 1\u20135 ratings are holistic, not converted from Nextmove match percentages.",
+  "method": "Unmodified upstream scan.mjs; full employer descriptions assessed by Codex using the Career Ops five-dimension rubric. These are agent-assisted assessments, not output from its API evaluator. Native 1–5 ratings are holistic, not converted from Nextmove match percentages.",
   "refresh": "Employer discovery runs daily at 9 AM IST in GitHub Actions. Codex evaluation runs separately on this Mac; review freshness is shown independently. Unconfirmed or stale vacancies are hidden.",
   "scan": {
     "date": "2026-10-24",
@@ -55,12 +55,12 @@
         {
           "name": "North Star alignment",
           "status": "partial",
-          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; \u20b925L+ budget is unverified."
+          "evidence": "Product employer and requested location fit. Individual-contributor scope does not meet the manager preference; ₹25L+ budget is unverified."
         },
         {
           "name": "Compensation",
           "status": "unknown",
-          "evidence": "No employer-disclosed annual total CTC range; \u20b925L+ is not established."
+          "evidence": "No employer-disclosed annual total CTC range; ₹25L+ is not established."
         },
         {
           "name": "Cultural signals",
@@ -128,42 +128,42 @@
       },
       {
         "company": "Gigamon",
-        "title": "Sr. Staff SW QA Engineer \u2014 AppIntel",
+        "title": "Sr. Staff SW QA Engineer — AppIntel",
         "status": "26 October: current exact job description/application route could not be established; prior gap assessment is historical."
       },
       {
         "company": "Gigamon",
-        "title": "Sr. Staff SW QA Engineer \u2014 Cloud",
+        "title": "Sr. Staff SW QA Engineer — Cloud",
         "status": "26 October: current exact job description/application route could not be established; prior gap assessment is historical."
       },
       {
         "company": "Gigamon",
-        "title": "Sr. SW QA Engineer \u2014 AppIntel",
+        "title": "Sr. SW QA Engineer — AppIntel",
         "status": "26 October: current exact job description/application route could not be established; prior gap assessment is historical."
       }
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-28T04:36:44+00:00",
+    "checkedAt": "2026-10-28T07:22:16+00:00",
     "scanDateIst": "2026-10-28",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47736,
+    "examined": 47758,
     "candidateCount": 17,
     "sourceFailures": 0,
     "candidates": [
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
-      },
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -187,7 +187,19 @@
         "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
         "company": "Rifa AI",
         "title": "QA Lead, AI Agents",
-        "location": "Remote, India \u00b7 Bengaluru \u00b7 India"
+        "location": "Remote, India · Bengaluru · India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
@@ -208,18 +220,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 \u2013 Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
-      },
-      {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
         "company": "QIMA",
         "title": "Quality Inspector",
@@ -238,16 +238,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
-        "company": "Gen Digital",
-        "title": "Mobile QA Architect",
-        "location": "IRL - Dublin \u00b7 Dublin \u00b7 Ireland \u00b7 IND - Chennai \u00b7 Chennai \u00b7 India \u00b7 CZE - Brno \u00b7 Brno \u00b7 Czechia"
-      },
-      {
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore \u00b7 India - Chennai"
+        "location": "India - Bangalore · India - Chennai"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
+        "company": "Gen Digital",
+        "title": "Mobile QA Architect",
+        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
       },
       {
         "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
@@ -327,7 +327,7 @@
         "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
         "company": "Rifa AI",
         "title": "QA Lead, AI Agents",
-        "location": "Remote, India \u00b7 Bengaluru \u00b7 India",
+        "location": "Remote, India · Bengaluru · India",
         "status": "consider-with-gaps",
         "reason": "QA leadership transfers, but this role centres on regulated conversation audits and US-hours overlap rather than the targeted senior automation scope.",
         "reviewedAt": "2026-10-28T04:38:33+00:00",
@@ -370,7 +370,7 @@
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
         "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 \u2013 Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Networking/Python overlap; specialist performance/cloud/security or data-centre/5G requirements are not established.",
@@ -426,7 +426,7 @@
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
-        "location": "IRL - Dublin \u00b7 Dublin \u00b7 Ireland \u00b7 IND - Chennai \u00b7 Chennai \u00b7 India \u00b7 CZE - Brno \u00b7 Brno \u00b7 Czechia",
+        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia",
         "status": "consider-with-gaps",
         "reason": "People management and Python fit; deep Android/iOS application QA and mobile architecture expertise are not established by infotainment integration experience.",
         "reviewedAt": "2026-10-28T04:38:33+00:00",
@@ -437,7 +437,7 @@
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore \u00b7 India - Chennai",
+        "location": "India - Bangalore · India - Chennai",
         "status": "consider-with-gaps",
         "reason": "9+ years and Python fit; production foundation-model, RAG and AI testing strategy requirements are not evidenced.",
         "reviewedAt": "2026-10-28T04:38:33+00:00",
@@ -450,7 +450,7 @@
         "title": "Software Quality Engineer",
         "location": "Chennai, India",
         "status": "consider-with-gaps",
-        "reason": "UI/API automation and framework leadership transfer. Production AI-assisted self-healing/test generation is not evidenced; semiconductor equipment is a new domain. The advertised 0\u20132-year minimum suggests a level/budget mismatch; degree wording and customer-site travel need clarification. Salary is undisclosed, not assumed below target.",
+        "reason": "UI/API automation and framework leadership transfer. Production AI-assisted self-healing/test generation is not evidenced; semiconductor equipment is a new domain. The advertised 0–2-year minimum suggests a level/budget mismatch; degree wording and customer-site travel need clarification. Salary is undisclosed, not assumed below target.",
         "reviewedAt": "2026-10-28T04:38:33+00:00",
         "availabilityCheckedAt": "2026-10-28T04:37:25+00:00",
         "descriptionHash": "98af17c43ed0001de2984e84ac29d881cbb479fe0afb60af9eb983bbf44e3a06"
