@@ -573,6 +573,36 @@
       "name": "Gen Digital",
       "careers_url": "https://jobs.ashbyhq.com/gen-digital",
       "enabled": true
+    },
+    {
+      "name": "Appian",
+      "careers_url": "https://job-boards.greenhouse.io/appian",
+      "enabled": true
+    },
+    {
+      "name": "Banyan Software",
+      "careers_url": "https://job-boards.greenhouse.io/banyansoftware",
+      "enabled": true
+    },
+    {
+      "name": "PDI Technologies Inc",
+      "careers_url": "https://jobs.lever.co/pditechnologies",
+      "enabled": true
+    },
+    {
+      "name": "Paytm",
+      "careers_url": "https://jobs.lever.co/paytm",
+      "enabled": true
+    },
+    {
+      "name": "Prove Identity Inc",
+      "careers_url": "https://job-boards.greenhouse.io/prove",
+      "enabled": true
+    },
+    {
+      "name": "Sagent M&C LLC",
+      "careers_url": "https://job-boards.greenhouse.io/sagent",
+      "enabled": true
     }
   ],
   "title_filter": {
