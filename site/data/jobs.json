@@ -783,11 +783,6 @@
         "detail": "Made Card posting API and public embed no longer publish a board. Its official careers page remains in the company directory. This is not evidence that individual vacancies were filled."
       },
       {
-        "source": "Web search",
-        "status": "Failed",
-        "detail": "Tavily: Response too large"
-      },
-      {
         "source": "Made Card",
         "status": "HTTP 404",
         "detail": "https://jobs.ashbyhq.com/madecard/117fafd3-f18f-4aba-8ab2-39b5fe8b5a73"
