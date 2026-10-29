@@ -144,15 +144,21 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-28T14:35:17+00:00",
-    "scanDateIst": "2026-10-28",
+    "checkedAt": "2026-10-29T06:21:19+00:00",
+    "scanDateIst": "2026-10-29",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47831,
-    "candidateCount": 17,
+    "examined": 47768,
+    "candidateCount": 18,
     "sourceFailures": 0,
     "candidates": [
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
+      },
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
@@ -160,10 +166,16 @@
         "location": "India Remote"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -190,22 +202,16 @@
         "location": "Remote, India · Bengaluru · India"
       },
       {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
-      },
-      {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
         "company": "Logitech",
         "title": "Hardware Test Automation Engineer",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
+        "company": "Trimble",
+        "title": "Software Engineer in Test",
+        "location": "India - Chennai"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
@@ -232,12 +238,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
-        "company": "Trimble",
-        "title": "Software Engineer in Test",
-        "location": "India - Chennai"
-      },
-      {
         "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
@@ -248,6 +248,12 @@
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
         "location": "India - Bangalore · India - Chennai"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158434489-in-rbin-deputy-manager-assistant-manager-supplier-quality-management-pt-gt-puq",
+        "company": "Bosch Group",
+        "title": "IN_RBIN_Deputy Manager / Assistant Manager - Supplier Quality Management_PT-GT/PUQ",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
