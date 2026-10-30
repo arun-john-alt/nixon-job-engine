@@ -144,12 +144,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-30T06:51:40+00:00",
+    "checkedAt": "2026-10-30T08:18:48+00:00",
     "scanDateIst": "2026-10-30",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47885,
+    "examined": 47877,
     "candidateCount": 18,
     "sourceFailures": 0,
     "candidates": [
@@ -158,18 +158,6 @@
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
@@ -188,6 +176,18 @@
         "company": "Rotork",
         "title": "Test Development Engineer",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
