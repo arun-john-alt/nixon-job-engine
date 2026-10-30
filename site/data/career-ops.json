@@ -144,13 +144,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-30T08:18:48+00:00",
-    "scanDateIst": "2026-10-30",
+    "checkedAt": "2026-10-30T21:46:04+00:00",
+    "scanDateIst": "2026-10-31",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47877,
-    "candidateCount": 18,
+    "examined": 47910,
+    "candidateCount": 17,
     "sourceFailures": 0,
     "candidates": [
       {
@@ -214,12 +214,6 @@
         "location": "Chennai, India"
       },
       {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
-        "company": "Trimble",
-        "title": "Software Engineer in Test",
-        "location": "India - Chennai"
-      },
-      {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
         "company": "Sika",
         "title": "Sr. Executive / Assistant Manager QA/QC",
@@ -244,16 +238,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
-        "company": "Gen Digital",
-        "title": "Mobile QA Architect",
-        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
-      },
-      {
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
         "location": "India - Bangalore · India - Chennai"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
+        "company": "Gen Digital",
+        "title": "Mobile QA Architect",
+        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
       },
       {
         "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
