@@ -144,21 +144,15 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-10-31T07:32:46+00:00",
+    "checkedAt": "2026-10-31T13:56:28+00:00",
     "scanDateIst": "2026-10-31",
-    "status": "partial",
+    "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 46860,
-    "candidateCount": 15,
-    "sourceFailures": 2,
+    "examined": 47888,
+    "candidateCount": 17,
+    "sourceFailures": 0,
     "candidates": [
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
-      },
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
@@ -176,6 +170,12 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -206,6 +206,12 @@
         "company": "NielsenIQ",
         "title": "Senior Software Test Engineer (Python, Pyspark, Databricks)",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+        "company": "Logitech",
+        "title": "Hardware Test Automation Engineer",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
@@ -242,6 +248,12 @@
         "company": "Gen Digital",
         "title": "Mobile QA Architect",
         "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia"
+      },
+      {
+        "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
+        "company": "KLA",
+        "title": "Software Quality Engineer",
+        "location": "Chennai, India"
       }
     ]
   },
