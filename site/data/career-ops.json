@@ -144,12 +144,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-01T16:57:50+00:00",
-    "scanDateIst": "2026-11-01",
+    "checkedAt": "2026-11-02T01:06:42+00:00",
+    "scanDateIst": "2026-11-02",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47900,
+    "examined": 47857,
     "candidateCount": 17,
     "sourceFailures": 0,
     "candidates": [
