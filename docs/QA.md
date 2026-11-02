@@ -127,3 +127,8 @@ Actions history inspected during the review contained four failed Nixon engine r
 ## 31 October / 1 November — Career Ops evidence refresh
 
 Privately recorded October 31 checks, then rechecked all 17 exact employer application routes and full descriptions on November 1 before publishing. Descriptions and confirmed profile facts were unchanged: one recommendation, 11 with material gaps, five out of scope. Gen Digital returned invalid API JSON once on October 31 and recovered on one bounded repeat; no closure was inferred. Full per-vacancy reports remain outside the public repository. Node/Python suites, validation/provenance and privacy build passed. Chrome checked desktop/mobile Career Ops, navigation/details and horizontal overflow.
+
+
+## 2 November 2026 — daily Career Ops evidence refresh
+
+Today’s pinned upstream discovery succeeded across 77 supported sources with 17 candidates and zero source failures. Independently rechecked every exact employer application route and complete description: all 17 open, hashes and confirmed profile unchanged. Retained one recommendation, 11 with material gaps and five out of scope; private reports remain outside the repository. All 54 Node and 112 Python tests, validation/provenance and public-only privacy build passed. Real Chrome at 1440px and 390px verified Career Ops, navigation/details, no horizontal overflow or page errors. Both engines remain above the minimum in current sampled inventory, below the 35-opening buffer; overdue recovery is constrained by the preserved three-per-24-hour cap. Watchdog cap failures are distinct from successful engine deployments and are not vacancy closures.
