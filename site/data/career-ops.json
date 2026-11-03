@@ -144,12 +144,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-03T01:49:57+00:00",
+    "checkedAt": "2026-11-03T09:21:02+00:00",
     "scanDateIst": "2026-11-03",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47809,
+    "examined": 47728,
     "candidateCount": 17,
     "sourceFailures": 0,
     "candidates": [
@@ -178,18 +178,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
-        "company": "Arista Networks",
-        "title": "Software Test Engineer (Wi-Fi)",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
-        "company": "Rifa AI",
-        "title": "QA Lead, AI Agents",
-        "location": "Remote, India · Bengaluru · India"
-      },
-      {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
         "company": "Extreme Networks",
         "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
@@ -200,6 +188,18 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
+        "company": "Arista Networks",
+        "title": "Software Test Engineer (Wi-Fi)",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/rifa/89be912e-f1f5-40cc-99a3-5e7e0205abae",
+        "company": "Rifa AI",
+        "title": "QA Lead, AI Agents",
+        "location": "Remote, India · Bengaluru · India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000158451624-senior-software-test-engineer-python-pyspark-databricks",
