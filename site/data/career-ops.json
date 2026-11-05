@@ -144,13 +144,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-05T06:50:01+00:00",
-    "scanDateIst": "2026-11-05",
+    "checkedAt": "2026-11-05T22:20:58+00:00",
+    "scanDateIst": "2026-11-06",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47832,
-    "candidateCount": 15,
+    "examined": 47779,
+    "candidateCount": 16,
     "sourceFailures": 0,
     "candidates": [
       {
@@ -200,6 +200,12 @@
         "company": "Trimble",
         "title": "Software Engineer in Test",
         "location": "India - Chennai"
+      },
+      {
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Sr-Software-QA-Engineer_148722",
+        "company": "Logitech",
+        "title": "Sr. Software QA Engineer",
+        "location": "Chennai, India"
       },
       {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
