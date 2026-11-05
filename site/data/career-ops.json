@@ -144,12 +144,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-04T18:56:42+00:00",
+    "checkedAt": "2026-11-05T00:34:52+00:00",
     "scanDateIst": "2026-11-05",
     "status": "success",
     "scanned": 77,
     "skipped": 25,
-    "examined": 47837,
+    "examined": 47846,
     "candidateCount": 15,
     "sourceFailures": 0,
     "candidates": [
@@ -196,16 +196,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
-        "company": "Trimble",
-        "title": "Software Engineer in Test",
-        "location": "India - Chennai"
-      },
-      {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
         "company": "Logitech",
         "title": "Hardware Test Automation Engineer",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
+        "company": "Trimble",
+        "title": "Software Engineer in Test",
+        "location": "India - Chennai"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
