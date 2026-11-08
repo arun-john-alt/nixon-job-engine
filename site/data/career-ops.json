@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-06",
+  "evaluatedAt": "2026-11-08",
   "upstream": {
     "repository": "https://github.com/career-ops-hq/career-ops",
     "commit": "2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af",
@@ -144,21 +144,15 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-08T06:45:26+00:00",
+    "checkedAt": "2026-11-08T14:07:23+00:00",
     "scanDateIst": "2026-11-08",
-    "status": "success",
-    "scanned": 77,
+    "status": "partial",
+    "scanned": 78,
     "skipped": 25,
-    "examined": 47708,
-    "candidateCount": 14,
-    "sourceFailures": 0,
+    "examined": 47746,
+    "candidateCount": 15,
+    "sourceFailures": 1,
     "candidates": [
-      {
-        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
-        "company": "YipitData",
-        "title": "Senior SDET",
-        "location": "India Remote"
-      },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
         "company": "MicroStrategy",
@@ -166,16 +160,10 @@
         "location": "Chennai, , India"
       },
       {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
+        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+        "company": "YipitData",
+        "title": "Senior SDET",
+        "location": "India Remote"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -194,6 +182,18 @@
         "company": "Arista Networks",
         "title": "Software Test Engineer (Wi-Fi)",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
@@ -236,20 +236,37 @@
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
         "location": "India - Bangalore · India - Chennai"
+      },
+      {
+        "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
+        "company": "Platform Science",
+        "title": "Software Development Engineer in Test",
+        "location": "Chennai, Tamil Nadu, India"
       }
     ]
   },
   "evaluation": {
-    "checkedAt": "2026-11-06T04:18:58+00:00",
-    "scanCheckedAt": "2026-11-06T02:53:03+00:00",
+    "checkedAt": "2026-11-08T14:08:57+00:00",
+    "scanCheckedAt": "2026-11-08T14:07:23+00:00",
     "status": "completed",
-    "candidateCount": 16,
+    "candidateCount": 15,
     "recommended": 1,
-    "considerWithGaps": 10,
+    "considerWithGaps": 9,
     "excluded": 5,
     "blocked": 0,
-    "method": "All 16 current scanner candidates had exact employer application routes and complete descriptions rechecked on 6 November. Fifteen unchanged description/profile assessments reused. New Logitech requisition 148722 independently assessed with desktop/USB-trace skill gaps and unknown compensation; no promotion to meet counts. Missing candidates were not inferred closed.",
+    "method": "All 15 current scanner candidates had exact employer application routes and complete descriptions rechecked on 8 November. Fourteen unchanged description/profile assessments retained, including independently verified replacement MicroStrategy requisition. New Platform Science SDET independently assessed with Java/mobile and seniority gaps. Expanded scan has one source failure; missing candidates were not inferred closed. No completed 7 November evaluation is claimed.",
     "outcomes": [
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India",
+        "status": "consider-with-gaps",
+        "reason": "BI/data-platform or hands-on AI/ML validation is not evidenced; manager role also asks for 12+ years.",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
+        "descriptionHash": "bc8a96f1f5430121ab9486acc6589ae22aec110ec653c068b996ae61c1ae278a",
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
+      },
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
@@ -257,20 +274,9 @@
         "location": "India Remote",
         "status": "recommended",
         "reason": "Python, Robot Framework, Selenium, API testing and test-strategy ownership align with the full description. Remote India is explicit. Performance tools remain a gap; this is an IC role and the data-product domain is new.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000156720161-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India",
-        "status": "consider-with-gaps",
-        "reason": "BI/data-platform or hands-on AI/ML validation is not evidenced; manager role also asks for 12+ years.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
-        "descriptionHash": "bc8a96f1f5430121ab9486acc6589ae22aec110ec653c068b996ae61c1ae278a",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -279,8 +285,8 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Supplier/manufacturing quality, casting, forging, GD&T, NDE and metallurgical testing require mechanical-engineering expertise. This is not a software QA vacancy.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00",
         "descriptionHash": "97ed87c14336a731e3e1d466a54611eaec9402cb5ec4acbc16bb6026cb7e60cb"
       },
       {
@@ -290,9 +296,9 @@
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Python and technical leadership transfer, but specialist LabVIEW, NI TestStand and instrumentation requirements are not evidenced.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "5c881b3349011458290697754ff277c6604e46444378fba5048ef4837176bb5f",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
@@ -301,9 +307,9 @@
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Wireless domain fits; mandatory RF/L1, Wi-Fi 6/6E/7 and large-scale lab expertise need confirmation.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "828ee2d0886dba94a652596c6341045ed7bfe45131fd3501893e209f85547008",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -312,9 +318,9 @@
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Networking/Python overlap; specialist performance/cloud/security or data-centre/5G requirements are not established.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "24ff5305b6b28c3b7a88b0e4f5ad9ba1c18dfed9014da301cc273312fcfe11e5",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
@@ -323,9 +329,9 @@
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Networking/Python overlap; specialist performance/cloud/security or data-centre/5G requirements are not established.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "8e6b320b689fa7e4e06ee71975ef6c1ed31cd782c216d20d36c4f532d62b72b1",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
@@ -334,20 +340,9 @@
         "location": "India - Chennai",
         "status": "consider-with-gaps",
         "reason": "Automation leadership and infotainment experience transfer; dSPACE, Simulink/Stateflow, HIL and physical machine validation are material gaps.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "27f4fb9a450660f7faa2bdec8c90d40c7833b9744b5e0b8509c5527534bf23c7",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
-      },
-      {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Sr-Software-QA-Engineer_148722",
-        "company": "Logitech",
-        "title": "Sr. Software QA Engineer",
-        "location": "Chennai, India",
-        "status": "consider-with-gaps",
-        "reason": "Test planning, regression, API validation, defect analysis and Git align with confirmed QA experience. Product employer and Chennai fit. USB-analyser/Wireshark trace expertise and macOS/Windows debugging depth are unconfirmed; no people-management scope or disclosed annual total CTC.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00",
-        "descriptionHash": "14274018c5f7f5b6ee2db049c828f0851afdef42d829ded101516fd5709433ef"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
@@ -356,9 +351,9 @@
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Python overlaps, but hardware instruments/bench wiring and the lower advertised experience band need clarification.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "a06378b7595ee9a1d83c5133bb9465b289e869e87db52b3d560a11e6bee33786",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
@@ -367,9 +362,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "85bfe78e399ab25d18fd9266bbad6e9d141610b962ac6b4f28a18ebcf6974e97",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
@@ -378,9 +373,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "424debc792ff89f3634dbe4d1702901c7927793dfc78b11ecc4370b7e503ccd4",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000074491587-quality-inspector",
@@ -389,9 +384,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "964fadb3f853f208e4627aef356e1d6080ec5387cfae6eba687eab7fe34f3fd4",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000034920685-quality-inspector",
@@ -400,9 +395,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "f32542a8d40212874440d3d80739f842de3bf6e1768caa10f825dddc7fa16157",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
@@ -411,20 +406,20 @@
         "location": "India - Bangalore · India - Chennai",
         "status": "consider-with-gaps",
         "reason": "9+ years and Python fit; production foundation-model, RAG and AI testing strategy requirements are not evidenced.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
         "descriptionHash": "5658a2558b5cd75bde634ca56cd4f3073e8ca4165ac34a2b783f5422312cc5e9",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00"
       },
       {
-        "url": "https://jobs.ashbyhq.com/gen-digital/ff71b282-7aab-415f-870f-8e3bdfbad1fe",
-        "company": "Gen Digital",
-        "title": "Mobile QA Architect",
-        "location": "IRL - Dublin · Dublin · Ireland · IND - Chennai · Chennai · India · CZE - Brno · Brno · Czechia",
         "status": "consider-with-gaps",
-        "reason": "People management and Python fit; deep Android/iOS application QA and mobile architecture expertise are not established by infotainment integration experience.",
-        "reviewedAt": "2026-11-06T04:18:58+00:00",
-        "descriptionHash": "05ba32130c198096860fc99e36d3cc1faa1d56f5fa4f4599c3c6365902dc3557",
-        "availabilityCheckedAt": "2026-11-06T04:18:01+00:00"
+        "reason": "API/UI testing, Selenium, CI and connected-device quality transfer. Strong Java and native/hybrid mobile automation expertise are not confirmed. Advertised 3–5 years is below approximately 9.5 dated IT years; this is an IC role with India/US-hours overlap and unknown annual total CTC.",
+        "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
+        "company": "Platform Science",
+        "title": "Software Development Engineer in Test",
+        "location": "Chennai, Tamil Nadu, India",
+        "reviewedAt": "2026-11-08T14:08:57+00:00",
+        "availabilityCheckedAt": "2026-11-08T14:08:18+00:00",
+        "descriptionHash": "cca18302b6a51cf9aec0b364f82d321a866dda6f17898cdbd30e11d9c1637576"
       }
     ]
   }

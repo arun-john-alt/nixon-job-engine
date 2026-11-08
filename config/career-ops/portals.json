@@ -603,6 +603,11 @@
       "name": "Sagent M&C LLC",
       "careers_url": "https://job-boards.greenhouse.io/sagent",
       "enabled": true
+    },
+    {
+      "name": "Platform Science",
+      "careers_url": "https://job-boards.greenhouse.io/platformscience",
+      "enabled": true
     }
   ],
   "title_filter": {
