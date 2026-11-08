@@ -144,12 +144,12 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-08T14:07:23+00:00",
-    "scanDateIst": "2026-11-08",
+    "checkedAt": "2026-11-08T23:12:04+00:00",
+    "scanDateIst": "2026-11-09",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 47746,
+    "examined": 47716,
     "candidateCount": 15,
     "sourceFailures": 1,
     "candidates": [
@@ -164,6 +164,18 @@
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -184,15 +196,9 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+        "company": "Logitech",
+        "title": "Hardware Test Automation Engineer",
         "location": "Chennai, India"
       },
       {
@@ -200,12 +206,6 @@
         "company": "Trimble",
         "title": "Software Engineer in Test",
         "location": "India - Chennai"
-      },
-      {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
-        "company": "Logitech",
-        "title": "Hardware Test Automation Engineer",
-        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
