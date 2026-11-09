@@ -144,13 +144,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-09T03:02:23+00:00",
+    "checkedAt": "2026-11-09T08:17:10+00:00",
     "scanDateIst": "2026-11-09",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 47692,
-    "candidateCount": 15,
+    "examined": 47714,
+    "candidateCount": 16,
     "sourceFailures": 1,
     "candidates": [
       {
@@ -158,18 +158,6 @@
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
@@ -194,6 +182,18 @@
         "company": "Arista Networks",
         "title": "Software Test Engineer (Wi-Fi)",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Software-Engineer-in-Test_R57968",
@@ -242,6 +242,12 @@
         "company": "Platform Science",
         "title": "Software Development Engineer in Test",
         "location": "Chennai, Tamil Nadu, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160534670-senior-engineer-assistant-manager-product-quality-engineer-chip-power-tools-plant",
+        "company": "Bosch Group",
+        "title": "Senior Engineer / Assistant Manager - Product Quality Engineer (Chip - Power Tools Plant)",
+        "location": "Chennai, TN, India"
       }
     ]
   },
