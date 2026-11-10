@@ -144,26 +144,26 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-10T04:24:54+00:00",
+    "checkedAt": "2026-11-10T05:26:29+00:00",
     "scanDateIst": "2026-11-10",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 47701,
+    "examined": 47695,
     "candidateCount": 16,
     "sourceFailures": 1,
     "candidates": [
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
-      },
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -238,16 +238,16 @@
         "location": "India - Bangalore · India - Chennai"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160534670-senior-engineer-assistant-manager-product-quality-engineer-chip-power-tools-plant",
-        "company": "Bosch Group",
-        "title": "Senior Engineer / Assistant Manager - Product Quality Engineer (Chip - Power Tools Plant)",
-        "location": "Chennai, TN, India"
-      },
-      {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
         "company": "Platform Science",
         "title": "Software Development Engineer in Test",
         "location": "Chennai, Tamil Nadu, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160534670-senior-engineer-assistant-manager-product-quality-engineer-chip-power-tools-plant",
+        "company": "Bosch Group",
+        "title": "Senior Engineer / Assistant Manager - Product Quality Engineer (Chip - Power Tools Plant)",
+        "location": "Chennai, TN, India"
       }
     ]
   },
