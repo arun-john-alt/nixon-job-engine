@@ -112,15 +112,27 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-13T06:37:07+00:00",
+    "checkedAt": "2026-11-13T06:51:36+00:00",
     "scanDateIst": "2026-11-13",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 47788,
+    "examined": 47789,
     "candidateCount": 14,
     "sourceFailures": 1,
     "candidates": [
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
+      },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
         "company": "MicroStrategy",
@@ -144,18 +156,6 @@
         "company": "Arista Networks",
         "title": "Software Test Engineer (Wi-Fi)",
         "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
       },
       {
         "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
