@@ -112,13 +112,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-13T09:22:02+00:00",
+    "checkedAt": "2026-11-13T18:07:24+00:00",
     "scanDateIst": "2026-11-13",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 46579,
-    "candidateCount": 14,
+    "examined": 47809,
+    "candidateCount": 15,
     "sourceFailures": 1,
     "candidates": [
       {
@@ -155,6 +155,12 @@
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
         "company": "Arista Networks",
         "title": "Software Test Engineer (Wi-Fi)",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000161478879-qa-engineer-automation",
+        "company": "NielsenIQ",
+        "title": "QA Engineer (Automation)",
         "location": "Chennai, TN, India"
       },
       {
