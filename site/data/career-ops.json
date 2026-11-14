@@ -112,26 +112,20 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-14T07:03:43+00:00",
+    "checkedAt": "2026-11-14T14:34:02+00:00",
     "scanDateIst": "2026-11-14",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 46749,
-    "candidateCount": 14,
-    "sourceFailures": 4,
+    "examined": 46966,
+    "candidateCount": 15,
+    "sourceFailures": 3,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -144,6 +138,12 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -162,6 +162,12 @@
         "company": "Arista Networks",
         "title": "Software Test Engineer (Wi-Fi)",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+        "company": "Logitech",
+        "title": "Hardware Test Automation Engineer",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
