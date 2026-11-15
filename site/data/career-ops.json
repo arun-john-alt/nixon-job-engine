@@ -144,14 +144,14 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-15T14:30:42+00:00",
-    "scanDateIst": "2026-11-15",
+    "checkedAt": "2026-11-15T23:14:38+00:00",
+    "scanDateIst": "2026-11-16",
     "status": "partial",
     "scanned": 78,
     "skipped": 25,
-    "examined": 47743,
-    "candidateCount": 15,
-    "sourceFailures": 1,
+    "examined": 47669,
+    "candidateCount": 14,
+    "sourceFailures": 2,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
@@ -224,12 +224,6 @@
         "company": "QIMA",
         "title": "Quality Inspector",
         "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
-        "company": "Uniphore",
-        "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore · India - Chennai"
       },
       {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
