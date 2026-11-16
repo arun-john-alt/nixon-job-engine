@@ -14,8 +14,8 @@
       },
       {
         "source": "Opening target",
-        "status": "19/20 confirmed matches",
-        "detail": "19/20 reviewed, confirmed openings; 7 additional confirmed vacancies awaiting match review. Expansion level 2; 124 employer sources planned. Hourly credit-free checks replenish toward a buffer of 35. Broad search remains once daily at 9 AM IST. No expired, unconfirmed, excluded or unscored role counts toward the minimum. GitHub schedules may be delayed."
+        "status": "20/20 confirmed matches",
+        "detail": "20 reviewed, confirmed openings after exact employer review of Insurity India Manager, QA; seven additional confirmed vacancies awaiting match review. The 35-opening buffer remains unmet. U.S. Eastern hours and travel for the manager role require candidate confirmation; no job or salary outcome is promised."
       },
       {
         "source": "Direct application availability",
@@ -10328,15 +10328,15 @@
     "openingPool": {
       "minimum": 20,
       "buffer": 35,
-      "reviewedOpen": 19,
+      "reviewedOpen": 20,
       "pendingOpen": 7,
-      "shortfall": 1,
-      "bufferShortfall": 16,
+      "shortfall": 0,
+      "bufferShortfall": 15,
       "expansionLevel": 2,
       "boardsPlanned": 124,
       "lastReplenishedAt": "2026-11-16T03:10:49+00:00",
-      "consecutiveShortfalls": 60,
-      "status": "shortfall",
+      "consecutiveShortfalls": 0,
+      "status": "target-met",
       "nextCheckAfter": "2026-11-16T03:55:49+00:00"
     },
     "reliability": {
@@ -37575,6 +37575,133 @@
       "availabilityStatus": "unconfirmed",
       "availabilityReason": "Skipped: robots disallow or robots could not be checked",
       "availabilityHold": true
+    },
+    {
+      "id": "insurityindia-4456447009",
+      "company": "Insurity India",
+      "title": "Manager, QA",
+      "family": "QA management",
+      "roleLevel": "manager",
+      "locationEligibility": "remote-india",
+      "location": "Remote, India",
+      "workModel": "Permanent remote India; full-time U.S. Eastern business hours",
+      "experience": "5+ QA years recommended; QA team leadership required",
+      "requisition": "4456447009",
+      "applyUrl": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
+      "linkedinUrl": null,
+      "postedOn": null,
+      "closesOn": null,
+      "discoveredOn": "2026-11-16",
+      "checkedOn": "2026-11-16",
+      "verification": "live",
+      "verificationNote": "Exact Greenhouse vacancy and matching public application route; no application submitted.",
+      "analysisStatus": "reviewed",
+      "reviewNote": "Full employer description compared with confirmed QA and people-management evidence. Match is a weighted evidence heuristic, not an ATS result. Work-hour and travel acceptance are unconfirmed; Career Ops separately rates this 3.8/5 with Low evidence confidence.",
+      "score": [
+        {
+          "name": "Responsibilities",
+          "weight": 35,
+          "points": 32,
+          "reason": "QA strategy, regression, root cause and people leadership align; hiring and appraisal ownership need confirmation."
+        },
+        {
+          "name": "Tools and automation",
+          "weight": 20,
+          "points": 15,
+          "reason": "Test automation and workflow experience transfer; qTest is not evidenced."
+        },
+        {
+          "name": "Experience and seniority",
+          "weight": 20,
+          "points": 18,
+          "reason": "Approximately 9.5 dated IT years plus four-person automation and ten-person management align with the recommended 5+ years."
+        },
+        {
+          "name": "Industry",
+          "weight": 15,
+          "points": 6,
+          "reason": "Insurance software is a new domain; U.S. P&C knowledge is preferred."
+        },
+        {
+          "name": "Location",
+          "weight": 10,
+          "points": 10,
+          "reason": "Role-specific application explicitly confirms permanent remote India; Eastern hours and travel remain checks."
+        }
+      ],
+      "summary": "Insurance-software QA management with confirmed automation and people-leadership overlap. Requires U.S. Eastern hours; confirm travel expectations and compensation.",
+      "hardGaps": [
+        "U.S. Eastern business-hours availability and approximately 10\u201330% travel require candidate confirmation.",
+        "U.S. property-and-casualty insurance and qTest experience are not evidenced; both are preferred."
+      ],
+      "benefits": [],
+      "risks": [
+        "Annual total CTC is undisclosed; \u20b925L+ is unverified.",
+        "Role-specific application confirms permanent remote India; generic benefits text mentions hybrid work. Confirm arrangement and travel."
+      ],
+      "questions": [
+        "Can Nixon commit to full-time U.S. Eastern business hours and the stated travel expectations?",
+        "Does annual total CTC reach \u20b925 lakh, with what fixed/variable split?",
+        "Is insurance-domain or qTest experience essential on joining?"
+      ],
+      "salary": {
+        "kind": "unknown",
+        "minLpa": null,
+        "maxLpa": null,
+        "basis": "Unknown",
+        "confidence": "Unknown",
+        "note": "No employer-disclosed annual total CTC range in the reviewed description.",
+        "sources": []
+      },
+      "culture": {
+        "summary": "Team conditions have not been independently researched.",
+        "signals": [],
+        "sources": []
+      },
+      "ats": {
+        "supported": [
+          "QA team leadership",
+          "Python",
+          "Selenium",
+          "Jenkins",
+          "Git",
+          "Test planning",
+          "Regression testing",
+          "API testing"
+        ],
+        "confirm": [
+          "qTest",
+          "U.S. property-and-casualty insurance",
+          "U.S. Eastern hours and travel"
+        ],
+        "unsupported": []
+      },
+      "resumeEdits": [],
+      "sources": [
+        {
+          "label": "Employer full description and application route",
+          "url": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
+          "scope": "QA manager requirements, permanent remote India, U.S. Eastern hours and travel; salary not disclosed.",
+          "asOf": "2026-11-16",
+          "checkedOn": "2026-11-16"
+        }
+      ],
+      "availabilityCheckedAt": "2026-11-16T06:17:23+00:00",
+      "availabilityStatus": "open",
+      "availabilityReason": "Exact Greenhouse vacancy and matching public application route; no application submitted.",
+      "lastConfirmedOpenAt": "2026-11-16T06:17:23+00:00",
+      "availabilityHold": false,
+      "availabilityEvidenceUrl": "https://boards-api.greenhouse.io/v1/boards/insurityindia/jobs/4456447009",
+      "employerDescriptionHash": "d5749dd657a597d236adbd114e8268338187f121e394f363bdda7256f8943ac3",
+      "employerPostingId": "4456447009",
+      "employerBoard": {
+        "kind": "greenhouse",
+        "slug": "insurityindia",
+        "company": "Insurity India"
+      },
+      "discoveryEligible": true,
+      "assessmentMethod": "agent-full-description-confirmed-profile",
+      "assessmentTier": "consider"
     }
   ]
 }

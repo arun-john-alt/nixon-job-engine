@@ -1,5 +1,6 @@
 // Authentic employer marks bundled locally; no remote image requests.
 const logos = {
+ 'Insurity India':'insurity',
  'Caterpillar':'caterpillar','TD SYNNEX':'tdsynnex',
   'Standard Chartered':'standard-chartered',
   'NielsenIQ':'niq','Juniper Square':'juniper','Pod Network':'pod','MicroStrategy':'strategy','Rotork':'rotork',
@@ -21,6 +22,7 @@ export function companyLogo(company){const key=Object.hasOwn(logos,company)?logo
 
 // Classification is about the hiring company, not an unnamed client or a pay promise.
 const products = {
+ 'Insurity India':['https://job-boards.greenhouse.io/insurityindia/jobs/4456447009','Develops cloud insurance software, including its Policy Administration System.'],
  'NielsenIQ':['https://nielseniq.com','Develops the Connect consumer-intelligence platform.'],
  'Juniper Square':['https://www.junipersquare.com','Develops software for private-market investment operations.'],
  'Pod Network':['https://pod.network','Develops its own trading platform and market infrastructure.'],

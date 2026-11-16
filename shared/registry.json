@@ -572,6 +572,11 @@
       "company": "Rexel",
       "kind": "smart",
       "slug": "REXEL1"
+    },
+    {
+      "kind": "greenhouse",
+      "slug": "insurityindia",
+      "company": "Insurity India"
     }
   ]
 }

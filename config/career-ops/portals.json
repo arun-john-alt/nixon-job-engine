@@ -608,6 +608,11 @@
       "name": "Platform Science",
       "careers_url": "https://job-boards.greenhouse.io/platformscience",
       "enabled": true
+    },
+    {
+      "name": "Insurity India",
+      "careers_url": "https://job-boards.greenhouse.io/insurityindia",
+      "enabled": true
     }
   ],
   "title_filter": {
@@ -643,7 +648,8 @@
       "Remote, India",
       "India - Remote",
       "India (Remote)",
-      "India Remote"
+      "India Remote",
+      "Remote - India"
     ],
     "remote_title_fallback": false
   },

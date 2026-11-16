@@ -13,6 +13,7 @@ allowed.update({'assets/companies/extreme.png', 'assets/companies/company.svg', 
 allowed.update({'assets/companies/'+key+'.png' for key in ['amazon','jitterbit','hydsoft','ingram','netgear']})
 allowed.update({'assets/companies/'+key+'.png' for key in ['tactive','nokia','yipitdata','madecard','saaf','wpp','xerago','novature']})
 allowed.update({'assets/companies/caterpillar.png','assets/companies/tdsynnex.png'})
+allowed.add('assets/companies/insurity.png')
 actual={p.relative_to(source).as_posix() for p in source.rglob('*') if p.is_file()}
 extra=actual-allowed
 if extra:raise SystemExit('Unexpected public files: '+', '.join(sorted(extra)))

@@ -5238,6 +5238,12 @@
       "name": "Made Card",
       "careerUrl": "https://www.madecard.com/careers",
       "entryType": "career-page"
+    },
+    {
+      "id": "insurity-india",
+      "name": "Insurity India",
+      "careerUrl": "https://job-boards.greenhouse.io/insurityindia",
+      "entryType": "career-page"
     }
   ]
 }
