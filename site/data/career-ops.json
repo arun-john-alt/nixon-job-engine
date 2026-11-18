@@ -149,14 +149,14 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-17T14:57:29+00:00",
-    "scanDateIst": "2026-11-17",
+    "checkedAt": "2026-11-18T04:25:31+00:00",
+    "scanDateIst": "2026-11-18",
     "status": "partial",
     "scanned": 79,
     "skipped": 25,
-    "examined": 46680,
-    "candidateCount": 16,
-    "sourceFailures": 5,
+    "examined": 46729,
+    "candidateCount": 17,
+    "sourceFailures": 4,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
@@ -171,18 +171,6 @@
         "location": "Chennai, , India"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
-        "company": "Rotork",
-        "title": "Senior Supplier Quality & Development Engineer",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
-        "company": "Rotork",
-        "title": "Test Development Engineer",
-        "location": "Chennai, TN, India"
-      },
-      {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
         "company": "Extreme Networks",
         "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
@@ -193,6 +181,18 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
+        "company": "Rotork",
+        "title": "Senior Supplier Quality & Development Engineer",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
+        "company": "Rotork",
+        "title": "Test Development Engineer",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
@@ -229,6 +229,12 @@
         "company": "QIMA",
         "title": "Quality Inspector",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+        "company": "Uniphore",
+        "title": "Senior Staff Software Engineer (SDET)",
+        "location": "India - Bangalore · India - Chennai"
       },
       {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
