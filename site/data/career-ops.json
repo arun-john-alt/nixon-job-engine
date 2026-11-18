@@ -158,21 +158,15 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-18T19:24:15+00:00",
+    "checkedAt": "2026-11-18T21:39:15+00:00",
     "scanDateIst": "2026-11-19",
     "status": "partial",
     "scanned": 79,
     "skipped": 25,
-    "examined": 46760,
+    "examined": 46724,
     "candidateCount": 16,
     "sourceFailures": 4,
     "candidates": [
-      {
-        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
-        "company": "YipitData",
-        "title": "Senior SDET",
-        "location": "India Remote"
-      },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
         "company": "MicroStrategy",
@@ -180,16 +174,10 @@
         "location": "Chennai, , India"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
-        "company": "Rotork",
-        "title": "Senior Supplier Quality & Development Engineer",
-        "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
-        "company": "Rotork",
-        "title": "Test Development Engineer",
-        "location": "Chennai, TN, India"
+        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+        "company": "YipitData",
+        "title": "Senior SDET",
+        "location": "India Remote"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -202,6 +190,18 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
+        "company": "Rotork",
+        "title": "Senior Supplier Quality & Development Engineer",
+        "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Rotork1/744000151263670-test-development-engineer",
+        "company": "Rotork",
+        "title": "Test Development Engineer",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
