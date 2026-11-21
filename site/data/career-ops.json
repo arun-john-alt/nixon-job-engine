@@ -158,14 +158,14 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-21T01:01:52+00:00",
+    "checkedAt": "2026-11-21T04:20:43+00:00",
     "scanDateIst": "2026-11-21",
     "status": "partial",
     "scanned": 79,
     "skipped": 25,
-    "examined": 46905,
+    "examined": 46861,
     "candidateCount": 18,
-    "sourceFailures": 4,
+    "sourceFailures": 2,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
@@ -222,6 +222,12 @@
         "location": "Chennai, Tamil Nadu, , India"
       },
       {
+        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Lead-Software-Development-Engineer-in-Test_R57903",
+        "company": "Trimble",
+        "title": "Lead Software Development Engineer in Test",
+        "location": "India - Chennai"
+      },
+      {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
         "company": "Sika",
         "title": "Sr. Executive / Assistant Manager QA/QC",
@@ -246,16 +252,10 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Firmware-QA-Engineer_148785",
-        "company": "Logitech",
-        "title": "Firmware QA Engineer",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
-        "company": "Logitech",
-        "title": "Hardware Test Automation Engineer",
-        "location": "Chennai, India"
+        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
+        "company": "Uniphore",
+        "title": "Senior Staff Software Engineer (SDET)",
+        "location": "India - Bangalore · India - Chennai"
       },
       {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
