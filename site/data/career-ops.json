@@ -158,13 +158,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-20T04:52:38+00:00",
-    "scanDateIst": "2026-11-20",
+    "checkedAt": "2026-11-21T01:01:52+00:00",
+    "scanDateIst": "2026-11-21",
     "status": "partial",
     "scanned": 79,
     "skipped": 25,
-    "examined": 46752,
-    "candidateCount": 17,
+    "examined": 46905,
+    "candidateCount": 18,
     "sourceFailures": 4,
     "candidates": [
       {
@@ -210,7 +210,7 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162467268-software-test-engineer",
+        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162772039-software-test-engineer",
         "company": "NielsenIQ",
         "title": "Software Test Engineer",
         "location": "Chennai, TN, India"
@@ -246,10 +246,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
-        "company": "Uniphore",
-        "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore · India - Chennai"
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Firmware-QA-Engineer_148785",
+        "company": "Logitech",
+        "title": "Firmware QA Engineer",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
+        "company": "Logitech",
+        "title": "Hardware Test Automation Engineer",
+        "location": "Chennai, India"
       },
       {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
