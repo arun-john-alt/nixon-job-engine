@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-20",
+  "evaluatedAt": "2026-11-21",
   "upstream": {
     "repository": "https://github.com/career-ops-hq/career-ops",
     "commit": "2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af",
@@ -272,15 +272,15 @@
     ]
   },
   "evaluation": {
-    "checkedAt": "2026-11-20T13:01:52+00:00",
-    "scanCheckedAt": "2026-11-20T04:52:38+00:00",
+    "checkedAt": "2026-11-21T10:56:38+00:00",
+    "scanCheckedAt": "2026-11-21T08:47:39+00:00",
     "status": "completed",
     "candidateCount": 17,
     "recommended": 1,
     "considerWithGaps": 10,
     "excluded": 6,
     "blocked": 0,
-    "method": "All 17 current queue candidates have complete employer descriptions and exact application evidence refreshed on 20 November. Sixteen unchanged description hashes and unchanged confirmed profile facts reuse prior assessments after current liveness checks. NielsenIQ Software Test Engineer is new: native 2.8/5, separate weighted match 68%, Low confidence, junior IC scope and unconfirmed SQL/backend-data depth. Retained one recommendation, ten candidates with gaps and six out of scope. Source errors or absent queue entries never establish closure. Discovery and evaluation times remain separate.",
+    "method": "All 17 candidates in the latest queue have full employer descriptions and exact application evidence checked on 21 November at their recorded evidence times. Unchanged descriptions and confirmed profile facts reuse prior independent assessments. The new NielsenIQ requisition has the same description as its prior requisition; its own application route was checked and the native 2.8/5, separate weighted 68%, Low-confidence junior-IC assessment retained. Trimble Lead SDET and two Logitech vacancies were also checked and assessed privately but are absent from the latest scanner queue; absence does not mean closure. Retained one recommendation, ten candidates with gaps and six out of scope. Discovery and evaluation times remain separate; source errors never establish closure.",
     "outcomes": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
@@ -288,9 +288,10 @@
         "title": "Senior SDET",
         "status": "recommended",
         "reason": "Python, Robot Framework, Selenium, API testing and test-strategy ownership align with the full description. Remote India is explicit. Performance tools remain a gap; this is an IC role and the data-product domain is new.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00",
-        "descriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8"
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00",
+        "descriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
+        "location": "India Remote"
       },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
@@ -299,9 +300,9 @@
         "location": "Chennai, , India",
         "status": "consider-with-gaps",
         "reason": "Requires hands-on AI/ML component testing and backend validation; AI/ML testing and Pytest/TestNG experience are not evidenced. The current requisition asks for 8+ years, is an individual contributor role and requires five onsite days, 11:30 AM–8:30 PM IST.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "bc8a96f1f5430121ab9486acc6589ae22aec110ec653c068b996ae61c1ae278a",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -310,9 +311,9 @@
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Networking and Python overlap; hands-on cloud, Kubernetes, distributed-system debugging and network-security depth are not established. The advertised 4–8 years is below approximately 9.5 dated IT years.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "24ff5305b6b28c3b7a88b0e4f5ad9ba1c18dfed9014da301cc273312fcfe11e5",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
@@ -321,9 +322,9 @@
         "location": "Chennai, India",
         "status": "consider-with-gaps",
         "reason": "Python, Robot, Jenkins and telecom testing transfer; BGP/EVPN/VXLAN, data-centre IP fabrics and 5G validation expertise are not established.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "8e6b320b689fa7e4e06ee71975ef6c1ed31cd782c216d20d36c4f532d62b72b1",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -332,8 +333,8 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Supplier/manufacturing quality, casting, forging, GD&T, NDE and metallurgical testing require mechanical-engineering expertise. This is not a software QA vacancy.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00",
         "descriptionHash": "97ed87c14336a731e3e1d466a54611eaec9402cb5ec4acbc16bb6026cb7e60cb"
       },
       {
@@ -343,9 +344,9 @@
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Python and technical leadership transfer, but specialist LabVIEW, NI TestStand and instrumentation requirements are not evidenced.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "5c881b3349011458290697754ff277c6604e46444378fba5048ef4837176bb5f",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
@@ -354,19 +355,19 @@
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Wireless domain fits; mandatory RF/L1, Wi-Fi 6/6E/7 and large-scale lab expertise need confirmation.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "828ee2d0886dba94a652596c6341045ed7bfe45131fd3501893e209f85547008",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162467268-software-test-engineer",
+        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000162772039-software-test-engineer",
         "company": "NielsenIQ",
         "title": "Software Test Engineer",
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Software QA is relevant, but this requisition specifies a 1-3-year functional/backend testing profile and individual-contributor scope. Selenium, Python, regression testing and test planning transfer; strong SQL/backend-data validation, Shell scripting and daily AI coding-assistant use are not confirmed. No disclosed annual total CTC; manager scope and the salary target are not established.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00",
         "descriptionHash": "c04d74ea4002105fb6a8c65bc0823cdc67ebcdf4d663dd8e741d1e12ce7791e7"
       },
       {
@@ -377,8 +378,8 @@
         "status": "consider-with-gaps",
         "reason": "Requires 3+ years Salesforce testing, Copado DevOps/CRT and Salesforce data-model/SOQL expertise, none confirmed. API and regression testing transfer, but the 4–6-year IC band and services employer do not match the senior manager/product-company priorities.",
         "descriptionHash": "c0e6299fd43bdfa13b75aee443750e520967d2b4ce9921654d7589f9a76c906d",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00",
-        "reviewedAt": "2026-11-20T13:01:52+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
@@ -387,9 +388,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "85bfe78e399ab25d18fd9266bbad6e9d141610b962ac6b4f28a18ebcf6974e97",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
@@ -398,9 +399,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "424debc792ff89f3634dbe4d1702901c7927793dfc78b11ecc4370b7e503ccd4",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000074491587-quality-inspector",
@@ -409,9 +410,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "964fadb3f853f208e4627aef356e1d6080ec5387cfae6eba687eab7fe34f3fd4",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000034920685-quality-inspector",
@@ -420,9 +421,9 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "f32542a8d40212874440d3d80739f842de3bf6e1768caa10f825dddc7fa16157",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
@@ -431,9 +432,9 @@
         "location": "India - Bangalore · India - Chennai",
         "status": "consider-with-gaps",
         "reason": "9+ years and Python fit; production foundation-model, RAG and AI testing strategy requirements are not evidenced.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "5658a2558b5cd75bde634ca56cd4f3073e8ca4165ac34a2b783f5422312cc5e9",
-        "availabilityCheckedAt": "2026-11-20T09:59:29+00:00"
+        "availabilityCheckedAt": "2026-11-21T05:51:32+00:00"
       },
       {
         "status": "consider-with-gaps",
@@ -442,8 +443,8 @@
         "company": "Platform Science",
         "title": "Software Development Engineer in Test",
         "location": "Chennai, Tamil Nadu, India",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00",
         "descriptionHash": "cca18302b6a51cf9aec0b364f82d321a866dda6f17898cdbd30e11d9c1637576"
       },
       {
@@ -453,9 +454,9 @@
         "location": "Remote - India",
         "status": "consider-with-gaps",
         "reason": "QA people leadership and automation fit, and the application explicitly permits permanent remote India. Full-time U.S. Eastern hours and 10–30% travel need candidate agreement; insurance domain and qTest are preferred but unconfirmed. Salary is unknown.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
         "descriptionHash": "d5749dd657a597d236adbd114e8268338187f121e394f363bdda7256f8943ac3",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00"
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160534670-senior-engineer-assistant-manager-product-quality-engineer-chip-power-tools-plant",
@@ -464,8 +465,8 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Power-tools manufacturing quality requires mechanical engineering, plant/project quality, production-line audits and VDA 6.3 certification. Those requirements are not supported by the confirmed software QA profile.",
-        "reviewedAt": "2026-11-20T13:01:52+00:00",
-        "availabilityCheckedAt": "2026-11-20T05:55:43+00:00",
+        "reviewedAt": "2026-11-21T10:56:38+00:00",
+        "availabilityCheckedAt": "2026-11-21T04:17:28+00:00",
         "descriptionHash": "3f5d5b5580f7c6fff5ac5e610ff6d050e4e70ffb743bda266b047ebd52309885"
       }
     ]
