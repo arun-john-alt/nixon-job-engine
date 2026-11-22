@@ -158,26 +158,20 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-22T10:22:36+00:00",
+    "checkedAt": "2026-11-22T18:06:00+00:00",
     "scanDateIst": "2026-11-22",
     "status": "partial",
     "scanned": 79,
     "skipped": 25,
-    "examined": 47071,
-    "candidateCount": 20,
-    "sourceFailures": 2,
+    "examined": 46833,
+    "candidateCount": 17,
+    "sourceFailures": 3,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -190,6 +184,12 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -222,28 +222,10 @@
         "location": "Chennai, Tamil Nadu, , India"
       },
       {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Firmware-QA-Engineer_148785",
-        "company": "Logitech",
-        "title": "Firmware QA Engineer",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://logitech.wd5.myworkdayjobs.com/Logitech/job/Chennai-India/Hardware-Test-Automation-Engineer_148517",
-        "company": "Logitech",
-        "title": "Hardware Test Automation Engineer",
-        "location": "Chennai, India"
-      },
-      {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
         "company": "Sika",
         "title": "Sr. Executive / Assistant Manager QA/QC",
         "location": "Chennai, TN, India"
-      },
-      {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Lead-Software-Development-Engineer-in-Test_R57903",
-        "company": "Trimble",
-        "title": "Lead Software Development Engineer in Test",
-        "location": "India - Chennai"
       },
       {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
