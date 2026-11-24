@@ -613,6 +613,11 @@
       "name": "Insurity India",
       "careers_url": "https://job-boards.greenhouse.io/insurityindia",
       "enabled": true
+    },
+    {
+      "name": "NETGEAR",
+      "careers_url": "https://jobs.ashbyhq.com/netgear",
+      "enabled": true
     }
   ],
   "title_filter": {
