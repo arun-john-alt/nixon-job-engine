@@ -158,15 +158,21 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-25T04:38:39+00:00",
+    "checkedAt": "2026-11-25T09:16:49+00:00",
     "scanDateIst": "2026-11-25",
     "status": "partial",
     "scanned": 80,
     "skipped": 25,
-    "examined": 46950,
-    "candidateCount": 20,
-    "sourceFailures": 2,
+    "examined": 46656,
+    "candidateCount": 18,
+    "sourceFailures": 5,
     "candidates": [
+      {
+        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+        "company": "YipitData",
+        "title": "Senior SDET",
+        "location": "India Remote"
+      },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
         "company": "Extreme Networks",
@@ -184,12 +190,6 @@
         "company": "MicroStrategy",
         "title": "Quality Engineer, Senior",
         "location": "Chennai, , India"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
-        "company": "YipitData",
-        "title": "Senior SDET",
-        "location": "India Remote"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -228,12 +228,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/India---Chennai/Lead-Software-Development-Engineer-in-Test_R57903",
-        "company": "Trimble",
-        "title": "Lead Software Development Engineer in Test",
-        "location": "India - Chennai"
-      },
-      {
         "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
         "company": "QIMA",
         "title": "Quality Inspector",
@@ -252,16 +246,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
-        "company": "Uniphore",
-        "title": "Senior Staff Software Engineer (SDET)",
-        "location": "India - Bangalore · India - Chennai"
-      },
-      {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
         "company": "Platform Science",
         "title": "Software Development Engineer in Test",
         "location": "Chennai, Tamil Nadu, India"
+      },
+      {
+        "url": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
+        "company": "Insurity India",
+        "title": "Manager, QA",
+        "location": "Remote - India"
       },
       {
         "url": "https://jobs.ashbyhq.com/netgear/bc2fb26b-43ef-44d5-9813-b33601fb1af6",
@@ -274,12 +268,6 @@
         "company": "NETGEAR",
         "title": "Sr System Validation Engineer",
         "location": "Chennai, India · Chennai"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
-        "company": "Insurity India",
-        "title": "Manager, QA",
-        "location": "Remote - India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160534670-senior-engineer-assistant-manager-product-quality-engineer-chip-power-tools-plant",
