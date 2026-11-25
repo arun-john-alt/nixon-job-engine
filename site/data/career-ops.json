@@ -158,13 +158,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-24T07:24:18+00:00",
-    "scanDateIst": "2026-11-24",
+    "checkedAt": "2026-11-25T01:09:05+00:00",
+    "scanDateIst": "2026-11-25",
     "status": "partial",
     "scanned": 80,
     "skipped": 25,
-    "examined": 46664,
-    "candidateCount": 18,
+    "examined": 46704,
+    "candidateCount": 19,
     "sourceFailures": 4,
     "candidates": [
       {
@@ -178,6 +178,18 @@
         "company": "MicroStrategy",
         "title": "Quality Engineer, Senior",
         "location": "Chennai, , India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -198,16 +210,10 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
+        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163534355-senior-software-test-engineer-manual-automation-with-playwright",
+        "company": "NielsenIQ",
+        "title": "Senior Software Test Engineer (Manual + Automation with Playwright)",
+        "location": "Chennai, TN, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SopraSteria1/744000162021055-salesforce-testing",
@@ -246,16 +252,16 @@
         "location": "India - Bangalore · India - Chennai"
       },
       {
-        "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
-        "company": "Platform Science",
-        "title": "Software Development Engineer in Test",
-        "location": "Chennai, Tamil Nadu, India"
-      },
-      {
         "url": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
         "company": "Insurity India",
         "title": "Manager, QA",
         "location": "Remote - India"
+      },
+      {
+        "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
+        "company": "Platform Science",
+        "title": "Software Development Engineer in Test",
+        "location": "Chennai, Tamil Nadu, India"
       },
       {
         "url": "https://jobs.ashbyhq.com/netgear/bc2fb26b-43ef-44d5-9813-b33601fb1af6",
