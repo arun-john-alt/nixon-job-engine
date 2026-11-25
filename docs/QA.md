@@ -239,3 +239,12 @@ The canonical watchdog dispatched one due recovery with recovery=true; build and
 Added NETGEAR's Ashby board after verifying the link from its official careers page, then ran the pinned upstream scanner. Fifteen candidates were reviewed against full current employer descriptions and exact application evidence: one recommendation, eight with gaps and six out of scope. NETGEAR Engineer II has native 3.1/5 and weighted match 78%; Sr System Validation Engineer has native 3.4/5 and weighted match 82%. Both have Low confidence because salary and team culture are unknown. The first role targets 3-5 years; the second needs Embedded Linux and PDU validation depth that is unconfirmed. Absent queue entries are not marked closed. Full descriptions and individual reports remain outside the repository.
 
 All 54 Node and 113 Python tests passed. Dataset validation and the public-only build/privacy gate passed. Bundled Chromium checked Career Ops, navigation and job details at 1440px and 390px with no page errors or horizontal overflow. No Sivanesh workflow was inspected or changed.
+
+
+## 25 November 2026 IST: opening target restored and current review
+
+The policy watchdog dispatched a due recovery with recovery=true. Build and deployment succeeded. The refreshed pool reached 20 reviewed, confirmed openings plus eight pending assessments. Seven-day reliability remains needs-attention; the target is not a guarantee of future supply. Source failures remain distinct from vacancy closure.
+
+Rechecked all 20 Career Ops candidates through complete employer descriptions and exact application evidence. Retained one recommendation, 13 candidates with gaps and six out of scope. NielsenIQ's new Senior Software Test Engineer has native 3.2/5 and weighted match 74%, Low confidence: Playwright, TypeScript and SQL data validation are unconfirmed. Trimble's returning requisition has unchanged description evidence and freshly confirmed application availability. Full reports remain private.
+
+All 54 Node and 113 Python tests passed. Validation and the public-only build/privacy gate passed. The previous local server was unavailable; a temporary server on port 8013 allowed bundled Chromium to check Career Ops, job navigation and details at 1440px and 390px with no page errors or horizontal overflow. No Sivanesh workflow was inspected or changed.
