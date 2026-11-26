@@ -158,13 +158,13 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-26T16:36:07+00:00",
-    "scanDateIst": "2026-11-26",
+    "checkedAt": "2026-11-26T22:39:45+00:00",
+    "scanDateIst": "2026-11-27",
     "status": "partial",
     "scanned": 80,
     "skipped": 25,
-    "examined": 46269,
-    "candidateCount": 20,
+    "examined": 46273,
+    "candidateCount": 19,
     "sourceFailures": 5,
     "candidates": [
       {
@@ -216,12 +216,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163857799-senior-software-engineer-qa-automation",
-        "company": "NielsenIQ",
-        "title": "Senior Software Engineer - QA (Automation)",
-        "location": "Chennai, TN, India"
-      },
-      {
         "url": "https://jobs.smartrecruiters.com/SopraSteria1/744000162021055-salesforce-testing",
         "company": "Sopra Steria",
         "title": "Salesforce Testing",
@@ -252,12 +246,6 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
-        "company": "PDI Technologies Inc",
-        "title": "Test Automation Engineer",
-        "location": "Chennai"
-      },
-      {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
         "company": "Platform Science",
         "title": "Software Development Engineer in Test",
@@ -286,6 +274,12 @@
         "company": "Bosch Group",
         "title": "Senior Engineer / Assistant Manager - Product Quality Engineer (Chip - Power Tools Plant)",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
+        "company": "PDI Technologies Inc",
+        "title": "Test Automation Engineer",
+        "location": "Chennai"
       }
     ]
   },
