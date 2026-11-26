@@ -248,3 +248,12 @@ The policy watchdog dispatched a due recovery with recovery=true. Build and depl
 Rechecked all 20 Career Ops candidates through complete employer descriptions and exact application evidence. Retained one recommendation, 13 candidates with gaps and six out of scope. NielsenIQ's new Senior Software Test Engineer has native 3.2/5 and weighted match 74%, Low confidence: Playwright, TypeScript and SQL data validation are unconfirmed. Trimble's returning requisition has unchanged description evidence and freshly confirmed application availability. Full reports remain private.
 
 All 54 Node and 113 Python tests passed. Validation and the public-only build/privacy gate passed. The previous local server was unavailable; a temporary server on port 8013 allowed bundled Chromium to check Career Ops, job navigation and details at 1440px and 390px with no page errors or horizontal overflow. No Sivanesh workflow was inspected or changed.
+
+
+## 26 November 2026 IST: current review and renewed shortfall
+
+The last recovery build and deployment succeeded at 03:10 UTC. The canonical watchdog declined another recovery because the three-per-24-hour budget was exhausted. The live pool has 17 reviewed, confirmed matches and eight pending assessments. Seven-day reliability remains needs-attention: six days below minimum and source errors on all seven observed dates. GE Vernova's unavailable employer data remains unconfirmed, not closed. NielsenIQ's prior senior requisition is inactive according to its recruiting API; KLA's recorded application deadline passed.
+
+Ran the pinned credit-free Career Ops scanner and evaluated all 16 current candidates using complete employer descriptions and exact application evidence. Retained one recommendation, 13 candidates with gaps and two out of scope. The new NielsenIQ 2-4-year role has native 2.7/5 and weighted match 70%; PDI Test Automation Engineer has native 3.0/5 and weighted match 66%. Both are Low confidence. PDI permits Selenium with willingness to move to Playwright; TypeScript/JavaScript, C# reading, SQL and real-project coding-agent use remain unconfirmed. Missing scanner entries are not treated as vacancy closures. Full reports remain private.
+
+All 54 Node and 113 Python tests passed, along with dataset validation and the public-only build/privacy gate. Bundled Chromium checked Career Ops, navigation and job details at 1440px and 390px with no page errors or horizontal overflow, using a temporary local server on port 8013. Sivanesh's engine was not inspected or changed.
