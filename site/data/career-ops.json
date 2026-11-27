@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "evaluatedAt": "2026-11-26",
+  "evaluatedAt": "2026-11-27",
   "upstream": {
     "repository": "https://github.com/career-ops-hq/career-ops",
     "commit": "2d6ed587e60cbb1aaaac7e3dd4a9f5b7b46a26af",
@@ -290,16 +290,27 @@
     ]
   },
   "evaluation": {
-    "checkedAt": "2026-11-26T05:23:02+00:00",
-    "scanCheckedAt": "2026-11-26T04:21:06+00:00",
+    "checkedAt": "2026-11-27T06:36:56+00:00",
+    "scanCheckedAt": "2026-11-27T04:29:02+00:00",
     "status": "completed",
-    "candidateCount": 16,
+    "candidateCount": 20,
     "recommended": 1,
     "considerWithGaps": 13,
-    "excluded": 2,
+    "excluded": 6,
     "blocked": 0,
-    "method": "Complete employer descriptions and exact application evidence refreshed on 26 November. Unchanged description hashes and confirmed profile facts retain prior independent five-dimension assessments and separate weighted matches. Salary and team culture remain unknown where unsupported; no gaps were filled with inferred skills. Missing scanner results or blocked sources do not establish closure. Discovery and evaluation timestamps remain separate. Two new requisitions were independently assessed: NielsenIQ Software Test Engineer (native 2.7/5, weighted 70%) and PDI Test Automation Engineer (native 3.0/5, weighted 66%). Both have Low confidence and remain below the recommendation threshold. PDI accepts Selenium with willingness to learn Playwright; language, SQL and real-project coding-agent gaps are recorded separately. Candidates absent from this scan are not inferred closed.",
+    "method": "Complete employer descriptions and exact application evidence refreshed on 27 November. Unchanged description hashes and confirmed profile facts retain prior independent five-dimension assessments and separate weighted matches. Salary and team culture remain unknown where unsupported; no gaps were filled with inferred skills. Missing scanner results or blocked sources do not establish closure. Discovery and evaluation timestamps remain separate.",
     "outcomes": [
+      {
+        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
+        "company": "YipitData",
+        "title": "Senior SDET",
+        "status": "recommended",
+        "reason": "Python, Robot Framework, Selenium, API testing and test-strategy ownership align with the full description. Remote India is explicit. Performance tools remain a gap; this is an IC role and the data-product domain is new.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "descriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
+        "location": "India Remote"
+      },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
         "company": "MicroStrategy",
@@ -307,20 +318,31 @@
         "location": "Chennai, , India",
         "status": "consider-with-gaps",
         "reason": "Requires hands-on AI/ML component testing and backend validation; AI/ML testing and Pytest/TestNG experience are not evidenced. The current requisition asks for 8+ years, is an individual contributor role and requires five onsite days, 11:30 AM–8:30 PM IST.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
         "descriptionHash": "bc8a96f1f5430121ab9486acc6589ae22aec110ec653c068b996ae61c1ae278a",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
-        "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
-        "company": "YipitData",
-        "title": "Senior SDET",
-        "status": "recommended",
-        "reason": "Python, Robot Framework, Selenium, API testing and test-strategy ownership align with the full description. Remote India is explicit. Performance tools remain a gap; this is an IC role and the data-product domain is new.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
-        "descriptionHash": "f87bbaf67694b7f08b7c4cd6efd7d443996893277935812628fe6eee4a88a3f8",
-        "location": "India Remote"
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India",
+        "status": "consider-with-gaps",
+        "reason": "Networking and Python overlap; hands-on cloud, Kubernetes, distributed-system debugging and network-security depth are not established. The advertised 4–8 years is below approximately 9.5 dated IT years.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "descriptionHash": "24ff5305b6b28c3b7a88b0e4f5ad9ba1c18dfed9014da301cc273312fcfe11e5",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India",
+        "status": "consider-with-gaps",
+        "reason": "Python, Robot, Jenkins and telecom testing transfer; BGP/EVPN/VXLAN, data-centre IP fabrics and 5G validation expertise are not established.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "descriptionHash": "8e6b320b689fa7e4e06ee71975ef6c1ed31cd782c216d20d36c4f532d62b72b1",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -329,8 +351,8 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Supplier/manufacturing quality, casting, forging, GD&T, NDE and metallurgical testing require mechanical-engineering expertise. This is not a software QA vacancy.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
         "descriptionHash": "97ed87c14336a731e3e1d466a54611eaec9402cb5ec4acbc16bb6026cb7e60cb"
       },
       {
@@ -340,9 +362,9 @@
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Python and technical leadership transfer, but specialist LabVIEW, NI TestStand and instrumentation requirements are not evidenced.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
         "descriptionHash": "5c881b3349011458290697754ff277c6604e46444378fba5048ef4837176bb5f",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
@@ -351,42 +373,20 @@
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
         "reason": "Wireless domain fits; mandatory RF/L1, Wi-Fi 6/6E/7 and large-scale lab expertise need confirmation.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
         "descriptionHash": "828ee2d0886dba94a652596c6341045ed7bfe45131fd3501893e209f85547008",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India",
-        "status": "consider-with-gaps",
-        "reason": "Networking and Python overlap; hands-on cloud, Kubernetes, distributed-system debugging and network-security depth are not established. The advertised 4–8 years is below approximately 9.5 dated IT years.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "descriptionHash": "24ff5305b6b28c3b7a88b0e4f5ad9ba1c18dfed9014da301cc273312fcfe11e5",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India",
-        "status": "consider-with-gaps",
-        "reason": "Python, Robot, Jenkins and telecom testing transfer; BGP/EVPN/VXLAN, data-centre IP fabrics and 5G validation expertise are not established.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "descriptionHash": "8e6b320b689fa7e4e06ee71975ef6c1ed31cd782c216d20d36c4f532d62b72b1",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163746569-software-test-engineer",
+        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163879151-software-test-engineer",
         "company": "NielsenIQ",
         "title": "Software Test Engineer",
         "location": "Chennai, TN, India",
         "status": "consider-with-gaps",
-        "reason": "Test planning, regression automation, defect ownership, Agile delivery, Selenium and API testing overlap with confirmed experience. The employer targets 2-4 years in an individual-contributor role, substantially below approximately 9.5 dated years and the manager preference. Selenium and API testing are good-to-have, not mandatory gaps. Annual total CTC is unknown.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
-        "descriptionHash": "56ef369fb80885c575993af0fffc7229aa2d8665d82f26af53ec4cb72d1968b7"
+        "reason": "Software QA is relevant, but this requisition specifies a 1-3-year functional/backend testing profile and individual-contributor scope. Selenium, Python, regression testing and test planning transfer; strong SQL/backend-data validation, Shell scripting and daily AI coding-assistant use are not confirmed. No disclosed annual total CTC; manager scope and the salary target are not established.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "descriptionHash": "c04d74ea4002105fb6a8c65bc0823cdc67ebcdf4d663dd8e741d1e12ce7791e7"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SopraSteria1/744000162021055-salesforce-testing",
@@ -396,8 +396,8 @@
         "status": "consider-with-gaps",
         "reason": "Requires 3+ years Salesforce testing, Copado DevOps/CRT and Salesforce data-model/SOQL expertise, none confirmed. API and regression testing transfer, but the 4–6-year IC band and services employer do not match the senior manager/product-company priorities.",
         "descriptionHash": "c0e6299fd43bdfa13b75aee443750e520967d2b4ce9921654d7589f9a76c906d",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
-        "reviewedAt": "2026-11-26T05:23:02+00:00"
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SikaAG/744000147221199-sr-executive-assistant-manager-qa-qc",
@@ -406,53 +406,42 @@
         "location": "Chennai, TN, India",
         "status": "out-of-scope",
         "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
         "descriptionHash": "85bfe78e399ab25d18fd9266bbad6e9d141610b962ac6b4f28a18ebcf6974e97",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
-        "status": "consider-with-gaps",
-        "reason": "API/UI testing, Selenium, CI and connected-device quality transfer. Strong Java and native/hybrid mobile automation expertise are not confirmed. Advertised 3–5 years is below approximately 9.5 dated IT years; this is an IC role with India/US-hours overlap and unknown annual total CTC.",
-        "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
-        "company": "Platform Science",
-        "title": "Software Development Engineer in Test",
-        "location": "Chennai, Tamil Nadu, India",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
-        "descriptionHash": "cca18302b6a51cf9aec0b364f82d321a866dda6f17898cdbd30e11d9c1637576"
+        "url": "https://jobs.smartrecruiters.com/QIMA/744000156729689-quality-inspector",
+        "company": "QIMA",
+        "title": "Quality Inspector",
+        "location": "Chennai, TN, India",
+        "status": "out-of-scope",
+        "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "descriptionHash": "424debc792ff89f3634dbe4d1702901c7927793dfc78b11ecc4370b7e503ccd4",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
-        "url": "https://jobs.ashbyhq.com/netgear/bc2fb26b-43ef-44d5-9813-b33601fb1af6",
-        "company": "NETGEAR",
-        "title": "Engineer II, System validation Test - Insight QA",
-        "location": "Chennai, India · Chennai",
-        "status": "consider-with-gaps",
-        "reason": "Python, Selenium, REST APIs, Git, CI/CD and network QA align. The advertised 3-5-year Engineer II individual-contributor role is below the approximately 9.5-year experience and manager target. Hands-on cloud telemetry, database validation and specific packet-analysis tools are unconfirmed; Playwright is an alternative to confirmed Selenium, not a mandatory gap.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
-        "descriptionHash": "856253ec4e7771fd308b8f8d4d7f555a6821c00530f586dee801063fd19eefaf"
+        "url": "https://jobs.smartrecruiters.com/QIMA/744000074491587-quality-inspector",
+        "company": "QIMA",
+        "title": "Quality Inspector",
+        "location": "Chennai, TN, India",
+        "status": "out-of-scope",
+        "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "descriptionHash": "964fadb3f853f208e4627aef356e1d6080ec5387cfae6eba687eab7fe34f3fd4",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
-        "url": "https://jobs.ashbyhq.com/netgear/5f6a17a0-ddbf-4638-9c37-6ec3b618a253",
-        "company": "NETGEAR",
-        "title": "Sr System Validation Engineer",
-        "location": "Chennai, India · Chennai",
-        "status": "consider-with-gaps",
-        "reason": "Python, Robot Framework, REST APIs, networking and infotainment validation transfer. Five years specifically validating Embedded Linux, strong Linux/systemd expertise, SNMP, PDU relay/outlet control and brown-out testing are unconfirmed. Senior individual-contributor scope offers no confirmed people management.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
-        "descriptionHash": "e50588d14cd1f0b6563cb9d39963304c2e7bfb8ff78ae6942e1304946f29674f"
-      },
-      {
-        "url": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
-        "company": "Insurity India",
-        "title": "Manager, QA",
-        "location": "Remote - India",
-        "status": "consider-with-gaps",
-        "reason": "QA people leadership and automation fit, and the application explicitly permits permanent remote India. Full-time U.S. Eastern hours and 10–30% travel need candidate agreement; insurance domain and qTest are preferred but unconfirmed. Salary is unknown.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "descriptionHash": "d5749dd657a597d236adbd114e8268338187f121e394f363bdda7256f8943ac3",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
+        "url": "https://jobs.smartrecruiters.com/QIMA/744000034920685-quality-inspector",
+        "company": "QIMA",
+        "title": "Quality Inspector",
+        "location": "Chennai, TN, India",
+        "status": "out-of-scope",
+        "reason": "Physical merchandise inspection or chemical/manufacturing QA; not software testing.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "descriptionHash": "f32542a8d40212874440d3d80739f842de3bf6e1768caa10f825dddc7fa16157",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
       },
       {
         "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
@@ -461,8 +450,8 @@
         "location": "Chennai",
         "status": "consider-with-gaps",
         "reason": "Selenium, REST APIs, Git, Jenkins and QA ownership transfer. Selenium with willingness to move to Playwright is explicitly acceptable; Playwright is not an automatic blocker. Required TypeScript/JavaScript, C# reading, strong SQL and demonstrated real-project coding-agent use are unconfirmed. The 4-6-year individual-contributor band is below the manager target; annual total CTC is unknown.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
         "descriptionHash": "cfaee2e2142795f741794e69b9c871cba1afa5a1e461c85b7d8f2264c92c441c"
       },
       {
@@ -472,9 +461,64 @@
         "location": "India - Bangalore · India - Chennai",
         "status": "consider-with-gaps",
         "reason": "9+ years and Python fit; production foundation-model, RAG and AI testing strategy requirements are not evidenced.",
-        "reviewedAt": "2026-11-26T05:23:02+00:00",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
         "descriptionHash": "5658a2558b5cd75bde634ca56cd4f3073e8ca4165ac34a2b783f5422312cc5e9",
-        "availabilityCheckedAt": "2026-11-26T05:22:17+00:00"
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
+      },
+      {
+        "status": "consider-with-gaps",
+        "reason": "API/UI testing, Selenium, CI and connected-device quality transfer. Strong Java and native/hybrid mobile automation expertise are not confirmed. Advertised 3–5 years is below approximately 9.5 dated IT years; this is an IC role with India/US-hours overlap and unknown annual total CTC.",
+        "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
+        "company": "Platform Science",
+        "title": "Software Development Engineer in Test",
+        "location": "Chennai, Tamil Nadu, India",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "descriptionHash": "cca18302b6a51cf9aec0b364f82d321a866dda6f17898cdbd30e11d9c1637576"
+      },
+      {
+        "url": "https://job-boards.greenhouse.io/insurityindia/jobs/4456447009",
+        "company": "Insurity India",
+        "title": "Manager, QA",
+        "location": "Remote - India",
+        "status": "consider-with-gaps",
+        "reason": "QA people leadership and automation fit, and the application explicitly permits permanent remote India. Full-time U.S. Eastern hours and 10–30% travel need candidate agreement; insurance domain and qTest are preferred but unconfirmed. Salary is unknown.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "descriptionHash": "d5749dd657a597d236adbd114e8268338187f121e394f363bdda7256f8943ac3",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/netgear/bc2fb26b-43ef-44d5-9813-b33601fb1af6",
+        "company": "NETGEAR",
+        "title": "Engineer II, System validation Test - Insight QA",
+        "location": "Chennai, India · Chennai",
+        "status": "consider-with-gaps",
+        "reason": "Python, Selenium, REST APIs, Git, CI/CD and network QA align. The advertised 3-5-year Engineer II individual-contributor role is below the approximately 9.5-year experience and manager target. Hands-on cloud telemetry, database validation and specific packet-analysis tools are unconfirmed; Playwright is an alternative to confirmed Selenium, not a mandatory gap.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "descriptionHash": "856253ec4e7771fd308b8f8d4d7f555a6821c00530f586dee801063fd19eefaf"
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/netgear/5f6a17a0-ddbf-4638-9c37-6ec3b618a253",
+        "company": "NETGEAR",
+        "title": "Sr System Validation Engineer",
+        "location": "Chennai, India · Chennai",
+        "status": "consider-with-gaps",
+        "reason": "Python, Robot Framework, REST APIs, networking and infotainment validation transfer. Five years specifically validating Embedded Linux, strong Linux/systemd expertise, SNMP, PDU relay/outlet control and brown-out testing are unconfirmed. Senior individual-contributor scope offers no confirmed people management.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "descriptionHash": "e50588d14cd1f0b6563cb9d39963304c2e7bfb8ff78ae6942e1304946f29674f"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160534670-senior-engineer-assistant-manager-product-quality-engineer-chip-power-tools-plant",
+        "company": "Bosch Group",
+        "title": "Senior Engineer / Assistant Manager - Product Quality Engineer (Chip - Power Tools Plant)",
+        "location": "Chennai, TN, India",
+        "status": "out-of-scope",
+        "reason": "Power-tools manufacturing quality requires mechanical engineering, plant/project quality, production-line audits and VDA 6.3 certification. Those requirements are not supported by the confirmed software QA profile.",
+        "reviewedAt": "2026-11-27T06:36:56+00:00",
+        "availabilityCheckedAt": "2026-11-27T06:36:41+00:00",
+        "descriptionHash": "3f5d5b5580f7c6fff5ac5e610ff6d050e4e70ffb743bda266b047ebd52309885"
       }
     ]
   }
