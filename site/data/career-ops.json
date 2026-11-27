@@ -158,26 +158,20 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-27T04:29:02+00:00",
-    "scanDateIst": "2026-11-27",
+    "checkedAt": "2026-11-27T23:00:16+00:00",
+    "scanDateIst": "2026-11-28",
     "status": "partial",
     "scanned": 80,
     "skipped": 25,
-    "examined": 46259,
+    "examined": 46260,
     "candidateCount": 20,
-    "sourceFailures": 4,
+    "sourceFailures": 3,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
-        "company": "MicroStrategy",
-        "title": "Quality Engineer, Senior",
-        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
@@ -190,6 +184,12 @@
         "company": "Extreme Networks",
         "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
         "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
+        "company": "MicroStrategy",
+        "title": "Quality Engineer, Senior",
+        "location": "Chennai, , India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/Rotork1/744000157962179-senior-supplier-quality-development-engineer",
@@ -210,10 +210,10 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000163879151-software-test-engineer",
-        "company": "NielsenIQ",
-        "title": "Software Test Engineer",
-        "location": "Chennai, TN, India"
+        "url": "https://jobs.smartrecruiters.com/SopraSteria1/744000163989860-test-management-project-manager-testing",
+        "company": "Sopra Steria",
+        "title": "Test Management Project Manager-Testing",
+        "location": "Chennai, Tamil Nadu, , India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/SopraSteria1/744000162021055-salesforce-testing",
@@ -246,16 +246,16 @@
         "location": "Chennai, TN, India"
       },
       {
-        "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
-        "company": "PDI Technologies Inc",
-        "title": "Test Automation Engineer",
-        "location": "Chennai"
-      },
-      {
         "url": "https://uniphore.wd503.myworkdayjobs.com/Uniphore/job/India---Bangalore/Senior-Staff-Software-Engineer--SDET-_JR101144-1",
         "company": "Uniphore",
         "title": "Senior Staff Software Engineer (SDET)",
         "location": "India - Bangalore · India - Chennai"
+      },
+      {
+        "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
+        "company": "PDI Technologies Inc",
+        "title": "Test Automation Engineer",
+        "location": "Chennai"
       },
       {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
