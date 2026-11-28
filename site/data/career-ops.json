@@ -158,32 +158,20 @@
     ]
   },
   "discovery": {
-    "checkedAt": "2026-11-27T23:00:16+00:00",
+    "checkedAt": "2026-11-28T04:33:00+00:00",
     "scanDateIst": "2026-11-28",
     "status": "partial",
     "scanned": 80,
     "skipped": 25,
-    "examined": 46260,
+    "examined": 46054,
     "candidateCount": 20,
-    "sourceFailures": 3,
+    "sourceFailures": 4,
     "candidates": [
       {
         "url": "https://job-boards.greenhouse.io/yipitdata/jobs/6743082",
         "company": "YipitData",
         "title": "Senior SDET",
         "location": "India Remote"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
-        "company": "Extreme Networks",
-        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
-        "location": "Chennai, India"
-      },
-      {
-        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
-        "company": "Extreme Networks",
-        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
-        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/MicroStrategy1/744000160447929-quality-engineer-senior",
@@ -202,6 +190,18 @@
         "company": "Rotork",
         "title": "Test Development Engineer",
         "location": "Chennai, TN, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/e9c06b98-d7e5-4273-a092-45ca693b3ba5",
+        "company": "Extreme Networks",
+        "title": "SR QA Engineer 10297 – Networking (Wired/Wireless) / Cloud (AWS/Azure/GCP) / Python",
+        "location": "Chennai, India"
+      },
+      {
+        "url": "https://jobs.lever.co/extremenetworks/2e1f81a5-9895-4e0b-902d-90efbdf46344",
+        "company": "Extreme Networks",
+        "title": "SR QA SW ENGINEER 10381- Layer2/Layer3 Protocol Testing- Python /Data Center Networking",
+        "location": "Chennai, India"
       },
       {
         "url": "https://jobs.smartrecruiters.com/AristaNetworks/744000101650945-software-test-engineer-wi-fi",
@@ -252,12 +252,6 @@
         "location": "India - Bangalore · India - Chennai"
       },
       {
-        "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
-        "company": "PDI Technologies Inc",
-        "title": "Test Automation Engineer",
-        "location": "Chennai"
-      },
-      {
         "url": "https://job-boards.greenhouse.io/platformscience/jobs/8034495003",
         "company": "Platform Science",
         "title": "Software Development Engineer in Test",
@@ -268,6 +262,12 @@
         "company": "Insurity India",
         "title": "Manager, QA",
         "location": "Remote - India"
+      },
+      {
+        "url": "https://jobs.lever.co/pditechnologies/5fb10596-0b99-407e-b650-cd4cfc3b620f",
+        "company": "PDI Technologies Inc",
+        "title": "Test Automation Engineer",
+        "location": "Chennai"
       },
       {
         "url": "https://jobs.ashbyhq.com/netgear/bc2fb26b-43ef-44d5-9813-b33601fb1af6",
