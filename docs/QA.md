@@ -266,3 +266,12 @@ The canonical watchdog dispatched a due recovery with recovery=true; build and d
 Rechecked all 20 candidates from the current Career Ops scan using complete employer descriptions and exact application evidence. Description hashes and confirmed profile facts were unchanged, allowing prior independent five-dimension assessments and separate weighted matches to be retained. The current NielsenIQ requisition identity was preserved despite matching an older description. Retained one recommendation, 13 candidates with gaps and six out of scope. Full descriptions and individual evidence remain private. Supplementary web research returned already-covered employers and roles requiring unconfirmed software-engineering/AI depth; no title-only lead was promoted.
 
 All 54 Node and 113 Python tests passed. Validation and the public-only build/privacy gate passed. Bundled Chromium checked Career Ops, navigation and job details at 1440px and 390px using a temporary local server, with no page errors or horizontal overflow. No Sivanesh workflow was inspected or changed.
+
+
+## 28 November 2026 IST: current review
+
+The canonical watchdog dispatched a due recovery with recovery=true; build and deployment succeeded. The refreshed pool has 18 reviewed, confirmed matches and 12 pending assessments. Seven-day reliability still records shortfalls and source errors on every observed date. Failed or blocked sources are not evidence of vacancy closure.
+
+Evaluated all 20 current Career Ops candidates with full employer descriptions and exact application evidence. Retained one recommendation, 13 with gaps and six out of scope. Sopra Steria's new Test Management Project Manager has native 3.7/5 and weighted match 78%, Low confidence. Test leadership and strategy align, but the stated 10-14 years exceed the approximately 9.5 confirmed dated IT years; qualification equivalence, stack depth and pay need confirmation. The employer is an IT-services firm, not classified as product-based. Other description hashes and profile facts were unchanged. Private full reports retain evidence and independent dimensions.
+
+All 54 Node and 113 Python tests passed, along with dataset validation and the public-only build/privacy gate. Bundled Chromium checked Career Ops, job navigation and details at 1440px and 390px using a temporary local server; no page errors or horizontal overflow. No Sivanesh workflow was inspected or changed.
